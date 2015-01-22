@@ -46,3 +46,10 @@ end
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 
+gem 'font-awesome-sass'
+
+gem 'uk_postcode'
+
+gem 'rspec'
+gem 'rspec-rails'
+gem 'capybara'
