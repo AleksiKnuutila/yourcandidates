@@ -21,13 +21,14 @@ class CandidatesController < ApplicationController
         @candidates.concat([cand['person_id']['versions'][0]['data']])
       end
     end
+    return @candidates
   end
 
   def index
     @q = request['q']
     @conId = getConstituencyId(@q)
     @candidates = getCandidates(@conId)
-    byebug
+    return 'test'
   end
 
   def show
