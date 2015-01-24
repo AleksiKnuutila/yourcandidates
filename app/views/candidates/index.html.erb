@@ -1,6 +1,14 @@
-<h1>Candidates#index</h1>
-<p>Find me in app/views/candidates/index.html.erb</p>
+<div class="container">
 
-<% @candidates.each do |c| %>
-<%= c['name'] %><\br>
-<% end %>
+<div class="row">
+  <% @candidates.each do |c| %>
+    <div class="col-md-3">
+      <div class="listbox">
+        <div class="candidate-name">
+          <%= c['name'] %><br>
+        </div>
+        Candidate for <%= c['party_memberships']['2015']['name'] %><br>
+      </div>
+    </div>
+  <% end %>
+</div>

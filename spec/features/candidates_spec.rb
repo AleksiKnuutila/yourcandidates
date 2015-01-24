@@ -8,7 +8,7 @@ feature "User searches", :type => :feature do
     click_button 'Search'
 
     # could be better test
-    expect(page).to have_css '.mp-name', 'David Lammy'
+    expect(page).to have_css '.candidate-name', 'David Lammy'
   end
 # add scenario: wrong postcode
 # add scenario: empty search

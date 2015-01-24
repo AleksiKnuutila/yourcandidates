@@ -1,0 +1,15 @@
+.listbox {
+    border-radius: 5px;
+    background-color: #b0c4de;
+}
+
+.col:not(:first-child,:last-child) {
+  padding-right:7px;
+  padding-left:7px;
+}
+
+.col-md-3 {
+    padding-left: 5px;
+    margin-bottom: 25px;
+}
+
