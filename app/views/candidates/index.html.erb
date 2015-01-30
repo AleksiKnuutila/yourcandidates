@@ -1,14 +1,64 @@
+<div class="header">
+  <%= render partial: "header" %>
+</div>
+
 <div class="container">
 
 <div class="row">
-  <% @candidates.each do |c| %>
-    <div class="col-md-3">
-      <div class="listbox">
-        <div class="candidate-name">
-          <a href="/candidates/<%= c['id'] %>"><%= c['name'] %></a><br>
-        </div>
-        Candidate for <%= c['party_memberships']['2015']['name'] %><br>
+  <div class="col-md-3">
+    <table class="table table-bordered table-striped table-hover">
+      <tr>
+        <th>
+          Select the topic below
+        </th>
+      </tr>
+      <tr class="warning">
+        <td>
+          Environment
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Welfare
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Immigration
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Austerity
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ....
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="col-md-9">
+
+    <% @candidates.each_slice(3) do |slice| %>
+    
+      <div class="row">
+        <% slice.each do |c| %>
+          <div class="col-md-4">
+            <div class="listbox">
+              <div class="candidate-name">
+                <a href="/candidates/<%= c['id'] %>"><strong><%= c['name'] %></strong></a><br/>
+              </div>
+              Candidate for <%= c['party_memberships']['2015']['name'] %><br/><br/>
+              The amazing policies for this particular candidate will be briefly summarised in this space, so as to allow subtle comparison with the other candidates.
+            </div>
+          </div>
+        <% end %>
       </div>
-    </div>
-  <% end %>
+
+    <% end %>
+
+  </div>
 </div>

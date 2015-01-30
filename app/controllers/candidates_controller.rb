@@ -10,6 +10,16 @@ class CandidatesController < ApplicationController
     return @data['shortcuts']['WMC']
   end
 
+  def removeDuplicates(c)
+  end
+
+  def getPolicies(candidate, policyArea)
+#    policies = { 'Environment': {'Conservative Party': 'Cons',
+#                                 'Green Party': 'Greens'} }
+    party = @candidate['party_memberships']['2015']['name']
+    byebug
+  end
+
   def getCandidates(constituencyId)
     uri = 'http://yournextmp.popit.mysociety.org/api/v0.1/posts/'+constituencyId.to_s+'?embed=membership.person'
     jsondata = open(uri)
@@ -21,6 +31,9 @@ class CandidatesController < ApplicationController
         @candidates.concat([cand['person_id']['versions'][0]['data']])
       end
     end
+    
+    # For some reason there are duplicates in the JSON
+    @candidates = @candidates.uniq
     return @candidates
   end
 
