@@ -4,15 +4,19 @@
 
 <div class="container">
 
-<div class="row">
-  <% @candidates.each do |c| %>
-    <div class="col-md-3">
-      <div class="listbox">
-        <div class="candidate-name">
-          <a href="/candidates/<%= c['id'] %>"><%= c['name'] %></a><br>
+<% @candidates.each_slice(3) do |slice| %>
+
+  <div class="row">
+    <% slice.each do |c| %>
+      <div class="col-md-4">
+        <div class="listbox">
+          <div class="candidate-name">
+            <a href="/candidates/<%= c['id'] %>"><%= c['name'] %></a><br>
+          </div>
+          Candidate for <%= c['party_memberships']['2015']['name'] %><br>
         </div>
-        Candidate for <%= c['party_memberships']['2015']['name'] %><br>
       </div>
-    </div>
-  <% end %>
-</div>
+    <% end %>
+  </div>
+
+<% end %>
