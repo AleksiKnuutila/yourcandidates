@@ -24,13 +24,23 @@ class CandidatesController < ApplicationController
     return @candidates
   end
 
+  def getCandidateById(id)
+    uri = 'http://yournextmp.popit.mysociety.org/api/v0.1/search/persons?q=id:'+id.to_s
+    jsondata = open(uri)
+    @data = JSON.load(jsondata)
+    byebug
+    return @data['result'][0]
+  end
+
   def index
     @q = request['q']
     @conId = getConstituencyId(@q)
     @candidates = getCandidates(@conId)
-    return 'test'
+    # necessary?
+    return ''
   end
 
   def show
+    @candidate = getCandidateById(request['id'])
   end
 end
