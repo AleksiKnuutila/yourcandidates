@@ -49,9 +49,10 @@
           <div class="col-md-4">
             <div class="listbox">
               <div class="candidate-name">
-                <a href="/candidates/<%= c['id'] %>"><%= c['name'] %></a><br>
+                <a href="/candidates/<%= c['id'] %>"><strong><%= c['name'] %></strong></a><br/>
               </div>
-              Candidate for <%= c['party_memberships']['2015']['name'] %><br>
+              Candidate for <%= c['party_memberships']['2015']['name'] %><br/><br/>
+              The amazing policies for this particular candidate will be briefly summarised in this space, so as to allow subtle comparison with the other candidates.
             </div>
           </div>
         <% end %>
