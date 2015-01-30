@@ -28,7 +28,6 @@ class CandidatesController < ApplicationController
     uri = 'http://yournextmp.popit.mysociety.org/api/v0.1/search/persons?q=id:'+id.to_s
     jsondata = open(uri)
     @data = JSON.load(jsondata)
-    byebug
     return @data['result'][0]
   end
 
