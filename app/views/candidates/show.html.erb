@@ -1,18 +1,15 @@
-<h1>Candidates#show</h1>
-<p>Find me in app/views/candidates/show.html.erb</p>
-
 <div class="container">
 
   <div class="candidate-name"><%= @candidate['name'] %></div>
 
-Party membership: <%= c['party_memberships']['2015']['name'] %> <br />
-Wikipedia: <%= c['versions'][0]['data']['wikipedia_url'] %> <br />
-Homepage: <%= c['versions'][0]['data']['homepage_url'] %> <br />
-Twitter: <%= c['versions'][0]['data']['twitter_username'] %> <br />
-Email: <%= c['versions'][0]['data']['email'] %><br />
-Facebook: <%= c['versions'][0]['data']['facebook_personal_url'] %><br />
-Image: <%= c['versions'][0]['data']['image'] %><br />
-Gender: <%= c['versions'][0]['data']['gender'] %><br />
-Party page: <%= c['versions'][0]['data']['party_ppc_page_url’] %><br />
+  Party membership: <%= @candidate['party_memberships']['2015']['name'] %> <br />
+  Wikipedia: <%= @candidate['versions'][0]['data']['wikipedia_url'] %> <br />
+  Homepage: <%= @candidate['versions'][0]['data']['homepage_url'] %> <br />
+  Twitter: <%= @candidate['versions'][0]['data']['twitter_username'] %> <br />
+  Email: <%= @candidate['versions'][0]['data']['email'] %><br />
+  Facebook: <%= @candidate['versions'][0]['data']['facebook_personal_url'] %><br />
+  Image: <%= @candidate['versions'][0]['data']['image'] %><br />
+  Gender: <%= @candidate['versions'][0]['data']['gender'] %><br />
+  Party page: <%= @candidate['versions'][0]['data']['party_ppc_page_url'] %><br />
 
 </div>
