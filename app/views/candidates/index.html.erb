@@ -4,19 +4,60 @@
 
 <div class="container">
 
-<% @candidates.each_slice(3) do |slice| %>
-
-  <div class="row">
-    <% slice.each do |c| %>
-      <div class="col-md-4">
-        <div class="listbox">
-          <div class="candidate-name">
-            <a href="/candidates/<%= c['id'] %>"><%= c['name'] %></a><br>
-          </div>
-          Candidate for <%= c['party_memberships']['2015']['name'] %><br>
-        </div>
-      </div>
-    <% end %>
+<div class="row">
+  <div class="col-md-3">
+    <table class="table table-bordered table-striped table-hover">
+      <tr>
+        <th>
+          Select the topic below
+        </th>
+      </tr>
+      <tr>
+        <td>
+          Environment
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Welfare
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Immigration
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Austerity
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ....
+        </td>
+      </tr>
+    </table>
   </div>
 
-<% end %>
+  <div class="col-md-9">
+
+    <% @candidates.each_slice(3) do |slice| %>
+    
+      <div class="row">
+        <% slice.each do |c| %>
+          <div class="col-md-4">
+            <div class="listbox">
+              <div class="candidate-name">
+                <a href="/candidates/<%= c['id'] %>"><%= c['name'] %></a><br>
+              </div>
+              Candidate for <%= c['party_memberships']['2015']['name'] %><br>
+            </div>
+          </div>
+        <% end %>
+      </div>
+
+    <% end %>
+
+  </div>
+</div>
