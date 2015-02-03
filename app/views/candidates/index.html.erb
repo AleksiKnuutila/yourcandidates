@@ -52,7 +52,7 @@
                 <a href="/candidates/<%= c['id'] %>"><strong><%= c['name'] %></strong></a><br/>
               </div>
               Candidate for <%= c['party_memberships']['2015']['name'] %><br/><br/>
-              The amazing policies for this particular candidate will be briefly summarised in this space, so as to allow subtle comparison with the other candidates.
+              <%= @policies[c['id'].to_s]['Environment'] %>
             </div>
           </div>
         <% end %>
