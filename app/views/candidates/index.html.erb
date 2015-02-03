@@ -4,16 +4,17 @@
 
 <div class="container">
 
-
 <div class="row">
   <div class="col-md-3">
 
     <ul class="nav nav-pills nav-stacked">
       <li role="presentation" class="active"><a href="#personalInfo" aria-controls="home" role="tab" data-toggle="tab">Personal information</a></li>
-      <li role="presentation"><a href="#environment" aria-controls="home" role="tab" data-toggle="tab">Environment</a></li>
-      <li role="presentation"><a href="#welfare" aria-controls="home" role="tab" data-toggle="tab">Welfare</a></li>
+      <li role="presentation"><a href="#nhs" aria-controls="home" role="tab" data-toggle="tab">NHS</a></li>
+      <li role="presentation"><a href="#economy" aria-controls="home" role="tab" data-toggle="tab">UK Economy</a></li>
       <li role="presentation"><a href="#immigration" aria-controls="home" role="tab" data-toggle="tab">Immigration</a></li>
-      <li role="presentation"><a href="#austerity" aria-controls="home" role="tab" data-toggle="tab">Austerity</a></li>
+      <li role="presentation"><a href="#benefits" aria-controls="home" role="tab" data-toggle="tab">Benefits and pensions</a></li>
+      <li role="presentation"><a href="#europe" aria-controls="home" role="tab" data-toggle="tab">Europe</a></li>
+      <li role="presentation"><a href="#environment" aria-controls="home" role="tab" data-toggle="tab">Environment</a></li>
     </ul>
 
   </div>
@@ -42,7 +43,10 @@
       </div>
 
     </div>
-    <div role="tabpanel" class="tab-pane fade" id="environment">
+
+<!-- NHS -->
+
+    <div role="tabpanel" class="tab-pane fade" id="nhs">
 
       <div class="col-md-9">
         <% @candidates.each_slice(3) do |slice| %>
@@ -55,7 +59,7 @@
                   </div>
                   Candidate for <%= c['party_memberships']['2015']['name'] %><br/><br/>
 
-                  <%= @policies[c['id'].to_s]['Environment'] %>
+                  <%= @policies[c['id'].to_s]['NHS'] %>
     
                 </div>
               </div>
@@ -65,8 +69,34 @@
       </div>
 
     </div>
-    <div role="tabpanel" class="tab-pane fade" id="immigration">
 
+<!-- UK Economy -->
+
+    <div role="tabpanel" class="tab-pane fade" id="economy">
+      <div class="col-md-9">
+        <% @candidates.each_slice(3) do |slice| %>
+          <div class="row">
+            <% slice.each do |c| %>
+              <div class="col-md-4">
+                <div class="listbox">
+                  <div class="candidate-name">
+                    <a href="/candidates/<%= c['id'] %>"><strong><%= c['name'] %></strong></a><br/>
+                  </div>
+                  Candidate for <%= c['party_memberships']['2015']['name'] %><br/><br/>
+
+                  <%= @policies[c['id'].to_s]['UK Economy'] %>
+    
+                </div>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+
+<!-- Immigration -->
+
+    <div role="tabpanel" class="tab-pane fade" id="immigration">
       <div class="col-md-9">
         <% @candidates.each_slice(3) do |slice| %>
           <div class="row">
@@ -86,9 +116,84 @@
           </div>
         <% end %>
       </div>
-
     </div>
-    <div role="tabpanel" class="tab-pane fade" id="austerity">test 4</div>
+
+<!-- Benefits and pensions -->
+
+    <div role="tabpanel" class="tab-pane fade" id="benefits">
+      <div class="col-md-9">
+        <% @candidates.each_slice(3) do |slice| %>
+          <div class="row">
+            <% slice.each do |c| %>
+              <div class="col-md-4">
+                <div class="listbox">
+                  <div class="candidate-name">
+                    <a href="/candidates/<%= c['id'] %>"><strong><%= c['name'] %></strong></a><br/>
+                  </div>
+                  Candidate for <%= c['party_memberships']['2015']['name'] %><br/><br/>
+
+                  <%= @policies[c['id'].to_s]['Benefits and pensions'] %>
+    
+                </div>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+
+<!-- Europe -->
+
+    <div role="tabpanel" class="tab-pane fade" id="europe">
+      <div class="col-md-9">
+        <% @candidates.each_slice(3) do |slice| %>
+          <div class="row">
+            <% slice.each do |c| %>
+              <div class="col-md-4">
+                <div class="listbox">
+                  <div class="candidate-name">
+                    <a href="/candidates/<%= c['id'] %>"><strong><%= c['name'] %></strong></a><br/>
+                  </div>
+                  Candidate for <%= c['party_memberships']['2015']['name'] %><br/><br/>
+
+                  <%= @policies[c['id'].to_s]['Europe'] %>
+    
+                </div>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+
+<!-- Environment -->
+
+    <div role="tabpanel" class="tab-pane fade" id="environment">
+      <div class="col-md-9">
+        <% @candidates.each_slice(3) do |slice| %>
+          <div class="row">
+            <% slice.each do |c| %>
+              <div class="col-md-4">
+                <div class="listbox">
+                  <div class="candidate-name">
+                    <a href="/candidates/<%= c['id'] %>"><strong><%= c['name'] %></strong></a><br/>
+                  </div>
+                  Candidate for <%= c['party_memberships']['2015']['name'] %><br/><br/>
+
+                  <%= @policies[c['id'].to_s]['Environment'] %>
+    
+                </div>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+
+
+
+
+
   </div>
 
 </div>

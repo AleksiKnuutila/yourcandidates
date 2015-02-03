@@ -3,32 +3,56 @@ class CandidatesController < ApplicationController
   require 'json'
   require 'open-uri'
 
-  POLICY_AREAS = [ 'Environment', 'Welfare', 'Immigration', 'Austerity' ]
+  POLICY_AREAS = [ 'NHS', 'UK Economy', 'Immigration', 'Benefits and pensions', 'Europe', 'Environment' ]
   PARTY_POLICIES = { 
-    'Conservative Party' => { 'Environment' => 'For conservatives, the environment is very important',
-      'Welfare' => 'For conservatives, welfare is very important',
+    'Conservative Party' => { 
+      'NHS' => 'For conservatives, the NHS is very important',
+      'UK Economy' => 'For conservatives, the economy is very important',
       'Immigration' => 'For conservatives, immigration is very important',
-      'Austerity' => 'For conservatives, austerity is very important' },
-    'Labour Party' => { 'Environment' => 'For labour, the environment is very important',
-      'Welfare' => 'For labour, welfare is very important',
+      'Benefits and pensions' => 'For conservatives, welfare is very important',
+      'Europe' => 'For conservatives, europe is very important',
+      'Environment' => 'For conservatives, the environment is very important',
+    },
+    'Labour Party' => {
+      'NHS' => 'For labour, the NHS is very important',
+      'UK Economy' => 'For labour, the economy is very important',
       'Immigration' => 'For labour, immigration is very important',
-      'Austerity' => 'For labour, austerity is very important' },
-    'Liberal Democrats' => { 'Environment' => 'For libdems, the environment is very important',
-      'Welfare' => 'For libdems, welfare is very important',
+      'Benefits and pensions' => 'For labour, welfare is very important',
+      'Europe' => 'For labour, europe is very important',
+      'Environment' => 'For labour, the environment is very important',
+    },
+    'Liberal Democrats' => { 
+      'NHS' => 'For libdems, the NHS is very important',
+      'UK Economy' => 'For libdems, the economy is very important',
       'Immigration' => 'For libdems, immigration is very important',
-      'Austerity' => 'For libdems, austerity is very important' },
-    'Green Party' => { 'Environment' => 'For greens, the environment is very important',
-      'Welfare' => 'For greens, welfare is very important',
+      'Benefits and pensions' => 'For libdems, welfare is very important',
+      'Europe' => 'For libdems, europe is very important',
+      'Environment' => 'For libdems, the environment is very important',
+    },
+    'Green Party' => {
+      'NHS' => 'For greens, the NHS is very important',
+      'UK Economy' => 'For greens, the economy is very important',
       'Immigration' => 'For greens, immigration is very important',
-      'Austerity' => 'For greens, austerity is very important' },
-    'UK Independence Party' => { 'Environment' => 'For ukip, the environment is very important',
-      'Welfare' => 'For ukip, welfare is very important',
+      'Benefits and pensions' => 'For greens, welfare is very important',
+      'Europe' => 'For greens, europe is very important',
+      'Environment' => 'For greens, the environment is very important',
+    },
+    'UK Independence Party (UKIP)' => {
+      'NHS' => 'For ukip, the NHS is very important',
+      'UK Economy' => 'For ukip, the economy is very important',
       'Immigration' => 'For ukip, immigration is very important',
-      'Austerity' => 'For ukip, austerity is very important' },
-    'Default' => { 'Environment' => 'No information about Environment',
-      'Welfare' => 'No information about welfare',
-      'Immigration' => 'No information about immigration',
-      'Austerity' => 'No information about austerity' }
+      'Benefits and pensions' => 'For ukip, welfare is very important',
+      'Europe' => 'For ukip, europe is very important',
+      'Environment' => 'For ukip, the environment is very important',
+    },
+    'Default' => {
+      'NHS' => 'No information about NHS yet',
+      'UK Economy' => 'No information about economy yet',
+      'Immigration' => 'No information about immigration yet',
+      'Benefits and pensions' => 'No information about benefits yet',
+      'Europe' => 'No information about europe yet',
+      'Environment' => 'No information about environment yet'
+    }
   }
 
   def getConstituencyId(postcode)
