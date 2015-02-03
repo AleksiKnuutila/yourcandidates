@@ -32,7 +32,11 @@ class CandidatesController < ApplicationController
   }
 
   def getConstituencyId(postcode)
-    uri = 'http://mapit.mysociety.org/postcode/'+postcode
+    pc = UKPostcode.new(postcode)
+    if not pc.valid?
+      return false
+    end
+    uri = 'http://mapit.mysociety.org/postcode/'+pc.outcode+pc.incode
     jsondata = open(uri)
     @data = JSON.load(jsondata)
     return @data['shortcuts']['WMC']
@@ -68,7 +72,6 @@ class CandidatesController < ApplicationController
         @candidates.concat([cand['person_id']['versions'][0]['data']])
       end
     end
-    
     # For some reason there are duplicates in the JSON
     @candidates = @candidates.uniq
     return @candidates
@@ -84,6 +87,10 @@ class CandidatesController < ApplicationController
   def index
     @q = request['q']
     @conId = getConstituencyId(@q)
+    # TODO: add some kind of error here!
+    if not @conId
+      redirect_to "/" and return
+    end
     @candidates = getCandidates(@conId)
     @policies = getAllPolicies(@candidates)
     # necessary?
