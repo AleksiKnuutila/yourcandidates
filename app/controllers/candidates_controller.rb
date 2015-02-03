@@ -21,7 +21,7 @@ class CandidatesController < ApplicationController
       'Welfare' => 'For greens, welfare is very important',
       'Immigration' => 'For greens, immigration is very important',
       'Austerity' => 'For greens, austerity is very important' },
-    'UKIP' => { 'Environment' => 'For ukip, the environment is very important',
+    'UK Independence Party' => { 'Environment' => 'For ukip, the environment is very important',
       'Welfare' => 'For ukip, welfare is very important',
       'Immigration' => 'For ukip, immigration is very important',
       'Austerity' => 'For ukip, austerity is very important' },
