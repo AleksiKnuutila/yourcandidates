@@ -20,13 +20,17 @@
 .candidate-image-index {
   float: left;
   width: auto;
-  height: 4em;
+  height: 5em;
   margin-right: 0.5em;
 }
 
 .candidate-fa-index {
   float: left;
   width: auto;
-  height: 4em;
   margin-right: 0.12em;
+  max-heigth: 1em;
+}
+
+p.candidate-content-index {
+  margin-top: 5px;
 }

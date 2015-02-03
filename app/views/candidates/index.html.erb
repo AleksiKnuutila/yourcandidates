@@ -29,9 +29,27 @@
               <div class="col-md-4">
                 <div class="listbox">
                   <%= render partial: "box_header", :locals => { :c => c } %>
+                    <p class="candidate-content-index">
 
-Personal info goes here..
+                      <% if c['twitter_username'].length > 2 %>
+                        <a href="https://www.twitter.com/<%= c['twitter_username'] %>">@<%= c['twitter_username'] %> on Twitter</a> <br />
+                      <% end %>
+                      <% if c['facebook_personal_url'].length > 5 %>
+                        <a href="<%= c['facebook_personal_url'] %>">Facebook profile</a><br />
+                      <% end %>
+                      <% if c['homepage_url'].length > 5 %>
+                        <a href="<%= c['homepage_url'] %>">Personal homepage</a><br />
+                      <% elsif c['party_ppc_page_url'].length > 5 %>
+                        <a href="<%= c['party_ppc_page_url'] %>">Personal homepage</a><br />
+                      <% end %>
+                      <% if c['wikipedia_url'].length > 5 %>
+                        <a href="<%= c['wikipedia_url'] %>">Wikipedia page</a><br />
+                      <% end %>
+                      <% if c['email'] and c['email'].length > 5 %>
+                        <a href="mailto:<%= c['email'] %>">Email</a><br />
+                      <% end %>
 
+                    </p>
                 </div>
               </div>
             <% end %>
