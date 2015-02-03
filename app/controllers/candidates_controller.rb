@@ -85,6 +85,15 @@ class CandidatesController < ApplicationController
     return policies
   end
 
+  def getImageUrl(candidate)
+    if candidate['image']
+      return candidate['image']
+    end
+    return nil
+# TODO: Add twitter image search here
+# TODO: Add female/male distinction
+  end
+
   def getCandidates(constituencyId)
     uri = 'http://yournextmp.popit.mysociety.org/api/v0.1/posts/'+constituencyId.to_s+'?embed=membership.person'
     jsondata = open(uri)
@@ -98,6 +107,9 @@ class CandidatesController < ApplicationController
     end
     # For some reason there are duplicates in the JSON
     @candidates = @candidates.uniq
+    for ind in @candidates.each_index()
+      @candidates[ind]['image_url'] = getImageUrl(@candidates[ind])
+    end
     return @candidates
   end
 

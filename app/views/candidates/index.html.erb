@@ -28,13 +28,10 @@
             <% slice.each do |c| %>
               <div class="col-md-4">
                 <div class="listbox">
-                  <div class="candidate-name">
-                    <a href="/candidates/<%= c['id'] %>"><strong><%= c['name'] %></strong></a><br/>
-                  </div>
-                  Candidate for <%= c['party_memberships']['2015']['name'] %><br/><br/>
+                  <%= render partial: "box_header", :locals => { :c => c } %>
 
-                  Personal info goes here!
-    
+Personal info goes here..
+
                 </div>
               </div>
             <% end %>
@@ -54,10 +51,7 @@
             <% slice.each do |c| %>
               <div class="col-md-4">
                 <div class="listbox">
-                  <div class="candidate-name">
-                    <a href="/candidates/<%= c['id'] %>"><strong><%= c['name'] %></strong></a><br/>
-                  </div>
-                  Candidate for <%= c['party_memberships']['2015']['name'] %><br/><br/>
+                  <%= render partial: "box_header", :locals => { :c => c } %>
 
                   <%= @policies[c['id'].to_s]['NHS'] %>
     
@@ -79,10 +73,7 @@
             <% slice.each do |c| %>
               <div class="col-md-4">
                 <div class="listbox">
-                  <div class="candidate-name">
-                    <a href="/candidates/<%= c['id'] %>"><strong><%= c['name'] %></strong></a><br/>
-                  </div>
-                  Candidate for <%= c['party_memberships']['2015']['name'] %><br/><br/>
+                  <%= render partial: "box_header", :locals => { :c => c } %>
 
                   <%= @policies[c['id'].to_s]['UK Economy'] %>
     
@@ -103,10 +94,7 @@
             <% slice.each do |c| %>
               <div class="col-md-4">
                 <div class="listbox">
-                  <div class="candidate-name">
-                    <a href="/candidates/<%= c['id'] %>"><strong><%= c['name'] %></strong></a><br/>
-                  </div>
-                  Candidate for <%= c['party_memberships']['2015']['name'] %><br/><br/>
+                  <%= render partial: "box_header", :locals => { :c => c } %>
 
                   <%= @policies[c['id'].to_s]['Immigration'] %>
     
@@ -127,10 +115,7 @@
             <% slice.each do |c| %>
               <div class="col-md-4">
                 <div class="listbox">
-                  <div class="candidate-name">
-                    <a href="/candidates/<%= c['id'] %>"><strong><%= c['name'] %></strong></a><br/>
-                  </div>
-                  Candidate for <%= c['party_memberships']['2015']['name'] %><br/><br/>
+                  <%= render partial: "box_header", :locals => { :c => c } %>
 
                   <%= @policies[c['id'].to_s]['Benefits and pensions'] %>
     
@@ -151,10 +136,7 @@
             <% slice.each do |c| %>
               <div class="col-md-4">
                 <div class="listbox">
-                  <div class="candidate-name">
-                    <a href="/candidates/<%= c['id'] %>"><strong><%= c['name'] %></strong></a><br/>
-                  </div>
-                  Candidate for <%= c['party_memberships']['2015']['name'] %><br/><br/>
+                  <%= render partial: "box_header", :locals => { :c => c } %>
 
                   <%= @policies[c['id'].to_s]['Europe'] %>
     
@@ -175,10 +157,7 @@
             <% slice.each do |c| %>
               <div class="col-md-4">
                 <div class="listbox">
-                  <div class="candidate-name">
-                    <a href="/candidates/<%= c['id'] %>"><strong><%= c['name'] %></strong></a><br/>
-                  </div>
-                  Candidate for <%= c['party_memberships']['2015']['name'] %><br/><br/>
+                  <%= render partial: "box_header", :locals => { :c => c } %>
 
                   <%= @policies[c['id'].to_s]['Environment'] %>
     
@@ -189,11 +168,6 @@
         <% end %>
       </div>
     </div>
-
-
-
-
-
   </div>
 
 </div>
