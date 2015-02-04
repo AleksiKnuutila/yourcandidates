@@ -89,9 +89,11 @@ class CandidatesController < ApplicationController
     if candidate['image']
       return candidate['image']
     end
+#    if candidate['person_id']['image']
+#      return candidate['person_id']['image']
+#    end
     return nil
 # TODO: Add twitter image search here
-# TODO: Add female/male distinction
   end
 
   def getCandidates(constituencyId)
@@ -102,7 +104,8 @@ class CandidatesController < ApplicationController
     for cand in @data['result']['memberships']
       @currentConstituency = cand['person_id']['versions'][0]['data']['standing_in']['2015']
       if @currentConstituency and @currentConstituency['post_id'] == constituencyId.to_s
-        @candidates.concat([cand['person_id']['versions'][0]['data']])
+        # merge to make sure versions[0][data] is easily accessible in object - not ideal!
+        @candidates.concat([cand['person_id']['versions'][0]['data'].merge(cand['person_id'])])
       end
     end
     # For some reason there are duplicates in the JSON
