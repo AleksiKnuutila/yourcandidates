@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
-  get 'contact/home'
+  get '/help', to: 'static_pages#help'
+  get '/resources', to: 'static_pages#resources'
+  get '/contact', to: 'static_pages#contact'
+  get '/copyright', to: 'static_pages#copyright'
+  get '/privacy', to: 'static_pages#privacy'
+  get '/linking', to: 'static_pages#linking'
 
+  get 'contact/home'
 
   get 'candidates/index'
   get 'candidates/show'
