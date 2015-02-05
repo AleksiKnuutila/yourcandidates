@@ -1,0 +1,10 @@
+<% if policies.respond_to?('each') %>
+  <% policies.each do |pol| %>
+    <%= pol[0] %>
+  <% end %>
+  <% policies.each do |pol| %>
+    <a href="<%= pol[1] %>"><i class="fa fa-external-link"></i></a>
+  <% end %>
+<% else %>
+  <%= policies %>
+<% end %>

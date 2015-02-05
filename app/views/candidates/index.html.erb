@@ -9,8 +9,8 @@
 
     <ul class="nav nav-pills nav-stacked">
       <li role="presentation" class="active"><a href="#personalInfo" aria-controls="home" role="tab" data-toggle="tab">Personal information</a></li>
-      <li role="presentation"><a href="#nhs" aria-controls="home" role="tab" data-toggle="tab">NHS</a></li>
-      <li role="presentation"><a href="#economy" aria-controls="home" role="tab" data-toggle="tab">UK Economy</a></li>
+      <li role="presentation"><a href="#nhs" aria-controls="home" role="tab" data-toggle="tab">The NHS</a></li>
+      <li role="presentation"><a href="#economy" aria-controls="home" role="tab" data-toggle="tab">Economy and taxes</a></li>
       <li role="presentation"><a href="#immigration" aria-controls="home" role="tab" data-toggle="tab">Immigration</a></li>
       <li role="presentation"><a href="#benefits" aria-controls="home" role="tab" data-toggle="tab">Benefits and pensions</a></li>
       <li role="presentation"><a href="#europe" aria-controls="home" role="tab" data-toggle="tab">Europe</a></li>
@@ -112,10 +112,10 @@
             <% slice.each do |c| %>
               <div class="col-md-4">
                 <div class="listbox">
-                  <%= render partial: "box_header", :locals => { :c => c } %>
+                  <%= render partial: "box_party_header", :locals => { :c => c } %>
 
-                  <%= @policies[c['id'].to_s]['Immigration'] %>
-    
+                  <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Immigration', :policies => @policies[c['id'].to_s]['Immigration'] } %>
+
                 </div>
               </div>
             <% end %>
