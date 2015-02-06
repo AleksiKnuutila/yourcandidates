@@ -53,3 +53,5 @@ gem 'uk_postcode'
 gem 'rspec'
 gem 'rspec-rails'
 gem 'capybara'
+
+gem 'twitter'

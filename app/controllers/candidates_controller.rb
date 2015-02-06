@@ -2,6 +2,7 @@ class CandidatesController < ApplicationController
   require 'uk_postcode'
   require 'json'
   require 'open-uri'
+  require 'twitter'
 
   POLICY_AREAS = [ 'NHS', 'UK Economy', 'Immigration', 'Benefits and pensions', 'Europe', 'Environment' ]
   PARTY_POLICIES = { 
@@ -111,19 +112,27 @@ class CandidatesController < ApplicationController
     return policies
   end
 
-  def getImageUrl(candidate)
+  def getImageUrl(candidate, twitter_obj)
     if candidate['image']
       return candidate['image']
     end
-#    if candidate['person_id']['image']
-#      return candidate['person_id']['image']
-#    end
-    return nil
-# TODO: Add twitter image search here
+    if candidate['twitter_username'].length > 2
+      twitter_user = twitter_obj.user(candidate['twitter_username'])
+      twitter_profile_uri = twitter_user.profile_image_uri.to_s.sub("_normal", "")
+      if not twitter_profile_uri =~ /default_profile_images/
+        return twitter_profile_uri
+      end
+    end
   end
 
   def getCandidates(constituencyId)
     uri = 'http://yournextmp.popit.mysociety.org/api/v0.1/posts/'+constituencyId.to_s+'?embed=membership.person'
+    twitter_client = Twitter::REST::Client.new do |config|
+      config.consumer_key = 'QQS70cRpPhknZjfKWNKL7QVnj'
+      config.consumer_secret = 'Yu15W4v2j06X6K2ADrlvCz5xQHlKUVshN9nNiCDA7mnvcl72c0'
+      config.access_token = '3006172181-DiGGfRtjGyHvwpl1k8jaR4o3uPEW2GQRdZwLwB0'
+      config.access_token_secret = 'MCmGUPGi4jpMZS7795FRGp6JXdtDKwNr8EedbMzUY4JOA'
+    end
     jsondata = open(uri)
     @data = JSON.load(jsondata)
     @candidates = []
@@ -137,7 +146,7 @@ class CandidatesController < ApplicationController
     # For some reason there are duplicates in the JSON
     @candidates = @candidates.uniq
     for i in @candidates.each_index()
-      @candidates[i]['image_url'] = getImageUrl(@candidates[i])
+      @candidates[i]['image_url'] = getImageUrl(@candidates[i], twitter_client)
       @candidates[i]['isIncumbentMP'] = isIncumbentMP(@candidates[i])
     end
     return @candidates
@@ -160,8 +169,6 @@ class CandidatesController < ApplicationController
     @candidates = getCandidates(@conId)
     @policies = getAllPolicies(@candidates)
     @PARTY_POLICIES = PARTY_POLICIES
-    # necessary?
-    return ''
   end
 
   def show
