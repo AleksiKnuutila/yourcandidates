@@ -117,7 +117,12 @@ class CandidatesController < ApplicationController
       return candidate['image']
     end
     if candidate['twitter_username'].length > 2
-      twitter_user = twitter_obj.user(candidate['twitter_username'])
+      begin
+        twitter_user = twitter_obj.user(candidate['twitter_username'])
+      rescue Twitter::Error::NotFound
+        candidate['twitter_username'] = ''
+        return nil
+      end
       twitter_profile_uri = twitter_user.profile_image_uri.to_s.sub("_normal", "")
       if not twitter_profile_uri =~ /default_profile_images/
         return twitter_profile_uri
