@@ -1,5 +1,5 @@
 <div class="header">
-  <%= render partial: "header" %>
+  <%= render partial: "header", :locals => { :title => @constituency['name'] } %>
 </div>
 
 <div class="container">
@@ -31,6 +31,9 @@
                   <%= render partial: "box_header", :locals => { :c => c } %>
                     <p class="candidate-content-index">
 
+                      <% if c['MPid'] %>
+                        <a href="http://www.theyworkforyou.com/mp/<%= c['MPid'] %>">Voting record and MP profile</a>
+                      <% end %>
                       <% if c['twitter_username'].length > 2 %>
                         <a href="https://www.twitter.com/<%= c['twitter_username'] %>">@<%= c['twitter_username'] %> on Twitter</a> <br />
                       <% end %>
@@ -187,5 +190,10 @@
       </div>
     </div>
   </div>
+
+<% if @twitter_list %>
+  <a class="twitter-timeline" href="https://twitter.com/TwittElection/lists/motherwell-and-wishaw" data-widget-id="563093058695487490" data-list-owner-screen-name="twittelection" data-list-slug="<%= @twitter_list %>"></a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<% end %>
 
 </div>
