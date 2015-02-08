@@ -1,14 +1,15 @@
 <!-- HTML for top of each candidate box -->
 
-<% if c['image_url'] %>
-  <img src="<%= c['image_url'] %>" class="candidate-image-index">
+<% if c['party_image_uri'] %>
+  <img src="<%= c['party_image_uri'] %>" class="party-image-index">
 <% else %>
-  <i class="fa fa-user fa-5x candidate-fa-index"></i>
-  <!-- <span class="glyphicon glyphicon-user candidate-usericon-index" aria-hidden="true"></span> -->
+  <img src="/assets/rosette.png">
 <% end %>
-
-<%= c['party_memberships']['2015']['name'] %> policy<br/>
-
-<br/>
+<!-- <a href="#personalInfo" data-toggle="tab"><%= c['name'] %></a><br/> -->
+<%= c['name'] %><br/>
+Candidate for <%= c['party_memberships']['2015']['name'] %>
+<br/><br/>
 
 <div style="clear: left;"></div>
+
+Party policy:

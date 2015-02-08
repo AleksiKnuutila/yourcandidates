@@ -5,7 +5,7 @@ class CandidatesController < ApplicationController
   require 'twitter'
 
   POLICY_AREAS = [ 'NHS', 'UK Economy', 'Immigration', 'Benefits and pensions', 'Europe', 'Environment' ]
-  PARTY_POLICIES = { 
+  PARTY_CONSTANTS = { 
     'Conservative Party' => { 
       'NHS' => 'For conservatives, the NHS is very important',
       'UK Economy' => 'For conservatives, the economy is very important',
@@ -13,6 +13,7 @@ class CandidatesController < ApplicationController
       'Benefits and pensions' => 'For conservatives, welfare is very important',
       'Europe' => 'For conservatives, europe is very important',
       'Environment' => 'For conservatives, the environment is very important',
+      'party_image_uri' => '/assets/party_conservative.png'
     },
     'Labour Party' => {
       'NHS' => 'For labour, the NHS is very important',
@@ -21,6 +22,7 @@ class CandidatesController < ApplicationController
       'Benefits and pensions' => 'For labour, welfare is very important',
       'Europe' => 'For labour, europe is very important',
       'Environment' => 'For labour, the environment is very important',
+      'party_image_uri' => '/assets/party_labour.png'
     },
     'Liberal Democrats' => { 
       'NHS' => 'For libdems, the NHS is very important',
@@ -29,6 +31,7 @@ class CandidatesController < ApplicationController
       'Benefits and pensions' => 'For libdems, welfare is very important',
       'Europe' => 'For libdems, europe is very important',
       'Environment' => 'For libdems, the environment is very important',
+      'party_image_uri' => '/assets/party_libdem.png'
     },
     'Green Party' => {
       'NHS' => 'For greens, the NHS is very important',
@@ -37,6 +40,7 @@ class CandidatesController < ApplicationController
       'Benefits and pensions' => 'For greens, welfare is very important',
       'Europe' => 'For greens, europe is very important',
       'Environment' => 'For greens, the environment is very important',
+      'party_image_uri' => '/assets/party_green.png'
     },
     'UK Independence Party (UKIP)' => {
       'NHS' => 'For ukip, the NHS is very important',
@@ -45,6 +49,7 @@ class CandidatesController < ApplicationController
       'Benefits and pensions' => 'For ukip, welfare is very important',
       'Europe' => 'For ukip, europe is very important',
       'Environment' => 'For ukip, the environment is very important',
+      'party_image_uri' => '/assets/party_ukip.png'
     },
     'Scottish National Party' => {
       'NHS' => 'For SNP, the NHS is very important',
@@ -748,10 +753,10 @@ class CandidatesController < ApplicationController
 
   def getPolicy(candidate, policyArea)
     party = candidate['party_memberships']['2015']['name']
-    if not PARTY_POLICIES.key?(party)
+    if not PARTY_CONSTANTS.key?(party)
       party = 'Default'
     end
-    return PARTY_POLICIES[party][policyArea]
+    return PARTY_CONSTANTS[party][policyArea]
   end
 
   def getAllPolicies(candidates)
@@ -812,6 +817,12 @@ class CandidatesController < ApplicationController
     @candidates = @candidates.uniq
     for i in @candidates.each_index()
       @candidates[i]['image_url'] = getImageUrl(@candidates[i], twitter_client)
+      @candidates[i]['party'] = @candidates[i]['party_memberships']['2015']['name']
+      if PARTY_CONSTANTS[@candidates[i]['party']]
+        @candidates[i]['party_image_uri'] = PARTY_CONSTANTS[@candidates[i]['party']]['party_image_uri']
+      else
+        @candidates[i]['party_image_uri'] = nil
+      end
       @candidates[i]['MPid'] = getMPid(@candidates[i])
     end
     return @candidates
@@ -836,7 +847,7 @@ class CandidatesController < ApplicationController
     end
     @candidates = getCandidates(@conId)
     @policies = getAllPolicies(@candidates)
-    @PARTY_POLICIES = PARTY_POLICIES
+    @PARTY_CONSTANTS = PARTY_CONSTANTS
   end
 
   def show
