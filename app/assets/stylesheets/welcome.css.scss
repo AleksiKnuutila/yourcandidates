@@ -1,7 +1,7 @@
 /* Frontpage CSS */
 
 .image-bg-fluid-height {
-	background: url("/assets/BHOP2.jpg");
+        background-image: url(asset_path('BHOP2.jpg'));
 	background-position: top;
 	padding: 150px 0 150px 0;
 }
