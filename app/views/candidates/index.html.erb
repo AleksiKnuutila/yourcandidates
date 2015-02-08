@@ -4,196 +4,240 @@
 
 <div class="container">
 
-<div class="row">
-  <div class="col-md-3">
-
-    <ul class="nav nav-pills nav-stacked">
-      <li role="presentation" class="active"><a href="#personalInfo" aria-controls="home" role="tab" data-toggle="tab">Personal information</a></li>
-      <li role="presentation"><a href="#nhs" aria-controls="home" role="tab" data-toggle="tab">The NHS</a></li>
-      <li role="presentation"><a href="#economy" aria-controls="home" role="tab" data-toggle="tab">Economy and taxes</a></li>
-      <li role="presentation"><a href="#immigration" aria-controls="home" role="tab" data-toggle="tab">Immigration</a></li>
-      <li role="presentation"><a href="#benefits" aria-controls="home" role="tab" data-toggle="tab">Benefits and pensions</a></li>
-      <li role="presentation"><a href="#europe" aria-controls="home" role="tab" data-toggle="tab">Europe</a></li>
-      <li role="presentation"><a href="#environment" aria-controls="home" role="tab" data-toggle="tab">Environment</a></li>
-    </ul>
-
+  <div class="row">
+    <div class="col-md-3">
+  
+      <ul class="nav nav-pills nav-stacked">
+        <li role="presentation" class="active"><a href="#personalInfo" aria-controls="home" role="tab" data-toggle="tab">Personal information</a></li>
+        <li style="padding: 10px 15px;">Party policies</li>
+        <li role="presentation"><a href="#nhs" aria-controls="home" role="tab" data-toggle="tab">The NHS</a></li>
+        <li role="presentation"><a href="#economy" aria-controls="home" role="tab" data-toggle="tab">Economy and taxes</a></li>
+        <li role="presentation"><a href="#immigration" aria-controls="home" role="tab" data-toggle="tab">Immigration</a></li>
+        <li role="presentation"><a href="#benefits" aria-controls="home" role="tab" data-toggle="tab">Benefits and pensions</a></li>
+        <li role="presentation"><a href="#europe" aria-controls="home" role="tab" data-toggle="tab">Europe</a></li>
+        <li role="presentation"><a href="#environment" aria-controls="home" role="tab" data-toggle="tab">Environment</a></li>
+      </ul>
+  
+    </div>
+  
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane fade in active" id="personalInfo">
+  
+        <div class="col-md-9">
+          <% @candidates.each_slice(3) do |slice| %>
+            <div class="row">
+              <% slice.each do |c| %>
+                <div class="col-md-4">
+                  <div class="listbox">
+                    <%= render partial: "box_header", :locals => { :c => c } %>
+                      <p class="candidate-content-index">
+  
+                        <% if c['MPid'] %>
+                          <a href="http://www.theyworkforyou.com/mp/<%= c['MPid'] %>">Voting record and MP profile</a>
+                        <% end %>
+                        <% if c['twitter_username'].length > 2 %>
+                          <a href="https://www.twitter.com/<%= c['twitter_username'] %>">@<%= c['twitter_username'] %> on Twitter</a> <br />
+                        <% end %>
+                        <% if c['facebook_personal_url'].length > 5 %>
+                          <a href="<%= c['facebook_personal_url'] %>">Facebook profile</a><br />
+                        <% end %>
+                        <% if c['homepage_url'].length > 5 %>
+                          <a href="<%= c['homepage_url'] %>">Personal homepage</a><br />
+                        <% elsif c['party_ppc_page_url'].length > 5 %>
+                          <a href="<%= c['party_ppc_page_url'] %>">Personal homepage</a><br />
+                        <% end %>
+                        <% if c['wikipedia_url'].length > 5 %>
+                          <a href="<%= c['wikipedia_url'] %>">Wikipedia page</a><br />
+                        <% end %>
+                        <% if c['email'] and c['email'].length > 5 %>
+                          <a href="mailto:<%= c['email'] %>">Email</a><br />
+                        <% end %>
+  
+                      </p>
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          <% end %>
+        </div>
+  
+      </div>
+  
+  <!-- NHS -->
+  
+      <div role="tabpanel" class="tab-pane fade" id="nhs">
+  
+        <div class="col-md-9">
+          <% @candidates.each_slice(3) do |slice| %>
+            <div class="row">
+              <% slice.each do |c| %>
+                <div class="col-md-4">
+                  <div class="listbox">
+                    <%= render partial: "box_header", :locals => { :c => c } %>
+  
+                    <%= @policies[c['id'].to_s]['NHS'] %>
+      
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          <% end %>
+        </div>
+  
+      </div>
+  
+  <!-- UK Economy -->
+  
+      <div role="tabpanel" class="tab-pane fade" id="economy">
+        <div class="col-md-9">
+          <% @candidates.each_slice(3) do |slice| %>
+            <div class="row">
+              <% slice.each do |c| %>
+                <div class="col-md-4">
+                  <div class="listbox">
+                    <%= render partial: "box_header", :locals => { :c => c } %>
+  
+                    <%= @policies[c['id'].to_s]['UK Economy'] %>
+      
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+  
+  <!-- Immigration -->
+  
+      <div role="tabpanel" class="tab-pane fade" id="immigration">
+        <div class="col-md-9">
+          <% @candidates.each_slice(3) do |slice| %>
+            <div class="row">
+              <% slice.each do |c| %>
+                <div class="col-md-4">
+                  <div class="listbox">
+                    <%= render partial: "box_header", :locals => { :c => c } %>
+  
+                    Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Immigration', :policies => @policies[c['id'].to_s]['Immigration'] } %>
+  
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+  
+  <!-- Benefits and pensions -->
+  
+      <div role="tabpanel" class="tab-pane fade" id="benefits">
+        <div class="col-md-9">
+          <% @candidates.each_slice(3) do |slice| %>
+            <div class="row">
+              <% slice.each do |c| %>
+                <div class="col-md-4">
+                  <div class="listbox">
+                    <%= render partial: "box_header", :locals => { :c => c } %>
+  
+                    <%= @policies[c['id'].to_s]['Benefits and pensions'] %>
+      
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+  
+  <!-- Europe -->
+  
+      <div role="tabpanel" class="tab-pane fade" id="europe">
+        <div class="col-md-9">
+          <% @candidates.each_slice(3) do |slice| %>
+            <div class="row">
+              <% slice.each do |c| %>
+                <div class="col-md-4">
+                  <div class="listbox">
+                    <%= render partial: "box_header", :locals => { :c => c } %>
+  
+                    <%= @policies[c['id'].to_s]['Europe'] %>
+      
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+  
+  <!-- Environment -->
+  
+      <div role="tabpanel" class="tab-pane fade" id="environment">
+        <div class="col-md-9">
+          <% @candidates.each_slice(3) do |slice| %>
+            <div class="row">
+              <% slice.each do |c| %>
+                <div class="col-md-4">
+                  <div class="listbox">
+                    <%= render partial: "box_header", :locals => { :c => c } %>
+  
+                    <%= @policies[c['id'].to_s]['Environment'] %>
+      
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
 
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane fade in active" id="personalInfo">
-
-      <div class="col-md-9">
-        <% @candidates.each_slice(3) do |slice| %>
-          <div class="row">
-            <% slice.each do |c| %>
-              <div class="col-md-4">
-                <div class="listbox">
-                  <%= render partial: "box_header", :locals => { :c => c } %>
-                    <p class="candidate-content-index">
-
-                      <% if c['MPid'] %>
-                        <a href="http://www.theyworkforyou.com/mp/<%= c['MPid'] %>">Voting record and MP profile</a>
-                      <% end %>
-                      <% if c['twitter_username'].length > 2 %>
-                        <a href="https://www.twitter.com/<%= c['twitter_username'] %>">@<%= c['twitter_username'] %> on Twitter</a> <br />
-                      <% end %>
-                      <% if c['facebook_personal_url'].length > 5 %>
-                        <a href="<%= c['facebook_personal_url'] %>">Facebook profile</a><br />
-                      <% end %>
-                      <% if c['homepage_url'].length > 5 %>
-                        <a href="<%= c['homepage_url'] %>">Personal homepage</a><br />
-                      <% elsif c['party_ppc_page_url'].length > 5 %>
-                        <a href="<%= c['party_ppc_page_url'] %>">Personal homepage</a><br />
-                      <% end %>
-                      <% if c['wikipedia_url'].length > 5 %>
-                        <a href="<%= c['wikipedia_url'] %>">Wikipedia page</a><br />
-                      <% end %>
-                      <% if c['email'] and c['email'].length > 5 %>
-                        <a href="mailto:<%= c['email'] %>">Email</a><br />
-                      <% end %>
-
-                    </p>
-                </div>
-              </div>
-            <% end %>
-          </div>
-        <% end %>
+<div class="twitter-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h1>
+        There are <i>X</i> candidates in your area using twitter. See their latest updates here.
+        </h1>
       </div>
-
-    </div>
-
-<!-- NHS -->
-
-    <div role="tabpanel" class="tab-pane fade" id="nhs">
-
-      <div class="col-md-9">
-        <% @candidates.each_slice(3) do |slice| %>
-          <div class="row">
-            <% slice.each do |c| %>
-              <div class="col-md-4">
-                <div class="listbox">
-                  <%= render partial: "box_header", :locals => { :c => c } %>
-
-                  <%= @policies[c['id'].to_s]['NHS'] %>
-    
-                </div>
-              </div>
-            <% end %>
-          </div>
-        <% end %>
-      </div>
-
-    </div>
-
-<!-- UK Economy -->
-
-    <div role="tabpanel" class="tab-pane fade" id="economy">
-      <div class="col-md-9">
-        <% @candidates.each_slice(3) do |slice| %>
-          <div class="row">
-            <% slice.each do |c| %>
-              <div class="col-md-4">
-                <div class="listbox">
-                  <%= render partial: "box_header", :locals => { :c => c } %>
-
-                  <%= @policies[c['id'].to_s]['UK Economy'] %>
-    
-                </div>
-              </div>
-            <% end %>
-          </div>
-        <% end %>
-      </div>
-    </div>
-
-<!-- Immigration -->
-
-    <div role="tabpanel" class="tab-pane fade" id="immigration">
-      <div class="col-md-9">
-        <% @candidates.each_slice(3) do |slice| %>
-          <div class="row">
-            <% slice.each do |c| %>
-              <div class="col-md-4">
-                <div class="listbox">
-                  <%= render partial: "box_party_header", :locals => { :c => c } %>
-
-                  <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Immigration', :policies => @policies[c['id'].to_s]['Immigration'] } %>
-
-                </div>
-              </div>
-            <% end %>
-          </div>
-        <% end %>
-      </div>
-    </div>
-
-<!-- Benefits and pensions -->
-
-    <div role="tabpanel" class="tab-pane fade" id="benefits">
-      <div class="col-md-9">
-        <% @candidates.each_slice(3) do |slice| %>
-          <div class="row">
-            <% slice.each do |c| %>
-              <div class="col-md-4">
-                <div class="listbox">
-                  <%= render partial: "box_header", :locals => { :c => c } %>
-
-                  <%= @policies[c['id'].to_s]['Benefits and pensions'] %>
-    
-                </div>
-              </div>
-            <% end %>
-          </div>
-        <% end %>
-      </div>
-    </div>
-
-<!-- Europe -->
-
-    <div role="tabpanel" class="tab-pane fade" id="europe">
-      <div class="col-md-9">
-        <% @candidates.each_slice(3) do |slice| %>
-          <div class="row">
-            <% slice.each do |c| %>
-              <div class="col-md-4">
-                <div class="listbox">
-                  <%= render partial: "box_header", :locals => { :c => c } %>
-
-                  <%= @policies[c['id'].to_s]['Europe'] %>
-    
-                </div>
-              </div>
-            <% end %>
-          </div>
-        <% end %>
-      </div>
-    </div>
-
-<!-- Environment -->
-
-    <div role="tabpanel" class="tab-pane fade" id="environment">
-      <div class="col-md-9">
-        <% @candidates.each_slice(3) do |slice| %>
-          <div class="row">
-            <% slice.each do |c| %>
-              <div class="col-md-4">
-                <div class="listbox">
-                  <%= render partial: "box_header", :locals => { :c => c } %>
-
-                  <%= @policies[c['id'].to_s]['Environment'] %>
-    
-                </div>
-              </div>
-            <% end %>
-          </div>
+      <div class="col-md-offset-2 col-md-6">
+        <% if @twitter_list %>
+          <a class="twitter-timeline" href="https://twitter.com/TwittElection/lists/motherwell-and-wishaw" data-widget-id="563093058695487490" data-list-owner-screen-name="twittelection" data-list-slug="<%= @twitter_list %>"></a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         <% end %>
       </div>
     </div>
   </div>
+</div>
 
-<% if @twitter_list %>
-  <a class="twitter-timeline" href="https://twitter.com/TwittElection/lists/motherwell-and-wishaw" data-widget-id="563093058695487490" data-list-owner-screen-name="twittelection" data-list-slug="<%= @twitter_list %>"></a>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-<% end %>
+<div class="social-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+
+        <h1>
+        It's important to know about this stuff. Challenge your friends also to make use of the site.
+        </h1>
+
+      </div>
+      <div class="col-md-offset-2 col-md-6">
+
+        <div class="social-container">
+                <div class="links">
+                        <a href="#" data-type="twitter" data-url="http://sonnyt.com/prettySocial" data-description="Who can you vote for? Find out." data-via="sonnyt" class="prettySocial fa fa-twitter fa-4x"></a>
+
+                        <a href="#" data-type="facebook" data-url="http://sonnyt.com/prettySocial" data-title="Who cna you vote for? Find out." data-description="Who can you vote for? Find out." data-media="http://sonnyt.com/assets/imgs/prettySocial.png" class="prettySocial fa fa-facebook fa-4x"></a>
+                </div>
+
+                <script type="text/javascript" class="source">
+                        $('.prettySocial').prettySocial();
+                </script>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 </div>
