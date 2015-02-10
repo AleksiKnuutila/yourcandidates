@@ -29,30 +29,45 @@
                 <div class="col-md-4">
                   <div class="listbox">
                     <%= render partial: "box_header", :locals => { :c => c } %>
-                      <p class="candidate-content-index">
   
+<ul class="list-group">
+
                         <% if c['MPid'] %>
-                          <a href="http://www.theyworkforyou.com/mp/<%= c['MPid'] %>">Voting record and MP profile</a>
+  <li class="list-group-item">
+                          <a class="candidate-link-index" href="http://www.theyworkforyou.com/mp/<%= c['MPid'] %>">Voting record and MP profile</a> <br/>
+</li>
                         <% end %>
                         <% if c['twitter_username'].length > 2 %>
-                          <a href="https://www.twitter.com/<%= c['twitter_username'] %>">@<%= c['twitter_username'] %> on Twitter</a> <br />
+  <li class="list-group-item">
+                          <a class="candidate-link-index" href="https://www.twitter.com/<%= c['twitter_username'] %>">@<%= c['twitter_username'] %> on Twitter</a>
+</li>
                         <% end %>
                         <% if c['facebook_personal_url'].length > 5 %>
-                          <a href="<%= c['facebook_personal_url'] %>">Facebook profile</a><br />
+  <li class="list-group-item">
+                          <a class="candidate-link-index" href="<%= c['facebook_personal_url'] %>">Facebook profile</a>
+</li>
                         <% end %>
                         <% if c['homepage_url'].length > 5 %>
-                          <a href="<%= c['homepage_url'] %>">Personal homepage</a><br />
+  <li class="list-group-item">
+                          <a class="candidate-link-index" href="<%= c['homepage_url'] %>">Personal homepage</a>
+</li>
                         <% elsif c['party_ppc_page_url'].length > 5 %>
-                          <a href="<%= c['party_ppc_page_url'] %>">Personal homepage</a><br />
+  <li class="list-group-item">
+                          <a class="candidate-link-index" href="<%= c['party_ppc_page_url'] %>">Personal homepage</a>
+</li>
                         <% end %>
                         <% if c['wikipedia_url'].length > 5 %>
-                          <a href="<%= c['wikipedia_url'] %>">Wikipedia page</a><br />
+  <li class="list-group-item">
+                          <a class="candidate-link-index" href="<%= c['wikipedia_url'] %>">Wikipedia page</a>
+</li>
                         <% end %>
                         <% if c['email'] and c['email'].length > 5 %>
-                          <a href="mailto:<%= c['email'] %>">Email</a><br />
+  <li class="list-group-item">
+                          <a class="candidate-link-index" href="mailto:<%= c['email'] %>">Email</a>
+</li>
                         <% end %>
+</ul>
   
-                      </p>
                   </div>
                 </div>
               <% end %>
@@ -117,7 +132,9 @@
                   <div class="listbox">
                     <%= render partial: "box_header", :locals => { :c => c } %>
   
-                    Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Immigration', :policies => @policies[c['id'].to_s]['Immigration'] } %>
+                    <p class="candidate-content-index">
+                      Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Immigration', :policies => @policies[c['id'].to_s]['Immigration'] } %>
+                    </p>
   
                   </div>
                 </div>
@@ -180,7 +197,9 @@
                   <div class="listbox">
                     <%= render partial: "box_header", :locals => { :c => c } %>
   
-                    <%= @policies[c['id'].to_s]['Environment'] %>
+                      <p class="candidate-content-index">
+                        <%= @policies[c['id'].to_s]['Environment'] %>
+                      </p>
       
                   </div>
                 </div>
@@ -193,6 +212,7 @@
   </div>
 </div>
 
+</ul>
 <div class="twitter-section">
   <div class="container">
     <div class="row">
@@ -217,7 +237,7 @@
       <div class="col-md-4">
 
         <h1>
-        Everyone should know who their candidates are. Challenge your friends to find out by sharing with these links.
+        Everyone should know their candidates. Challenge your friends to find out by sharing with these links.
         </h1>
 
       </div>

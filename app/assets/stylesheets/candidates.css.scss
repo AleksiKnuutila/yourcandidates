@@ -1,6 +1,31 @@
+$color-primary: #DD5A55;
+$color-black: #333333;
+$color-paper: #F2F1ED;
+$color-gray: #7F7F7F;
+
 .listbox {
-    border-radius: 5px;
-    background-color: #b0c4de;
+  border-radius: 5px;
+  background-color: $color-paper;
+}
+
+.boxheader {
+  padding: 5px;
+  background-color: $color-paper;
+  border-bottom: 1px solid $color-primary;
+  padding-bottom: 12px;
+  max-height: 95px; /* not sure if this is a good idea.. */
+}
+
+.candidate-link-index {
+  color: $color-black;
+  text-decoration: underline;
+  text-weight: 400;
+}
+
+a.candidate-link-index:hover {
+  color: $color-primary;
+  text-decoration: underline;
+  text-weight: 500;
 }
 
 .col-md-3 {
@@ -13,15 +38,22 @@
 }
 
 .navbar {
-  background-color: #b0c4de;
+  background-color: $color-paper;
   height: 90px;
 }
 
-.candidate-image-index {
-  float: left;
+img.candidate-image {
   width: auto;
   height: 5em;
+  float: left;
   margin-right: 0.5em;
+  padding: 3px;
+  background: #FFF;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+  border-radius: 4px;
 }
 
 .candidate-fa-index {
@@ -31,11 +63,21 @@
   max-heigth: 1em;
 }
 
+h3.candidate-name {
+  font-size: 15px;
+  font-family: "Lato","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
 p.candidate-content-index {
-  margin-top: 5px;
+  padding: 5px 10px 10px 10px;
+  line-height: 150%
 }
 
 div.header {
+  color: $color-black;
 }
 
 h1.header {
@@ -53,7 +95,7 @@ img.party-image-index {
 
 .twitter-section {
   width: 100%;
-  background-color: gray;
+  background-color: $color-gray;
   padding-top: 50px;
 }
 
@@ -68,4 +110,18 @@ div.index-footer {
         padding: 10px 0 10px 0;
         text-align: center;
         font-size: 11px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: $color-black;
+  background-color: $color-primary;
+}
+
+.nav > li > a { 
+  color: $color-black;
+}
+
+.list-group-item {
+  padding: 5px 5px 5px 7px;
+  background-color: $color-paper;
 }

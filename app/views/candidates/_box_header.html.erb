@@ -1,24 +1,20 @@
 <!-- HTML for top of each candidate box -->
 
-<% if c['image_url'] %>
-  <img src="<%= c['image_url'] %>" class="candidate-image-index">
-<% else %>
-  <i class="fa fa-user fa-5x candidate-fa-index"></i>
-  <!-- <span class="glyphicon glyphicon-user candidate-usericon-index" aria-hidden="true"></span> -->
-<% end %>
+<div class="boxheader">
+  <% if c['image_url'] %>
+    <img src="<%= c['image_url'] %>" class="candidate-image">
+  <% else %>
+    <i class="fa fa-user fa-5x candidate-fa-index"></i>
+  <% end %>
+  
+  <h3 class="candidate-name"><%= c['name'] %></h3>
+  <%= c['party_memberships']['2015']['name'] %>
 
-<div class="candidate-name">
-  <!-- <a href="/candidates/<%= c['id'] %>"><strong><%= c['name'] %></strong></a>
-  -->
-
-<strong><%= c['name'] %></strong>
-
-<br/>
+  <br/>
+  
+  <% if c['MPid'] %>Current MP<% end %>
+  
+  <br/>
+  
+  <div style="clear: left;"></div>
 </div>
-<%= c['party_memberships']['2015']['name'] %><br/>
-
-<% if c['MPid'] %>Current MP<% end %>
-
-<br/>
-
-<div style="clear: left;"></div>
