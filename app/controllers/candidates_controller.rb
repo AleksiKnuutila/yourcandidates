@@ -4,75 +4,75 @@ class CandidatesController < ApplicationController
   require 'open-uri'
   require 'twitter'
 
-  POLICY_AREAS = [ 'NHS', 'UK Economy', 'Immigration', 'Benefits and pensions', 'Europe', 'Environment' ]
+  POLICY_AREAS = [ 'The NHS', 'Economy and taxes', 'Immigration', 'Benefits and pensions', 'Law and order', 'Environment' ]
   PARTY_CONSTANTS = { 
     'Conservative Party' => { 
-      'NHS' => 'For conservatives, the NHS is very important',
-      'UK Economy' => 'For conservatives, the economy is very important',
-      'Immigration' => [ [ 'Require European jobseekers to leave if they are unemployed after 6 months. Renegotiate the rules for free movement within the EU. Make migrants wait 4 years before claiming certain benefits or social housing.', 'http://press.conservatives.com/post/103802921280/david-cameron-speech-on-immigration' ], [ 'Reduce the incentives for people to move to the UK, with the aim of lowering net immigration to below 100,000 people a year (currently 243,000).', 'https://www.conservatives.com/Plan/CapWelfareReduceImmigration.aspx' ] ],
-      'Benefits and pensions' => 'For conservatives, welfare is very important',
-      'Europe' => 'For conservatives, europe is very important',
+      'The NHS' => [ [ 'Spend extra £2bn on frontline health services.', 'http://www.bbc.co.uk/news/uk-politics-30265833' ], [ 'Make GPs available seven days a week by 2020. Recruit 5,000 more doctors.', 'https://www.conservatives.com/SecuringABetterFuture/GoodServices.aspx' ] ],
+      'Economy and taxes' => [ [ 'Secure budget surplus by 2019-20. Instead of raising taxes, cut spending, while increasing NHS spending.', 'http://press.conservatives.com/post/98719492085/george-osborne-speech-to-conservative-party' ], [ 'Cut income tax of 30 million people by 2020. Raise tax-free income allowance and limit for 40px tax rate.' ] ],
+      'Immigration' => [ [ 'Require European jobseekers to leave if they are unemployed after 6 months. Renegotiate the rules for free movement within the EU. Make migrants wait 4 years before claiming certain benefits or social housing.', 'http://press.conservatives.com/post/103802921280/david-cameron-speech-on-immigration' ], [ 'Lower annual net immigration to below 100,000 (currently 243,00).', 'https://www.conservatives.com/Plan/CapWelfareReduceImmigration.aspx' ] ],
+      'Benefits and pensions' => [ [ 'Cut the maximum a household can claim yearly from £26,000 to £23,000. Require young people to participate in "community projects" after six months on Jobseeker\'s Allowance. Freeze increases of benefits for working-age people for two years, to save £3bn.', 'http://press.conservatives.com/post/108155759640/david-cameron-britain-living-within-its-means' ] ],
+      'Law and order' => [ [ 'Replace Human Rights Act with Bill of Rights to give power to UK courts. New laws to make it easier to collect information about internet activity of suspected criminals. Introduce special orders for groups inciting hatred, and to stop public speech of "disruptive" individuals.', 'http://press.conservatives.com/post/98799073410/theresa-may-speech-to-conservative-party' ] ],
       'Environment' => 'For conservatives, the environment is very important',
       'party_image_uri' => '/assets/party_conservative.png'
     },
     'Labour Party' => {
-      'NHS' => 'For labour, the NHS is very important',
-      'UK Economy' => 'For labour, the economy is very important',
-      'Immigration' => [ ['Establish stronger border control to reduce illegal immigration, with "proper" entry adn exit checks. Reduce low-skilled migration with "smarter targets", while ensuring university students and high-skilled workers can migrate. Increase fines for employing illegal immigrants, and outlaw employment agencies recruiting only abroad.', 'http://press.labour.org.uk/post/98301589749/speech-by-yvette-cooper-mp-to-labours-annual' ] ],
-      'Benefits and pensions' => 'For labour, welfare is very important',
-      'Europe' => 'For labour, europe is very important',
+      'The NHS' => [ [ 'Commit extra £4.5bn to NHS.', 'http://www.nlmanagedservices.co.uk/extra-funding-for-nhs/' ], [ 'Ensure that patients get GP appointment within 48 hours. End "creeping privatisation" of the NHS. Integrate health and social services into "whole-person care".', 'http://www.labour.org.uk/issues/detail/gp-48-hour-guarantee' ] ],
+      'Economy and taxes' => [ [ 'Get budget into surplus and national debt falling in next parliament, with spending cuts and tax changes.', 'http://www.edballs.co.uk/blog/?p=5733' ], ["Reintroduce 50p top rate of income tax for earnings over £150,000, and 10p rate for 24 million people. Tax \"mansions\" and bankers' bonuses. Freeze energy prices and rail fares until 2017.", 'http://press.labour.org.uk/post/74420740121/ed-balls-announces-binding-fiscal-commitment-that' ] ],
+      'Immigration' => [ ['Reduce low-skilled migration with "smarter targets", while ensuring university students and high-skilled workers can migrate. Establish stronger border control to reduce illegal immigration, with "proper" entry and exit checks. Increase fines for employing illegal immigrants, and outlaw employment agencies recruiting only abroad.', 'http://press.labour.org.uk/post/98301589749/speech-by-yvette-cooper-mp-to-labours-annual' ] ],
+      'Benefits and pensions' => [ [ 'Increase minimum wage to £8-an-hour by 2020. Repeal the "bedroom tax".', 'http://www.labour.org.uk/issues/detail/social-security' ], [ 'Double the length of paid paternity leave, and increase statutory paternity pay to £260 a week.', 'http://www.bbc.co.uk/news/uk-politics-31253409' ] ],
+      'Law and order' => [ [ 'Give local residents say in crime fighting priorities. Spend more money on frontline policing to prevent reduction in officer numbers. To combat extremism, bring back Control Orders and Prevent strategy.', 'http://www.labour.org.uk/issues/detail/crime-and-policing' ] ],
       'Environment' => 'For labour, the environment is very important',
       'party_image_uri' => '/assets/party_labour.png'
     },
     'Liberal Democrats' => { 
-      'NHS' => 'For libdems, the NHS is very important',
-      'UK Economy' => 'For libdems, the economy is very important',
+      'The NHS' => [ [ 'Increase spending on NHS rises in line with growth of the economy, funded by increasing capital tax on high earners. Half of extra spending targeted at mental health. Ensure therapy is available within 18 weeks.', 'http://www.libdems.org.uk/mental-health-stigma' ] ],
+      'Economy and taxes' => [ [ 'Eliminate budget deficit by 2018, with spending cuts and tax changes. Raise tax-free income allowance to £12,500.', 'http://www.libdems.org.uk/liberal_democrats_will_raise_tax_free_allowance_in_the_first_year_of_the_next_parliament' ], [ 'Create "mansion tax" on property worth £3m, and capital gains tax on profits from second homes and shares.', 'http://www.libdems.org.uk/get_the_facts_mansion_tax' ] ],
       'Immigration' => [ [ 'Reintroduce exit checks at UK borders, so the government can identify people overstaying their visa. Mandate people on unemployment benefits to take an English test, and require those who fail to attend English classes.', 'http://www.libdems.org.uk/nick_clegg_s_immigration_speech' ] ],
-      'Benefits and pensions' => 'For libdems, welfare is very important',
-      'Europe' => 'For libdems, europe is very important',
+      'Benefits and pensions' => [ [ 'No Winter Fuel Payment and free TV license for pensioners with high earnings. Rather than direct sanctions, introduce a "yellow card" system to deal with benefit claimants that break the rules.', 'http://www.libdemvoice.org/steve-webb-lib-dems-will-introduce-fair-warning-for-jobseekers-who-break-benefit-rules-before-sanctions-imposed-42030.html' ] ],
+      'Law and order' => [ [ 'Instead of prison sentences for drug possession, give non-custodial sentencs and medical treatment. Pass a Digital Bill of Rights to protect people from unwarranted intrusion and grant them more control over their own data. Make police in some areas wear body cameras to make \'stop and search\' more accountable.', 'http://www.libdems.org.uk/protecting_your_privacy_online_with_a_digital_bill_of_rights' ] ],
       'Environment' => 'For libdems, the environment is very important',
       'party_image_uri' => '/assets/party_libdem.png'
     },
     'Green Party' => {
-      'NHS' => 'For greens, the NHS is very important',
-      'UK Economy' => 'For greens, the economy is very important',
+      'The NHS' => [ [ 'Divert funding form centralised facilities to community healthcare, prevention and health promotion. End privatisation and prescription charges, and create medicines agency that sets drug prices. Ensure NHS funding through earmarked NHS tax.', 'http://policy.greenparty.org.uk/he.html' ] ],
+      'Economy and taxes' => [ [ 'Renationalise railways and energy companies.', 'http://greenparty.org.uk/news/2013/02/11/renationalise-rail-says-green-party-leader/' ], [ "Set up citizen's income, an unconditional benefit for basic needs. Stop banks from being able to create new money. Work to end dependency on economic growth.", 'http://policy.greenparty.org.uk/ec.html' ] ],
       'Immigration' => [ [ 'Reduce UK immigration controls over time. Migrants illegally in the UK for over five years will be allowed to remain unless they pose a serious danger to public safety.', 'http://policy.greenparty.org.uk/mg.html' ], [ 'Increase legal rights of asylum seekers.', 'http://policy.greenparty.org.uk/ra.html' ] ],
-      'Benefits and pensions' => 'For greens, welfare is very important',
-      'Europe' => 'For greens, europe is very important',
+      'Benefits and pensions' => [ [ 'Reform benefit system with Citizen\'s income, an unconditional fixed money transfer.', 'http://greenparty.org.uk/news/2014/11/03/green-party-condemns-three-pronged-government-attack-on-sick-and-disabled/' ], [ 'Before that, ban zero hours contracts, stop current work capability assessments, and restore the level of the former disability living allowance.', 'http://policy.greenparty.org.uk/ec.html' ] ],
+      'Law and order' => [ [ 'Decriminalise cannabis and prostitution. Eemove prison sentences for possession of other drugs. Ensure terror suspects have same legal rights as those suspected of other crimes.', 'http://policy.greenparty.org.uk/rr.html' ] ],
       'Environment' => 'For greens, the environment is very important',
       'party_image_uri' => '/assets/party_green.png'
     },
     'UK Independence Party (UKIP)' => {
-      'NHS' => 'For ukip, the NHS is very important',
-      'UK Economy' => 'For ukip, the economy is very important',
+      'The NHS' => [ [ 'Extra £3bn to NHS, funded by quitting EU and "middle management" cuts. Keep NHS free "at point of delivery". Require migrants who have not been in UK for five years to have private medical insurance. Bring back state-enrolled nurses and return powers to matrons.', 'http://www.ukip.org/ukip_pledge_an_extra_3_billion_for_the_nhs' ] ],
+      'Economy and taxes' => [ [ 'Increase tax-free personal allowance to £13,500, and reduce tax paid at above £42,000. Abolish inheritance tax, and set up turnover tax on large businesses. Cut the foreign aid budget adn EU membership fees.', 'http://www.ukip.org/policies_for_people' ] ],
       'Immigration' => [ [ 'Like in Australia, choose immigrants based on a system of points, reflecting skills needed for work in the country. Apply points system to both EU and non-EU immigrants. Reduce net immigration to 50,000 people a year. Make language skill tests for residence permits harder. To allow the UK to return asylum seekers to other EU countries without hearing their case, opt out of the Dublin treaty.', 'http://www.ukip.org/steven_woolfe_ukip_s_ethical_migration_policy' ], [ 'People who currently are in the UK legally would not be deported, were the UK to leave the EU.', '' ] ],
-      'Benefits and pensions' => 'For ukip, welfare is very important',
-      'Europe' => 'For ukip, europe is very important',
+      'Benefits and pensions' => [ [ 'No child benefit for children after the second one, or for children outside of Britain. Repeal the "bedroom tax", as it is unfair. No permanent residence for migrants that are unable to support themselves for at least five years.', 'http://www.ukip.org/policies_for_people' ] ],
+      'Law and order' => [ [ 'Replace the Human Rights Act with UK Bill of Rights, and withdraw from European Arrest Warrant, that coordinates extradition of criminals between European countries. No votes for prisoners, and as a rule prison sentences should be served in their full length.', 'http://www.ukip.org/policies_for_people' ] ],
       'Environment' => 'For ukip, the environment is very important',
       'party_image_uri' => '/assets/party_ukip.png'
     },
     'Scottish National Party' => {
-      'NHS' => 'For SNP, the NHS is very important',
-      'UK Economy' => 'For SNP, the economy is very important',
+      'The NHS' => [ [ 'For Scottish NHS, increase yearly spending on NHS by more than inflation. Reduce number of senior managers by 25%. Streamline the work of health boards.', 'http://votesnp.com/campaigns/SNP_Manifesto_2011_lowRes.pdf' ] ],
+      'Economy and taxes' => [ [ 'Create an international bank tax and limits to industry bonuses. Invest in offshore wind farms.', 'http://www.snp.org/?q=media-centre/news/2014/nov/uk-government-needs-invest-offshore-wind' ], [ 'No to oil drilling and fracking beneath homes, as in the Infrastructure Bill.', 'http://www.snp.org/?q=media-centre/news/2014/aug/westminsters-gung-ho-fracking-plans-condemnedo' ] ],
       'Immigration' => [ [ 'Give the devolved Scottish government control over immigration to Scotland. Use a Canadian-style "earned citizenship system" to attract high-skilled workers.', '' ] ],
-      'Benefits and pensions' => 'For SNP, welfare is very important',
-      'Europe' => 'For SNP, europe is very important',
+      'Benefits and pensions' => [ [ 'In 2010, SNP opposed cuts to in-work benefits, and supported extending paternity leave. It suggested a maximum combined withdrawal rate for benefits, and reforms in employment support allowance and cold weather payments.', 'http://www.politicsresources.net/area/uk/ge10/man/parties/SNP.pdf' ] ],
+      'Law and order' => 'No information about SNP and law and order yet',
       'Environment' => 'For SNP, the environment is very important',
     },
     'Plaid Cymru' => {
-      'NHS' => 'For plaid cymru, the NHS is very important',
-      'UK Economy' => 'For plaid cymru, the economy is very important',
+      'The NHS' => [ [ 'For Welsh NHS, recruit 1,000 extra doctors over two terms of government. Offer incentives, improved education, and international recruitment to employ doctors to areas and specilisations where there are shortages.', 'http://www.partyof.wales/uploads/1000_doctors_PDF_Eng_.pdf' ] ],
+      'Economy and taxes' => [ [ 'Set living wage as minimum wage. Establish publicly owned energy companies, a business investment bank, and higher education focused on green energy. Devolve power over institutions such as the Bank of England.', 'http://www.english.plaidcymru.org/uploads/Articles_and_reports/Greenprint_Cynllun_Gwyrdd.pdf' ] ],
       'Immigration' => [ [ 'Opposes a choice of immigrants following a "point-based system", as it would not reflect Welsh needs. Asylum seekers should be able to work in Wales while waiting for their status decision. UK government should close "detention centres".', 'http://www.partyof.wales/our-vision-for-a-better-society/?force=1' ] ],
-      'Benefits and pensions' => 'For plaid cymru, welfare is very important',
-      'Europe' => 'For plaid cymru, europe is very important',
+      'Benefits and pensions' => [ [ 'Move away from complex and expensive means testing for child-related benefits. Introduce a living pension for those aged 80 and over.', 'http://www.partyof.wales/our-vision-for-a-better-society/?force=1' ] ],
+      'Law and order' => [ [ 'Replace Anti-Social Behaviour Orders with restorative justice. Create a Welsh Youth Justice Board. Encourage a debate on future of drug enforcement laws.', 'http://www.plaid.cymru/g_downloads/2011-06-13-29-2-safer-communities.pdf' ] ],
       'Environment' => 'For plaid cymru, the environment is very important',
     },
     'Default' => {
-      'NHS' => 'No information about NHS yet',
-      'UK Economy' => 'No information about economy yet',
-      'Immigration' => 'No information about immigration yet',
-      'Benefits and pensions' => 'No information about benefits yet',
-      'Europe' => 'No information about europe yet',
+      'The NHS' => 'No information about NHS for this party yet',
+      'Economy and taxes' => 'No information about economic policy for this party yet',
+      'Immigration' => 'No information about immigration for this party yet',
+      'Benefits and pensions' => 'No information about benefits and pensions for this party yet',
+      'Law and order' => 'No information about law and order for this party yet',
       'Environment' => 'No information about environment yet'
     }
   }

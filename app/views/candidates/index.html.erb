@@ -13,8 +13,9 @@
         <li role="presentation"><a href="#economy" aria-controls="home" role="tab" data-toggle="tab">Economy and taxes</a></li>
         <li role="presentation"><a href="#immigration" aria-controls="home" role="tab" data-toggle="tab">Immigration</a></li>
         <li role="presentation"><a href="#benefits" aria-controls="home" role="tab" data-toggle="tab">Benefits and pensions</a></li>
-        <li role="presentation"><a href="#europe" aria-controls="home" role="tab" data-toggle="tab">Europe</a></li>
-        <li role="presentation"><a href="#environment" aria-controls="home" role="tab" data-toggle="tab">Environment</a></li>
+        <li role="presentation"><a href="#lawandorder" aria-controls="home" role="tab" data-toggle="tab">Law and order</a></li>
+<!--        <li role="presentation"><a href="#environment" aria-controls="home" role="tab" data-toggle="tab">Environment</a></li> -->
+        <li role="presentation" style="padding-left: 15px; padding-top: 8px;">Environment - coming soon</li>
       </ul>
   
     </div>
@@ -89,7 +90,9 @@
                   <div class="listbox">
                     <%= render partial: "box_header", :locals => { :c => c } %>
   
-                    <%= @policies[c['id'].to_s]['NHS'] %>
+                      <p class="candidate-content-index">
+                        Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'The NHS', :policies => @policies[c['id'].to_s]['The NHS'] } %>
+                      </p>
       
                   </div>
                 </div>
@@ -110,8 +113,10 @@
                 <div class="col-md-4">
                   <div class="listbox">
                     <%= render partial: "box_header", :locals => { :c => c } %>
-  
-                    <%= @policies[c['id'].to_s]['UK Economy'] %>
+
+                      <p class="candidate-content-index">
+                        Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Economy and taxes', :policies => @policies[c['id'].to_s]['Economy and taxes'] } %>
+                      </p>
       
                   </div>
                 </div>
@@ -155,7 +160,9 @@
                   <div class="listbox">
                     <%= render partial: "box_header", :locals => { :c => c } %>
   
-                    <%= @policies[c['id'].to_s]['Benefits and pensions'] %>
+                    <p class="candidate-content-index">
+                      Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Benefits and pensions', :policies => @policies[c['id'].to_s]['Benefits and pensions'] } %>
+                    </p>
       
                   </div>
                 </div>
@@ -167,7 +174,7 @@
   
   <!-- Europe -->
   
-      <div role="tabpanel" class="tab-pane fade" id="europe">
+      <div role="tabpanel" class="tab-pane fade" id="lawandorder">
         <div class="col-md-9">
           <% @candidates.each_slice(3) do |slice| %>
             <div class="row">
@@ -176,7 +183,9 @@
                   <div class="listbox">
                     <%= render partial: "box_header", :locals => { :c => c } %>
   
-                    <%= @policies[c['id'].to_s]['Europe'] %>
+                    <p class="candidate-content-index">
+                      Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Law and order', :policies => @policies[c['id'].to_s]['Law and order'] } %>
+                    </p>
       
                   </div>
                 </div>
