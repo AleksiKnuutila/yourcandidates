@@ -9,9 +9,8 @@ Rails.application.routes.draw do
   get 'contact/home'
 
   get 'candidates/index'
-  get 'candidates/show'
-
-  get '/candidates/:id', to: 'candidates#show'
+#  get 'candidates/show'
+#  get '/candidates/:id', to: 'candidates#show'
 
   get 'welcome/index'
   root 'welcome#index'
