@@ -82,7 +82,18 @@ div.header {
 #constituency-header {
   font-size: 50px;
   text-align: right;
-  margin-right: 80px;
+  margin-right: 10px;
+  display: inline-block;
+  float: right;
+}
+
+.index-header {
+  background-color: $color-black;
+  margin-bottom: 5px;
+}
+
+.index-maincontainer {
+  padding-top: 55px;
 }
 
 img.party-image-index {
@@ -114,8 +125,12 @@ div.index-footer {
   background-color: $color-primary;
 }
 
-.nav > li > a { 
+.nav-pills > li > a { 
   color: $color-black;
+}
+
+.navbar-header > li > a {
+  color: $color-gray;
 }
 
 .list-group-item {
