@@ -3,6 +3,16 @@ $color-black: #333333;
 $color-paper: #F2F1ED;
 $color-gray: #7F7F7F;
 
+a {
+ color: $color-primary;
+  text-decoration: none;
+}
+a:hover {
+  color: $color-primary;
+  text-decoration: underline;
+  text-weight: 500;
+}
+
 .listbox {
   border-radius: 5px;
   background-color: $color-paper;

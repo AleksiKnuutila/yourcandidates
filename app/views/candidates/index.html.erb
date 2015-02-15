@@ -80,7 +80,8 @@
                   <div class="listbox">
                     <%= render partial: "box_header", :locals => { :c => c } %>
   
-<ul class="list-group">
+<% if not c['isEmpty'] %>
+       <ul class="list-group">
 
                         <% if c['MPid'] %>
   <li class="list-group-item">
@@ -117,6 +118,14 @@
 </li>
                         <% end %>
 </ul>
+
+<% else %>
+
+<p class="candidate-content-index">
+  There is no information about this candidate in the database yet. You can help by <a href="https://yournextmp.com" class="candidate-link-index">contributing to the database</a> yourself.
+</p>
+
+<% end %>
   
                   </div>
                 </div>

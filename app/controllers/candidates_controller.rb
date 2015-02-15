@@ -788,6 +788,25 @@ class CandidatesController < ApplicationController
     end
   end
 
+  def isEmptyCandidate(c)
+    if c['MPid']
+      return false
+    elsif c['twitter_username'] and c['twitter_username'].length > 2
+      return false
+    elsif c['facebook_personal_url'] and c['facebook_personal_url'].length > 5
+      return false
+    elsif c['homepage_url'] and c['homepage_url'].length > 5
+      return false
+    elsif c['party_ppc_page_url'] and c['party_ppc_page_url'].length > 5
+      return false
+    elsif c['wikipedia_url'] and c['wikipedia_url'].length > 5
+      return false
+    elsif c['email'] and c['email'].length > 5
+      return false
+    end
+    return true
+  end
+
   def getCandidates(constituencyId)
     uri = 'http://yournextmp.popit.mysociety.org/api/v0.1/posts/'+constituencyId.to_s+'?embed=membership.person'
     twitter_client = Twitter::REST::Client.new do |config|
@@ -818,6 +837,7 @@ class CandidatesController < ApplicationController
     for i in @candidates.each_index()
       @candidates[i]['image_url'] = getImageUrl(@candidates[i], twitter_client)
       @candidates[i]['party'] = @candidates[i]['party_memberships']['2015']['name']
+      @candidates[i]['isEmpty'] = isEmptyCandidate(@candidates[i])
       if PARTY_CONSTANTS[@candidates[i]['party']]
         @candidates[i]['party_image_uri'] = PARTY_CONSTANTS[@candidates[i]['party']]['party_image_uri']
       else
