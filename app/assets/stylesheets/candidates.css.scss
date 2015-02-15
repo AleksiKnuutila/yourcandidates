@@ -39,7 +39,6 @@ a.candidate-link-index:hover {
 
 .navbar {
   background-color: $color-paper;
-  height: 90px;
 }
 
 img.candidate-image {
@@ -80,11 +79,9 @@ div.header {
   color: $color-black;
 }
 
-h1.header {
+#constituency-header {
   font-size: 50px;
   text-align: right;
-  position: relative;
-  top: -50px;
   margin-right: 80px;
 }
 

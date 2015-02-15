@@ -1,5 +1,8 @@
 <div class="header">
-  <%= render partial: "header", :locals => { :title => @constituency['name'] } %>
+  <a class="navbar-brand" href="/">
+    <img id="logo-header" src="http://placehold.it/100x50&text=Logo" alt="Logo">
+  </a>
+  <h1 id="constituency-header"><%= @constituency['name'] %></h1>
 </div>
 
 <div class="container">
