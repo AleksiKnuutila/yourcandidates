@@ -3,8 +3,11 @@
 <div class="header">
   <div class="image-bg-fluid-height">
     <div class="bgimage-text">
-      <p class="bgimage-header-text">Who can you vote for?</p>
+      <p class="bgimage-header-text" id="fittext1">Who can you vote for?</p>
+<!--
       <h2 class="bgimage-smaller-text">Compare and connect with</h2><br><h2 class="bgimage-smaller-text">the general election candidates</h2><br><h2 class="bgimage-smaller-text">of your area</h2>
+-->
+      <h2 class="bgimage-smaller-text" id="fittext2">Compare and connect with the general election candidates of your area</h2>
     </div>
   </div>
 </div>
@@ -13,9 +16,14 @@
   $(".image-bg-fluid-height").backstretch("/assets/indexbackgroundimage.jpg");
 </script>
 
+<script>
+  jQuery("#fittext1").fitText();
+  jQuery("#fittext2").fitText();
+</script>
+
 <form class="form-inline" action="/candidates/index" method="get">
   <div class="frontpage-postcode">
-  	Start by entering your UK postcode
+  	Start by entering your UK postcode:
   </div>
   <div class="frontpage-form">
     <input type="text" class="form-control input-lg" id="q" name="q" placeholder="SW1A 2AA">
