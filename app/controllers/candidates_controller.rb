@@ -842,6 +842,7 @@ class CandidatesController < ApplicationController
       # flash[:alert] = "Invalid post code, please try again"
       redirect_to "/?error" and return
     end
+    byebug
     @conId = @condata['shortcuts']['WMC']
     @constituency = @condata['areas'][@conId.to_s]
     @twitter_list = TWITTER_LISTS[@conId]
