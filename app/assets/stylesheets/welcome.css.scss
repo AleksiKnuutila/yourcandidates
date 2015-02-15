@@ -42,9 +42,16 @@ h2.bgimage-smaller-text {
 
 div.frontpage-postcode {
   font-family: 'Source Sans Pro' !important;
-  padding: 60px 0 15px 0;
+  padding: 30px 0 15px 0;
   text-align: center;
   font-size: 20px;
+}
+
+#constituency-list-link {
+  font-family: 'Source Sans Pro' !important;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #DD5A55;
 }
 
 div.frontpage-form {
