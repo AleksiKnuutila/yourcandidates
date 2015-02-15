@@ -21,7 +21,9 @@
   jQuery("#fittext2").fitText();
 </script>
 
+
 <form class="form-inline" action="/candidates/index" method="get">
+  <div id="error-message">The post code you entered is not valid. Please try again.</div>
   <div class="frontpage-postcode">
   	Start by entering your UK postcode:
   </div>
@@ -35,6 +37,13 @@
 -->
   </div>
 </form>
+
+<script>
+  var error = window.location.href.slice(window.location.href.indexOf('?')+1)
+  if (error == 'error') {
+    $('#error-message').css('display', 'inline-block')
+  }
+</script>
 
 <div class="footer">
   <hr>

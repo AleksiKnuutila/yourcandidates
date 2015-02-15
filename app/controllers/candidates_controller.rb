@@ -838,13 +838,13 @@ class CandidatesController < ApplicationController
   def index
     @q = request['q']
     @condata = getConstituency(@q)
+    if not @condata
+      # flash[:alert] = "Invalid post code, please try again"
+      redirect_to "/?error" and return
+    end
     @conId = @condata['shortcuts']['WMC']
     @constituency = @condata['areas'][@conId.to_s]
     @twitter_list = TWITTER_LISTS[@conId]
-    # TODO: add some kind of error here!
-    if not @conId
-      redirect_to "/" and return
-    end
     @candidates = getCandidates(@conId)
     @policies = getAllPolicies(@candidates)
     @PARTY_CONSTANTS = PARTY_CONSTANTS
