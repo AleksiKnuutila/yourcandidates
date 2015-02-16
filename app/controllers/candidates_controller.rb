@@ -77,7 +77,7 @@ class CandidatesController < ApplicationController
     }
   }
 
-  TWITTER_LISTS = {
+  CONSTITUENCY_LIST = {
     66101 => "aberavon",
     66085 => "aberconwy",
     14398 => "aberdeen-north",
@@ -864,10 +864,14 @@ class CandidatesController < ApplicationController
     end
     @conId = @condata['shortcuts']['WMC']
     @constituency = @condata['areas'][@conId.to_s]
-    @twitter_list = TWITTER_LISTS[@conId]
+    @twitter_list = CONSTITUENCY_LIST[@conId]
     @candidates = getCandidates(@conId)
     @policies = getAllPolicies(@candidates)
     @PARTY_CONSTANTS = PARTY_CONSTANTS
+  end
+
+  def constituencies
+    @constituency_list = CONSTITUENCY_LIST
   end
 
   def show
