@@ -18,6 +18,13 @@ a.anchor-destination {
 .fake-link {
     cursor: pointer;
 } 
+a.external-link {
+  color: $color-black;
+}
+a.external-link:hover {
+  color: $color-primary;
+}
+
 
 .listbox {
   border-radius: 5px;
@@ -150,9 +157,11 @@ div.index-footer {
   background-color: $color-paper;
 }
 
+/*
 i.fa {
   color: $color-black;
 }
+*/
 
 /* For the constituency list */
 

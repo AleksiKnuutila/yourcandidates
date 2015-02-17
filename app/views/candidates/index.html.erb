@@ -51,36 +51,36 @@ $('li.fake-link').on('click', function() {
 
                         <% if c['MPid'] %>
   <li class="list-group-item">
-                          <a class="candidate-link-index" href="http://www.theyworkforyou.com/mp/<%= c['MPid'] %>">Voting record and MP profile</a> <br/>
+                          <a class="candidate-link-index" href="http://www.theyworkforyou.com/mp/<%= c['MPid'] %>" target="_blank">Voting record and MP profile</a> <br/>
 </li>
                         <% end %>
                         <% if c['twitter_username'].length > 2 %>
   <li class="list-group-item">
-                          <a class="candidate-link-index" href="https://www.twitter.com/<%= c['twitter_username'] %>">@<%= c['twitter_username'] %> on Twitter</a>
+                          <a class="candidate-link-index" target="_blank" href="https://www.twitter.com/<%= c['twitter_username'] %>">@<%= c['twitter_username'] %> on Twitter</a>
 </li>
                         <% end %>
                         <% if c['facebook_personal_url'].length > 5 %>
   <li class="list-group-item">
-                          <a class="candidate-link-index" href="<%= c['facebook_personal_url'] %>">Facebook profile</a>
+                          <a class="candidate-link-index" target="_blank" href="<%= c['facebook_personal_url'] %>">Facebook profile</a>
 </li>
                         <% end %>
                         <% if c['homepage_url'].length > 5 %>
   <li class="list-group-item">
-                          <a class="candidate-link-index" href="<%= c['homepage_url'] %>">Personal homepage</a>
+                          <a class="candidate-link-index" target="_blank" href="<%= c['homepage_url'] %>">Personal homepage</a>
 </li>
                         <% elsif c['party_ppc_page_url'].length > 5 %>
   <li class="list-group-item">
-                          <a class="candidate-link-index" href="<%= c['party_ppc_page_url'] %>">Personal homepage</a>
+                          <a class="candidate-link-index" target="_blank" href="<%= c['party_ppc_page_url'] %>">Personal homepage</a>
 </li>
                         <% end %>
                         <% if c['wikipedia_url'].length > 5 %>
   <li class="list-group-item">
-                          <a class="candidate-link-index" href="<%= c['wikipedia_url'] %>">Wikipedia page</a>
+                          <a class="candidate-link-index" target="_blank" href="<%= c['wikipedia_url'] %>">Wikipedia page</a>
 </li>
                         <% end %>
                         <% if c['email'] and c['email'].length > 5 %>
   <li class="list-group-item">
-                          <a class="candidate-link-index" href="mailto:<%= c['email'] %>">Email</a>
+                          <a class="candidate-link-index" target="_blank" href="mailto:<%= c['email'] %>">Email</a>
 </li>
                         <% end %>
 </ul>
@@ -88,7 +88,7 @@ $('li.fake-link').on('click', function() {
 <% else %>
 
 <p class="candidate-content-index">
-  There is no information about this candidate in the database yet. You can help by <a href="https://yournextmp.com" class="candidate-link-index">contributing to the database</a> yourself.
+  There is no information about this candidate in the database yet. You can help by <a target="_blank" href="https://yournextmp.com" class="candidate-link-index">contributing to the database</a> yourself.
 </p>
 
 <% end %>
