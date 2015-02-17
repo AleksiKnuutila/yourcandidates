@@ -11,15 +11,10 @@
   <input placeholder="&#xf002; Search constituencies" class="form-control input-lg search" tabindex="1">
   <hr>
 
-<!--
-<input class="search form-control input-lg hint" tabindex="-1" style="position: absolute; background-color: transparent;">
-<input placeholder="Search constituencies" class="search form-control input-lg" tabindex="1" style="background-color: transparent;">
--->
-
 <ul class="list">
-  <% @constituency_list.each do |constituency| %>
+  <% @constituency_hash.each do |key, array| %>
     <li>
-      <p class="name"><a href="/constituencies/<%= constituency[1] %>"><%= constituency[0] %></a></p>
+      <p class="name"><a href="/constituencies/<%= key %>"><%= array[0] %></a></p>
     </li>
   <% end %>
 </ul>
