@@ -12,6 +12,9 @@ a:hover {
   text-decoration: underline;
   text-weight: 500;
 }
+a.anchor-destination {
+  color: $color-black;
+}
 
 .listbox {
   border-radius: 5px;

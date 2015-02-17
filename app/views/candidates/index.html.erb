@@ -21,7 +21,18 @@
         <li role="presentation"><a href="#lawandorder" aria-controls="home" role="tab" data-toggle="tab">Law and order</a></li>
 <!--        <li role="presentation"><a href="#environment" aria-controls="home" role="tab" data-toggle="tab">Environment</a></li> -->
         <li role="presentation" style="padding-left: 15px; padding-top: 8px;">Environment - coming soon</li>
+        <li role="presentation" style="padding-top: 8px;"><a id="twitter-link" href="#twitter">Candidate twitter feeds</a></li>
       </ul>
+
+<script>
+$('a#twitter-link').on('click', function() {
+    $.smoothScroll({
+      scrollTarget: '#twitter',
+      offset: -30
+    });
+    return false;
+  });
+</script>
 
     </div>
   
@@ -237,6 +248,7 @@
 
 </ul>
 <% if @twitter_list %>
+<a name="#twitter" id="twitter" class="anchor-destination">
 <div class="twitter-section">
   <div class="container">
     <div class="row">
@@ -252,6 +264,7 @@
     </div>
   </div>
 </div>
+</a>
 <% end %>
 
 <div class="social-section">
