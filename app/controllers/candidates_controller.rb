@@ -1474,12 +1474,6 @@ class CandidatesController < ApplicationController
       config.access_token = '3006172181-DiGGfRtjGyHvwpl1k8jaR4o3uPEW2GQRdZwLwB0'
       config.access_token_secret = 'MCmGUPGi4jpMZS7795FRGp6JXdtDKwNr8EedbMzUY4JOA'
     end
-#    c = Twitter::REST::Client.new do |config|
-#      config.consumer_key = '8m0D3VLDUjCMTREtMsQ6WKWQC'
-#      config.consumer_secret = 'XcEtBqAI6TTEwiwgRMwTSpEG2CN4jZnh8FxaC9XDKaKeKvVFma'
-#      config.access_token = '3006172181-etu5wtNStpIAdc6SnkmBZGMkqJ65Y03qpcrQdW4'
-#      config.access_token_secret = 'ClyV9cs4ETf5o3S49fwVm9UwFGZiORNKOla5AJaM8Jnz7'
-#    end
 
     jsondata = open(uri)
     @data = JSON.load(jsondata)
@@ -1514,6 +1508,16 @@ class CandidatesController < ApplicationController
     return @data['result'][0]
   end
 
+  def getTwitterCount(candidates)
+    count = 0
+    for c in candidates
+      if c['twitter_username'] and c['twitter_username'].length > 2
+        count = count + 1
+      end
+    end
+    return count
+  end
+    
   def index
     if request['q']
       @q = request['q']
@@ -1536,6 +1540,7 @@ class CandidatesController < ApplicationController
     end
     @twitter_list = TWITTER_LIST[@conId]
     @candidates = getCandidates(@conId)
+    @twitter_count = getTwitterCount(@candidates)
     @policies = getAllPolicies(@candidates)
     @PARTY_CONSTANTS = PARTY_CONSTANTS
   end
