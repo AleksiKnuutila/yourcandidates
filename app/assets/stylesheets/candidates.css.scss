@@ -15,6 +15,9 @@ a:hover {
 a.anchor-destination {
   color: $color-black;
 }
+.fake-link {
+    cursor: pointer;
+} 
 
 .listbox {
   border-radius: 5px;
