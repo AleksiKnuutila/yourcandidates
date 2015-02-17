@@ -1,0 +1,38 @@
+<%= render partial: "header" %>
+
+<div class="container">
+
+<h1>Constituencies</h1>
+
+<p class="infotext">Find your constituency from this list. If you have trouble finding it's name, you can <a href="/">search by postcode</a> or have a look at the <a href="http://www.parliament.uk/mps-lords-and-offices/mps/">parliament's website</a>.
+</p>
+
+<div id="constList">
+  <input placeholder="&#xf002; Search constituencies" class="form-control input-lg search" tabindex="1">
+  <hr>
+
+<!--
+<input class="search form-control input-lg hint" tabindex="-1" style="position: absolute; background-color: transparent;">
+<input placeholder="Search constituencies" class="search form-control input-lg" tabindex="1" style="background-color: transparent;">
+-->
+
+<ul class="list">
+  <% @constituency_list.each do |constituency| %>
+    <li>
+      <p class="name"><a href="/constituencies/<%= constituency[1] %>"><%= constituency[0] %></a></p>
+    </li>
+  <% end %>
+</ul>
+</div>
+
+</div>
+
+<script>
+var options = {
+    valueNames: [ 'name' ]
+};
+
+var constituencyList = new List('constList', options);
+</script>
+
+<%= render partial: "footer" %>

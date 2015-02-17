@@ -59,4 +59,3 @@ gem 'rspec-rails'
 gem 'capybara'
 
 gem 'twitter'
-
