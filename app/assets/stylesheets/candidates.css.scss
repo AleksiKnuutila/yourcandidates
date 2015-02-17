@@ -24,6 +24,12 @@ a.external-link {
 a.external-link:hover {
   color: $color-primary;
 }
+div.sharing-links a {
+  color: white;
+}
+div.sharing-links i {
+  color: $color-primary;
+}
 
 
 .listbox {
