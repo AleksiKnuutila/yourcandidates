@@ -1,9 +1,4 @@
-<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1.0">
-<script>
-if (screen.width < 800) {
-$('#testViewport').attr('content','width=800');
-}
-</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400' rel='stylesheet' type='text/css'>
 
@@ -28,20 +23,25 @@ $('#testViewport').attr('content','width=800');
   jQuery("#fittext2").fitText();
 </script>
 
+<div class="container">
+  <div class="row">
+    
+    <form class="form-inline" action="/candidates/index" method="get">
+      <div id="error-message">The post code you entered is not valid. Please try again.</div>
+      <div class="frontpage-postcode">
+      	Start by entering your UK postcode:
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control input-lg" id="q" name="q" placeholder="SW1A 2AA">
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg">Show candidates</button><br /><br /><br />
+      <a href="/constituencies" id="constituency-list-link">
+        Or select your area from a list
+      </a>
+    </form>
 
-<form class="form-inline" action="/candidates/index" method="get">
-  <div id="error-message">The post code you entered is not valid. Please try again.</div>
-  <div class="frontpage-postcode">
-  	Start by entering your UK postcode:
   </div>
-  <div class="frontpage-form">
-    <input type="text" class="form-control input-lg" id="q" name="q" placeholder="SW1A 2AA">
-  <button type="submit" class="btn btn-primary btn-lg">Show candidates</button><br /><br /><br />
-  <a href="/constituencies" id="constituency-list-link">
-    Or select your area from a list
-  </a>
-  </div>
-</form>
+</div>
 
 <script>
   var error = window.location.href.slice(window.location.href.indexOf('?')+1)
@@ -50,15 +50,4 @@ $('#testViewport').attr('content','width=800');
   }
 </script>
 
-<div class="footer">
-  <hr>
-  <ul>
-	<li class="inline-list">Help</li>
-	<li class="inline-list">Other resources</li>
-	<li class="inline-list">Contact us</li>
-	<li class="inline-list">Copyright</li>
-	<li class="inline-list">Privacy & cookies</li>
-	<li class="inline-list">Link to us</li>
-	<li class="inline-list">Facebook</li>
-  </ul>
-</div>
+<%= render partial: "footer" %>

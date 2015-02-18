@@ -70,6 +70,7 @@ div.frontpage-postcode {
   color: #DD5A55;
 }
 
+/*
 div.frontpage-form {
 	padding: 0 0 65px 0;
 	width: 500px;
@@ -77,6 +78,7 @@ div.frontpage-form {
 	margin-right: auto;
 	text-align: center;
 }
+*/
 
 div.footer {
 	width: 100%;
@@ -96,4 +98,11 @@ li.inline-list {
 .btn-primary {
   background-color: #DD5A55 !important;
   border-color: #DD5A55 !important;
+}
+
+.form-inline .form-control {
+        width:auto;
+}
+.form-inline .form-group {
+        display: inline-block;
 }
