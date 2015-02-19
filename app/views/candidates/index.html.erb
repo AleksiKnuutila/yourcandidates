@@ -55,24 +55,24 @@
 <!-- Begin Navbar -->
 <div id="nav-xs">
   <div class="navbar">
-    <div class="container-fluid">
       <ul style="float: left;" class="nav navbar-nav navbar-left">
-        <li><p class="navbar-text navbar-right">Choose information</p></li>
+        <li><p id="topmenutext" class="navbar-text navbar-right">Personal links</p></li>
       </ul>
       <ul style="float: right;" class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="f
-alse">Dropdown <span class="caret"></span></a>
+alse">Choose comparison<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="javascript: $('#personalTab').tab('show'); $('#topmenutext').text('Personal links')">Personal links</a></li>
+            <li><a href="javascript: $('#nhsTab').tab('show'); $('#topmenutext').text('The NHS');">The NHS</a></li>
+            <li><a href="javascript: $('#economyTab').tab('show'); $('#topmenutext').text('Economy and taxes');">Economy and taxes</a></li>
+            <li><a href="javascript: $('#immigrationTab').tab('show'); $('#topmenutext').text('Immigration');">Immigration</a></li>
+            <li><a href="javascript: $('#benefitsTab').tab('show'); $('#topmenutext').text('Benefits and pensions');">Benefits and pensions</a></li>
+            <li><a href="javascript: $('#lawTab').tab('show'); $('#topmenutext').text('Rights and crime');">Rights and crime</a></li>
+            <li><a href="javascript: $('#twitterTab').click()">Candidate twitter feeds</a></li>
           </ul>
         </li>
       </ul>
-    </div>
   </div><!-- /.navbar -->
 </div>
 
@@ -86,24 +86,21 @@ $('#nav-xs').affix({
 
 </div> <!-- visible-xs-block -->
 
-
-
-
   <div class="row">
     <div class="col-md-3">
   
 <div class="hidden-xs">
 
       <ul class="nav nav-pills nav-stacked">
-        <li role="presentation" class="active"><a href="#personalInfo" aria-controls="home" role="tab" data-toggle="tab">Personal information</a></li>
-        <li role="presentation"><a href="#nhs" aria-controls="home" role="tab" data-toggle="tab">The NHS</a></li>
-        <li role="presentation"><a href="#economy" aria-controls="home" role="tab" data-toggle="tab">Economy and taxes</a></li>
-        <li role="presentation"><a href="#immigration" aria-controls="home" role="tab" data-toggle="tab">Immigration</a></li>
-        <li role="presentation"><a href="#benefits" aria-controls="home" role="tab" data-toggle="tab">Benefits and pensions</a></li>
-        <li role="presentation"><a href="#lawandorder" aria-controls="home" role="tab" data-toggle="tab">Law and order</a></li>
+        <li role="presentation" class="active"><a id="personalTab" href="#personalInfo" aria-controls="home" role="tab" data-toggle="tab">Personal links</a></li>
+        <li role="presentation"><a id="nhsTab" href="#nhs" aria-controls="home" role="tab" data-toggle="tab">The NHS</a></li>
+        <li role="presentation"><a id="economyTab" href="#economy" aria-controls="home" role="tab" data-toggle="tab">Economy and taxes</a></li>
+        <li role="presentation"><a id="immigrationTab" href="#immigration" aria-controls="home" role="tab" data-toggle="tab">Immigration</a></li>
+        <li role="presentation"><a id="benefitsTab" href="#benefits" aria-controls="home" role="tab" data-toggle="tab">Benefits and pensions</a></li>
+        <li role="presentation"><a id="lawTab" href="#lawandorder" aria-controls="home" role="tab" data-toggle="tab">Rights and crime</a></li>
 <!--        <li role="presentation"><a href="#environment" aria-controls="home" role="tab" data-toggle="tab">Environment</a></li> -->
         <li role="presentation" style="padding-left: 15px; padding-top: 8px;">Environment - coming soon</li>
-        <li role="presentation" style="padding-top: 8px;" class="fake-link"><a><i class="fa fa-angle-double-down"></i> Candidate twitter feeds</a></li>
+        <li role="presentation" style="padding-top: 8px;" id="twitterTab" class="fake-link"><a><i class="fa fa-angle-double-down"></i> Candidate twitter feeds</a></li>
       </ul>
 
 </div> <!-- hidden-xs -->
