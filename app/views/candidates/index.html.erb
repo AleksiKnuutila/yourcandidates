@@ -28,15 +28,13 @@
     width: 100%;
     z-index:10;
 }
-
-#sidebar.affix-top {
-    position: static;
+#nav-xs.affix-top {
+  position: static;
+}
+#nav-xs.affix-bottom {
+    position: absolute;
 }
 
-#sidebar.affix {
-    position: fixed;
-    top: 80px;
-}
 
 .navbar-nav {
     margin:0;
@@ -75,14 +73,6 @@ alse">Choose comparison<span class="caret"></span></a>
       </ul>
   </div><!-- /.navbar -->
 </div>
-
-<script>
-$('#nav-xs').affix({
-      offset: {
-        top: 87
-      }
-});
-</script>
 
 </div> <!-- visible-xs-block -->
 
@@ -339,8 +329,10 @@ $('li.fake-link').on('click', function() {
         </h1>
       </div>
       <div class="col-md-offset-2 col-md-6">
+        <div style="height: 605px;">
           <a class="twitter-timeline" href="https://twitter.com/TwittElection/lists/motherwell-and-wishaw" data-widget-id="563093058695487490" data-list-owner-screen-name="twittelection" data-list-slug="<%= @twitter_list %>"></a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
       </div>
     </div>
   </div>
@@ -383,3 +375,16 @@ This election is too important for you to be a bystander. Challenge your friends
 </div>
 
 <%= render partial: "footer" %>
+
+<script>
+$( document ).ready(function() {
+
+$('#nav-xs').affix({
+      offset: {
+        top: $('#nav-xs').offset().top,
+        bottom: $( document ).height()-( $('.twitter-section').offset().top)+($('#nav-xs').outerHeight() - $('#nav-xs').height())
+      }
+});
+alert($( document ).height()-( $('.twitter-section').offset().top)+($('#nav-xs').outerHeight() - $('#nav-xs').height()));
+});
+</script>
