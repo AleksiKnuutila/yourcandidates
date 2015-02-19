@@ -378,13 +378,11 @@ This election is too important for you to be a bystander. Challenge your friends
 
 <script>
 $( document ).ready(function() {
-
-$('#nav-xs').affix({
-      offset: {
-        top: $('#nav-xs').offset().top,
-        bottom: $( document ).height()-( $('.twitter-section').offset().top)+($('#nav-xs').outerHeight() - $('#nav-xs').height())
-      }
-});
-alert($( document ).height()-( $('.twitter-section').offset().top)+($('#nav-xs').outerHeight() - $('#nav-xs').height()));
+  $('#nav-xs').affix({
+        offset: {
+          top: $('#nav-xs').offset().top,
+          bottom: $( document ).height()-( $('.twitter-section').offset().top)+($('#nav-xs').outerHeight() - $('#nav-xs').height())
+        }
+  });
 });
 </script>
