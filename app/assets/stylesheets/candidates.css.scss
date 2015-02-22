@@ -108,12 +108,15 @@ div.header {
   color: $color-black;
 }
 
+#header-container {
+  width: 100%;
+  margin: 0px auto;
+}
 #constituency-header {
   font-size: 50px;
   text-align: right;
   margin-right: 10px;
-  display: inline-block;
-  float: right;
+  margin-top: 5px;
 }
 
 .index-header {

@@ -43,38 +43,43 @@
 </style>
 
 <!-- Begin Navbar -->
-<div id="nav-xs">
-  <div class="navbar">
-      <ul style="float: left;" class="nav navbar-nav navbar-left">
-        <li><p id="topmenutext" class="navbar-text navbar-right">Personal links</p></li>
-      </ul>
-      <ul style="float: right;" class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="f
-alse">Choose comparison<span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="javascript: $('#personalTab').tab('show'); $('#topmenutext').text('Personal links')">Personal links</a></li>
-            <li><a href="javascript: $('#nhsTab').tab('show'); $('#topmenutext').text('The NHS');">The NHS</a></li>
-            <li><a href="javascript: $('#economyTab').tab('show'); $('#topmenutext').text('Economy and taxes');">Economy and taxes</a></li>
-            <li><a href="javascript: $('#immigrationTab').tab('show'); $('#topmenutext').text('Immigration');">Immigration</a></li>
-            <li><a href="javascript: $('#benefitsTab').tab('show'); $('#topmenutext').text('Benefits and pensions');">Benefits and pensions</a></li>
-            <li><a href="javascript: $('#lawTab').tab('show'); $('#topmenutext').text('Rights and crime');">Rights and crime</a></li>
-            <li><a href="javascript: $('#twitterTab').click()">Candidate twitter feeds</a></li>
-          </ul>
-        </li>
-      </ul>
-  </div><!-- /.navbar -->
+<div id="navbar-wrapper" style="height: 65px;">
+  <div id="nav-xs">
+    <div class="navbar">
+        <ul style="float: left;" class="nav navbar-nav navbar-left">
+          <li><p id="topmenutext" class="navbar-text navbar-right">Personal links</p></li>
+        </ul>
+        <ul style="float: right;" class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="f
+  alse">Choose comparison<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="javascript: $('#personalTab').tab('show'); $('#topmenutext').text('Personal links')">Personal links</a></li>
+              <li><a href="javascript: $('#nhsTab').tab('show'); $('#topmenutext').text('The NHS');">The NHS</a></li>
+              <li><a href="javascript: $('#economyTab').tab('show'); $('#topmenutext').text('Economy and taxes');">Economy and taxes</a></li>
+              <li><a href="javascript: $('#immigrationTab').tab('show'); $('#topmenutext').text('Immigration');">Immigration</a></li>
+              <li><a href="javascript: $('#benefitsTab').tab('show'); $('#topmenutext').text('Benefits and pensions');">Benefits and pensions</a></li>
+              <li><a href="javascript: $('#lawTab').tab('show'); $('#topmenutext').text('Rights and crime');">Rights and crime</a></li>
+              <li><a href="javascript: $('#twitterTab').click()">Candidate twitter feeds</a></li>
+            </ul>
+          </li>
+        </ul>
+    </div><!-- /.navbar -->
+  </div>
 </div>
 
 </div> <!-- visible-xs-block -->
 
 <div class="container index-maincontainer">
-  <div class="row">
-    <h1 id="constituency-header">Candidates for <%= @constituencyName %></h1>
+  <div class="row" style="margin-bottom: 10px;">
+    <div id="header-container">
+      <p style="text-align: right; margin: 10px 10px 0px 0px;">Parliamentary election May 2015</p>
+      <h1 id="constituency-header">Candidates for <%= @constituencyName %></h1>
+    </div>
   </div>
 
 <script>
-  jQuery("#constituency-header").fitText(1.2, {maxFontSize: '48px'});
+  jQuery("#constituency-header").fitText(1.6, {maxFontSize: '48px'});
 </script>
 
 
