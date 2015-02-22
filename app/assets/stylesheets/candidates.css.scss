@@ -224,17 +224,20 @@ i.fa-candidate-list {
 }
 .navbar-wrapper {
   height: 65px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 100%;
+  padding: 0;
 }
 #nav-xs.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index:10;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:10;
+  height: 65px;
+  padding: 0;
 }
 #nav-xs.affix-top {
   position: static;
+  width: 100%;
 }
 #nav-xs.affix-bottom {
   position: absolute;
