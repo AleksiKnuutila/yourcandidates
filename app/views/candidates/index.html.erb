@@ -34,7 +34,7 @@
 <div class="container index-maincontainer">
   <div class="row" style="margin-bottom: 10px;">
     <div id="header-container">
-      <p style="text-align: right; margin: 10px 10px 0px 0px;">Parliamentary election May 2015</p>
+      <p style="text-align: right; margin: 10px 10px 0px 0px;"><strong>Parliamentary election May 2015</strong></p>
       <h1 id="constituency-header">Candidates for <%= @constituencyName %></h1>
     </div>
   </div>
@@ -288,18 +288,19 @@ $('li.fake-link').on('click', function() {
 </ul>
 <% if @twitter_list %>
 <a name="#twitter" id="twitter" class="anchor-destination">
-<div class="twitter-section">
+<div class="twitter-section" style="z-index: -1;">
   <div class="container">
     <div class="row">
       <div class="col-md-4">
         <h1>
-        There are <%= @twitter_count %> candidates in your area using twitter. See their latest updates here.
+        There are <%= @twitter_count %> candidates in your area using Twitter. See their latest updates here.
         </h1>
       </div>
       <div class="col-md-offset-2 col-md-6">
         <div style="height: 605px;">
           <a class="twitter-timeline" href="https://twitter.com/TwittElection/lists/motherwell-and-wishaw" data-widget-id="563093058695487490" data-list-owner-screen-name="twittelection" data-list-slug="<%= @twitter_list %>"></a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	  <h3 id="twitter-error" style="position: relative; display: none;">The Twitter feeds may not load if you are using products such as Adblock on your browser. You can see all the tweets from the candidates on <a href="https://twitter.com/TwittElection/<%= @twitter_count %>">on this page</a>.</p>
         </div>
       </div>
     </div>
@@ -307,6 +308,10 @@ $('li.fake-link').on('click', function() {
 </div>
 </a>
 <% end %>
+
+<script>
+twttr.widgets.load();
+</script>
 
 <div class="social-section">
   <div class="container">
@@ -345,8 +350,8 @@ This election is too important for you to be a bystander. Challenge your friends
 <%= render partial: "footer" %>
 
 <script>
-$( document ).ready(function() {
-
+$(window).load(function(){
+if (! $('#twitter-widget-0').is(':visible')) { $('#twitter-error').css('display','block'); }
 $('#nav-xs').affix({
       offset: {
         top: $('#nav-xs').offset().top,
