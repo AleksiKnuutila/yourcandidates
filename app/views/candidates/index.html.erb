@@ -4,15 +4,6 @@
 
 <%= render partial: "header" %>
 
-<div class="container index-maincontainer">
-  <div class="row">
-    <h1 id="constituency-header">Candidates for <%= @constituencyName %></h1>
-  </div>
-
-<script>
-  jQuery("#constituency-header").fitText(1.2, {maxFontSize: '48px'});
-</script>
-
 <div class="visible-xs-block">
 
 <style>
@@ -32,7 +23,8 @@
   position: static;
 }
 #nav-xs.affix-bottom {
-    position: absolute;
+  position: absolute;
+  width: 100%;
 }
 
 
@@ -75,6 +67,16 @@ alse">Choose comparison<span class="caret"></span></a>
 </div>
 
 </div> <!-- visible-xs-block -->
+
+<div class="container index-maincontainer">
+  <div class="row">
+    <h1 id="constituency-header">Candidates for <%= @constituencyName %></h1>
+  </div>
+
+<script>
+  jQuery("#constituency-header").fitText(1.2, {maxFontSize: '48px'});
+</script>
+
 
   <div class="row">
     <div class="col-md-3">
@@ -378,11 +380,12 @@ This election is too important for you to be a bystander. Challenge your friends
 
 <script>
 $( document ).ready(function() {
-  $('#nav-xs').affix({
-        offset: {
-          top: $('#nav-xs').offset().top,
-          bottom: $( document ).height()-( $('.twitter-section').offset().top)+($('#nav-xs').outerHeight() - $('#nav-xs').height())
-        }
-  });
+
+$('#nav-xs').affix({
+      offset: {
+        top: $('#nav-xs').offset().top,
+        bottom: $( document ).height()-( $('.twitter-section').offset().top)+($('#nav-xs').outerHeight() - $('#nav-xs').height())
+      }
+});
 });
 </script>
