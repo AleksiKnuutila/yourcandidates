@@ -31,7 +31,6 @@ div.sharing-links i {
   color: $color-primary;
 }
 
-
 .listbox {
   border-radius: 5px;
   background-color: $color-paper;
@@ -67,7 +66,7 @@ a.candidate-link-index:hover {
 }
 
 .navbar {
-  background-color: $color-paper;
+  background-color: $color-black;
 }
 
 img.candidate-image {
@@ -160,6 +159,10 @@ div.index-footer {
 .navbar-header > li > a {
   color: $color-gray;
 }
+#topmenutext {
+  color: white;
+  padding-left: 15px;
+}
 
 .list-group-item {
   padding: 5px 5px 5px 7px;
@@ -213,3 +216,68 @@ i.fa-candidate-list {
   -o-transition: height 0.001s;
   transition: height 0.001s;
 }
+
+
+/* Navbar for choosing comparison on small screens */
+.navbar-form input, .form-inline input {
+        width:auto;
+}
+.navbar-wrapper {
+  height: 65px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#nav-xs.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+#nav-xs.affix-top {
+  position: static;
+}
+#nav-xs.affix-bottom {
+  position: absolute;
+  width: 100%;
+}
+.navbar-nav {
+    margin:0;
+}
+.navbar-nav>li {
+    float:none;
+    display:inline-block;
+}
+.navbar-nav>li>a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Undo bootstrap collapsed dropdown menus */ 
+.navbar .navbar-nav .open .dropdown-menu { 
+  position: absolute; 
+  float: left; 
+  background-color: #fff; 
+  border: 1px solid #ccc; 
+  border: 1px solid rgba(0, 0, 0, .15); 
+  border-width: 0 1px 1px; 
+  border-radius: 0 0 4px 4px; 
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175); 
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175); 
+} 
+.navbar-default .navbar-nav .open .dropdown-menu > li > a { 
+  color: $color-black;
+} 
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover, 
+.navbar .navbar-nav .open .dropdown-menu > li > a:focus, 
+.navbar .navbar-nav .open .dropdown-menu > .active > a, 
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover, 
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus { 
+  color: $color-black !important; 
+  background-color: $color-primary !important; 
+} 
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a, 
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover, 
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus { 
+  color: #999 !important; 
+  background-color: transparent !important; 
+} 

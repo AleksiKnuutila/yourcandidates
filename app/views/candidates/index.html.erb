@@ -5,69 +5,30 @@
 <%= render partial: "header" %>
 
 <div class="visible-xs-block">
-
-<style>
-/* bootstrap 3 helpers */
-
-.navbar-form input, .form-inline input {
-        width:auto;
-}
-
-#nav-xs.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index:10;
-}
-#nav-xs.affix-top {
-  position: static;
-}
-#nav-xs.affix-bottom {
-  position: absolute;
-  width: 100%;
-}
-
-
-.navbar-nav {
-    margin:0;
-}
-.navbar-nav>li {
-    float:none;
-    display:inline-block;
-}
-.navbar-nav>li>a {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-</style>
-
-<!-- Begin Navbar -->
-<div id="navbar-wrapper" style="height: 65px;">
-  <div id="nav-xs">
-    <div class="navbar">
-        <ul style="float: left;" class="nav navbar-nav navbar-left">
-          <li><p id="topmenutext" class="navbar-text navbar-right">Personal links</p></li>
-        </ul>
-        <ul style="float: right;" class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="f
-  alse">Choose comparison<span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="javascript: $('#personalTab').tab('show'); $('#topmenutext').text('Personal links')">Personal links</a></li>
-              <li><a href="javascript: $('#nhsTab').tab('show'); $('#topmenutext').text('The NHS');">The NHS</a></li>
-              <li><a href="javascript: $('#economyTab').tab('show'); $('#topmenutext').text('Economy and taxes');">Economy and taxes</a></li>
-              <li><a href="javascript: $('#immigrationTab').tab('show'); $('#topmenutext').text('Immigration');">Immigration</a></li>
-              <li><a href="javascript: $('#benefitsTab').tab('show'); $('#topmenutext').text('Benefits and pensions');">Benefits and pensions</a></li>
-              <li><a href="javascript: $('#lawTab').tab('show'); $('#topmenutext').text('Rights and crime');">Rights and crime</a></li>
-              <li><a href="javascript: $('#twitterTab').click()">Candidate twitter feeds</a></li>
-            </ul>
-          </li>
-        </ul>
-    </div><!-- /.navbar -->
+  <!-- Begin Navbar -->
+  <div id="navbar-wrapper">
+    <div id="nav-xs">
+      <div class="navbar">
+	<ul style="float: left;" class="nav navbar-nav navbar-left">
+	  <li><p id="topmenutext" class="navbar-text">Personal links</p></li>
+	</ul>
+	<ul style="float: right;" class="nav navbar-nav navbar-right">
+	  <li class="dropdown">
+	  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Choose comparison <span class="caret"></span></a>
+	  <ul class="dropdown-menu" role="menu">
+	    <li><a href="javascript: $('#personalTab').tab('show'); $('#topmenutext').text('Personal links')">Personal links</a></li>
+	    <li><a href="javascript: $('#nhsTab').tab('show'); $('#topmenutext').text('The NHS');">The NHS</a></li>
+	    <li><a href="javascript: $('#economyTab').tab('show'); $('#topmenutext').text('Economy and taxes');">Economy and taxes</a></li>
+	    <li><a href="javascript: $('#immigrationTab').tab('show'); $('#topmenutext').text('Immigration');">Immigration</a></li>
+	    <li><a href="javascript: $('#benefitsTab').tab('show'); $('#topmenutext').text('Benefits and pensions');">Benefits and pensions</a></li>
+	    <li><a href="javascript: $('#lawTab').tab('show'); $('#topmenutext').text('Rights and crime');">Rights and crime</a></li>
+	    <li><a href="javascript: $('#twitterTab').click()">Candidate twitter feeds</a></li>
+	  </ul>
+	  </li>
+	</ul>
+      </div><!-- /.navbar -->
+    </div>
   </div>
-</div>
-
 </div> <!-- visible-xs-block -->
 
 <div class="container index-maincontainer">
