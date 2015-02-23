@@ -1,0 +1,34 @@
+<ul class="list-group">
+
+  <% if c['MPid'] %>
+  <li class="list-group-item">
+  <a class="candidate-link-index" href="http://www.theyworkforyou.com/mp/<%= c['MPid'] %>" target="_blank"><i class="fa fa-history fa-candidate-list"></i>Voting record and MP profile</a> <br/>                                </li>                  <% end %>
+  <% if c['twitter_username'].length > 2 %>
+  <li class="list-group-item">
+  <a class="candidate-link-index" target="_blank" href="https://www.twitter.com/<%= c['twitter_username'] %>"><i class="fa fa-twitter fa-candidate-list"></i>@<%= c['twitter_username'] %> on Twitter</a>   
+  </li>
+  <% end %>
+  <% if c['facebook_personal_url'].length > 5 %>                  <li class="list-group-item">
+  <a class="candidate-link-index" target="_blank" href="<%= c['facebook_personal_url'] %>"><i class="fa fa-facebook-square fa-candidate-list"></i>Facebook profile</a>
+  </li>
+  <% end %> 
+  <% if c['homepage_url'].length > 5 %>
+  <li class="list-group-item">
+  <a class="candidate-link-index" target="_blank" href="<%= c['homepage_url'] %>"><i class="fa fa-home fa-candidate-list"></i>Personal homepage</a>
+  </li>
+  <% elsif c['party_ppc_page_url'].length > 5 %>
+  <li class="list-group-item">
+  <a class="candidate-link-index" target="_blank" href="<%= c['party_ppc_page_url'] %>"><i class="fa fa-home fa-candidate-list"></i>Personal homepage</a>
+  </li>
+  <% end %>
+  <% if c['wikipedia_url'].length > 5 %>
+  <li class="list-group-item">
+  <a class="candidate-link-index" target="_blank" href="<%= c['wikipedia_url'] %>"><i style="font-family: "Times New Roman", Times, serif;" class="fa fa-candidate-list">W</i> Wikipedia page</a>
+  </li>
+  <% end %>
+  <% if c['email'] and c['email'].length > 5 %>
+  <li class="list-group-item">
+  <a class="candidate-link-index" target="_blank" href="mailto:<%= c['email'] %>"><i class="fa fa-envelope-o fa-candidate-list"></i>Email</a>
+  </li>
+  <% end %>
+</ul>

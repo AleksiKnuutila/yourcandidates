@@ -72,82 +72,43 @@
   
     </div>
   
+    <%-# First candidate block, showing personal links -%>
     <div class="tab-content">
       <div role="tabpanel" class="tab-pane fade in active" id="personalInfo">
-  
         <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
           <div class="row">
-              <% @candidates.each_with_index do |c, i| %>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                  <div class="listbox">
-                    <%= render partial: "box_header", :locals => { :c => c } %>
+            <% @candidates.each_with_index do |c, i| %>
+              <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <div class="listbox"> 
+                  <%= render partial: "box_header", :locals => { :c => c } %>
   
-<% if not c['isEmpty'] %>
-       <ul class="list-group">
-
-                        <% if c['MPid'] %>
-  <li class="list-group-item">
-                          <a class="candidate-link-index" href="http://www.theyworkforyou.com/mp/<%= c['MPid'] %>" target="_blank"><i class="fa fa-history fa-candidate-list"></i>Voting record and MP profile</a> <br/>
-</li>
-                        <% end %>
-                        <% if c['twitter_username'].length > 2 %>
-  <li class="list-group-item">
-                          <a class="candidate-link-index" target="_blank" href="https://www.twitter.com/<%= c['twitter_username'] %>"><i class="fa fa-twitter fa-candidate-list"></i>@<%= c['twitter_username'] %> on Twitter</a>
-</li>
-                        <% end %>
-                        <% if c['facebook_personal_url'].length > 5 %>
-  <li class="list-group-item">
-                          <a class="candidate-link-index" target="_blank" href="<%= c['facebook_personal_url'] %>"><i class="fa fa-facebook-square fa-candidate-list"></i>Facebook profile</a>
-</li>
-                        <% end %>
-                        <% if c['homepage_url'].length > 5 %>
-  <li class="list-group-item">
-                          <a class="candidate-link-index" target="_blank" href="<%= c['homepage_url'] %>"><i class="fa fa-home fa-candidate-list"></i>Personal homepage</a>
-</li>
-                        <% elsif c['party_ppc_page_url'].length > 5 %>
-  <li class="list-group-item">
-                          <a class="candidate-link-index" target="_blank" href="<%= c['party_ppc_page_url'] %>"><i class="fa fa-home fa-candidate-list"></i>Personal homepage</a>
-</li>
-                        <% end %>
-                        <% if c['wikipedia_url'].length > 5 %>
-  <li class="list-group-item">
-                          <a class="candidate-link-index" target="_blank" href="<%= c['wikipedia_url'] %>"><i style="font-family: "Times New Roman", Times, serif;" class="fa fa-candidate-list">W</i> Wikipedia page</a>
-</li>
-                        <% end %>
-                        <% if c['email'] and c['email'].length > 5 %>
-  <li class="list-group-item">
-                          <a class="candidate-link-index" target="_blank" href="mailto:<%= c['email'] %>"><i class="fa fa-envelope-o fa-candidate-list"></i>Email</a>
-</li>
-                        <% end %>
-</ul>
-
-<% else %>
-
-<p class="candidate-content-index">
-  There is no information about this candidate in the database yet. You can help by <a target="_blank" href="https://yournextmp.com" class="candidate-link-index">contributing to the database</a> yourself.
-</p>
-
-<% end %>
+                  <% if not c['isEmpty'] %>
+                    <%= render partial: "personal", :locals => { :c => c } %>
+                  <% else %>
   
-              </div>
-            </div>
-
-<%-# To make sure that the Bootstrap grid clears properly, throw these in every 2 or 3 blocks -%>
-<% if i > 0 and ( i + 1 ) % 2 == 0 %>
-  <div class="clearfix visible-md"></div>
-<% end %>
-<% if i > 0 and ( i + 1 ) % 3 == 0 %>
-  <div class="clearfix visible-lg"></div>
-<% end %>
-
-          <% end %>
-
-        </div>
-      </div>
+                    <p class="candidate-content-index">
+                    There is no information about this candidate in the database yet. You can help by <a target="_blank" href="https://yournextmp.com" class="candidate-link-index">contributing to the database</a> yourself.
+                    </p>
   
-      </div>
+                  <% end %>
   
-  <!-- NHS -->
+                </div> <!-- /listbox -->
+              </div> <!-- /col-lg.. -->
+  
+              <%-# To make sure that the Bootstrap grid clears properly, throw these in every 2 or 3 blocks -%>
+              <% if i > 0 and ( i + 1 ) % 2 == 0 %>
+                <div class="clearfix visible-md"></div>
+              <% end %>
+              <% if i > 0 and ( i + 1 ) % 3 == 0 %>
+                <div class="clearfix visible-lg"></div>
+              <% end %>
+  
+            <% end %> <!-- //@candidates loop -->
+          </div> <!-- /row -->
+        </div> <!-- col-lg.. -->
+      </div> <!-- tab-pane -->
+
+    <!-- NHS -->
   
       <div role="tabpanel" class="tab-pane fade" id="nhs">
   
