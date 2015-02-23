@@ -45,44 +45,43 @@
 
 
   <div class="row">
-    <div class="col-md-3">
+    <!-- XXX this is the basis I think, before it was col-md-3 -->
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
   
-<div class="hidden-xs">
-
-      <ul class="nav nav-pills nav-stacked">
-        <li role="presentation" class="active"><a id="personalTab" href="#personalInfo" aria-controls="home" role="tab" data-toggle="tab">Personal links</a></li>
-        <li role="presentation"><a id="nhsTab" href="#nhs" aria-controls="home" role="tab" data-toggle="tab">The NHS</a></li>
-        <li role="presentation"><a id="economyTab" href="#economy" aria-controls="home" role="tab" data-toggle="tab">Economy and taxes</a></li>
-        <li role="presentation"><a id="immigrationTab" href="#immigration" aria-controls="home" role="tab" data-toggle="tab">Immigration</a></li>
-        <li role="presentation"><a id="benefitsTab" href="#benefits" aria-controls="home" role="tab" data-toggle="tab">Benefits and pensions</a></li>
-        <li role="presentation"><a id="lawTab" href="#lawandorder" aria-controls="home" role="tab" data-toggle="tab">Rights and crime</a></li>
-<!--        <li role="presentation"><a href="#environment" aria-controls="home" role="tab" data-toggle="tab">Environment</a></li> -->
-        <li role="presentation" style="padding-left: 15px; padding-top: 8px;">Environment - coming soon</li>
-        <li role="presentation" style="padding-top: 8px;" id="twitterTab" class="fake-link"><a><i class="fa fa-angle-double-down"></i> Candidate twitter feeds</a></li>
-      </ul>
-
-</div> <!-- hidden-xs -->
-
-
-<script>
-$('li.fake-link').on('click', function() {
-    $.smoothScroll({
-      scrollTarget: '#twitter',
-      offset: -30
-    });
-  });
-</script>
-
+      <div class="hidden-xs">
+        <ul class="nav nav-pills nav-stacked">
+  	<li role="presentation" class="active"><a id="personalTab" href="#personalInfo" aria-controls="home" role="tab" data-toggle="tab">Personal links</a></li>
+  	<li role="presentation"><a id="nhsTab" href="#nhs" aria-controls="home" role="tab" data-toggle="tab">The NHS</a></li>
+  	<li role="presentation"><a id="economyTab" href="#economy" aria-controls="home" role="tab" data-toggle="tab">Economy and taxes</a></li>
+  	<li role="presentation"><a id="immigrationTab" href="#immigration" aria-controls="home" role="tab" data-toggle="tab">Immigration</a></li>
+  	<li role="presentation"><a id="benefitsTab" href="#benefits" aria-controls="home" role="tab" data-toggle="tab">Benefits and pensions</a></li>
+  	<li role="presentation"><a id="lawTab" href="#lawandorder" aria-controls="home" role="tab" data-toggle="tab">Rights and crime</a></li>
+  	<!--        <li role="presentation"><a href="#environment" aria-controls="home" role="tab" data-toggle="tab">Environment</a></li> -->
+  	<li role="presentation" style="padding-left: 15px; padding-top: 8px;">Environment - coming soon</li>
+  	<li role="presentation" style="padding-top: 8px;" id="twitterTab" class="fake-link"><a><i class="fa fa-angle-double-down"></i> Candidate twitter feeds</a></li>
+        </ul>
+      </div> <!-- hidden-xs -->
+  
+      <script>
+        $('li.fake-link').on('click', function() {
+  	$.smoothScroll({
+  	  scrollTarget: '#twitter',
+  	  offset: -30
+  	});
+        });
+      </script>
+  
     </div>
   
     <div class="tab-content">
       <div role="tabpanel" class="tab-pane fade in active" id="personalInfo">
   
-        <div class="col-md-9">
+        <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
           <% @candidates.each_slice(3) do |slice| %>
             <div class="row">
               <% slice.each do |c| %>
-                <div class="col-md-4">
+	      <!-- XXX: col-sm doesn't work right!! -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                   <div class="listbox">
                     <%= render partial: "box_header", :locals => { :c => c } %>
   
@@ -350,13 +349,15 @@ This election is too important for you to be a bystander. Challenge your friends
 <%= render partial: "footer" %>
 
 <script>
-$(window).load(function(){
-if (! $('#twitter-widget-0').is(':visible')) { $('#twitter-error').css('display','block'); }
+$(document).ready(function(){
 $('#nav-xs').affix({
       offset: {
         top: $('#nav-xs').offset().top,
         bottom: $( document ).height()-( $('.twitter-section').offset().top)+($('#nav-xs').outerHeight() - $('#nav-xs').height())
       }
 });
+});
+$(window).load(function(){
+  if (! $('#twitter-widget-0').is(':visible')) { $('#twitter-error').css('display','block'); }
 });
 </script>
