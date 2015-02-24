@@ -50,10 +50,12 @@ h2.bgimage-smaller-text {
   font-weight: 200;
   background-color: rgba(221, 90, 85, 0.7);
   display: inline-block;
-  padding: 5px 5px 5px 5px;
+  padding: 15px 25px 15px 25px;
   max-width: 500px;
   margin-bottom: 0px;
   color: white;
+  border-radius: 4px;
+  text-align: justify;
 }
 
 div.frontpage-postcode {
