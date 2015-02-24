@@ -140,13 +140,6 @@ img.party-image-index {
   padding-top: 50px;
 }
 
-div.index-footer {
-        width: 100%;
-        padding: 10px 0 10px 0;
-        text-align: center;
-        font-size: 11px;
-}
-
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: $color-black;
   background-color: $color-primary;
@@ -284,3 +277,23 @@ i.fa-candidate-list {
   color: #999 !important; 
   background-color: transparent !important; 
 } 
+
+div.footer a {
+  color: $color-black;
+  text-decoration: underline;
+}
+div.footer-xs a {
+  color: $color-black;
+  text-decoration: underline;
+}
+div.footer-xs {
+  margin-left: 20px;
+}
+
+div.index-footer {
+        width: 100%;
+        padding: 10px 0 10px 0;
+        text-align: center;
+        font-size: 11px;
+}
+
