@@ -12,6 +12,8 @@
 .image-bg-fluid-height {
   width: 100%;
   height: 100%;
+  background-color: black !important;
+  max-height: 480px; /* So that the javascript stretch doesn't go wild */
 }
 
 div.bgimage-text {
@@ -45,6 +47,7 @@ p.bgimage-header-text {
   font-size: 80px;
   color: white;
   max-width: 900px;
+  background-color: rgba(0, 0, 0, 0)
 }
 
 h2.bgimage-smaller-text {
