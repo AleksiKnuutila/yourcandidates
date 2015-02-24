@@ -16,4 +16,7 @@ class StaticPagesController < ApplicationController
 
   def linking
   end
+
+  def about
+  end
 end
