@@ -95,13 +95,7 @@
                 </div> <!-- /listbox -->
               </div> <!-- /col-lg.. -->
   
-              <%-# To make sure that the Bootstrap grid clears properly, throw these in every 2 or 3 blocks -%>
-              <% if i > 0 and ( i + 1 ) % 2 == 0 %>
-                <div class="clearfix visible-md"></div>
-              <% end %>
-              <% if i > 0 and ( i + 1 ) % 3 == 0 %>
-                <div class="clearfix visible-lg"></div>
-              <% end %>
+              <%= render partial: "clearfix", :locals => { :i => i } %>
   
             <% end %> <!-- //@candidates loop -->
           </div> <!-- /row -->
@@ -111,142 +105,142 @@
     <!-- NHS -->
   
       <div role="tabpanel" class="tab-pane fade" id="nhs">
+        <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
+          <div class="row">
+            <% @candidates.each_with_index do |c, i| %>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+              <div class="listbox"> 
+                <%= render partial: "box_header", :locals => { :c => c } %>
+                <p class="candidate-content-index">
   
-        <div class="col-md-9">
-          <% @candidates.each_slice(3) do |slice| %>
-            <div class="row">
-              <% slice.each do |c| %>
-                <div class="col-md-4">
-                  <div class="listbox">
-                    <%= render partial: "box_header", :locals => { :c => c } %>
+                Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'The NHS', :policies => @policies[c['id'].to_s]['The NHS'] } %>
+                </p>
   
-                      <p class="candidate-content-index">
-                        Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'The NHS', :policies => @policies[c['id'].to_s]['The NHS'] } %>
-                      </p>
-      
-                  </div>
-                </div>
-              <% end %>
+              </div>
             </div>
-          <% end %>
-        </div>
-  
-      </div>
+
+            <%= render partial: "clearfix", :locals => { :i => i } %>
+
+            <% end %> <!-- //@candidates loop -->
+          </div> <!-- /row -->
+        </div> <!-- col-lg.. -->
+      </div> <!-- tab-pane -->
   
   <!-- UK Economy -->
   
       <div role="tabpanel" class="tab-pane fade" id="economy">
-        <div class="col-md-9">
-          <% @candidates.each_slice(3) do |slice| %>
-            <div class="row">
-              <% slice.each do |c| %>
-                <div class="col-md-4">
-                  <div class="listbox">
-                    <%= render partial: "box_header", :locals => { :c => c } %>
-
-                      <p class="candidate-content-index">
-                        Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Economy and taxes', :policies => @policies[c['id'].to_s]['Economy and taxes'] } %>
-                      </p>
-      
-                  </div>
-                </div>
-              <% end %>
+        <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
+          <div class="row">
+            <% @candidates.each_with_index do |c, i| %>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+              <div class="listbox"> 
+                <%= render partial: "box_header", :locals => { :c => c } %>
+                <p class="candidate-content-index">
+    
+                Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Economy and taxes', :policies => @policies[c['id'].to_s]['Economy and taxes'] } %>
+                </p>
+              </div>
             </div>
-          <% end %>
-        </div>
-      </div>
+    
+            <%= render partial: "clearfix", :locals => { :i => i } %>
+    
+            <% end %> <!-- //@candidates loop -->
+          </div> <!-- /row -->
+        </div> <!-- col-lg.. -->
+      </div> <!-- tab-pane -->
   
   <!-- Immigration -->
   
       <div role="tabpanel" class="tab-pane fade" id="immigration">
-        <div class="col-md-9">
-          <% @candidates.each_slice(3) do |slice| %>
-            <div class="row">
-              <% slice.each do |c| %>
-                <div class="col-md-4">
-                  <div class="listbox">
-                    <%= render partial: "box_header", :locals => { :c => c } %>
-  
-                    <p class="candidate-content-index">
-                      Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Immigration', :policies => @policies[c['id'].to_s]['Immigration'] } %>
-                    </p>
-  
-                  </div>
-                </div>
-              <% end %>
+        <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
+          <div class="row">
+            <% @candidates.each_with_index do |c, i| %>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+              <div class="listbox"> 
+                <%= render partial: "box_header", :locals => { :c => c } %>
+    
+                <p class="candidate-content-index">
+                Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Immigration', :policies => @policies[c['id'].to_s]['Immigration'] } %>
+                </p>
+              </div>
             </div>
-          <% end %>
-        </div>
-      </div>
+    
+            <%= render partial: "clearfix", :locals => { :i => i } %>
+    
+            <% end %> <!-- //@candidates loop -->
+          </div> <!-- /row -->
+        </div> <!-- col-lg.. -->
+      </div> <!-- tab-pane -->
   
   <!-- Benefits and pensions -->
   
       <div role="tabpanel" class="tab-pane fade" id="benefits">
-        <div class="col-md-9">
-          <% @candidates.each_slice(3) do |slice| %>
-            <div class="row">
-              <% slice.each do |c| %>
-                <div class="col-md-4">
-                  <div class="listbox">
-                    <%= render partial: "box_header", :locals => { :c => c } %>
-  
-                    <p class="candidate-content-index">
-                      Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Benefits and pensions', :policies => @policies[c['id'].to_s]['Benefits and pensions'] } %>
-                    </p>
-      
-                  </div>
-                </div>
-              <% end %>
+        <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
+          <div class="row">
+            <% @candidates.each_with_index do |c, i| %>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+              <div class="listbox"> 
+                <%= render partial: "box_header", :locals => { :c => c } %>
+    
+                <p class="candidate-content-index">
+                Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Benefits and pensions', :policies => @policies[c['id'].to_s]['Benefits and pensions'] } %>
+                </p>
+              </div>
             </div>
-          <% end %>
-        </div>
-      </div>
+    
+            <%= render partial: "clearfix", :locals => { :i => i } %>
+    
+            <% end %> <!-- //@candidates loop -->
+          </div> <!-- /row -->
+        </div> <!-- col-lg.. -->
+      </div> <!-- tab-pane -->
   
   <!-- Europe -->
   
       <div role="tabpanel" class="tab-pane fade" id="lawandorder">
-        <div class="col-md-9">
-          <% @candidates.each_slice(3) do |slice| %>
-            <div class="row">
-              <% slice.each do |c| %>
-                <div class="col-md-4">
-                  <div class="listbox">
-                    <%= render partial: "box_header", :locals => { :c => c } %>
-  
-                    <p class="candidate-content-index">
-                      Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Law and order', :policies => @policies[c['id'].to_s]['Law and order'] } %>
-                    </p>
-      
-                  </div>
-                </div>
-              <% end %>
+        <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
+          <div class="row">
+            <% @candidates.each_with_index do |c, i| %>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+              <div class="listbox"> 
+                <%= render partial: "box_header", :locals => { :c => c } %>
+    
+                <p class="candidate-content-index">
+                Party policy: <%= render partial: "party_policy", :locals => { :c => c, :policy_area => 'Law and order', :policies => @policies[c['id'].to_s]['Law and order'] } %>
+                </p>
+    
+              </div>
             </div>
-          <% end %>
-        </div>
-      </div>
+    
+            <%= render partial: "clearfix", :locals => { :i => i } %>
+    
+            <% end %> <!-- //@candidates loop -->
+          </div> <!-- /row -->
+        </div> <!-- col-lg.. -->
+      </div> <!-- tab-pane -->
   
   <!-- Environment -->
   
       <div role="tabpanel" class="tab-pane fade" id="environment">
-        <div class="col-md-9">
-          <% @candidates.each_slice(3) do |slice| %>
-            <div class="row">
-              <% slice.each do |c| %>
-                <div class="col-md-4">
-                  <div class="listbox">
-                    <%= render partial: "box_header", :locals => { :c => c } %>
-  
-                      <p class="candidate-content-index">
-                        <%= @policies[c['id'].to_s]['Environment'] %>
-                      </p>
-      
-                  </div>
-                </div>
-              <% end %>
+        <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
+          <div class="row">
+            <% @candidates.each_with_index do |c, i| %>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+              <div class="listbox"> 
+                <%= render partial: "box_header", :locals => { :c => c } %>
+    
+                <p class="candidate-content-index">
+                <%= @policies[c['id'].to_s]['Environment'] %>
+                </p>
+              </div>
             </div>
-          <% end %>
-        </div>
-      </div>
+    
+            <%= render partial: "clearfix", :locals => { :i => i } %>
+    
+            <% end %> <!-- //@candidates loop -->
+          </div> <!-- /row -->
+        </div> <!-- col-lg.. -->
+      </div> <!-- tab-pane -->
     </div>
   </div>
 </div>
