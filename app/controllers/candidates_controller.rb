@@ -5,6 +5,11 @@ class CandidatesController < ApplicationController
   require 'twitter'
 
   POLICY_AREAS = [ 'The NHS', 'Economy and taxes', 'Immigration', 'Benefits and pensions', 'Law and order', 'Environment' ]
+  PARTY_REPLACE_STRINGS = {
+    'Plaid Cymru - The Party of Wales' => 'Plaid Cymru',
+    'Scottish National Party (SNP)' => 'Scottish National Party',
+  }
+
   PARTY_CONSTANTS = { 
     'Conservative Party' => { 
       'The NHS' => [ [ 'Make GPs available seven days a week by 2020. Recruit 5,000 more doctors.', 'https://www.conservatives.com/SecuringABetterFuture/GoodServices.aspx' ], [ 'Spend extra £2bn on frontline health services.', 'http://www.bbc.co.uk/news/uk-politics-30265833' ] ],
@@ -1411,7 +1416,7 @@ class CandidatesController < ApplicationController
   end
 
   def getPolicy(candidate, policyArea)
-    party = candidate['party_memberships']['2015']['name']
+    party = candidate['party']
     if not PARTY_CONSTANTS.key?(party)
       party = 'Default'
     end
@@ -1491,10 +1496,8 @@ class CandidatesController < ApplicationController
       @candidates[i]['image_url'] = getImageUrl(@candidates[i], twitter_client)
       @candidates[i]['party'] = @candidates[i]['party_memberships']['2015']['name']
       @candidates[i]['isEmpty'] = isEmptyCandidate(@candidates[i])
-      if PARTY_CONSTANTS[@candidates[i]['party']]
-        @candidates[i]['party_image_uri'] = PARTY_CONSTANTS[@candidates[i]['party']]['party_image_uri']
-      else
-        @candidates[i]['party_image_uri'] = nil
+      if PARTY_REPLACE_STRINGS[@candidates[i]['party']]
+        @candidates[i]['party'] = PARTY_REPLACE_STRINGS[@candidates[i]['party']]
       end
       @candidates[i]['MPid'] = getMPid(@candidates[i])
     end
