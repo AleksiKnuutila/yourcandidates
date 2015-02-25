@@ -1,5 +1,5 @@
 Rails.application.configure do
-  config.log_tags = [ :subdomain, lambda { |request| request.user_agent } ] 
+  config.log_tags = [ lambda { |request| request.user_agent } ] 
 
   # Settings specified here will take precedence over those in config/application.rb.
 

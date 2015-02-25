@@ -1,6 +1,6 @@
 Rails.application.configure do
 
-  config.log_tags = [ :subdomain, lambda { |request| request.user_agent } ]
+  config.log_tags = [ lambda { |request| request.user_agent } ]
 
   GA.tracker = "UA-28548774-3"
 
