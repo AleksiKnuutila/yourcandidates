@@ -59,3 +59,5 @@ gem 'rspec-rails'
 gem 'capybara'
 
 gem 'twitter'
+gem 'google-analytics-rails'
+
