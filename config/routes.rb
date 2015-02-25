@@ -15,6 +15,7 @@ Rails.application.routes.draw do
 
   get '/constituencies', to: 'candidates#constituencies'
   get '/constituencies/:name', to: 'candidates#index'
+  get '/c/:name', to: 'candidates#index'
 
   get 'welcome/index'
   root 'welcome#index'
