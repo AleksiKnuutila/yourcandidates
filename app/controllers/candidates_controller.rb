@@ -1521,7 +1521,22 @@ class CandidatesController < ApplicationController
     return count
   end
     
+  def search
+    if not request['q']
+      redirect_to "/?error" and return
+    end
+    @q = request['q']
+    @condata = getConstituencyByPC(@q)
+    if not @condata
+      # flash[:alert] = "Invalid post code, please try again"
+      redirect_to "/?error" and return
+    end
+    @conId = @condata['shortcuts']['WMC']
+    redirect_to "/constituencies/"+TWITTER_LIST[@conId] and return
+  end
+
   def index
+    # TODO: This bit can be removed later..
     if request['q']
       @q = request['q']
       @condata = getConstituencyByPC(@q)
