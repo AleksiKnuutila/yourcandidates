@@ -299,3 +299,11 @@ div.index-footer {
         font-size: 11px;
 }
 
+div#db-notice-box {
+  border: 2px solid $color-primary;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 10px 30px 10px 10px;
+  margin-top: 25px;
+}
