@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   get 'contact/home'
 
   get '/search', to: 'candidates#search'
+  # this can be removed later
+  get '/candidates/index', to: 'candidates#search'
 #  get 'candidates/show'
 #  get '/candidates/:id', to: 'candidates#show'
 
