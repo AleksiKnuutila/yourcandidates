@@ -104,16 +104,22 @@ li.help-redline {
 	padding: 0;
 	background-color: #DD5A55;
 	width: 10px;
-	height: 34px;
+	height: 30px;
 	vertical-align: middle;
 }
 
 li.help-question {
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: bold;
 	margin: 0;
 	padding: 0;
 	vertical-align: middle;
+}
+
+p.answertext {
+  font-size: larger;
+  margin-top: 20px;
+  margin-bottom: 35px;
 }
 
 
