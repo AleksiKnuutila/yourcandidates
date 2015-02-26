@@ -3,7 +3,9 @@
     <%= pol[0] %>
   <% end %>
   <% policies.each do |pol| %>
-    <a target="_blank" class="external-link" href="<%= pol[1] %>"><i class="fa fa-external-link"></i></a>
+    <% if pol[1] and pol[1] != '' %>
+      <a target="_blank" class="external-link" href="<%= pol[1] %>"><i class="fa fa-external-link"></i></a>
+    <% end %>
   <% end %>
 <% else %>
   <%= policies %>

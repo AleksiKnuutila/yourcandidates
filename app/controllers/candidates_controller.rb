@@ -17,8 +17,7 @@ class CandidatesController < ApplicationController
       'Immigration' => [ [ 'Require European jobseekers to leave if they are unemployed after 6 months. Renegotiate the rules for free movement within the EU. Make migrants wait 4 years before claiming certain benefits or social housing.', 'http://press.conservatives.com/post/103802921280/david-cameron-speech-on-immigration' ], [ 'Lower annual net immigration to below 100,000 (currently 243,00).', 'https://www.conservatives.com/Plan/CapWelfareReduceImmigration.aspx' ] ],
       'Benefits and pensions' => [ [ 'Cut the maximum a household can claim yearly from £26,000 to £23,000. Require young people to participate in "community projects" after six months on Jobseeker\'s Allowance. Freeze increases of benefits for working-age people for two years.', 'http://press.conservatives.com/post/108155759640/david-cameron-britain-living-within-its-means' ] ],
       'Law and order' => [ [ 'Replace Human Rights Act with Bill of Rights to give power to UK courts. New laws to make it easier to collect information about internet activity of suspected criminals. Introduce special orders for groups inciting hatred, and to stop public speech of "disruptive" individuals.', 'http://press.conservatives.com/post/98799073410/theresa-may-speech-to-conservative-party' ] ],
-      'Environment' => 'For conservatives, the environment is very important',
-      'party_image_uri' => '/assets/party_conservative.png'
+      'Environment' => [ [ 'No public subsidies for onshore wind power, and planning devolved to local level.', 'http://www.bbc.co.uk/news/uk-politics-27137184' ], [ 'Spend £2.3 billion on 1,400 flood defences schemes in 5 years.', '' ], [ 'The EU manifesto called for GHG emission reduction targets of 40% by 2030, without binding targets for renewables.', 'http://www.conservatives.com/~/media/Files/Downloadable%20Files/MANIFESTO%202014/Large%20Print%20Euro%20Manifesto_English.ashx' ], [ 'Badger culling to be expanded.', 'http://www.bbc.co.uk/news/uk-england-31610260' ] ]
     },
     'Labour Party' => {
       'The NHS' => [ [ 'Ensure that patients get GP appointment within 48 hours. End "creeping privatisation" of the NHS. Integrate health and social services into "whole-person care".', 'http://www.labour.org.uk/issues/detail/gp-48-hour-guarantee' ], [ 'Commit extra £4.5bn to NHS.', 'http://www.nlmanagedservices.co.uk/extra-funding-for-nhs/' ] ],
@@ -26,8 +25,7 @@ class CandidatesController < ApplicationController
       'Immigration' => [ [ 'Reduce low-skilled migration with "smarter targets", while ensuring university students and high-skilled workers can migrate. Establish stronger border control to reduce illegal immigration, with "proper" entry and exit checks. Increase fines for employing illegal immigrants, and outlaw employment agencies recruiting only abroad.', 'http://press.labour.org.uk/post/98301589749/speech-by-yvette-cooper-mp-to-labours-annual' ] ],
       'Benefits and pensions' => [ [ 'Increase minimum wage to £8-an-hour by 2020. Repeal the "bedroom tax".', 'http://www.labour.org.uk/issues/detail/social-security' ], [ 'Double the length of paid paternity leave, and increase statutory paternity pay to £260 a week.', 'http://www.bbc.co.uk/news/uk-politics-31253409' ] ],
       'Law and order' => [ [ 'Give local residents say in crime fighting priorities. Spend more money on frontline policing to prevent reduction in officer numbers. To combat extremism, bring back Control Orders and Prevent strategy.', 'http://www.labour.org.uk/issues/detail/crime-and-policing' ] ],
-      'Environment' => 'For labour, the environment is very important',
-      'party_image_uri' => '/assets/party_labour.png'
+      'Environment' => [ [ 'Decarbonise UK electricity supply by 2030. Aim for global agreement on zero net carbon emissions by 2050.', 'http://press.labour.org.uk/post/108107596819/climate-change-and-global-poverty-may-not-be-as' ], [ 'Keep forests in public ownership and prioritise public access.', 'http://press.labour.org.uk/post/109924110704/labour-pledges-to-defend-forests-from-future-tory' ], [ 'Review animal welfare laws and end badger cull.', 'http://www.bbc.co.uk/news/uk-politics-31513637' ] ]
     },
     'Liberal Democrats' => { 
       'The NHS' => [ [ 'Ensure therapy is available within 18 weeks. Increase spending on NHS in line with growth of the economy, funded by increasing capital tax on high earners. Half of extra spending targeted at mental health.', 'http://www.libdems.org.uk/mental-health-stigma' ] ],
@@ -35,8 +33,7 @@ class CandidatesController < ApplicationController
       'Immigration' => [ [ 'Reintroduce exit checks at UK borders, so the government can identify people overstaying their visa. Mandate people on unemployment benefits to take an English test, and require those who fail to attend English classes.', 'http://www.libdems.org.uk/nick_clegg_s_immigration_speech' ] ],
       'Benefits and pensions' => [ [ 'Rather than direct sanctions, introduce a "yellow card" system to deal with benefit claimants that break the rules. No Winter Fuel Payment and free TV license for pensioners with high earnings.', 'http://www.libdemvoice.org/steve-webb-lib-dems-will-introduce-fair-warning-for-jobseekers-who-break-benefit-rules-before-sanctions-imposed-42030.html' ] ],
       'Law and order' => [ [ 'Instead of prison sentences for drug possession, give non-custodial sentences and medical treatment. Pass a Digital Bill of Rights to protect people from unwarranted intrusion and grant them more control over their own data. Make police in some areas wear body cameras to make \'stop and search\' more accountable.', 'http://www.libdems.org.uk/protecting_your_privacy_online_with_a_digital_bill_of_rights' ] ],
-      'Environment' => 'For libdems, the environment is very important',
-      'party_image_uri' => '/assets/party_libdem.png'
+      'Environment' => [ [ 'Create 200,000 jobs through Green Deal investment. Introduce legal targets for biodiversity and decarbonisation of electricity. Offer cut in council tax if homes insulated. Extend Right to Roam and only allow low emission vehicles on roads from 2040.', 'http://www.libdems.org.uk/five_new_laws_for_a_greener_britain' ], [ 'The EU manifesto backed 50% GHG emission reductions by 2030.', 'http://d3n8a8pro7vhmx.cloudfront.net/libdems/pages/5056/attachments/original/1398775863/UK_LibDem_2014_Euromanifesto_Clear_Print.pdf?1398775863' ] ]
     },
     'Green Party' => {
       'The NHS' => [ [ 'Divert funding form centralised facilities to community healthcare, prevention and health promotion. End privatisation and prescription charges, and create a Medicine Agency that sets drug prices. Ensure NHS funding through earmarked NHS tax.', 'http://policy.greenparty.org.uk/he.html' ] ],
@@ -44,8 +41,7 @@ class CandidatesController < ApplicationController
       'Immigration' => [ [ 'Reduce UK immigration controls over time. Migrants illegally in the UK for over five years will be allowed to remain unless they pose a serious danger to public safety.', 'http://policy.greenparty.org.uk/mg.html' ], [ 'Increase legal rights of asylum seekers.', 'http://policy.greenparty.org.uk/ra.html' ] ],
       'Benefits and pensions' => [ [ 'Reform benefit system with Citizen\'s income, an unconditional fixed money transfer.', 'http://greenparty.org.uk/news/2014/11/03/green-party-condemns-three-pronged-government-attack-on-sick-and-disabled/' ], [ 'Before that, ban zero hours contracts, stop current work capability assessments, and restore the level of the former disability living allowance.', 'http://policy.greenparty.org.uk/ec.html' ] ],
       'Law and order' => [ [ 'Decriminalise cannabis and prostitution. Remove prison sentences for possession of other drugs. Ensure terror suspects have same legal rights as those suspected of other crimes.', 'http://policy.greenparty.org.uk/rr.html' ] ],
-      'Environment' => 'For greens, the environment is very important',
-      'party_image_uri' => '/assets/party_green.png'
+      'Environment' => [ [ 'Reduce UK\'s GHG emission by 90% by 2030, and apply equal per-capita quotas globally. In the long term, require tradeable carbon quotas for energy use.', 'http://policy.greenparty.org.uk/cc.html' ], [ 'Spend £260 billion from energy taxes on green housing and phasing out fossil fuels.', 'http://policy.greenparty.org.uk/cc.html' ], [ 'Localise food production, phase out "factory farming".', 'http://policy.greenparty.org.uk/fa.html' ], [ 'Make companies accountable by structuring them democratically.', '' ] ]
     },
     'UK Independence Party (UKIP)' => {
       'The NHS' => [ [ 'Extra £3bn to NHS, funded by quitting EU and "middle management" cuts. Keep NHS free "at point of delivery". Require migrants who have not been in UK for five years to have private medical insurance. Bring back state-enrolled nurses and return powers to matrons.', 'http://www.ukip.org/ukip_pledge_an_extra_3_billion_for_the_nhs' ] ],
@@ -53,8 +49,7 @@ class CandidatesController < ApplicationController
       'Immigration' => [ [ 'Choose immigrants based on a system of points, reflecting skills needed for work in the country. Apply points system to both EU and non-EU immigrants. Reduce net immigration to 50,000 people a year. Make language skill tests for residence permits harder.', 'http://www.ukip.org/steven_woolfe_ukip_s_ethical_migration_policy' ], [ 'People who currently are in the UK legally would not be deported, were the UK to leave the EU.', '' ] ],
       'Benefits and pensions' => [ [ 'No child benefits for children after the second one, or for children outside of Britain. Repeal the "bedroom tax", as it is unfair. No permanent residence for migrants that are unable to support themselves for at least five years.', 'http://www.ukip.org/policies_for_people' ] ],
       'Law and order' => [ [ 'Replace the Human Rights Act with UK Bill of Rights, and withdraw from European Arrest Warrant, that coordinates extradition of criminals between European countries. No votes for prisoners, and as a rule prison sentences should be served in their full length.', 'http://www.ukip.org/policies_for_people' ] ],
-      'Environment' => 'For ukip, the environment is very important',
-      'party_image_uri' => '/assets/party_ukip.png'
+      'Environment' => [ [ 'Abolish Department of Energy and Climate Change and "scrap green subsidies". Protect green belts by making it easier to build on brownfield sites. Allow large developments to be overturned by signatures of 5% of local electors', 'http://www.ukip.org/policies_for_people' ] ]
     },
     'Scottish National Party' => {
       'The NHS' => [ [ 'For Scottish NHS, increase yearly spending on NHS by more than inflation. Reduce number of senior managers by 25%. Streamline the work of health boards.', 'http://votesnp.com/campaigns/SNP_Manifesto_2011_lowRes.pdf' ] ],
@@ -62,7 +57,7 @@ class CandidatesController < ApplicationController
       'Immigration' => [ [ 'Give the devolved Scottish government control over immigration to Scotland. Use a Canadian-style "earned citizenship system" to attract high-skilled workers.', '' ] ],
       'Benefits and pensions' => [ [ 'In 2010, SNP opposed cuts to in-work benefits, and supported extending paternity leave. It suggested a maximum combined withdrawal rate for benefits, and reforms in employment support allowance and cold weather payments.', 'http://www.politicsresources.net/area/uk/ge10/man/parties/SNP.pdf' ] ],
       'Law and order' => 'No information about SNP policies on rights and crimes yet.',
-      'Environment' => 'For SNP, the environment is very important',
+      'Environment' => [ [ 'Introduced Scottish legislation for reducing GHG emission by 42% by the end of the decade.', 'http://www.snp.org/vision/greener-scotland/climate-change' ], [ 'Meet all Scottish electricity demand with renewables by 2020.', 'http://www.gov.scot/Resource/0043/00439021.pdf' ], [ 'No new nuclear power or dumps in Scotland. Introduce Green Skill Academies, and expand marine carbon sinks', '' ] ]
     },
     'Plaid Cymru' => {
       'The NHS' => [ [ 'For Welsh NHS, recruit 1,000 extra doctors over two terms of government. Offer incentives, improved education, and international recruitment to employ doctors to areas and specilisations where there are shortages.', 'http://www.partyof.wales/uploads/1000_doctors_PDF_Eng_.pdf' ] ],
@@ -70,15 +65,15 @@ class CandidatesController < ApplicationController
       'Immigration' => [ [ 'Opposes a choice of immigrants following a "point-based system", as it would not reflect Welsh needs. Asylum seekers should be able to work in Wales while waiting for their status decision. UK government should close detention centres.', 'http://www.partyof.wales/our-vision-for-a-better-society/?force=1' ] ],
       'Benefits and pensions' => [ [ 'Move away from complex and expensive means testing for child-related benefits. Introduce a living pension for those aged 80 and over.', 'http://www.partyof.wales/our-vision-for-a-better-society/?force=1' ] ],
       'Law and order' => [ [ 'Replace Anti-Social Behaviour Orders with restorative justice. Create a Welsh Youth Justice Board. Encourage a debate on future of drug enforcement laws.', 'http://www.plaid.cymru/g_downloads/2011-06-13-29-2-safer-communities.pdf' ] ],
-      'Environment' => 'For plaid cymru, the environment is very important',
+      'Environment' => [ [ 'Reduce Welsh GHG emission 40% by 2020. Devolve powers over energy policy to Welsh National Assembly. Support "small-scale, sustainable power", such as tidal and wind. Insulate homes with windfall tax on energy companies. At Severn, install "a combination of lagoons and tidal-stream turbines".', 'http://www.partyof.wales/our-vision-for-wales-environment/' ] ]
     },
     'Default' => {
-      'The NHS' => 'No information about NHS for this party yet',
-      'Economy and taxes' => 'No information about economic policy for this party yet',
-      'Immigration' => 'No information about immigration for this party yet',
-      'Benefits and pensions' => 'No information about benefits and pensions for this party yet',
-      'Law and order' => 'No information about law and order for this party yet',
-      'Environment' => 'No information about environment yet'
+      'The NHS' => 'No information about the NHS for this party or individual yet.',
+      'Economy and taxes' => 'No information about economic policy for this party or individual yet.',
+      'Immigration' => 'No information about immigration for this party or individual yet.',
+      'Benefits and pensions' => 'No information about benefits and pensions for this party or individual yet.',
+      'Law and order' => 'No information about rights and crime for this party or individual yet.',
+      'Environment' => 'No information about environmental policy for this party or individual yet.'
     }
   }
 
@@ -1394,7 +1389,12 @@ class CandidatesController < ApplicationController
       return false
     end
     uri = 'http://mapit.mysociety.org/postcode/'+pc.outcode+pc.incode
-    jsondata = open(uri)
+    begin
+      # This will raise HTTPError if postcode is wrong
+      jsondata = open(uri)
+    rescue
+      return nil
+    end
     return JSON.load(jsondata)
   end
 
