@@ -25,5 +25,7 @@ module Yourcand
     config.serve_static_assets = true
     config.serve_static_files = true
 
+#    config.autoload_paths << Rails.root.join('lib')
+
   end
 end

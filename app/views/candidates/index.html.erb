@@ -237,6 +237,29 @@
           <% end %> <!-- //@candidates loop -->
         </div> <!-- /row -->
       </div> <!-- tab-pane -->
+
+  <!-- Vote share -->
+  
+      <div role="tabpanel" class="tab-pane fade" id="voteshare">
+        <div class="row">
+          <% @candidates.each_with_index do |c, i| %>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="listbox"> 
+              <%= render partial: "box_header", :locals => { :c => c } %>
+  
+              <p class="candidate-content-index">
+<%= c['voteshare'] %>
+              </p>
+
+            </div>
+          </div>
+  
+          <%= render partial: "clearfix", :locals => { :i => i } %>
+  
+          <% end %> <!-- //@candidates loop -->
+        </div> <!-- /row -->
+      </div> <!-- tab-pane -->
+
     </div>
   </div>
 </div>

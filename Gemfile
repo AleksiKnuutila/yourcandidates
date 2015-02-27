@@ -61,3 +61,5 @@ gem 'capybara'
 gem 'twitter'
 gem 'google-analytics-rails'
 
+gem 'active_hash'
+gem 'pry-rails', :group => :development
