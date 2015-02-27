@@ -1385,7 +1385,7 @@ class CandidatesController < ApplicationController
 
   def getConstituencyByPC(postcode)
     pc = UKPostcode.new(postcode)
-    if not pc.valid?
+    if not pc.valid? or not pc.incode or not pc.outcode
       return false
     end
     uri = 'http://mapit.mysociety.org/postcode/'+pc.outcode+pc.incode
