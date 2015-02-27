@@ -1957,11 +1957,14 @@ r = csv.reader(csvfile)
 parties = [ "Conservative Party","Labour Party","Liberal Democrats","Scottish National Party","Plaid Cymru","Green Party","UK Independence Party (UKIP)","Other" ]
 
 data = []
-for row in r:
+rows = iter(r)
+# skip first line
+next(rows)
+for row in rows:
   areaname = row[8]
   party_vals = {}
   for i in range(0,len(parties)):
-    party_vals[parties[i]] = row[i]
+    party_vals[parties[i]] = int(row[i])
   data.append({'name': areaname, 'parties': party_vals})
 
 print json.dumps(data,indent=2,sort_keys=True)

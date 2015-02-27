@@ -1407,9 +1407,24 @@ class CandidatesController < ApplicationController
   def getPrediction(candidate, constituency)
     pred = @predictions.find { |c| c['name'] == constituency }
     if pred
-      if pred['parties'][candidate['party']]
-        return pred['parties'][candidate['party']]
+      party = candidate['party']
+      # In data, Scottish Greens are simply written in as Greens
+      if party == 'Scottish Green Party'
+        party = 'Green Party'
       end
+      if pred['parties'][party]
+        value = pred['parties'][party]
+      else
+        return nil
+      end
+      # which party is doing best?
+      max_vals = pred['parties'].select {|k,v| v == pred['parties'].values.max }
+      if max_vals.has_key?(candidate['party'])
+        maxval = true
+      else
+        maxval = false
+      end
+      return {'value' => value, 'maxvalue' => maxval}
     end
     return nil
   end
@@ -1470,8 +1485,14 @@ class CandidatesController < ApplicationController
 
   def getPreviousResults(candidate, const_name)
     const = Constituency.find_by_name(const_name)
-    if const.parties.has_key?(candidate['party'])
-      return const.parties[candidate['party']]
+    party = candidate['party']
+    # In data, Scottish Greens are simply written in as Greens
+    if party == 'Scottish Green Party'
+      party = 'Green Party'
+    end
+    # Add special case for Independents here too
+    if const.parties.has_key?(party)
+      return const.parties[party]
     else
       return nil
     end
