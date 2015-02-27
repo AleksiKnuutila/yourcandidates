@@ -673,7 +673,8 @@ partynameconversion = {
   'SF': u'Sinn Féin',
   'DUP': 'Democratic Unionist Party - D.U.P.',
   'SDLP': 'SDLP (Social Democratic & Labour Party)',
-  'Respect': 'The Respect Party'
+  'Respect': 'The Respect Party',
+  'Lab Co-op': 'Labour Party'
 }
 
 def switch_name(name):
@@ -705,10 +706,11 @@ for row in r:
     p = partynameconversion[party]
   else:
     p = party
-  newrow['parties'][p] = { 'percentage': float(row[6]), 'name': switch_name(row[3]) }
+  newrow['parties'][p] = { 'percentage': float(row[6]),
+    'name': switch_name(row[3]),
+    'elected': row[8] is '*' }
 data.append(newrow)
     
-pdb.set_trace()
 print json.dumps(data,indent=2,sort_keys=True)
 
 

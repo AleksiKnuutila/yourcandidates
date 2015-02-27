@@ -61,5 +61,10 @@ gem 'capybara'
 gem 'twitter'
 gem 'google-analytics-rails'
 
+gem 'active_rest_client'
 gem 'active_hash'
+
 gem 'pry-rails', :group => :development
+gem 'better_errors', :group => :development
+
+

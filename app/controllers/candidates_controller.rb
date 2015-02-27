@@ -1398,6 +1398,22 @@ class CandidatesController < ApplicationController
     return JSON.load(jsondata)
   end
 
+  def getAllPredictions()
+    uri = 'http://www.edu.lahti.fi/~zur/predictions.json'
+    jsondata = open(uri)
+    return JSON.load(jsondata)
+  end
+
+  def getPrediction(candidate, constituency)
+    pred = @predictions.find { |c| c['name'] == constituency }
+    if pred
+      if pred['parties'][candidate['party']]
+        return pred['parties'][candidate['party']]
+      end
+    end
+    return nil
+  end
+
   def getConstituencyByID(id)
     uri = 'http://mapit.mysociety.org/postcode/'+pc.outcode+pc.incode
     jsondata = open(uri)
@@ -1452,12 +1468,12 @@ class CandidatesController < ApplicationController
     end
   end
 
-  def getVoteshare(candidate, const_name)
+  def getPreviousResults(candidate, const_name)
     const = Constituency.find_by_name(const_name)
-    if const.votepct.has_key?(candidate['party'])
-      return const.votepct[candidate['party']]
+    if const.parties.has_key?(candidate['party'])
+      return const.parties[candidate['party']]
     else
-      return 0
+      return nil
     end
   end
 
@@ -1480,7 +1496,7 @@ class CandidatesController < ApplicationController
     return true
   end
 
-  def getCandidates(constituencyId)
+  def getCandidates(constituencyId, constituencyName)
     uri = 'http://yournextmp.popit.mysociety.org/api/v0.1/posts/'+constituencyId.to_s+'?embed=membership.person'
     twitter_client = Twitter::REST::Client.new do |config|
       config.consumer_key = 'vzUdH63VDtZX1AQiUNBPpL0Sj'
@@ -1488,7 +1504,6 @@ class CandidatesController < ApplicationController
       config.access_token = '3006172181-DiGGfRtjGyHvwpl1k8jaR4o3uPEW2GQRdZwLwB0'
       config.access_token_secret = 'MCmGUPGi4jpMZS7795FRGp6JXdtDKwNr8EedbMzUY4JOA'
     end
-
     jsondata = open(uri)
     @data = JSON.load(jsondata)
     @candidates = []
@@ -1504,11 +1519,12 @@ class CandidatesController < ApplicationController
     for i in @candidates.each_index()
       @candidates[i]['image_url'] = getImageUrl(@candidates[i], twitter_client)
       @candidates[i]['party'] = @candidates[i]['party_memberships']['2015']['name']
-      @candidates[i]['voteshare'] = getVoteshare(@candidates[i], @currentConstituency['name'])
       @candidates[i]['isEmpty'] = isEmptyCandidate(@candidates[i])
       if PARTY_REPLACE_STRINGS[@candidates[i]['party']]
         @candidates[i]['party'] = PARTY_REPLACE_STRINGS[@candidates[i]['party']]
       end
+      @candidates[i]['results2010'] = getPreviousResults(@candidates[i], constituencyName)
+      @candidates[i]['prediction2015'] = getPrediction(@candidates[i], constituencyName)
       @candidates[i]['MPid'] = getMPid(@candidates[i])
     end
     return @candidates
@@ -1567,7 +1583,8 @@ class CandidatesController < ApplicationController
       redirect_to "/?error" and return
     end
     @twitter_list = TWITTER_LIST[@conId]
-    @candidates = Rails.cache.fetch('candidates-'+@conId.to_s, expires_in: 24.hours) { getCandidates(@conId) }
+    @predictions = getAllPredictions()
+    @candidates = Rails.cache.fetch('candidates-'+@conId.to_s, expires_in: 24.hours) { getCandidates(@conId, @constituencyName) }
     @twitter_count = getTwitterCount(@candidates)
     @policies = getAllPolicies(@candidates)
     @PARTY_CONSTANTS = PARTY_CONSTANTS

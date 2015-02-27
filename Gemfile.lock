@@ -22,6 +22,10 @@ GEM
       rails-html-sanitizer (~> 1.0, >= 1.0.1)
     active_hash (1.4.0)
       activesupport (>= 2.2.2)
+    active_rest_client (1.0.6)
+      activesupport
+      faraday
+      multi_json
     activejob (4.2.0)
       activesupport (= 4.2.0)
       globalid (>= 0.3.0)
@@ -42,6 +46,10 @@ GEM
     arel (6.0.0)
     autoprefixer-rails (4.0.2.2)
       execjs
+    better_errors (2.1.1)
+      coderay (>= 1.0.0)
+      erubis (>= 2.6.6)
+      rack (>= 0.9.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.2.0.2)
@@ -228,7 +236,9 @@ PLATFORMS
 
 DEPENDENCIES
   active_hash
+  active_rest_client
   autoprefixer-rails
+  better_errors
   bootstrap-sass (~> 3.2.0)
   byebug
   capybara
