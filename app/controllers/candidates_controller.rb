@@ -1511,7 +1511,6 @@ class CandidatesController < ApplicationController
       end
       @candidates[i]['MPid'] = getMPid(@candidates[i])
     end
-    byebug
     return @candidates
   end
 

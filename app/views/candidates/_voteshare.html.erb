@@ -1,0 +1,59 @@
+<!-- <%= c['voteshare'] %> -->
+
+  <div class="row votesharegraph">
+    <div class="col-sm-6" style="padding-right: 5px;">
+      <div class="circle-past" id="circle-past-<%= c['id'] %>"></div>
+  Result of 2010
+    </div>
+    <div class="col-sm-6" style="padding-left: 0px; padding-right: 20px">
+      <div class="circle-future" id="circle-future-<%= c['id'] %>"></div>
+  Forecast for 2015
+    </div>
+  </div>
+
+<p class="candidate-content-index">
+
+In 2010, the candidate of the Liberal Democrats was X.
+<%= c['name'] %> was the <%= c['party'] %> candidate also in 2010.
+
+The <%= c['party'] %> candidate XX won this seat in 2010.
+<%= c['name'] %> won this seat in 2010.
+
+No data about this candidate or party available.
+
+
+<!--
+Possibilities
+1. This candidate did not run, and party did not win
+2. This candidate did not run, and party won
+3. This candidate did run, and did not win
+4. This candidate did run, and did win
+-->
+
+</p>
+
+<style>
+.votesharegraph {
+  text-align: center
+}
+
+.circle-past {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.circle-future {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+</style>
+
+<script>
+  Circles.create({id: 'circle-past-<%= c['id'] %>', value: 10.5, radius: 40, width: 10, colors: ['#D3B6C6', '#4B253A']})
+  Circles.create({id: 'circle-future-<%= c['id'] %>', value: 10.5, radius: 40, width: 10, colors: ['#D3B6C6', '#4B253A']})
+</script>
+

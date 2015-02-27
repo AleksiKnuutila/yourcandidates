@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import csv
 import pdb
 import json
@@ -662,8 +664,21 @@ partynameconversion = {
   'PC': 'Plaid Cymru',
   'UKIP': 'UK Independence Party (UKIP)',
   'SNP': 'Scottish National Party',
-  'Green': 'Green Party'
+  'Green': 'Green Party',
+  'TUSC': 'Trade Unionist and Socialist Coalition',
+  'Ind': 'Independent',
+  'Eng Dem': 'English Democrats',
+  'CPA': 'Christian Peoples Alliance',
+  'Alliance': 'Alliance - Alliance Party of Northern Ireland',
+  'SF': u'Sinn Féin',
+  'DUP': 'Democratic Unionist Party - D.U.P.',
+  'SDLP': 'SDLP (Social Democratic & Labour Party)',
+  'Respect': 'The Respect Party'
 }
+
+def switch_name(name):
+  ar = name.split()
+  return ar[1] + ' ' + ar[0][:-1]
 
 #for name in guardiannames2:
 #  if not name in guardiannamesconversion:
@@ -671,16 +686,6 @@ partynameconversion = {
 #  convertedname = guardiannamesconversion[name]
 #  if not convertedname in yourcandlist:
 #    print convertedname
-
-partynameconversion = {
-  'Lab': 'Labour Party',
-  'LD': 'Liberal Democrats',
-  'C': 'Conservative Party',
-  'PC': 'Plaid Cymru',
-  'UKIP': 'UK Independence Party (UKIP)',
-  'SNP': 'Scottish National Party',
-  'Green': 'Green Party'
-}
 
 csvfile = open('guardian.csv', 'rb')
 r = csv.reader(csvfile)
@@ -693,13 +698,17 @@ for row in r:
     data.append(newrow)
     newrow = {}
     newrow['name'] = areaname
-    newrow['votepct'] = {}
+    newrow['parties'] = {}
     oldareaname = areaname
   party = row[4]
   if party in partynameconversion:
     p = partynameconversion[party]
-    newrow['votepct'][p] = float(row[6])
+  else:
+    p = party
+  newrow['parties'][p] = { 'percentage': float(row[6]), 'name': switch_name(row[3]) }
 data.append(newrow)
     
-print json.dumps(data)
+pdb.set_trace()
+print json.dumps(data,indent=2,sort_keys=True)
+
 

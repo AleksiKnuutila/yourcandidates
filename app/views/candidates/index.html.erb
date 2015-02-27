@@ -248,7 +248,9 @@
               <%= render partial: "box_header", :locals => { :c => c } %>
   
               <p class="candidate-content-index">
-<%= c['voteshare'] %>
+
+                <%= render partial: "voteshare", :locals => { :c => c } %>
+
               </p>
 
             </div>
