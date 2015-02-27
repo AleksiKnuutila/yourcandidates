@@ -1452,6 +1452,15 @@ class CandidatesController < ApplicationController
     end
   end
 
+  def getVoteshare(candidate, const_name)
+    const = Constituency.find_by_name(const_name)
+    if const.votepct.has_key?(candidate['party'])
+      return const.votepct[candidate['party']]
+    else
+      return 0
+    end
+  end
+
   def isEmptyCandidate(c)
     if c['MPid']
       return false
@@ -1495,12 +1504,14 @@ class CandidatesController < ApplicationController
     for i in @candidates.each_index()
       @candidates[i]['image_url'] = getImageUrl(@candidates[i], twitter_client)
       @candidates[i]['party'] = @candidates[i]['party_memberships']['2015']['name']
+      @candidates[i]['voteshare'] = getVoteshare(@candidates[i], @currentConstituency['name'])
       @candidates[i]['isEmpty'] = isEmptyCandidate(@candidates[i])
       if PARTY_REPLACE_STRINGS[@candidates[i]['party']]
         @candidates[i]['party'] = PARTY_REPLACE_STRINGS[@candidates[i]['party']]
       end
       @candidates[i]['MPid'] = getMPid(@candidates[i])
     end
+    byebug
     return @candidates
   end
 
