@@ -1491,7 +1491,6 @@ class CandidatesController < ApplicationController
       party = 'Green Party'
     end
     # Add special case for Independents here too
-    byebug
     if party == 'Independent'
       party = 'Independent - '+candidate['name']
     end
