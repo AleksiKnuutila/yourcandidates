@@ -5,7 +5,7 @@
     "Bean"=>{"elected"=>false, "name"=>"Captain Beany", "percentage"=>1.8},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Caroline Jones", "percentage"=>14.0},
-    "Independent"=>
+    "Independent - Andrew Tutton"=>
      {"elected"=>false, "name"=>"Andrew Tutton", "percentage"=>2.97},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Hywel Francis", "percentage"=>51.92},
@@ -38,9 +38,10 @@
      {"elected"=>true, "name"=>"Frank Doran", "percentage"=>44.42},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Kristian Chapman", "percentage"=>18.57},
-    "SSP"=>{"elected"=>false, "name"=>"Ewan Robertson", "percentage"=>0.71},
     "Scottish National Party"=>
-     {"elected"=>false, "name"=>"Joanna Strathdee", "percentage"=>22.0}}},
+     {"elected"=>false, "name"=>"Joanna Strathdee", "percentage"=>22.0},
+    "Scottish Socialist Party"=>
+     {"elected"=>false, "name"=>"Ewan Robertson", "percentage"=>0.71}}},
  {"name"=>"Aberdeen South",
   "parties"=>
    {"BNP"=>{"elected"=>false, "name"=>"Susan Ross", "percentage"=>1.23},
@@ -72,7 +73,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Ruth Whitfield", "percentage"=>9.0},
-    "Independent"=>
+    "Independent - John McGeechan"=>
      {"elected"=>false, "name"=>"John McGeechan", "percentage"=>1.47},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Pamela Nash", "percentage"=>58.16},
@@ -208,7 +209,7 @@
      {"elected"=>false, "name"=>"Gary Mulvaney", "percentage"=>24.03},
     "Green Party"=>
      {"elected"=>false, "name"=>"Elaine Morrison", "percentage"=>2.0},
-    "Independent"=>
+    "Independent - George Doyle"=>
      {"elected"=>false, "name"=>"George Doyle", "percentage"=>1.0},
     "Jacobite"=>{"elected"=>false, "name"=>"John Black", "percentage"=>0.35},
     "Labour Party"=>
@@ -234,7 +235,7 @@
      {"elected"=>false, "name"=>"Garry Hickton", "percentage"=>22.2},
     "English Democrats"=>
      {"elected"=>false, "name"=>"Tony Ellis", "percentage"=>2.0},
-    "Independent"=>
+    "Independent - Eddie Smith"=>
      {"elected"=>false, "name"=>"Eddie Smith", "percentage"=>1.0},
     "Labour Party"=>{"elected"=>true, "name"=>"Piero, d", "percentage"=>33.69},
     "Liberal Democrats"=>
@@ -314,7 +315,7 @@
      {"elected"=>true, "name"=>"Tony Baldry", "percentage"=>52.81},
     "Green Party"=>
      {"elected"=>false, "name"=>"Alastair White", "percentage"=>1.71},
-    "Independent"=>
+    "Independent - Roseanne Edwards"=>
      {"elected"=>false, "name"=>"Roseanne Edwards", "percentage"=>0.93},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Les Sibley", "percentage"=>19.16},
@@ -342,7 +343,7 @@
      {"elected"=>false, "name"=>"Simon Marcus", "percentage"=>17.8},
     "Green Party"=>
      {"elected"=>false, "name"=>"Jayne Forbes", "percentage"=>0.7},
-    "Independent"=>
+    "Independent - Thomas Darwood"=>
      {"elected"=>false, "name"=>"Thomas Darwood", "percentage"=>0.17},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Margaret Hodge", "percentage"=>54.0},
@@ -357,7 +358,9 @@
    {"BNP"=>{"elected"=>false, "name"=>"Ian Sutton", "percentage"=>8.94},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Piers Tempest", "percentage"=>17.0},
-    "Independent"=>
+    "Independent - Donald Wood"=>
+     {"elected"=>false, "name"=>"Donald Wood", "percentage"=>1.98},
+    "Independent - Tony Devoy"=>
      {"elected"=>false, "name"=>"Tony Devoy", "percentage"=>1.65},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Eric Illsley", "percentage"=>47.26},
@@ -371,8 +374,10 @@
    {"BNP"=>{"elected"=>false, "name"=>"Colin Porter", "percentage"=>8.6},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"James Hockney", "percentage"=>16.49},
-    "Independent"=>
+    "Independent - Eddie Devoy"=>
      {"elected"=>false, "name"=>"Eddie Devoy", "percentage"=>2.0},
+    "Independent - Kevin Hogan"=>
+     {"elected"=>false, "name"=>"Kevin Hogan", "percentage"=>1.85},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Michael Dugher", "percentage"=>47.05},
     "Liberal Democrats"=>
@@ -387,9 +392,9 @@
      {"elected"=>false, "name"=>"John Gough", "percentage"=>36.3},
     "Green Party"=>
      {"elected"=>false, "name"=>"Christopher Loynes", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Brian Greaves"=>
      {"elected"=>false, "name"=>"Brian Greaves", "percentage"=>1.0},
-    "Lab Co-op"=>
+    "Labour Party"=>
      {"elected"=>true, "name"=>"John Woodcock", "percentage"=>48.11},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Barry Rabone", "percentage"=>10.03},
@@ -411,7 +416,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Chris Roberts", "percentage"=>5.63},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Stephen Metcalfe", "percentage"=>43.87},
-    "Lab Co-op"=>
+    "Labour Party"=>
      {"elected"=>false, "name"=>"Angela Smith", "percentage"=>30.96},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Geoff Williams", "percentage"=>13.36},
@@ -433,7 +438,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Keith Girling", "percentage"=>33.89},
-    "Independent"=>
+    "Independent - Grahame Whithurst"=>
      {"elected"=>false, "name"=>"Grahame Whithurst", "percentage"=>0.82},
     "Labour Party"=>{"elected"=>true, "name"=>"John Mann", "percentage"=>50.0},
     "Liberal Democrats"=>
@@ -447,7 +452,7 @@
      {"elected"=>false, "name"=>"Fabian Richter", "percentage"=>31.36},
     "Green Party"=>
      {"elected"=>false, "name"=>"Eric Lucas", "percentage"=>2.38},
-    "Independent"=>
+    "Independent - Sean Geddis"=>
      {"elected"=>false, "name"=>"Sean Geddis", "percentage"=>0.12},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Hattie Ajderian", "percentage"=>7.0},
@@ -472,7 +477,8 @@
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Jane Ellison", "percentage"=>47.35},
     "Green Party"=>{"elected"=>false, "name"=>"Guy Evans", "percentage"=>1.15},
-    "Independent"=>{"elected"=>false, "name"=>"Tom Fox", "percentage"=>0.32},
+    "Independent - Tom Fox"=>
+     {"elected"=>false, "name"=>"Tom Fox", "percentage"=>0.32},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Martin Linton", "percentage"=>35.1},
     "Liberal Democrats"=>
@@ -485,7 +491,7 @@
      {"elected"=>true, "name"=>"Dominic Grieve", "percentage"=>61.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Jem Bailey", "percentage"=>1.46},
-    "Independent"=>
+    "Independent - Quentin Baron"=>
      {"elected"=>false, "name"=>"Quentin Baron", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Jeremy Miles", "percentage"=>11.69},
@@ -516,7 +522,7 @@
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Richard Fuller", "percentage"=>38.9},
     "Green Party"=>{"elected"=>false, "name"=>"Ben Foley", "percentage"=>0.87},
-    "Independent"=>
+    "Independent - Samrat Bhandari"=>
      {"elected"=>false, "name"=>"Samrat Bhandari", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Patrick Hall", "percentage"=>35.9},
@@ -579,7 +585,7 @@
      {"elected"=>false, "name"=>"William Webb", "percentage"=>4.89},
     "Democratic Unionist Party - D.U.P."=>
      {"elected"=>true, "name"=>"Nigel Dodds", "percentage"=>40.0},
-    "Independent"=>
+    "Independent - Martin McAuley"=>
      {"elected"=>false, "name"=>"Martin McAuley", "percentage"=>1.09},
     "SDLP (Social Democratic & Labour Party)"=>
      {"elected"=>false, "name"=>"Alban Maginness", "percentage"=>12.0},
@@ -616,7 +622,7 @@
      {"elected"=>false, "name"=>"Loanna Morrison", "percentage"=>17.11},
     "Green Party"=>
      {"elected"=>false, "name"=>"Tom Chance", "percentage"=>1.61},
-    "Independent"=>
+    "Independent - Alan Kirkby"=>
      {"elected"=>false, "name"=>"Alan Kirkby", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Val Shawcross", "percentage"=>29.25},
@@ -654,8 +660,12 @@
      {"elected"=>false, "name"=>"Zakir Khan", "percentage"=>13.94},
     "Green Party"=>
      {"elected"=>false, "name"=>"Farid Bakht", "percentage"=>1.69},
-    "Independent"=>
+    "Independent - Ahmed Malik"=>
      {"elected"=>false, "name"=>"Ahmed Malik", "percentage"=>0.14},
+    "Independent - Haji Choudhury"=>
+     {"elected"=>false, "name"=>"Haji Choudhury", "percentage"=>0.2},
+    "Independent - Patrick Brooks"=>
+     {"elected"=>false, "name"=>"Patrick Brooks", "percentage"=>0.55},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Rushanara Ali", "percentage"=>43.0},
     "Liberal Democrats"=>
@@ -671,7 +681,7 @@
      {"elected"=>true, "name"=>"Graham Stuart", "percentage"=>47.11},
     "Green Party"=>
      {"elected"=>false, "name"=>"Bill Rigby", "percentage"=>1.29},
-    "Independent"=>
+    "Independent - Ron Hughes"=>
      {"elected"=>false, "name"=>"Ron Hughes", "percentage"=>0.42},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Ian Saunders", "percentage"=>21.1},
@@ -734,7 +744,7 @@
     "Ch P"=>{"elected"=>false, "name"=>"Timothy Gray", "percentage"=>0.61},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Robert Alden", "percentage"=>32.61},
-    "Independent"=>
+    "Independent - Tony Tomkins"=>
      {"elected"=>false, "name"=>"Tony Tomkins", "percentage"=>0.68},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Jack Dromey", "percentage"=>41.83},
@@ -747,7 +757,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Jo Barker", "percentage"=>15.0},
-    "Independent"=>
+    "Independent - Andrew Gardner"=>
      {"elected"=>false, "name"=>"Andrew Gardner", "percentage"=>0.39},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Roger Godsiff", "percentage"=>32.92},
@@ -850,7 +860,9 @@
     "BNP"=>{"elected"=>false, "name"=>"Robin Evans", "percentage"=>4.74},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Michael Law-Riding", "percentage"=>26.14},
-    "Independent"=>
+    "Independent - Grace Astley"=>
+     {"elected"=>false, "name"=>"Grace Astley", "percentage"=>1.0},
+    "Independent - Janis Sharp"=>
      {"elected"=>false, "name"=>"Janis Sharp", "percentage"=>0.38},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Jack Straw", "percentage"=>47.81},
@@ -929,7 +941,7 @@
      {"elected"=>false, "name"=>"Barry Flux", "percentage"=>16.63},
     "English Democrats"=>
      {"elected"=>false, "name"=>"Allan White", "percentage"=>0.85},
-    "Independent"=>
+    "Independent - Barry Elliott"=>
      {"elected"=>false, "name"=>"Barry Elliott", "percentage"=>2.12},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Ronnie Campbell", "percentage"=>44.48},
@@ -942,7 +954,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Andrew Moffat", "percentage"=>4.0},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Nick Gibb", "percentage"=>51.41},
-    "Independent"=>
+    "Independent - Melissa Briggs"=>
      {"elected"=>false, "name"=>"Melissa Briggs", "percentage"=>0.5},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Michael Jones", "percentage"=>14.04},
@@ -993,7 +1005,7 @@
      {"elected"=>false, "name"=>"Susan Williams", "percentage"=>38.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Rachel Mann", "percentage"=>1.15},
-    "Independent"=>
+    "Independent - Jimmy Jones"=>
      {"elected"=>false, "name"=>"Jimmy Jones", "percentage"=>0.53},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Julie Hilling", "percentage"=>39.0},
@@ -1020,7 +1032,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"David Owens", "percentage"=>5.28},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Mark Simmonds", "percentage"=>49.0},
-    "Independent"=>
+    "Independent - Peter Wilson"=>
      {"elected"=>false, "name"=>"Peter Wilson", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Paul Kenny", "percentage"=>20.64},
@@ -1046,7 +1058,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>true, "name"=>"Tobias Ellwood", "percentage"=>48.43},
-    "Independent"=>
+    "Independent - Steven Humphrey"=>
      {"elected"=>false, "name"=>"Steven Humphrey", "percentage"=>0.57},
     "Labour Party"=>
      {"elected"=>false, "name"=>"David Stokes", "percentage"=>13.26},
@@ -1058,7 +1070,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>true, "name"=>"Conor Burns", "percentage"=>45.15},
-    "Independent"=>
+    "Independent - Harvey Taylor"=>
      {"elected"=>false, "name"=>"Harvey Taylor", "percentage"=>1.09},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Sharon Carr-Brown", "percentage"=>15.0},
@@ -1085,8 +1097,10 @@
    {"BNP"=>{"elected"=>false, "name"=>"Neville Poynton", "percentage"=>4.58},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Mohammed Riaz", "percentage"=>27.0},
-    "Independent"=>
+    "Independent - Peter Shields"=>
      {"elected"=>false, "name"=>"Peter Shields", "percentage"=>0.59},
+    "Independent - Raja Hussain"=>
+     {"elected"=>false, "name"=>"Raja Hussain", "percentage"=>0.93},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Terry Rooney", "percentage"=>33.0},
     "Liberal Democrats"=>
@@ -1156,7 +1170,7 @@
      {"elected"=>false, "name"=>"Sachin Rajput", "percentage"=>11.18},
     "Green Party"=>
      {"elected"=>false, "name"=>"Shahar Ali", "percentage"=>1.47},
-    "Independent"=>
+    "Independent - Dean McCastree"=>
      {"elected"=>false, "name"=>"Dean McCastree", "percentage"=>0.36},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Dawn Butler", "percentage"=>41.22},
@@ -1172,7 +1186,9 @@
      {"elected"=>false, "name"=>"Arvind Tailor", "percentage"=>0.47},
     "Green Party"=>
      {"elected"=>false, "name"=>"Martin Francis", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Atiq Malik"=>
+     {"elected"=>false, "name"=>"Atiq Malik", "percentage"=>1.4},
+    "Independent - Jannen Vamadeva"=>
      {"elected"=>false, "name"=>"Jannen Vamadeva", "percentage"=>0.64},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Barry Gardiner", "percentage"=>46.87},
@@ -1191,7 +1207,7 @@
     "English Democrats"=>
      {"elected"=>false, "name"=>"David Cunningham", "percentage"=>0.43},
     "Green Party"=>{"elected"=>false, "name"=>"John Hunt", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Teresa Vanneck-Surplice"=>
      {"elected"=>false, "name"=>"Teresa Vanneck-Surplice", "percentage"=>0.13},
     "Labour Party"=>{"elected"=>false, "name"=>"Ann Keen", "percentage"=>33.6},
     "Liberal Democrats"=>
@@ -1207,7 +1223,7 @@
      {"elected"=>false, "name"=>"Robin Tilbrook", "percentage"=>1.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Jess Barnecutt", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - James Sapwell"=>
      {"elected"=>false, "name"=>"James Sapwell", "percentage"=>0.52},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Heidi Benzing", "percentage"=>9.87},
@@ -1236,7 +1252,7 @@
      {"elected"=>true, "name"=>"Ian Liddell-Grainger", "percentage"=>45.28},
     "Green Party"=>
      {"elected"=>false, "name"=>"Charles Graham", "percentage"=>1.58},
-    "Independent"=>
+    "Independent - Bob Cudlipp"=>
      {"elected"=>false, "name"=>"Bob Cudlipp", "percentage"=>0.58},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Kathryn Pearce", "percentage"=>17.13},
@@ -1261,7 +1277,7 @@
      {"elected"=>true, "name"=>"Simon Kirby", "percentage"=>37.97},
     "Green Party"=>
      {"elected"=>false, "name"=>"Ben Duncan", "percentage"=>5.46},
-    "Lab Co-op"=>
+    "Labour Party"=>
      {"elected"=>false, "name"=>"Simon Burgess", "percentage"=>34.86},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Juliet Williams", "percentage"=>18.01},
@@ -1341,7 +1357,7 @@
      {"elected"=>false, "name"=>"Jon Baker", "percentage"=>0.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Ricky Knight", "percentage"=>3.78},
-    "Independent"=>
+    "Independent - Danny Kushlick"=>
      {"elected"=>false, "name"=>"Danny Kushlick", "percentage"=>0.62},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Paul Smith", "percentage"=>27.51},
@@ -1384,8 +1400,10 @@
      {"elected"=>false, "name"=>"Elizabeth Wainwright", "percentage"=>3.72},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Sajid Javid", "percentage"=>43.69},
-    "Independent"=>
+    "Independent - Ken Wheatley"=>
      {"elected"=>false, "name"=>"Ken Wheatley", "percentage"=>1.0},
+    "Independent - Mark France"=>
+     {"elected"=>false, "name"=>"Mark France", "percentage"=>1.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Sam Burden", "percentage"=>21.79},
     "Liberal Democrats"=>
@@ -1423,8 +1441,16 @@
    {"BNP"=>{"elected"=>false, "name"=>"Lynne Mozar", "percentage"=>2.03},
     "Ch P"=>{"elected"=>false, "name"=>"David Hews", "percentage"=>0.76},
     "Deficit"=>{"elected"=>false, "name"=>"Simon Strutt", "percentage"=>0.22},
-    "Independent"=>
+    "Independent - Anthony Watts"=>
      {"elected"=>false, "name"=>"Anthony Watts", "percentage"=>1.0},
+    "Independent - Debbie Martin"=>
+     {"elected"=>false, "name"=>"Debbie Martin", "percentage"=>3.0},
+    "Independent - Geoff Howard"=>
+     {"elected"=>false, "name"=>"Geoff Howard", "percentage"=>0.9},
+    "Independent - John Stevens"=>
+     {"elected"=>false, "name"=>"John Stevens", "percentage"=>21.37},
+    "Independent - Patrick Phillips"=>
+     {"elected"=>false, "name"=>"Patrick Phillips", "percentage"=>4.95},
     "Loony"=>{"elected"=>false, "name"=>"Colin Dale", "percentage"=>1.77},
     "Speaker"=>{"elected"=>true, "name"=>"John Bercow", "percentage"=>47.29},
     "UK Independence Party (UKIP)"=>
@@ -1434,7 +1460,9 @@
    {"BNP"=>{"elected"=>false, "name"=>"Sharon Wilkinson", "percentage"=>8.95},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Richard Ali", "percentage"=>16.61},
-    "Independent"=>
+    "Independent - Andrew Brown"=>
+     {"elected"=>false, "name"=>"Andrew Brown", "percentage"=>4.48},
+    "Independent - Andrew Hennessey"=>
      {"elected"=>false, "name"=>"Andrew Hennessey", "percentage"=>0.71},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Julie Cooper", "percentage"=>31.34},
@@ -1458,7 +1486,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"John Maude", "percentage"=>4.06},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"David Nuttall", "percentage"=>40.19},
-    "Independent"=>
+    "Independent - Bill Brison"=>
      {"elected"=>false, "name"=>"Bill Brison", "percentage"=>0.4},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Maryam Khan", "percentage"=>35.2},
@@ -1511,7 +1539,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Alastair Graham", "percentage"=>13.0},
-    "Independent"=>
+    "Independent - Gordon Campbell"=>
      {"elected"=>false, "name"=>"Gordon Campbell", "percentage"=>1.81},
     "Labour Party"=>
      {"elected"=>false, "name"=>"John Mackay", "percentage"=>24.61},
@@ -1528,8 +1556,10 @@
      {"elected"=>false, "name"=>"Paul Rogan", "percentage"=>0.3},
     "Green Party"=>
      {"elected"=>false, "name"=>"Kate Sweeny", "percentage"=>1.66},
-    "Independent"=>
+    "Independent - Barry Greenwood"=>
      {"elected"=>false, "name"=>"Barry Greenwood", "percentage"=>0.34},
+    "Independent - Tim Cole"=>
+     {"elected"=>false, "name"=>"Tim Cole", "percentage"=>0.37},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Steph Booth", "percentage"=>26.97},
     "Liberal Democrats"=>
@@ -1544,7 +1574,9 @@
      {"elected"=>false, "name"=>"Munilla, Robb", "percentage"=>0.93},
     "Green Party"=>
      {"elected"=>false, "name"=>"Jenny Jones", "percentage"=>2.92},
-    "Independent"=>
+    "Independent - Decima Francis"=>
+     {"elected"=>false, "name"=>"Decima Francis", "percentage"=>0.2},
+    "Independent - Steven Robbins"=>
      {"elected"=>false, "name"=>"Steven Robbins", "percentage"=>0.19},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Harriet Harman", "percentage"=>59.0},
@@ -1577,7 +1609,7 @@
      {"elected"=>false, "name"=>"Nick Hillman", "percentage"=>25.59},
     "Green Party"=>
      {"elected"=>false, "name"=>"Tony Juniper", "percentage"=>8.0},
-    "Independent"=>
+    "Independent - Holborn Old"=>
      {"elected"=>false, "name"=>"Holborn Old", "percentage"=>0.29},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Daniel Zeichner", "percentage"=>24.0},
@@ -1594,7 +1626,7 @@
      {"elected"=>true, "name"=>"Stephen Barclay", "percentage"=>51.4},
     "English Democrats"=>
      {"elected"=>false, "name"=>"Graham Murphy", "percentage"=>0.74},
-    "Independent"=>
+    "Independent - Debra Jordan"=>
      {"elected"=>false, "name"=>"Debra Jordan", "percentage"=>1.08},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Peter Roberts", "percentage"=>17.74},
@@ -1620,7 +1652,7 @@
      {"elected"=>true, "name"=>"Andrew Lansley", "percentage"=>47.4},
     "Green Party"=>
      {"elected"=>false, "name"=>"Simon Saggers", "percentage"=>1.76},
-    "Independent"=>
+    "Independent - Robin Page"=>
      {"elected"=>false, "name"=>"Robin Page", "percentage"=>3.33},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Tariq Sadiq", "percentage"=>10.2},
@@ -1636,7 +1668,7 @@
      {"elected"=>true, "name"=>"Jim Paice", "percentage"=>48.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Simon Sedgwick-Jell", "percentage"=>1.33},
-    "Independent"=>
+    "Independent - Geoffrey Woollard"=>
      {"elected"=>false, "name"=>"Geoffrey Woollard", "percentage"=>0.9},
     "Labour Party"=>
      {"elected"=>false, "name"=>"John Cowan", "percentage"=>8.0},
@@ -1649,8 +1681,10 @@
    {"BNP"=>{"elected"=>false, "name"=>"Terence Majorowicz", "percentage"=>5.0},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Aidan Burley", "percentage"=>40.1},
-    "Independent"=>
+    "Independent - Mike Walters"=>
      {"elected"=>false, "name"=>"Mike Walters", "percentage"=>0.2},
+    "Independent - Ron Turville"=>
+     {"elected"=>false, "name"=>"Ron Turville", "percentage"=>0.83},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Susan Woodward", "percentage"=>33.09},
     "Liberal Democrats"=>
@@ -1678,7 +1712,7 @@
      {"elected"=>false, "name"=>"Karen Robson", "percentage"=>21.57},
     "Green Party"=>
      {"elected"=>false, "name"=>"Sam Coates", "percentage"=>1.59},
-    "Independent"=>
+    "Independent - Alun Mathias"=>
      {"elected"=>false, "name"=>"Alun Mathias", "percentage"=>0.24},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Jenny Rathbone", "percentage"=>29.0},
@@ -1714,9 +1748,9 @@
      {"elected"=>false, "name"=>"Simon Hoare", "percentage"=>28.29},
     "Green Party"=>
      {"elected"=>false, "name"=>"Matt Townsend", "percentage"=>1.25},
-    "Independent"=>
+    "Independent - George Burke"=>
      {"elected"=>false, "name"=>"George Burke", "percentage"=>1.0},
-    "Lab Co-op"=>
+    "Labour Party"=>
      {"elected"=>true, "name"=>"Alun Michael", "percentage"=>38.91},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Dominic Hannigan", "percentage"=>22.26},
@@ -1770,7 +1804,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>true, "name"=>"Simon Hart", "percentage"=>41.1},
-    "Independent"=>
+    "Independent - Henry Langen"=>
      {"elected"=>false, "name"=>"Henry Langen", "percentage"=>0.9},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Nick Ainger", "percentage"=>33.0},
@@ -1920,7 +1954,7 @@
     "English Democrats"=>
      {"elected"=>false, "name"=>"Ed Abrams", "percentage"=>1.27},
     "Green Party"=>{"elected"=>false, "name"=>"Tom Barker", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - John Whittingham"=>
      {"elected"=>false, "name"=>"John Whittingham", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Christine Russell", "percentage"=>35.08},
@@ -1936,7 +1970,7 @@
      {"elected"=>false, "name"=>"Ian Jerram", "percentage"=>2.65},
     "Green Party"=>
      {"elected"=>false, "name"=>"Duncan Kerr", "percentage"=>1.31},
-    "Independent"=>
+    "Independent - John Daramy"=>
      {"elected"=>false, "name"=>"John Daramy", "percentage"=>0.32},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Toby Perkins", "percentage"=>39.03},
@@ -1960,8 +1994,10 @@
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Smith, Dunca", "percentage"=>53.0},
     "Green Party"=>{"elected"=>false, "name"=>"Lucy Craig", "percentage"=>2.0},
-    "Independent"=>
+    "Independent - Barry White"=>
      {"elected"=>false, "name"=>"Barry White", "percentage"=>0.16},
+    "Independent - None Above"=>
+     {"elected"=>false, "name"=>"None Above", "percentage"=>0.47},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Cath Arakelian", "percentage"=>22.69},
     "Liberal Democrats"=>
@@ -1990,7 +2026,7 @@
      {"elected"=>true, "name"=>"Theresa Villiers", "percentage"=>48.81},
     "Green Party"=>
      {"elected"=>false, "name"=>"Kate Tansley", "percentage"=>2.0},
-    "Independent"=>
+    "Independent - Philip Clayton"=>
      {"elected"=>false, "name"=>"Philip Clayton", "percentage"=>0.93},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Damien Welfare", "percentage"=>25.24},
@@ -2002,7 +2038,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Alan Cullens", "percentage"=>38.02},
-    "Independent"=>
+    "Independent - Chris Curtis"=>
      {"elected"=>false, "name"=>"Chris Curtis", "percentage"=>0.72},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Lindsay Hoyle", "percentage"=>43.23},
@@ -2028,7 +2064,10 @@
      {"elected"=>false, "name"=>"Frank Roseman", "percentage"=>0.52},
     "Green Party"=>
      {"elected"=>false, "name"=>"Derek Chase", "percentage"=>2.11},
-    "Independent"=>{"elected"=>false, "name"=>"Mad ", "percentage"=>0.23},
+    "Independent - Dennis Delderfield"=>
+     {"elected"=>false, "name"=>"Dennis Delderfield", "percentage"=>0.0},
+    "Independent - Mad "=>
+     {"elected"=>false, "name"=>"Mad ", "percentage"=>0.23},
     "Labour Party"=>
      {"elected"=>false, "name"=>"David Rowntree", "percentage"=>22.0},
     "Liberal Democrats"=>
@@ -2043,7 +2082,7 @@
      {"elected"=>true, "name"=>"Douglas Carswell", "percentage"=>53.03},
     "Green Party"=>
      {"elected"=>false, "name"=>"Chris Southall", "percentage"=>1.24},
-    "Independent"=>
+    "Independent - Christopher Humphrey"=>
      {"elected"=>false, "name"=>"Christopher Humphrey", "percentage"=>0.68},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Ivan Henderson", "percentage"=>25.04},
@@ -2078,7 +2117,7 @@
    {"Ch P"=>{"elected"=>false, "name"=>"David Griffiths", "percentage"=>0.63},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"David Jones", "percentage"=>41.54},
-    "Independent"=>
+    "Independent - Joe Blakesley"=>
      {"elected"=>false, "name"=>"Joe Blakesley", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Donna Hutton", "percentage"=>24.7},
@@ -2133,8 +2172,10 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>true, "name"=>"Fiona Bruce", "percentage"=>46.0},
-    "Independent"=>
+    "Independent - Adam Parton"=>
      {"elected"=>false, "name"=>"Adam Parton", "percentage"=>0.16},
+    "Independent - Paul Edwards"=>
+     {"elected"=>false, "name"=>"Paul Edwards", "percentage"=>0.54},
     "Labour Party"=>
      {"elected"=>false, "name"=>"David Bryant", "percentage"=>17.23},
     "Liberal Democrats"=>
@@ -2194,7 +2235,7 @@
      {"elected"=>true, "name"=>"Geoffrey Clifton-Brown", "percentage"=>53.03},
     "Green Party"=>
      {"elected"=>false, "name"=>"Kevin Lister", "percentage"=>2.0},
-    "Independent"=>
+    "Independent - Alex Steel"=>
      {"elected"=>false, "name"=>"Alex Steel", "percentage"=>0.78},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Mark Dempsey", "percentage"=>10.73},
@@ -2223,7 +2264,7 @@
      {"elected"=>false, "name"=>"Gary Ridley", "percentage"=>29.31},
     "Green Party"=>
      {"elected"=>false, "name"=>"Justin Wood", "percentage"=>1.07},
-    "Independent"=>
+    "Independent - John Clarke"=>
      {"elected"=>false, "name"=>"John Clarke", "percentage"=>1.37},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Geoffrey Robinson", "percentage"=>42.82},
@@ -2252,7 +2293,7 @@
      {"elected"=>true, "name"=>"Henry Smith", "percentage"=>45.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Phil Smith", "percentage"=>1.26},
-    "Independent"=>
+    "Independent - Andrew Hubner"=>
      {"elected"=>false, "name"=>"Andrew Hubner", "percentage"=>0.0},
     "JP"=>{"elected"=>false, "name"=>"Arshad Khan", "percentage"=>0.56},
     "Labour Party"=>
@@ -2266,7 +2307,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Phil Williams", "percentage"=>2.04},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Edward Timpson", "percentage"=>46.0},
-    "Independent"=>
+    "Independent - Mike Parsons"=>
      {"elected"=>false, "name"=>"Mike Parsons", "percentage"=>0.35},
     "Labour Party"=>
      {"elected"=>false, "name"=>"David Williams", "percentage"=>34.01},
@@ -2282,9 +2323,12 @@
      {"elected"=>true, "name"=>"Gavin Barwell", "percentage"=>39.51},
     "Green Party"=>
      {"elected"=>false, "name"=>"Bernice Golberg", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Andrew Pelling"=>
+     {"elected"=>false, "name"=>"Andrew Pelling", "percentage"=>6.51},
+    "Independent - Michael Castle"=>
      {"elected"=>false, "name"=>"Michael Castle", "percentage"=>0.28},
-    "Lab Co-op"=>{"elected"=>false, "name"=>"Gerry Ryan", "percentage"=>33.54},
+    "Labour Party"=>
+     {"elected"=>false, "name"=>"Gerry Ryan", "percentage"=>33.54},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Peter Lambell", "percentage"=>13.17},
     "Loony"=>{"elected"=>false, "name"=>"John Cartwright", "percentage"=>0.39},
@@ -2299,7 +2343,7 @@
      {"elected"=>false, "name"=>"Jason Hadden", "percentage"=>24.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Shasha Khan", "percentage"=>1.97},
-    "Independent"=>
+    "Independent - Mohamed Seyed"=>
      {"elected"=>false, "name"=>"Mohamed Seyed", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Malcolm Wicks", "percentage"=>56.02},
@@ -2329,9 +2373,10 @@
      {"elected"=>true, "name"=>"Gregg McClymont", "percentage"=>57.23},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Rod Ackland", "percentage"=>10.0},
-    "SSP"=>{"elected"=>false, "name"=>"William O'Neill", "percentage"=>1.16},
     "Scottish National Party"=>
-     {"elected"=>false, "name"=>"Julie Hepburn", "percentage"=>24.0}}},
+     {"elected"=>false, "name"=>"Julie Hepburn", "percentage"=>24.0},
+    "Scottish Socialist Party"=>
+     {"elected"=>false, "name"=>"William O'Neill", "percentage"=>1.16}}},
  {"name"=>"Cynon Valley",
   "parties"=>
    {"Conservative Party"=>
@@ -2352,7 +2397,7 @@
      {"elected"=>false, "name"=>"Simon Jones", "percentage"=>34.33},
     "Green Party"=>
      {"elected"=>false, "name"=>"Debbie Rosaman", "percentage"=>0.67},
-    "Independent"=>
+    "Independent - Gordon Kennedy"=>
      {"elected"=>false, "name"=>"Gordon Kennedy", "percentage"=>0.7},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Jon Cruddas", "percentage"=>40.27},
@@ -2378,7 +2423,7 @@
     "English Democrats"=>
      {"elected"=>false, "name"=>"Gary Rogers", "percentage"=>4.0},
     "FDP"=>{"elected"=>false, "name"=>"John Crockford", "percentage"=>0.41},
-    "Independent"=>
+    "Independent - Stephane Tindame"=>
      {"elected"=>false, "name"=>"Stephane Tindame", "percentage"=>0.53},
     "Labour Party"=>
      {"elected"=>false, "name"=>"John Adams", "percentage"=>28.0},
@@ -2417,7 +2462,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Julie Searle", "percentage"=>24.87},
-    "Independent"=>
+    "Independent - Jeff Dennis"=>
      {"elected"=>false, "name"=>"Jeff Dennis", "percentage"=>1.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Andrew Gwynne", "percentage"=>50.99},
@@ -2430,7 +2475,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Peter Cheeseman", "percentage"=>4.44},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Stephen Mold", "percentage"=>31.68},
-    "Independent"=>
+    "Independent - David Gale"=>
      {"elected"=>false, "name"=>"David Gale", "percentage"=>0.59},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Chris Williamson", "percentage"=>33.04},
@@ -2443,7 +2488,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Jack Perschke", "percentage"=>28.48},
-    "Independent"=>
+    "Independent - Alan Graves"=>
      {"elected"=>false, "name"=>"Alan Graves", "percentage"=>3.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Margaret Beckett", "percentage"=>43.34},
@@ -2506,7 +2551,7 @@
      {"elected"=>true, "name"=>"Claire Perry", "percentage"=>55.07},
     "Green Party"=>
      {"elected"=>false, "name"=>"Mark Fletcher", "percentage"=>1.75},
-    "Independent"=>
+    "Independent - Martin Houlden"=>
      {"elected"=>false, "name"=>"Martin Houlden", "percentage"=>1.22},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Jurab Ali", "percentage"=>10.17},
@@ -2550,7 +2595,7 @@
      {"elected"=>false, "name"=>"Nigel Vidler", "percentage"=>0.28},
     "Green Party"=>
      {"elected"=>false, "name"=>"L'Anne Knight", "percentage"=>1.36},
-    "Independent"=>
+    "Independent - Rodney Cann"=>
      {"elected"=>false, "name"=>"Rodney Cann", "percentage"=>1.15},
     "Labour Party"=>{"elected"=>false, "name"=>"Mark Cann", "percentage"=>5.2},
     "Liberal Democrats"=>
@@ -2591,7 +2636,7 @@
      {"elected"=>false, "name"=>"Michael Felse", "percentage"=>1.22},
     "Green Party"=>
      {"elected"=>false, "name"=>"Adrian Cruden", "percentage"=>1.57},
-    "Independent"=>
+    "Independent - Khizar Iqbal"=>
      {"elected"=>false, "name"=>"Khizar Iqbal", "percentage"=>7.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Shahid Malik", "percentage"=>32.0},
@@ -2604,7 +2649,7 @@
      {"elected"=>false, "name"=>"Matthew Stephens", "percentage"=>29.65},
     "English Democrats"=>
      {"elected"=>false, "name"=>"Bernie Aston", "percentage"=>4.04},
-    "Independent"=>
+    "Independent - Martin Williams"=>
      {"elected"=>false, "name"=>"Martin Williams", "percentage"=>2.04},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Caroline Flint", "percentage"=>37.93},
@@ -2619,7 +2664,7 @@
      {"elected"=>false, "name"=>"Gareth Davies", "percentage"=>24.77},
     "English Democrats"=>
      {"elected"=>false, "name"=>"Lawrence Parramore", "percentage"=>4.35},
-    "Independent"=>
+    "Independent - Scott Pickles"=>
      {"elected"=>false, "name"=>"Scott Pickles", "percentage"=>2.32},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Rosie Winterton", "percentage"=>39.69},
@@ -2702,7 +2747,7 @@
      {"elected"=>true, "name"=>"Charlie Elphicke", "percentage"=>44.01},
     "English Democrats"=>
      {"elected"=>false, "name"=>"Michael Walters", "percentage"=>0.0},
-    "Independent"=>
+    "Independent - George Lee-Delisle"=>
      {"elected"=>false, "name"=>"George Lee-Delisle", "percentage"=>0.16},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Gwyn Prosser", "percentage"=>33.54},
@@ -2716,7 +2761,7 @@
      {"elected"=>false, "name"=>"Stephen Farry", "percentage"=>6.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Steven Agnew", "percentage"=>3.12},
-    "Independent"=>
+    "Independent - Sylvia Hermon"=>
      {"elected"=>true, "name"=>"Sylvia Hermon", "percentage"=>63.26},
     "SDLP (Social Democratic & Labour Party)"=>
      {"elected"=>false, "name"=>"Liam Logan", "percentage"=>2.03},
@@ -2835,16 +2880,17 @@
      {"elected"=>false, "name"=>"Katrina Murray", "percentage"=>33.35},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Clive Sneddon", "percentage"=>10.56},
-    "SSP"=>{"elected"=>false, "name"=>"Angela Gorrie", "percentage"=>0.63},
     "Scottish National Party"=>
      {"elected"=>true, "name"=>"Stewart Hosie", "percentage"=>37.84},
+    "Scottish Socialist Party"=>
+     {"elected"=>false, "name"=>"Angela Gorrie", "percentage"=>0.63},
     "UK Independence Party (UKIP)"=>
      {"elected"=>false, "name"=>"Mike Arthur", "percentage"=>1.06}}},
  {"name"=>"Dundee West",
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Colin Stewart", "percentage"=>9.0},
-    "Independent"=>
+    "Independent - Andy McBride"=>
      {"elected"=>false, "name"=>"Andy McBride", "percentage"=>0.98},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Jim McGovern", "percentage"=>48.47},
@@ -2871,7 +2917,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Ralph Musgrave", "percentage"=>2.49},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Nick Varley", "percentage"=>13.0},
-    "Independent"=>
+    "Independent - Jonathan Collings"=>
      {"elected"=>false, "name"=>"Jonathan Collings", "percentage"=>0.37},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Roberta Blackman-Woods", "percentage"=>44.31},
@@ -2895,7 +2941,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Michael Stewart", "percentage"=>4.23},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Michelle Tempest", "percentage"=>20.01},
-    "Independent"=>
+    "Independent - Watts Stelling"=>
      {"elected"=>false, "name"=>"Watts Stelling", "percentage"=>5.64},
     "Labour Party"=>{"elected"=>true, "name"=>"Pat Glass", "percentage"=>42.0},
     "Liberal Democrats"=>
@@ -2906,7 +2952,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Simon Baynes", "percentage"=>22.3},
-    "Independent"=>
+    "Independent - Louise Hughes"=>
      {"elected"=>false, "name"=>"Louise Hughes", "percentage"=>4.53},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Alwyn Humphreys", "percentage"=>13.91},
@@ -2989,7 +3035,7 @@
      {"elected"=>false, "name"=>"Graham Simpson", "percentage"=>13.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Kirsten Robb", "percentage"=>1.97},
-    "Independent"=>
+    "Independent - John Houston"=>
      {"elected"=>false, "name"=>"John Houston", "percentage"=>0.59},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Michael McCann", "percentage"=>51.51},
@@ -3016,8 +3062,12 @@
    {"BNP"=>{"elected"=>false, "name"=>"Colin Poulter", "percentage"=>1.8},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Nigel Waterson", "percentage"=>41.0},
-    "Independent"=>
+    "Independent - Keith Gell"=>
      {"elected"=>false, "name"=>"Keith Gell", "percentage"=>0.14},
+    "Independent - Michael Baldry"=>
+     {"elected"=>false, "name"=>"Michael Baldry", "percentage"=>0.19},
+    "Independent - Stephen Shing"=>
+     {"elected"=>false, "name"=>"Stephen Shing", "percentage"=>3.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Dave Brinson", "percentage"=>4.79},
     "Liberal Democrats"=>
@@ -3030,7 +3080,7 @@
      {"elected"=>false, "name"=>"Maria Hutchings", "percentage"=>39.33},
     "English Democrats"=>
      {"elected"=>false, "name"=>"Tony Pewsey", "percentage"=>0.46},
-    "Independent"=>
+    "Independent - Dave Stone"=>
      {"elected"=>false, "name"=>"Dave Stone", "percentage"=>0.29},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Leo Barraclough", "percentage"=>10.0},
@@ -3069,7 +3119,7 @@
      {"elected"=>false, "name"=>"Iain McGill", "percentage"=>14.95},
     "Green Party"=>
      {"elected"=>false, "name"=>"Kate Joester", "percentage"=>2.24},
-    "Independent"=>
+    "Independent - Cameron MacIntyre"=>
      {"elected"=>false, "name"=>"Cameron MacIntyre", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Mark Lazarowicz", "percentage"=>37.46},
@@ -3105,9 +3155,10 @@
      {"elected"=>true, "name"=>"Alistair Darling", "percentage"=>42.83},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Tim McKay", "percentage"=>18.02},
-    "SSP"=>{"elected"=>false, "name"=>"Colin Fox", "percentage"=>0.7},
     "Scottish National Party"=>
-     {"elected"=>false, "name"=>"Kaukab Stewart", "percentage"=>12.0}}},
+     {"elected"=>false, "name"=>"Kaukab Stewart", "percentage"=>12.0},
+    "Scottish Socialist Party"=>
+     {"elected"=>false, "name"=>"Colin Fox", "percentage"=>0.7}}},
  {"name"=>"Edinburgh West",
   "parties"=>
    {"Conservative Party"=>
@@ -3125,9 +3176,10 @@
      {"elected"=>false, "name"=>"Andrew Charalambous", "percentage"=>29.85},
     "Green Party"=>
      {"elected"=>false, "name"=>"Jack Johnson", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - David Mclean"=>
      {"elected"=>false, "name"=>"David Mclean", "percentage"=>0.31},
-    "Lab Co-op"=>{"elected"=>true, "name"=>"Andy Love", "percentage"=>53.66},
+    "Labour Party"=>
+     {"elected"=>true, "name"=>"Andy Love", "percentage"=>53.66},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Iarla Kilbane-Dawe", "percentage"=>10.53},
     "Reform"=>{"elected"=>false, "name"=>"Erol Basarik", "percentage"=>1.0},
@@ -3137,7 +3189,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Stuart Penketh", "percentage"=>34.86},
-    "Independent"=>
+    "Independent - Jonathan Starkey"=>
      {"elected"=>false, "name"=>"Jonathan Starkey", "percentage"=>1.77},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Andrew Miller", "percentage"=>44.65},
@@ -3150,7 +3202,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Sam Clayton", "percentage"=>3.23},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Alec Shelbrooke", "percentage"=>42.62},
-    "Independent"=>
+    "Independent - Christopher Nolan"=>
      {"elected"=>false, "name"=>"Christopher Nolan", "percentage"=>0.45},
     "Labour Party"=>
      {"elected"=>false, "name"=>"James Lewis", "percentage"=>34.52},
@@ -3167,7 +3219,7 @@
      {"elected"=>false, "name"=>"Mike Tibby", "percentage"=>1.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Arthur Hayles", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Andrew Graham"=>
      {"elected"=>false, "name"=>"Andrew Graham", "percentage"=>0.25},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Clive Efford", "percentage"=>41.5},
@@ -3185,7 +3237,7 @@
      {"elected"=>false, "name"=>"Raquel Weald", "percentage"=>0.29},
     "Green Party"=>
      {"elected"=>false, "name"=>"Bill Linton", "percentage"=>1.1},
-    "Independent"=>
+    "Independent - Gonul Daniels"=>
      {"elected"=>false, "name"=>"Gonul Daniels", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Joan Ryan", "percentage"=>38.49},
@@ -3203,7 +3255,7 @@
      {"elected"=>false, "name"=>"Ben Weald", "percentage"=>0.39},
     "Green Party"=>
      {"elected"=>false, "name"=>"Peter Krakowiak", "percentage"=>1.42},
-    "Independent"=>
+    "Independent - Asit Mukhopadhyay"=>
      {"elected"=>false, "name"=>"Asit Mukhopadhyay", "percentage"=>1.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Bambos Charalambous", "percentage"=>32.25},
@@ -3247,7 +3299,7 @@
      {"elected"=>true, "name"=>"Jessica Lee", "percentage"=>39.47},
     "Green Party"=>
      {"elected"=>false, "name"=>"Lee Fletcher", "percentage"=>1.12},
-    "Independent"=>
+    "Independent - Luke Wilkins"=>
      {"elected"=>false, "name"=>"Luke Wilkins", "percentage"=>0.97},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Cheryl Pidgeon", "percentage"=>34.22},
@@ -3280,7 +3332,7 @@
      {"elected"=>true, "name"=>"Dominic Raab", "percentage"=>58.91},
     "English Democrats"=>
      {"elected"=>false, "name"=>"Mike Kearsley", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Tony Popham"=>
      {"elected"=>false, "name"=>"Tony Popham", "percentage"=>1.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Francis Eldergill", "percentage"=>10.69},
@@ -3351,9 +3403,14 @@
      {"elected"=>false, "name"=>"Mark Bowen", "percentage"=>34.04},
     "Green Party"=>
      {"elected"=>false, "name"=>"Elizabeth Anstis", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Asa Khaira"=>
+     {"elected"=>false, "name"=>"Asa Khaira", "percentage"=>0.37},
+    "Independent - Dharmendra Tripathi"=>
+     {"elected"=>false, "name"=>"Dharmendra Tripathi", "percentage"=>1.04},
+    "Independent - Roger Williams"=>
      {"elected"=>false, "name"=>"Roger Williams", "percentage"=>0.35},
-    "Lab Co-op"=>{"elected"=>true, "name"=>"Alan Keen", "percentage"=>43.63},
+    "Labour Party"=>
+     {"elected"=>true, "name"=>"Alan Keen", "percentage"=>43.63},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Munira Wilson", "percentage"=>13.74},
     "UK Independence Party (UKIP)"=>
@@ -3363,8 +3420,10 @@
   "parties"=>
    {"Alliance - Alliance Party of Northern Ireland"=>
      {"elected"=>false, "name"=>"Vasundhara Kamble", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - John Stevenson"=>
      {"elected"=>false, "name"=>"John Stevenson", "percentage"=>0.4},
+    "Independent - Rodney Connor"=>
+     {"elected"=>false, "name"=>"Rodney Connor", "percentage"=>45.51},
     "SDLP (Social Democratic & Labour Party)"=>
      {"elected"=>false, "name"=>"Fearghal McKinney", "percentage"=>8.0},
     "Sinn Féin"=>
@@ -3414,7 +3473,7 @@
      {"elected"=>true, "name"=>"Damian Collins", "percentage"=>49.45},
     "Green Party"=>
      {"elected"=>false, "name"=>"Penny Kemp", "percentage"=>1.21},
-    "Independent"=>
+    "Independent - David Plumstead"=>
      {"elected"=>false, "name"=>"David Plumstead", "percentage"=>0.47},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Donald Worsley", "percentage"=>11.0},
@@ -3538,9 +3597,10 @@
      {"elected"=>false, "name"=>"Chris Young", "percentage"=>16.38},
     "Pirate"=>
      {"elected"=>false, "name"=>"Finlay Archibald", "percentage"=>0.42},
-    "SSP"=>{"elected"=>false, "name"=>"James Nesbitt", "percentage"=>1.0},
     "Scottish National Party"=>
      {"elected"=>false, "name"=>"Osama Saeed", "percentage"=>18.0},
+    "Scottish Socialist Party"=>
+     {"elected"=>false, "name"=>"James Nesbitt", "percentage"=>1.0},
     "UK Independence Party (UKIP)"=>
      {"elected"=>false, "name"=>"Ramsay Urquhart", "percentage"=>0.8}}},
  {"name"=>"Glasgow East",
@@ -3552,9 +3612,10 @@
      {"elected"=>true, "name"=>"Margaret Curran", "percentage"=>61.55},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Kevin Ward", "percentage"=>5.0},
-    "SSP"=>{"elected"=>false, "name"=>"Frances Curran", "percentage"=>1.41},
     "Scottish National Party"=>
      {"elected"=>false, "name"=>"John Mason", "percentage"=>24.74},
+    "Scottish Socialist Party"=>
+     {"elected"=>false, "name"=>"Frances Curran", "percentage"=>1.41},
     "UK Independence Party (UKIP)"=>
      {"elected"=>false, "name"=>"Arthur Thackeray", "percentage"=>0.65}}},
  {"name"=>"Glasgow North",
@@ -3581,9 +3642,10 @@
      {"elected"=>true, "name"=>"Willie Bain", "percentage"=>68.35},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Eileen Baxendale", "percentage"=>7.69},
-    "SSP"=>{"elected"=>false, "name"=>"Kevin McVey", "percentage"=>0.61},
     "Scottish National Party"=>
      {"elected"=>false, "name"=>"Billy McAllister", "percentage"=>14.14},
+    "Scottish Socialist Party"=>
+     {"elected"=>false, "name"=>"Kevin McVey", "percentage"=>0.61},
     "Soc Lab"=>
      {"elected"=>false, "name"=>"Jim Berrington", "percentage"=>0.53},
     "Trade Unionist and Socialist Coalition"=>
@@ -3622,7 +3684,8 @@
    {"BNP"=>{"elected"=>false, "name"=>"David Orr", "percentage"=>2.65},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Forrest, Henderso", "percentage"=>6.56},
-    "Lab Co-op"=>{"elected"=>true, "name"=>"Ian Davidson", "percentage"=>63.0},
+    "Labour Party"=>
+     {"elected"=>true, "name"=>"Ian Davidson", "percentage"=>63.0},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Isabel Nelson", "percentage"=>9.03},
     "Scottish National Party"=>
@@ -3677,7 +3740,12 @@
      {"elected"=>false, "name"=>"Bob Shaw", "percentage"=>1.33},
     "Green Party"=>
      {"elected"=>false, "name"=>"Andrea Smith", "percentage"=>1.22},
-    "Independent"=>{"elected"=>false, "name"=>"Brian Hart", "percentage"=>1.0},
+    "Independent - Brian Hart"=>
+     {"elected"=>false, "name"=>"Brian Hart", "percentage"=>1.0},
+    "Independent - Charles Read"=>
+     {"elected"=>false, "name"=>"Charles Read", "percentage"=>0.71},
+    "Independent - David Smith"=>
+     {"elected"=>false, "name"=>"David Smith", "percentage"=>1.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Graham Giles", "percentage"=>17.0},
     "Liberal Democrats"=>
@@ -3718,9 +3786,9 @@
      {"elected"=>false, "name"=>"Steven Uncles", "percentage"=>2.12},
     "Green Party"=>
      {"elected"=>false, "name"=>"Richard Crawford", "percentage"=>1.43},
-    "Independent"=>
+    "Independent - Alice Dartnell"=>
      {"elected"=>false, "name"=>"Alice Dartnell", "percentage"=>1.0},
-    "Lab Co-op"=>
+    "Labour Party"=>
      {"elected"=>false, "name"=>"Kathryn Smith", "percentage"=>28.84},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Anna Arrowsmith", "percentage"=>13.3},
@@ -3731,7 +3799,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Steve Fyfe", "percentage"=>4.6},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Victoria Ayling", "percentage"=>30.54},
-    "Independent"=>
+    "Independent - Ernie Brown"=>
      {"elected"=>false, "name"=>"Ernie Brown", "percentage"=>3.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Austin Mitchell", "percentage"=>33.0},
@@ -3765,7 +3833,7 @@
      {"elected"=>false, "name"=>"Topo Wresniwiro", "percentage"=>1.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Andy Hewett", "percentage"=>2.56},
-    "Independent"=>
+    "Independent - Tammy Alingham"=>
      {"elected"=>false, "name"=>"Tammy Alingham", "percentage"=>0.16},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Nick Raynsford", "percentage"=>49.19},
@@ -3791,8 +3859,10 @@
      {"elected"=>false, "name"=>"Darren Caplan", "percentage"=>14.54},
     "Green Party"=>
      {"elected"=>false, "name"=>"Matt Sellwood", "percentage"=>5.0},
-    "Independent"=>
+    "Independent - Alessandra Williams"=>
      {"elected"=>false, "name"=>"Alessandra Williams", "percentage"=>0.13},
+    "Independent - Paul Shaer"=>
+     {"elected"=>false, "name"=>"Paul Shaer", "percentage"=>0.21},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Diane Abbott", "percentage"=>54.97},
     "Liberal Democrats"=>
@@ -3810,7 +3880,11 @@
     "DDP"=>{"elected"=>false, "name"=>"Nusret Sen", "percentage"=>0.47},
     "Green Party"=>
      {"elected"=>false, "name"=>"Polly Lane", "percentage"=>3.48},
-    "Independent"=>
+    "Independent - Jane Tuckett"=>
+     {"elected"=>false, "name"=>"Jane Tuckett", "percentage"=>0.06},
+    "Independent - La D"=>
+     {"elected"=>false, "name"=>"La D", "percentage"=>0.22},
+    "Independent - Michael Spinks"=>
      {"elected"=>false, "name"=>"Michael Spinks", "percentage"=>0.05},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Meg Hillier", "percentage"=>55.74},
@@ -3823,7 +3897,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>true, "name"=>"James Morris", "percentage"=>41.19},
-    "Independent"=>
+    "Independent - Derek Thompson"=>
      {"elected"=>false, "name"=>"Derek Thompson", "percentage"=>0.98},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Sue Hayman", "percentage"=>37.0},
@@ -3875,7 +3949,7 @@
      {"elected"=>false, "name"=>"Shaun Bailey", "percentage"=>36.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Rollo Miles", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Stephen Brennan"=>
      {"elected"=>false, "name"=>"Stephen Brennan", "percentage"=>0.28},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Andy Slaughter", "percentage"=>43.85},
@@ -3923,7 +3997,7 @@
      {"elected"=>false, "name"=>"Chris Philp", "percentage"=>33.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Bea Campbell", "percentage"=>1.44},
-    "Independent"=>
+    "Independent - Gene Alcantara"=>
      {"elected"=>false, "name"=>"Gene Alcantara", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Glenda Jackson", "percentage"=>32.81},
@@ -3939,7 +4013,7 @@
      {"elected"=>true, "name"=>"Edward Garnier", "percentage"=>48.95},
     "English Democrats"=>
      {"elected"=>false, "name"=>"David Ball", "percentage"=>1.03},
-    "Independent"=>
+    "Independent - Jeff Stephenson"=>
      {"elected"=>false, "name"=>"Jeff Stephenson", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Kevin McKeever", "percentage"=>12.71},
@@ -3988,7 +4062,7 @@
      {"elected"=>false, "name"=>"Rachel Joyce", "percentage"=>36.79},
     "Green Party"=>
      {"elected"=>false, "name"=>"Rowan Langley", "percentage"=>1.36},
-    "Lab Co-op"=>
+    "Labour Party"=>
      {"elected"=>true, "name"=>"Gareth Thomas", "percentage"=>43.61},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Christopher Noyce", "percentage"=>16.0},
@@ -4011,7 +4085,7 @@
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Bernard Jenkin", "percentage"=>46.94},
     "Green Party"=>{"elected"=>false, "name"=>"Chris Fox", "percentage"=>2.0},
-    "Independent"=>
+    "Independent - Bates, Thompso"=>
      {"elected"=>false, "name"=>"Bates, Thompso", "percentage"=>0.35},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Darren Barrenger", "percentage"=>19.95},
@@ -4074,7 +4148,8 @@
    {"BNP"=>{"elected"=>false, "name"=>"Janet Price", "percentage"=>3.26},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Mike Penning", "percentage"=>50.0},
-    "Independent"=>{"elected"=>false, "name"=>"Mick Young", "percentage"=>1.0},
+    "Independent - Mick Young"=>
+     {"elected"=>false, "name"=>"Mick Young", "percentage"=>1.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Ayfer Orhan", "percentage"=>20.81},
     "Liberal Democrats"=>
@@ -4086,7 +4161,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Ian Kitchen", "percentage"=>6.98},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Ann Myatt", "percentage"=>24.0},
-    "Independent"=>
+    "Independent - Ian Womersley"=>
      {"elected"=>false, "name"=>"Ian Womersley", "percentage"=>9.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Jon Trickett", "percentage"=>46.77},
@@ -4134,7 +4209,8 @@
      {"elected"=>true, "name"=>"Bill Wiggin", "percentage"=>52.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Felicity Norman", "percentage"=>3.22},
-    "Independent"=>{"elected"=>false, "name"=>"John King", "percentage"=>1.0},
+    "Independent - John King"=>
+     {"elected"=>false, "name"=>"John King", "percentage"=>1.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Neil Sabharwal", "percentage"=>7.09},
     "Liberal Democrats"=>
@@ -4146,7 +4222,9 @@
    {"BNP"=>{"elected"=>false, "name"=>"Roy Harris", "percentage"=>2.0},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Mark Prisk", "percentage"=>53.83},
-    "Independent"=>
+    "Independent - Loucas Xenophontos"=>
+     {"elected"=>false, "name"=>"Loucas Xenophontos", "percentage"=>0.59},
+    "Independent - Martin Adams"=>
      {"elected"=>false, "name"=>"Martin Adams", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Steve Terry", "percentage"=>13.76},
@@ -4160,8 +4238,10 @@
      {"elected"=>true, "name"=>"Oliver Heald", "percentage"=>53.53},
     "Green Party"=>
      {"elected"=>false, "name"=>"Rosemary Bland", "percentage"=>1.74},
-    "Independent"=>
+    "Independent - Philip Reichardt"=>
      {"elected"=>false, "name"=>"Philip Reichardt", "percentage"=>0.0},
+    "Independent - Richard Campbell"=>
+     {"elected"=>false, "name"=>"Richard Campbell", "percentage"=>0.41},
     "Labour Party"=>
      {"elected"=>false, "name"=>"David Kirkman", "percentage"=>16.44},
     "Liberal Democrats"=>
@@ -4174,7 +4254,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Deirdre Gates", "percentage"=>2.29},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"David Gauke", "percentage"=>54.23},
-    "Independent"=>
+    "Independent - James Hannaway"=>
      {"elected"=>false, "name"=>"James Hannaway", "percentage"=>1.49},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Harry Mann", "percentage"=>11.5},
@@ -4200,8 +4280,10 @@
    {"BNP"=>{"elected"=>false, "name"=>"Quentin Hawkins", "percentage"=>3.0},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Guy Opperman", "percentage"=>43.22},
-    "Independent"=>
+    "Independent - Colin Moss"=>
      {"elected"=>false, "name"=>"Colin Moss", "percentage"=>0.57},
+    "Independent - Steve Ford"=>
+     {"elected"=>false, "name"=>"Steve Ford", "percentage"=>4.54},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Antoine Tinnion", "percentage"=>18.98},
     "Liberal Democrats"=>
@@ -4211,7 +4293,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Peter Greenwood", "percentage"=>7.0},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Michael Holly", "percentage"=>27.16},
-    "Independent"=>
+    "Independent - Chrissy Lee"=>
      {"elected"=>false, "name"=>"Chrissy Lee", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Jim Dobbin", "percentage"=>40.11},
@@ -4225,7 +4307,7 @@
      {"elected"=>true, "name"=>"Andrew Bingham", "percentage"=>40.9},
     "Green Party"=>
      {"elected"=>false, "name"=>"Peter Allen", "percentage"=>1.83},
-    "Independent"=>
+    "Independent - Lance Dowson"=>
      {"elected"=>false, "name"=>"Lance Dowson", "percentage"=>0.32},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Caitlin Bisknell", "percentage"=>31.61},
@@ -4240,7 +4322,9 @@
      {"elected"=>true, "name"=>"Peter Lilley", "percentage"=>55.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Richard Wise", "percentage"=>1.48},
-    "Independent"=>
+    "Independent - Margaret Henderson"=>
+     {"elected"=>false, "name"=>"Margaret Henderson", "percentage"=>0.2},
+    "Independent - Peter Rigby"=>
      {"elected"=>false, "name"=>"Peter Rigby", "percentage"=>0.09},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Botton, d", "percentage"=>13.55},
@@ -4259,7 +4343,10 @@
      {"elected"=>false, "name"=>"Mikel Susperregi", "percentage"=>0.14},
     "Green Party"=>
      {"elected"=>false, "name"=>"Natalie Bennett", "percentage"=>3.0},
-    "Independent"=>{"elected"=>false, "name"=>"Iain Meek", "percentage"=>0.0},
+    "Independent - Iain Meek"=>
+     {"elected"=>false, "name"=>"Iain Meek", "percentage"=>0.0},
+    "Independent - John Chapman"=>
+     {"elected"=>false, "name"=>"John Chapman", "percentage"=>0.18},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Frank Dobson", "percentage"=>46.11},
     "Liberal Democrats"=>
@@ -4274,7 +4361,7 @@
      {"elected"=>true, "name"=>"Angela Watkinson", "percentage"=>51.45},
     "Green Party"=>
      {"elected"=>false, "name"=>"Melanie Collins", "percentage"=>1.02},
-    "Independent"=>
+    "Independent - David Durant"=>
      {"elected"=>false, "name"=>"David Durant", "percentage"=>1.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Kath McGuirk", "percentage"=>20.79},
@@ -4288,7 +4375,9 @@
      {"elected"=>false, "name"=>"Richard Merrin", "percentage"=>16.67},
     "Green Party"=>
      {"elected"=>false, "name"=>"Pete McAskie", "percentage"=>2.29},
-    "Independent"=>
+    "Independent - Roche, D"=>
+     {"elected"=>false, "name"=>"Roche, D", "percentage"=>0.37},
+    "Independent - Rohen Kapur"=>
      {"elected"=>false, "name"=>"Rohen Kapur", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Karen Jennings", "percentage"=>34.01},
@@ -4301,7 +4390,7 @@
      {"elected"=>true, "name"=>"Francis Maude", "percentage"=>53.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Nick Fitter", "percentage"=>1.02},
-    "Independent"=>
+    "Independent - Derek Kissach"=>
      {"elected"=>false, "name"=>"Derek Kissach", "percentage"=>0.16},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Andrew Skudder", "percentage"=>7.5},
@@ -4315,7 +4404,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Karen Allen", "percentage"=>5.0},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Robert Oliver", "percentage"=>21.43},
-    "Independent"=>
+    "Independent - Colin Wakefield"=>
      {"elected"=>false, "name"=>"Colin Wakefield", "percentage"=>6.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Bridget Phillipson", "percentage"=>50.33},
@@ -4328,7 +4417,7 @@
    {"Conservative Party"=>
      {"elected"=>true, "name"=>"Mike Weatherley", "percentage"=>36.72},
     "Green Party"=>{"elected"=>false, "name"=>"Ian Davey", "percentage"=>5.0},
-    "Independent"=>
+    "Independent - Brian Ralfe"=>
      {"elected"=>false, "name"=>"Brian Ralfe", "percentage"=>0.17},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Celia Barlow", "percentage"=>32.97},
@@ -4398,7 +4487,7 @@
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Jonathan Djanogly", "percentage"=>48.86},
     "Green Party"=>{"elected"=>false, "name"=>"John Clare", "percentage"=>1.2},
-    "Independent"=>
+    "Independent - Jonathan Salt"=>
      {"elected"=>false, "name"=>"Jonathan Salt", "percentage"=>2.64},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Anthea Cox", "percentage"=>11.02},
@@ -4418,7 +4507,7 @@
      {"elected"=>false, "name"=>"Christopher Reid", "percentage"=>0.97},
     "Green Party"=>
      {"elected"=>false, "name"=>"Kerry Gormley", "percentage"=>1.09},
-    "Independent"=>
+    "Independent - Craig Hall"=>
      {"elected"=>false, "name"=>"Craig Hall", "percentage"=>0.89},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Graham Jones", "percentage"=>41.0},
@@ -4449,7 +4538,8 @@
      {"elected"=>false, "name"=>"Wilson Chowdhry", "percentage"=>2.58},
     "King George"=>
      {"elected"=>false, "name"=>"John Jestico", "percentage"=>1.0},
-    "Lab Co-op"=>{"elected"=>true, "name"=>"Mike Gapes", "percentage"=>49.42},
+    "Labour Party"=>
+     {"elected"=>true, "name"=>"Mike Gapes", "percentage"=>49.42},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Anood Al-Samerai", "percentage"=>16.95},
     "UK Independence Party (UKIP)"=>
@@ -4491,7 +4581,9 @@
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Ben Gummer", "percentage"=>39.14},
     "Green Party"=>{"elected"=>false, "name"=>"Tim Glover", "percentage"=>2.0},
-    "Independent"=>
+    "Independent - Peter Turtill"=>
+     {"elected"=>false, "name"=>"Peter Turtill", "percentage"=>0.2},
+    "Independent - Sally Wainman"=>
      {"elected"=>false, "name"=>"Sally Wainman", "percentage"=>0.15},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Chris Mole", "percentage"=>34.71},
@@ -4507,8 +4599,12 @@
     "English Democrats"=>
      {"elected"=>false, "name"=>"Ian Dunsire", "percentage"=>1.75},
     "Green Party"=>{"elected"=>false, "name"=>"Bob Keats", "percentage"=>1.33},
-    "Independent"=>
+    "Independent - Edward Corby"=>
      {"elected"=>false, "name"=>"Edward Corby", "percentage"=>0.09},
+    "Independent - Paul Randle-Jolliffe"=>
+     {"elected"=>false, "name"=>"Paul Randle-Jolliffe", "percentage"=>0.0},
+    "Independent - Pete Harris"=>
+     {"elected"=>false, "name"=>"Pete Harris", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Mark Chiverton", "percentage"=>11.63},
     "Liberal Democrats"=>
@@ -4548,9 +4644,11 @@
    {"BNP"=>{"elected"=>false, "name"=>"John Voisey", "percentage"=>4.0},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Daniel Thomas", "percentage"=>13.99},
-    "Independent"=>
+    "Independent - Dave Rees"=>
+     {"elected"=>false, "name"=>"Dave Rees", "percentage"=>4.31},
+    "Independent - Paul Taylor"=>
      {"elected"=>false, "name"=>"Paul Taylor", "percentage"=>2.6},
-    "Lab Co-op"=>
+    "Labour Party"=>
      {"elected"=>true, "name"=>"Christopher Evans", "percentage"=>49.2},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Asghar Ali", "percentage"=>10.37},
@@ -4585,7 +4683,8 @@
      {"elected"=>true, "name"=>"Jeremy Wright", "percentage"=>54.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"James Harrison", "percentage"=>1.17},
-    "Independent"=>{"elected"=>false, "name"=>"Joe Rukin", "percentage"=>1.0},
+    "Independent - Joe Rukin"=>
+     {"elected"=>false, "name"=>"Joe Rukin", "percentage"=>1.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Nicholas Milton", "percentage"=>14.35},
     "Liberal Democrats"=>
@@ -4623,7 +4722,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Janette McAlpine", "percentage"=>14.0},
-    "Lab Co-op"=>
+    "Labour Party"=>
      {"elected"=>true, "name"=>"Cathy Jamieson", "percentage"=>52.54},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Sebastian Tombs", "percentage"=>7.34},
@@ -4663,7 +4762,10 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Lindsay Paterson", "percentage"=>9.3},
-    "Independent"=>{"elected"=>false, "name"=>"of MacLare", "percentage"=>0.0},
+    "Independent - Susan Archibald"=>
+     {"elected"=>false, "name"=>"Susan Archibald", "percentage"=>0.4},
+    "Independent - of MacLare"=>
+     {"elected"=>false, "name"=>"of MacLare", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Gordon Brown", "percentage"=>64.54},
     "Land"=>{"elected"=>false, "name"=>"Derek Jackson", "percentage"=>0.12},
@@ -4700,7 +4802,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Colin McGavigan", "percentage"=>15.0},
-    "Independent"=>
+    "Independent - Duncan McFarlane"=>
      {"elected"=>false, "name"=>"Duncan McFarlane", "percentage"=>1.44},
     "Labour Party"=>{"elected"=>true, "name"=>"Jim Hood", "percentage"=>49.96},
     "Liberal Democrats"=>
@@ -4729,7 +4831,7 @@
      {"elected"=>true, "name"=>"Eric Ollerenshaw", "percentage"=>36.07},
     "Green Party"=>
      {"elected"=>false, "name"=>"Gina Dowding", "percentage"=>4.42},
-    "Independent"=>
+    "Independent - Keith Riley"=>
      {"elected"=>false, "name"=>"Keith Riley", "percentage"=>0.5},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Clive Grunshaw", "percentage"=>35.29},
@@ -4742,7 +4844,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Kevin Meeson", "percentage"=>8.2},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Alan Lamb", "percentage"=>20.0},
-    "Independent"=>
+    "Independent - Dave Procter"=>
      {"elected"=>false, "name"=>"Dave Procter", "percentage"=>1.09},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Hilary Benn", "percentage"=>49.0},
@@ -4834,8 +4936,10 @@
      {"elected"=>false, "name"=>"Celia Harvey", "percentage"=>27.16},
     "Green Party"=>
      {"elected"=>false, "name"=>"Geoff Forse", "percentage"=>1.78},
-    "Independent"=>
+    "Independent - David Bowley"=>
      {"elected"=>false, "name"=>"David Bowley", "percentage"=>0.0},
+    "Independent - Steven Huggins"=>
+     {"elected"=>false, "name"=>"Steven Huggins", "percentage"=>0.51},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Elizabeth Kendall", "percentage"=>38.37},
     "Liberal Democrats"=>
@@ -4873,7 +4977,9 @@
     "Ch P"=>{"elected"=>false, "name"=>"Ryan Hessell", "percentage"=>0.31},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Shazia Awan", "percentage"=>20.94},
-    "Independent"=>
+    "Independent - Norman Bradbury"=>
+     {"elected"=>false, "name"=>"Norman Bradbury", "percentage"=>2.23},
+    "Independent - Terry Dainty"=>
      {"elected"=>false, "name"=>"Terry Dainty", "percentage"=>0.72},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Andy Burnham", "percentage"=>48.0},
@@ -4888,7 +4994,7 @@
      {"elected"=>false, "name"=>"Jason Sugarman", "percentage"=>37.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Susan Murray", "percentage"=>1.46},
-    "Independent"=>
+    "Independent - Ondrej Soucek"=>
      {"elected"=>false, "name"=>"Ondrej Soucek", "percentage"=>0.16},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Hratche Koundarjian", "percentage"=>5.0},
@@ -4969,7 +5075,7 @@
      {"elected"=>true, "name"=>"Karl McCartney", "percentage"=>37.54},
     "English Democrats"=>
      {"elected"=>false, "name"=>"Ernest Coleman", "percentage"=>1.32},
-    "Independent"=>
+    "Independent - Gary Walker"=>
      {"elected"=>false, "name"=>"Gary Walker", "percentage"=>0.49},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Gillian Merron", "percentage"=>35.22},
@@ -5022,9 +5128,9 @@
      {"elected"=>false, "name"=>"Andrew Garnett", "percentage"=>7.46},
     "Green Party"=>
      {"elected"=>false, "name"=>"Rebecca Lawson", "percentage"=>2.0},
-    "Independent"=>
+    "Independent - Frank Dunne"=>
      {"elected"=>false, "name"=>"Frank Dunne", "percentage"=>0.39},
-    "Lab Co-op"=>
+    "Labour Party"=>
      {"elected"=>true, "name"=>"Luciana Berger", "percentage"=>53.1},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Colin Eldridge", "percentage"=>34.2},
@@ -5035,7 +5141,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Pamela Hall", "percentage"=>9.25},
-    "Lab Co-op"=>
+    "Labour Party"=>
      {"elected"=>true, "name"=>"Stephen Twigg", "percentage"=>64.14},
     "Lib"=>{"elected"=>false, "name"=>"Stephen Radford", "percentage"=>9.3},
     "Liberal Democrats"=>
@@ -5048,14 +5154,16 @@
    {"BNP"=>{"elected"=>false, "name"=>"David Orr", "percentage"=>2.0},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Alison Adamson-Ross", "percentage"=>10.77},
-    "Independent"=>{"elected"=>false, "name"=>"Jim Slavin", "percentage"=>0.0},
+    "Independent - Jim Slavin"=>
+     {"elected"=>false, "name"=>"Jim Slavin", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Graeme Morrice", "percentage"=>48.46},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Charles Dundas", "percentage"=>11.0},
-    "SSP"=>{"elected"=>false, "name"=>"Ally Hendry", "percentage"=>0.51},
     "Scottish National Party"=>
      {"elected"=>false, "name"=>"Lis Bardell", "percentage"=>26.0},
+    "Scottish Socialist Party"=>
+     {"elected"=>false, "name"=>"Ally Hendry", "percentage"=>0.51},
     "UK Independence Party (UKIP)"=>
      {"elected"=>false, "name"=>"Alistair Forrest", "percentage"=>0.92}}},
  {"name"=>"Llanelli",
@@ -5087,7 +5195,8 @@
    {"BNP"=>{"elected"=>false, "name"=>"Kevan Stafford", "percentage"=>4.0},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Nicky Morgan", "percentage"=>41.58},
-    "Lab Co-op"=>{"elected"=>false, "name"=>"Andy Reed", "percentage"=>34.5},
+    "Labour Party"=>
+     {"elected"=>false, "name"=>"Andy Reed", "percentage"=>34.5},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Mike Willis", "percentage"=>18.0},
     "UK Independence Party (UKIP)"=>
@@ -5143,9 +5252,16 @@
      {"elected"=>false, "name"=>"Marc Scheimann", "percentage"=>0.87},
     "Ind Rantzen"=>
      {"elected"=>false, "name"=>"Esther Rantzen", "percentage"=>4.43},
-    "Independent"=>
+    "Independent - Faruk Choudhury"=>
+     {"elected"=>false, "name"=>"Faruk Choudhury", "percentage"=>0.0},
+    "Independent - Joe Hall"=>
+     {"elected"=>false, "name"=>"Joe Hall", "percentage"=>0.63},
+    "Independent - Stephen Lathwell"=>
      {"elected"=>false, "name"=>"Stephen Lathwell", "percentage"=>0.0},
-    "Lab Co-op"=>{"elected"=>true, "name"=>"Gavin Shuker", "percentage"=>35.0},
+    "Independent - Stephen Rhodes"=>
+     {"elected"=>false, "name"=>"Stephen Rhodes", "percentage"=>1.1},
+    "Labour Party"=>
+     {"elected"=>true, "name"=>"Gavin Shuker", "percentage"=>35.0},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Qurban Hussain", "percentage"=>23.0},
     "UK Independence Party (UKIP)"=>
@@ -5198,7 +5314,9 @@
    {"BNP"=>{"elected"=>false, "name"=>"Ken Haslam", "percentage"=>7.38},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Itrat Ali", "percentage"=>18.76},
-    "Independent"=>
+    "Independent - Bob Brierley"=>
+     {"elected"=>false, "name"=>"Bob Brierley", "percentage"=>7.82},
+    "Independent - John Mather"=>
      {"elected"=>false, "name"=>"John Mather", "percentage"=>2.57},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Yvonne Fovargue", "percentage"=>47.0},
@@ -5222,7 +5340,7 @@
      {"elected"=>false, "name"=>"Suhail Rahuja", "percentage"=>11.78},
     "Green Party"=>
      {"elected"=>false, "name"=>"Gayle O'Donovan", "percentage"=>2.29},
-    "Independent"=>
+    "Independent - John Cartwright"=>
      {"elected"=>false, "name"=>"John Cartwright", "percentage"=>0.3},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Tony Lloyd", "percentage"=>52.74},
@@ -5255,8 +5373,10 @@
      {"elected"=>false, "name"=>"Christopher Green", "percentage"=>11.11},
     "Green Party"=>
      {"elected"=>false, "name"=>"Brian Candeland", "percentage"=>2.0},
-    "Independent"=>
+    "Independent - Marcus Farmer"=>
      {"elected"=>false, "name"=>"Marcus Farmer", "percentage"=>0.13},
+    "Independent - Yasmin Zalzala"=>
+     {"elected"=>false, "name"=>"Yasmin Zalzala", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Lucy Powell", "percentage"=>40.45},
     "Liberal Democrats"=>
@@ -5285,7 +5405,7 @@
      {"elected"=>true, "name"=>"George Hollingbery", "percentage"=>56.0},
     "English Democrats"=>
      {"elected"=>false, "name"=>"Pat Harris", "percentage"=>1.14},
-    "Independent"=>
+    "Independent - Graeme Quar"=>
      {"elected"=>false, "name"=>"Graeme Quar", "percentage"=>0.26},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Howard Linsley", "percentage"=>6.37},
@@ -5312,7 +5432,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Richard Barnes", "percentage"=>3.66},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Maria Hill", "percentage"=>7.52},
-    "Independent"=>
+    "Independent - Clive Tovey"=>
      {"elected"=>false, "name"=>"Clive Tovey", "percentage"=>6.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Dai Havard", "percentage"=>43.67},
@@ -5328,7 +5448,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Michael Ferguson", "percentage"=>5.84},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"John Walsh", "percentage"=>19.0},
-    "Independent"=>
+    "Independent - Joan McTigue"=>
      {"elected"=>false, "name"=>"Joan McTigue", "percentage"=>5.89},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Stuart Bell", "percentage"=>46.0},
@@ -5341,7 +5461,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Shaun Gatley", "percentage"=>3.0},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Paul Bristow", "percentage"=>35.62},
-    "Independent"=>
+    "Independent - Mike Allen"=>
      {"elected"=>false, "name"=>"Mike Allen", "percentage"=>1.77},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Tom Blenkinsop", "percentage"=>39.25},
@@ -5355,7 +5475,7 @@
      {"elected"=>false, "name"=>"James Callander", "percentage"=>11.88},
     "Green Party"=>
      {"elected"=>false, "name"=>"Ian Baxter", "percentage"=>1.52},
-    "Independent"=>
+    "Independent - George McCleery"=>
      {"elected"=>false, "name"=>"George McCleery", "percentage"=>0.5},
     "Labour Party"=>
      {"elected"=>true, "name"=>"David Hamilton", "percentage"=>47.01},
@@ -5376,7 +5496,7 @@
      {"elected"=>true, "name"=>"Mark Lancaster", "percentage"=>43.46},
     "Green Party"=>
      {"elected"=>false, "name"=>"Alan Francis", "percentage"=>1.36},
-    "Independent"=>
+    "Independent - Anant Vyas"=>
      {"elected"=>false, "name"=>"Anant Vyas", "percentage"=>0.18},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Andrew Pakes", "percentage"=>27.0},
@@ -5408,8 +5528,10 @@
      {"elected"=>false, "name"=>"Melanie Hampton", "percentage"=>25.24},
     "Green Party"=>
      {"elected"=>false, "name"=>"Smarajit Roy", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Ernest Redgrave"=>
      {"elected"=>false, "name"=>"Ernest Redgrave", "percentage"=>0.09},
+    "Independent - Rathy Alagaratnam"=>
+     {"elected"=>false, "name"=>"Rathy Alagaratnam", "percentage"=>0.35},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Siobhain McDonagh", "percentage"=>56.45},
     "Liberal Democrats"=>
@@ -5446,7 +5568,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>true, "name"=>"Glyn Davies", "percentage"=>41.33},
-    "Independent"=>
+    "Independent - Bruce Lawson"=>
      {"elected"=>false, "name"=>"Bruce Lawson", "percentage"=>0.96},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Nick Colbourne", "percentage"=>7.0},
@@ -5486,7 +5608,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Chris Beverley", "percentage"=>7.24},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Antony Calvert", "percentage"=>35.0},
-    "Lab Co-op"=>{"elected"=>true, "name"=>"Ed Balls", "percentage"=>38.0},
+    "Labour Party"=>{"elected"=>true, "name"=>"Ed Balls", "percentage"=>38.0},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"James Monaghan", "percentage"=>16.76},
     "UK Independence Party (UKIP)"=>
@@ -5507,7 +5629,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Sheena Norquay", "percentage"=>4.4},
-    "Independent"=>
+    "Independent - Murdo Murray"=>
      {"elected"=>false, "name"=>"Murdo Murray", "percentage"=>10.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Donald MacSween", "percentage"=>32.87},
@@ -5569,7 +5691,7 @@
      {"elected"=>true, "name"=>"Richard Benyon", "percentage"=>56.42},
     "Green Party"=>
      {"elected"=>false, "name"=>"Adrian Hollister", "percentage"=>0.84},
-    "Independent"=>
+    "Independent - Brian Burgess"=>
      {"elected"=>false, "name"=>"Brian Burgess", "percentage"=>0.27},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Hannah Cooper", "percentage"=>4.28},
@@ -5659,7 +5781,7 @@
      {"elected"=>false, "name"=>"Andrew Muir", "percentage"=>1.21},
     "Democratic Unionist Party - D.U.P."=>
      {"elected"=>false, "name"=>"William Irwin", "percentage"=>12.84},
-    "Independent"=>
+    "Independent - William Frazer"=>
      {"elected"=>false, "name"=>"William Frazer", "percentage"=>1.0},
     "SDLP (Social Democratic & Labour Party)"=>
      {"elected"=>false, "name"=>"Dominic Bradley", "percentage"=>23.44},
@@ -5673,7 +5795,7 @@
      {"elected"=>true, "name"=>"Anne-Marie Morris", "percentage"=>43.03},
     "Green Party"=>
      {"elected"=>false, "name"=>"Corinne Lindsey", "percentage"=>1.45},
-    "Independent"=>
+    "Independent - Keith Sharp"=>
      {"elected"=>false, "name"=>"Keith Sharp", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Patrick Canavan", "percentage"=>7.01},
@@ -5699,7 +5821,7 @@
      {"elected"=>false, "name"=>"Trevor Ivory", "percentage"=>32.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Andrew Boswell", "percentage"=>1.02},
-    "Independent"=>
+    "Independent - Simon Mann"=>
      {"elected"=>false, "name"=>"Simon Mann", "percentage"=>0.19},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Phil Harris", "percentage"=>5.83},
@@ -5751,7 +5873,7 @@
      {"elected"=>false, "name"=>"Graham Thewlis-Hardy", "percentage"=>8.36},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Nick Pickles", "percentage"=>24.0},
-    "Independent"=>
+    "Independent - Gareth Allen"=>
      {"elected"=>false, "name"=>"Gareth Allen", "percentage"=>2.56},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Yvette Cooper", "percentage"=>48.21},
@@ -5765,7 +5887,9 @@
      {"elected"=>true, "name"=>"Michael Ellis", "percentage"=>34.11},
     "Green Party"=>
      {"elected"=>false, "name"=>"Tony Lochmuller", "percentage"=>1.1},
-    "Independent"=>
+    "Independent - Eamonn Fitzpatrick"=>
+     {"elected"=>false, "name"=>"Eamonn Fitzpatrick", "percentage"=>0.83},
+    "Independent - Malcolm Mildren"=>
      {"elected"=>false, "name"=>"Malcolm Mildren", "percentage"=>0.14},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Sally Keeble", "percentage"=>29.3},
@@ -5781,8 +5905,10 @@
      {"elected"=>false, "name"=>"Kevin Sills", "percentage"=>1.59},
     "Green Party"=>
      {"elected"=>false, "name"=>"Julie Hawkins", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Kevin Willsher"=>
      {"elected"=>false, "name"=>"Kevin Willsher", "percentage"=>0.17},
+    "Independent - Tony Clarke"=>
+     {"elected"=>false, "name"=>"Tony Clarke", "percentage"=>5.75},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Clyde Loakes", "percentage"=>25.43},
     "Liberal Democrats"=>
@@ -5813,7 +5939,7 @@
      {"elected"=>true, "name"=>"Chloe Smith", "percentage"=>40.59},
     "Green Party"=>
      {"elected"=>false, "name"=>"Jessica Goldfinch", "percentage"=>2.92},
-    "Independent"=>
+    "Independent - Bill Holden"=>
      {"elected"=>false, "name"=>"Bill Holden", "percentage"=>0.34},
     "Labour Party"=>
      {"elected"=>false, "name"=>"John Cook", "percentage"=>31.0},
@@ -5842,7 +5968,7 @@
      {"elected"=>false, "name"=>"Ewan Lamont", "percentage"=>23.7},
     "Green Party"=>
      {"elected"=>false, "name"=>"Benjamin Hoare", "percentage"=>2.8},
-    "Lab Co-op"=>
+    "Labour Party"=>
      {"elected"=>true, "name"=>"Christopher Leslie", "percentage"=>45.37},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Sam Boote", "percentage"=>24.32},
@@ -6011,28 +6137,32 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Alistair Campbell", "percentage"=>14.6},
-    "Independent"=>
+    "Independent - Gary Pearson"=>
      {"elected"=>false, "name"=>"Gary Pearson", "percentage"=>1.26},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Jim Sheridan", "percentage"=>54.03},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Ruaraidh Dobson", "percentage"=>11.0},
-    "SSP"=>{"elected"=>false, "name"=>"Chris Rollo", "percentage"=>1.0},
     "Scottish National Party"=>
-     {"elected"=>false, "name"=>"Mags MacLaren", "percentage"=>19.07}}},
+     {"elected"=>false, "name"=>"Mags MacLaren", "percentage"=>19.07},
+    "Scottish Socialist Party"=>
+     {"elected"=>false, "name"=>"Chris Rollo", "percentage"=>1.0}}},
  {"name"=>"Paisley and Renfrewshire South",
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Gordon McCaskill", "percentage"=>9.95},
-    "Independent"=>
+    "Independent - Paul Mack"=>
+     {"elected"=>false, "name"=>"Paul Mack", "percentage"=>1.28},
+    "Independent - William Hendry"=>
      {"elected"=>false, "name"=>"William Hendry", "percentage"=>1.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Douglas Alexander", "percentage"=>59.61},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Ashay Ghai", "percentage"=>9.53},
-    "SSP"=>{"elected"=>false, "name"=>"Jimmy Kerr", "percentage"=>0.94},
     "Scottish National Party"=>
-     {"elected"=>false, "name"=>"Andy Doig", "percentage"=>18.07}}},
+     {"elected"=>false, "name"=>"Andy Doig", "percentage"=>18.07},
+    "Scottish Socialist Party"=>
+     {"elected"=>false, "name"=>"Jimmy Kerr", "percentage"=>0.94}}},
  {"name"=>"Pendle",
   "parties"=>
    {"BNP"=>{"elected"=>false, "name"=>"James Jackman", "percentage"=>6.42},
@@ -6089,7 +6219,7 @@
      {"elected"=>false, "name"=>"Rob King", "percentage"=>1.71},
     "Green Party"=>
      {"elected"=>false, "name"=>"Fiona Radic", "percentage"=>1.16},
-    "Independent"=>
+    "Independent - John Swallow"=>
      {"elected"=>false, "name"=>"John Swallow", "percentage"=>0.9},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Ed Murphy", "percentage"=>29.54},
@@ -6117,9 +6247,9 @@
      {"elected"=>true, "name"=>"Oliver Colville", "percentage"=>34.29},
     "Green Party"=>
      {"elected"=>false, "name"=>"Tony Brown", "percentage"=>2.06},
-    "Independent"=>
+    "Independent - Brian Gerrish"=>
      {"elected"=>false, "name"=>"Brian Gerrish", "percentage"=>0.53},
-    "Lab Co-op"=>
+    "Labour Party"=>
      {"elected"=>false, "name"=>"Linda Gilroy", "percentage"=>31.67},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Judy Evans", "percentage"=>24.67},
@@ -6148,7 +6278,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"David Holmes", "percentage"=>2.5},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Robert Syms", "percentage"=>47.5},
-    "Independent"=>
+    "Independent - Ian Northover"=>
      {"elected"=>false, "name"=>"Ian Northover", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Jason Sanderson", "percentage"=>12.74},
@@ -6164,8 +6294,12 @@
      {"elected"=>false, "name"=>"Andrew Osborne", "percentage"=>1.01},
     "Green Party"=>
      {"elected"=>false, "name"=>"Chris Smith", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Jim Thornton"=>
      {"elected"=>false, "name"=>"Jim Thornton", "percentage"=>0.13},
+    "Independent - Kabir Mahmud"=>
+     {"elected"=>false, "name"=>"Kabir Mahmud", "percentage"=>1.0},
+    "Independent - Mohammed Hoque"=>
+     {"elected"=>false, "name"=>"Mohammed Hoque", "percentage"=>0.36},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Jim Fitzpatrick", "percentage"=>40.0},
     "Liberal Democrats"=>
@@ -6182,7 +6316,7 @@
      {"elected"=>false, "name"=>"David Knight", "percentage"=>2.36},
     "Green Party"=>
      {"elected"=>false, "name"=>"Iain Maclennan", "percentage"=>1.04},
-    "Lab Co-op"=>
+    "Labour Party"=>
      {"elected"=>false, "name"=>"Sarah McCarthy-Fry", "percentage"=>27.75},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Darren Sanders", "percentage"=>20.11},
@@ -6222,9 +6356,9 @@
    {"Ch P"=>{"elected"=>false, "name"=>"George Ambroze", "percentage"=>0.84},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Nerissa Warner-O'Neill", "percentage"=>21.72},
-    "Independent"=>
+    "Independent - Krishna Tayya"=>
      {"elected"=>false, "name"=>"Krishna Tayya", "percentage"=>0.33},
-    "Lab Co-op"=>
+    "Labour Party"=>
      {"elected"=>true, "name"=>"Mark Hendrick", "percentage"=>48.2},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Mark Jewell", "percentage"=>24.0},
@@ -6272,7 +6406,9 @@
    {"Conservative Party"=>
      {"elected"=>true, "name"=>"Rob Wilson", "percentage"=>42.55},
     "Green Party"=>{"elected"=>false, "name"=>"Rob White", "percentage"=>2.14},
-    "Independent"=>
+    "Independent - Joan Lloyd"=>
+     {"elected"=>false, "name"=>"Joan Lloyd", "percentage"=>0.22},
+    "Independent - Michael Turberville"=>
      {"elected"=>false, "name"=>"Michael Turberville", "percentage"=>0.11},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Anneliese Dodds", "percentage"=>25.47},
@@ -6316,7 +6452,7 @@
      {"elected"=>false, "name"=>"Vincent Schittone", "percentage"=>0.58},
     "Green Party"=>
      {"elected"=>false, "name"=>"Kevin White", "percentage"=>0.89},
-    "Independent"=>
+    "Independent - Paul Swansborough"=>
      {"elected"=>false, "name"=>"Paul Swansborough", "percentage"=>0.23},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Jacqui Smith", "percentage"=>30.25},
@@ -6354,7 +6490,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Juliet Henderson", "percentage"=>6.41},
-    "Independent"=>
+    "Independent - Philip Howe"=>
      {"elected"=>false, "name"=>"Philip Howe", "percentage"=>8.36},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Chris Bryant", "percentage"=>55.0},
@@ -6383,7 +6519,7 @@
      {"elected"=>true, "name"=>"Zac Goldsmith", "percentage"=>49.71},
     "Green Party"=>
      {"elected"=>false, "name"=>"James Page", "percentage"=>0.97},
-    "Independent"=>
+    "Independent - Charles Hill"=>
      {"elected"=>false, "name"=>"Charles Hill", "percentage"=>0.14},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Eleanor Tunnicliffe", "percentage"=>5.03},
@@ -6406,7 +6542,7 @@
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Mudasir Dean", "percentage"=>18.09},
     "IZB"=>{"elected"=>false, "name"=>"Mohammed Salim", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - John Whitehead"=>
      {"elected"=>false, "name"=>"John Whitehead", "percentage"=>0.68},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Simon Danczuk", "percentage"=>36.0},
@@ -6434,7 +6570,7 @@
      {"elected"=>true, "name"=>"James Duddridge", "percentage"=>47.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Andrew Vaughan", "percentage"=>1.7},
-    "Independent"=>
+    "Independent - Anthony Chytry"=>
      {"elected"=>false, "name"=>"Anthony Chytry", "percentage"=>1.47},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Kevin Bonavia", "percentage"=>20.32},
@@ -6451,8 +6587,10 @@
      {"elected"=>false, "name"=>"Peter Thorogood", "percentage"=>1.3},
     "Green Party"=>
      {"elected"=>false, "name"=>"Gary Haines", "percentage"=>0.96},
-    "Independent"=>
+    "Independent - David Sturman"=>
      {"elected"=>false, "name"=>"David Sturman", "percentage"=>0.24},
+    "Independent - Philip Hyde"=>
+     {"elected"=>false, "name"=>"Philip Hyde", "percentage"=>0.32},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Rachel Voller", "percentage"=>20.0},
     "Liberal Democrats"=>
@@ -6475,7 +6613,7 @@
      {"elected"=>false, "name"=>"Donald Cameron", "percentage"=>12.23},
     "Green Party"=>
      {"elected"=>false, "name"=>"Eleanor Scott", "percentage"=>2.23},
-    "Independent"=>
+    "Independent - Ronnie Campbell"=>
      {"elected"=>false, "name"=>"Ronnie Campbell", "percentage"=>0.8},
     "Labour Party"=>
      {"elected"=>false, "name"=>"John McKendrick", "percentage"=>15.11},
@@ -6492,7 +6630,7 @@
     "English Democrats"=>
      {"elected"=>false, "name"=>"Michael Johnson", "percentage"=>1.0},
     "Impact"=>{"elected"=>false, "name"=>"Tony Melia", "percentage"=>0.52},
-    "Independent"=>
+    "Independent - Mike Sivieri"=>
      {"elected"=>false, "name"=>"Mike Sivieri", "percentage"=>0.24},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Janet Anderson", "percentage"=>32.25},
@@ -6517,7 +6655,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Marlene Guest", "percentage"=>10.41},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Jackie Whiteley", "percentage"=>16.74},
-    "Independent"=>
+    "Independent - Peter Thirlwall"=>
      {"elected"=>false, "name"=>"Peter Thirlwall", "percentage"=>6.31},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Denis MacShane", "percentage"=>45.0},
@@ -6557,7 +6695,7 @@
      {"elected"=>true, "name"=>"Philip Hammond", "percentage"=>55.9},
     "Green Party"=>
      {"elected"=>false, "name"=>"Jenny Gould", "percentage"=>1.45},
-    "Independent"=>
+    "Independent - David Sammons"=>
      {"elected"=>false, "name"=>"David Sammons", "percentage"=>1.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Paul Greenwood", "percentage"=>13.39},
@@ -6581,7 +6719,8 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Malcolm Macaskill", "percentage"=>9.66},
-    "Lab Co-op"=>{"elected"=>true, "name"=>"Tom Greatrex", "percentage"=>60.8},
+    "Labour Party"=>
+     {"elected"=>true, "name"=>"Tom Greatrex", "percentage"=>60.8},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Ian Robertson", "percentage"=>12.0},
     "Scottish National Party"=>
@@ -6593,7 +6732,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Keith Addison", "percentage"=>3.18},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Alan Duncan", "percentage"=>51.12},
-    "Independent"=>
+    "Independent - Leigh Higgins"=>
      {"elected"=>false, "name"=>"Leigh Higgins", "percentage"=>1.06},
     "Labour Party"=>
      {"elected"=>false, "name"=>"John Morgan", "percentage"=>14.29},
@@ -6622,7 +6761,7 @@
      {"elected"=>false, "name"=>"Matthew Sephton", "percentage"=>20.0},
     "English Democrats"=>
      {"elected"=>false, "name"=>"Stephen Morris", "percentage"=>1.5},
-    "Independent"=>
+    "Independent - Richard Carvath"=>
      {"elected"=>false, "name"=>"Richard Carvath", "percentage"=>1.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Hazel Blears", "percentage"=>40.1},
@@ -6639,8 +6778,10 @@
      {"elected"=>true, "name"=>"John Glen", "percentage"=>49.21},
     "Green Party"=>
      {"elected"=>false, "name"=>"Nick Startin", "percentage"=>1.04},
-    "Independent"=>
+    "Independent - John Holme"=>
      {"elected"=>false, "name"=>"John Holme", "percentage"=>0.25},
+    "Independent - King Arthur"=>
+     {"elected"=>false, "name"=>"King Arthur", "percentage"=>0.53},
     "Labour Party"=>{"elected"=>false, "name"=>"Tom Gann", "percentage"=>7.61},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Nick Radford", "percentage"=>37.0},
@@ -6655,7 +6796,7 @@
      {"elected"=>false, "name"=>"Dilys Cluer", "percentage"=>1.49},
     "Green Soc"=>
      {"elected"=>false, "name"=>"Juliet Boddington", "percentage"=>0.23},
-    "Independent"=>
+    "Independent - Peter Popple"=>
      {"elected"=>false, "name"=>"Peter Popple", "percentage"=>0.67},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Annajoy David", "percentage"=>26.0},
@@ -6681,7 +6822,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Mark Walker", "percentage"=>5.16},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Neil Mahapatra", "percentage"=>23.48},
-    "Independent"=>
+    "Independent - Paul Gittins"=>
      {"elected"=>false, "name"=>"Paul Gittins", "percentage"=>2.61},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Phil Wilson", "percentage"=>45.1},
@@ -6719,7 +6860,7 @@
      {"elected"=>true, "name"=>"Michael Fallon", "percentage"=>56.82},
     "English Democrats"=>
      {"elected"=>false, "name"=>"Louise Uncles", "percentage"=>1.63},
-    "Independent"=>
+    "Independent - Mark Ellis"=>
      {"elected"=>false, "name"=>"Mark Ellis", "percentage"=>0.52},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Gareth Siddorn", "percentage"=>13.0},
@@ -6747,7 +6888,7 @@
      {"elected"=>false, "name"=>"Andrew Lee", "percentage"=>10.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Jillian Creasy", "percentage"=>3.75},
-    "Independent"=>
+    "Independent - Rod Rodgers"=>
      {"elected"=>false, "name"=>"Rod Rodgers", "percentage"=>0.1},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Paul Blomfield", "percentage"=>41.33},
@@ -6764,7 +6905,7 @@
      {"elected"=>false, "name"=>"David Wildgoose", "percentage"=>1.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Steve Barnard", "percentage"=>1.8},
-    "Independent"=>
+    "Independent - Martin Fitzpatrick"=>
      {"elected"=>false, "name"=>"Martin Fitzpatrick", "percentage"=>0.84},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Jack Scott", "percentage"=>16.09},
@@ -6804,7 +6945,8 @@
    {"BNP"=>{"elected"=>false, "name"=>"James North", "percentage"=>3.58},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Mark Spencer", "percentage"=>39.24},
-    "Independent"=>{"elected"=>false, "name"=>"Russ Swan", "percentage"=>0.0},
+    "Independent - Russ Swan"=>
+     {"elected"=>false, "name"=>"Russ Swan", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Emilie Oldknow", "percentage"=>38.81},
     "Liberal Democrats"=>
@@ -6853,7 +6995,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Lawrence Tames", "percentage"=>2.69},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Gordon Henderson", "percentage"=>50.05},
-    "Independent"=>
+    "Independent - David Cassidy"=>
      {"elected"=>false, "name"=>"David Cassidy", "percentage"=>0.33},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Angela Harrison", "percentage"=>24.56},
@@ -6868,7 +7010,7 @@
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Julian Smith", "percentage"=>50.59},
     "Currency"=>{"elected"=>false, "name"=>"Robert Leakey", "percentage"=>0.0},
-    "Independent"=>
+    "Independent - Roger Bell"=>
      {"elected"=>false, "name"=>"Roger Bell", "percentage"=>0.58},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Claire Hazelgrove", "percentage"=>10.05},
@@ -6982,8 +7124,12 @@
      {"elected"=>false, "name"=>"Karen Allen", "percentage"=>22.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Shirley Ford", "percentage"=>2.09},
-    "Independent"=>
+    "Independent - Sam Navabi"=>
      {"elected"=>false, "name"=>"Sam Navabi", "percentage"=>0.46},
+    "Independent - Siamak Kaikavoosi"=>
+     {"elected"=>false, "name"=>"Siamak Kaikavoosi", "percentage"=>2.0},
+    "Independent - Victor Thompson"=>
+     {"elected"=>false, "name"=>"Victor Thompson", "percentage"=>0.87},
     "Labour Party"=>
      {"elected"=>true, "name"=>"David Miliband", "percentage"=>52.02},
     "Liberal Democrats"=>
@@ -7008,7 +7154,7 @@
      {"elected"=>false, "name"=>"Jeremy Moulton", "percentage"=>33.01},
     "Green Party"=>
      {"elected"=>false, "name"=>"Chris Bluemel", "percentage"=>1.99},
-    "Independent"=>
+    "Independent - Charles Sanderson"=>
      {"elected"=>false, "name"=>"Charles Sanderson", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Alan Whitehead", "percentage"=>38.48},
@@ -7025,7 +7171,8 @@
      {"elected"=>false, "name"=>"Terry Phillips", "percentage"=>1.25},
     "Green Party"=>
      {"elected"=>false, "name"=>"Barry Bolton", "percentage"=>1.0},
-    "Independent"=>{"elected"=>false, "name"=>"Dr Vel", "percentage"=>1.41},
+    "Independent - Dr Vel"=>
+     {"elected"=>false, "name"=>"Dr Vel", "percentage"=>1.41},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Thomas Flynn", "percentage"=>13.42},
     "Liberal Democrats"=>
@@ -7050,7 +7197,7 @@
      {"elected"=>true, "name"=>"Kwasi Kwarteng", "percentage"=>47.0},
     "Ind Fed"=>
      {"elected"=>false, "name"=>"Grahame Leon-Smith", "percentage"=>0.0},
-    "Independent"=>
+    "Independent - Ian Swinglehurst"=>
      {"elected"=>false, "name"=>"Ian Swinglehurst", "percentage"=>0.66},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Adam Tyler-Moore", "percentage"=>16.47},
@@ -7150,7 +7297,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"David Bradnock", "percentage"=>4.0},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Gavin Williamson", "percentage"=>53.2},
-    "Independent"=>
+    "Independent - Andrew Morris"=>
      {"elected"=>false, "name"=>"Andrew Morris", "percentage"=>1.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Kevin McElduff", "percentage"=>20.31},
@@ -7178,8 +7325,9 @@
      {"elected"=>true, "name"=>"Stephen McPartland", "percentage"=>41.41},
     "English Democrats"=>
      {"elected"=>false, "name"=>"Charles Vickers", "percentage"=>1.0},
-    "Independent"=>{"elected"=>false, "name"=>"David Cox", "percentage"=>0.18},
-    "Lab Co-op"=>
+    "Independent - David Cox"=>
+     {"elected"=>false, "name"=>"David Cox", "percentage"=>0.18},
+    "Labour Party"=>
      {"elected"=>false, "name"=>"Sharon Taylor", "percentage"=>33.4},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Julia Davies", "percentage"=>16.64},
@@ -7222,7 +7370,8 @@
      {"elected"=>false, "name"=>"Ian Galletley", "percentage"=>25.94},
     "English Democrats"=>
      {"elected"=>false, "name"=>"Ian Saul", "percentage"=>2.86},
-    "Independent"=>{"elected"=>false, "name"=>"Frank Cook", "percentage"=>4.0},
+    "Independent - Frank Cook"=>
+     {"elected"=>false, "name"=>"Frank Cook", "percentage"=>4.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Alex Cunningham", "percentage"=>42.85},
     "Liberal Democrats"=>
@@ -7235,7 +7384,7 @@
     "Ch P"=>{"elected"=>false, "name"=>"Ted Strike", "percentage"=>0.6},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"James Wharton", "percentage"=>38.93},
-    "Independent"=>
+    "Independent - Yvonne Hossack"=>
      {"elected"=>false, "name"=>"Yvonne Hossack", "percentage"=>1.07},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Dari Taylor", "percentage"=>38.27},
@@ -7249,8 +7398,12 @@
     "City Ind"=>{"elected"=>false, "name"=>"Brian Ward", "percentage"=>0.93},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Norsheen Bhatti", "percentage"=>21.0},
-    "Independent"=>
+    "Independent - Alby Walker"=>
      {"elected"=>false, "name"=>"Alby Walker", "percentage"=>0.91},
+    "Independent - Gary Elsby"=>
+     {"elected"=>false, "name"=>"Gary Elsby", "percentage"=>1.23},
+    "Independent - Paul Breeze"=>
+     {"elected"=>false, "name"=>"Paul Breeze", "percentage"=>2.95},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Tristram Hunt", "percentage"=>39.0},
     "Liberal Democrats"=>
@@ -7275,7 +7428,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Michael Coleman", "percentage"=>9.44},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"James Rushton", "percentage"=>28.4},
-    "Independent"=>
+    "Independent - Mark Breeze"=>
      {"elected"=>false, "name"=>"Mark Breeze", "percentage"=>1.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Rob Flello", "percentage"=>38.76},
@@ -7304,7 +7457,7 @@
      {"elected"=>true, "name"=>"Margot James", "percentage"=>43.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Will Duckworth", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Alun Nicholas"=>
      {"elected"=>false, "name"=>"Alun Nicholas", "percentage"=>0.35},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Lynda Waltho", "percentage"=>31.73},
@@ -7335,7 +7488,7 @@
      {"elected"=>false, "name"=>"Fred Bishop", "percentage"=>0.94},
     "Green Party"=>
      {"elected"=>false, "name"=>"Karen Varga", "percentage"=>1.04},
-    "Independent"=>
+    "Independent - Neil Basnett"=>
      {"elected"=>false, "name"=>"Neil Basnett", "percentage"=>2.04},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Robert Johnston", "percentage"=>9.51},
@@ -7376,8 +7529,10 @@
      {"elected"=>true, "name"=>"Neil Carmichael", "percentage"=>40.84},
     "Green Party"=>
      {"elected"=>false, "name"=>"Martin Whiteside", "percentage"=>2.66},
-    "Independent"=>{"elected"=>false, "name"=>"Alan Lomas", "percentage"=>0.2},
-    "Lab Co-op"=>{"elected"=>false, "name"=>"David Drew", "percentage"=>38.6},
+    "Independent - Alan Lomas"=>
+     {"elected"=>false, "name"=>"Alan Lomas", "percentage"=>0.2},
+    "Labour Party"=>
+     {"elected"=>false, "name"=>"David Drew", "percentage"=>38.6},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Dennis Andrewartha", "percentage"=>15.0},
     "UK Independence Party (UKIP)"=>
@@ -7388,7 +7543,7 @@
      {"elected"=>true, "name"=>"Daniel Poulter", "percentage"=>50.78},
     "Green Party"=>
      {"elected"=>false, "name"=>"Andrew Stringer", "percentage"=>2.72},
-    "Independent"=>
+    "Independent - Mark Trevitt"=>
      {"elected"=>false, "name"=>"Mark Trevitt", "percentage"=>1.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Bhavna Joshi", "percentage"=>16.17},
@@ -7428,7 +7583,7 @@
      {"elected"=>false, "name"=>"Colin Young", "percentage"=>0.78},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Matthew Hancock", "percentage"=>50.56},
-    "Independent"=>
+    "Independent - Andrew Appleby"=>
      {"elected"=>false, "name"=>"Andrew Appleby", "percentage"=>1.12},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Ohid Ahmed", "percentage"=>15.0},
@@ -7453,7 +7608,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>true, "name"=>"Sam Gyimah", "percentage"=>57.0},
-    "Independent"=>
+    "Independent - Sandy Pratt"=>
      {"elected"=>false, "name"=>"Sandy Pratt", "percentage"=>0.7},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Mathew Rodda", "percentage"=>9.0},
@@ -7479,7 +7634,7 @@
      {"elected"=>true, "name"=>"Jeremy Hunt", "percentage"=>59.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Cherry Allan", "percentage"=>1.21},
-    "Independent"=>
+    "Independent - Arthur Price"=>
      {"elected"=>false, "name"=>"Arthur Price", "percentage"=>0.06},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Richard Mollet", "percentage"=>5.97},
@@ -7556,7 +7711,7 @@
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Rene Kinzett", "percentage"=>20.81},
     "Green Party"=>{"elected"=>false, "name"=>"Keith Ross", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Ian McCloy"=>
      {"elected"=>false, "name"=>"Ian McCloy", "percentage"=>1.05},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Geraint Davies", "percentage"=>34.66},
@@ -7588,7 +7743,7 @@
      {"elected"=>true, "name"=>"Robert Buckland", "percentage"=>41.78},
     "Green Party"=>
      {"elected"=>false, "name"=>"Jenni Miles", "percentage"=>1.31},
-    "Independent"=>
+    "Independent - Karsten Evans"=>
      {"elected"=>false, "name"=>"Karsten Evans", "percentage"=>0.34},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Anne Snelgrove", "percentage"=>34.0},
@@ -7612,7 +7767,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>true, "name"=>"George Osborne", "percentage"=>54.58},
-    "Independent"=>
+    "Independent - Sarah Flannery"=>
      {"elected"=>false, "name"=>"Sarah Flannery", "percentage"=>4.96},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Richard Jackson", "percentage"=>17.25},
@@ -7733,7 +7888,7 @@
      {"elected"=>false, "name"=>"Mark Clarke", "percentage"=>39.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Roy Vickery", "percentage"=>1.2},
-    "Independent"=>
+    "Independent - Susan John-Richards"=>
      {"elected"=>false, "name"=>"Susan John-Richards", "percentage"=>0.38},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Sadiq Khan", "percentage"=>43.51},
@@ -7760,7 +7915,9 @@
      {"elected"=>false, "name"=>"Jonathan Burns", "percentage"=>20.03},
     "Green Party"=>
      {"elected"=>false, "name"=>"Owen Clarke", "percentage"=>1.16},
-    "Independent"=>
+    "Independent - Fred Wildgust"=>
+     {"elected"=>false, "name"=>"Fred Wildgust", "percentage"=>3.77},
+    "Independent - Richard Turner-Thomas"=>
      {"elected"=>false, "name"=>"Richard Turner-Thomas", "percentage"=>1.61},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Paul Murphy", "percentage"=>44.76},
@@ -7776,7 +7933,9 @@
      {"elected"=>true, "name"=>"Sarah Wollaston", "percentage"=>46.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Lydia Somerville", "percentage"=>2.47},
-    "Independent"=>
+    "Independent - Simon Drew"=>
+     {"elected"=>false, "name"=>"Simon Drew", "percentage"=>1.0},
+    "Independent - Stephen Hopwood"=>
      {"elected"=>false, "name"=>"Stephen Hopwood", "percentage"=>0.56},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Carole Whitty", "percentage"=>7.4},
@@ -7792,8 +7951,10 @@
     "Green Party"=>{"elected"=>false, "name"=>"Anne Gray", "percentage"=>2.41},
     "Ind People"=>
      {"elected"=>false, "name"=>"Neville Watson", "percentage"=>0.65},
-    "Independent"=>
+    "Independent - Errol Carr"=>
      {"elected"=>false, "name"=>"Errol Carr", "percentage"=>0.31},
+    "Independent - Sheik Thompson"=>
+     {"elected"=>false, "name"=>"Sheik Thompson", "percentage"=>0.35},
     "Labour Party"=>
      {"elected"=>true, "name"=>"David Lammy", "percentage"=>59.3},
     "Liberal Democrats"=>
@@ -7822,7 +7983,7 @@
      {"elected"=>true, "name"=>"Greg Clark", "percentage"=>56.24},
     "Green Party"=>
      {"elected"=>false, "name"=>"Hazel Dawe", "percentage"=>1.82},
-    "Independent"=>
+    "Independent - Farel Bradbury"=>
      {"elected"=>false, "name"=>"Farel Bradbury", "percentage"=>0.34},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Gary Heather", "percentage"=>10.83},
@@ -7877,7 +8038,7 @@
      {"elected"=>false, "name"=>"Michael Bower", "percentage"=>2.3},
     "Democratic Unionist Party - D.U.P."=>
      {"elected"=>false, "name"=>"Thomas Buchanan", "percentage"=>20.0},
-    "Independent"=>
+    "Independent - Ciaran McClean"=>
      {"elected"=>false, "name"=>"Ciaran McClean", "percentage"=>1.36},
     "SDLP (Social Democratic & Labour Party)"=>
      {"elected"=>false, "name"=>"Joe Byrne", "percentage"=>13.98},
@@ -7974,7 +8135,7 @@
      {"elected"=>false, "name"=>"Alex Story", "percentage"=>35.64},
     "Green Party"=>
      {"elected"=>false, "name"=>"Miriam Hawkins", "percentage"=>1.96},
-    "Independent"=>
+    "Independent - Mark Harrop"=>
      {"elected"=>false, "name"=>"Mark Harrop", "percentage"=>0.99},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Mary Creagh", "percentage"=>39.27},
@@ -7984,7 +8145,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Leah Fraser", "percentage"=>31.38},
-    "Independent"=>
+    "Independent - Emmanuel Mwaba"=>
      {"elected"=>false, "name"=>"Emmanuel Mwaba", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Angela Eagle", "percentage"=>51.8},
@@ -8025,7 +8186,7 @@
      {"elected"=>false, "name"=>"Andy Hemsted", "percentage"=>13.99},
     "Green Party"=>
      {"elected"=>false, "name"=>"Daniel Perrett", "percentage"=>1.87},
-    "Independent"=>
+    "Independent - Paul Warburton"=>
      {"elected"=>false, "name"=>"Paul Warburton", "percentage"=>0.29},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Stella Creasy", "percentage"=>51.84},
@@ -8042,7 +8203,7 @@
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Campbell Storey", "percentage"=>17.54},
     "Green Party"=>{"elected"=>false, "name"=>"Nic Best", "percentage"=>1.57},
-    "Independent"=>
+    "Independent - Malcolm Reid"=>
      {"elected"=>false, "name"=>"Malcolm Reid", "percentage"=>0.94},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Ian Lavery", "percentage"=>45.85},
@@ -8076,7 +8237,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Paul Campbell", "percentage"=>30.0},
-    "Independent"=>
+    "Independent - Albert Scott"=>
      {"elected"=>false, "name"=>"Albert Scott", "percentage"=>3.43},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Helen Jones", "percentage"=>46.0},
@@ -8100,7 +8261,7 @@
      {"elected"=>true, "name"=>"Chris White", "percentage"=>42.58},
     "Green Party"=>
      {"elected"=>false, "name"=>"Ian Davison", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Jim Cullinane"=>
      {"elected"=>false, "name"=>"Jim Cullinane", "percentage"=>0.4},
     "Labour Party"=>
      {"elected"=>false, "name"=>"James Plaskitt", "percentage"=>35.41},
@@ -8151,7 +8312,7 @@
      {"elected"=>true, "name"=>"Peter Aldous", "percentage"=>40.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Graham Elliott", "percentage"=>2.28},
-    "Independent"=>
+    "Independent - Louis Barfe"=>
      {"elected"=>false, "name"=>"Louis Barfe", "percentage"=>0.21},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Bob Blizzard", "percentage"=>39.0},
@@ -8178,7 +8339,11 @@
      {"elected"=>true, "name"=>"Graham Evans", "percentage"=>38.54},
     "Green Party"=>
      {"elected"=>false, "name"=>"Howard Thorp", "percentage"=>0.77},
-    "Independent"=>
+    "Independent - Mike Cooksley"=>
+     {"elected"=>false, "name"=>"Mike Cooksley", "percentage"=>0.61},
+    "Independent - Tom Reynolds"=>
+     {"elected"=>false, "name"=>"Tom Reynolds", "percentage"=>0.0},
+    "Independent - Will Charlton"=>
      {"elected"=>false, "name"=>"Will Charlton", "percentage"=>0.13},
     "Labour Party"=>
      {"elected"=>false, "name"=>"John Stockton", "percentage"=>36.0},
@@ -8195,7 +8360,9 @@
      {"elected"=>false, "name"=>"Terry Spencer", "percentage"=>1.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Jonathan Hornett", "percentage"=>0.93},
-    "Independent"=>
+    "Independent - Gary Donaldson"=>
+     {"elected"=>false, "name"=>"Gary Donaldson", "percentage"=>0.46},
+    "Independent - Marcus Lavin"=>
      {"elected"=>false, "name"=>"Marcus Lavin", "percentage"=>0.06},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Jayne Buckland", "percentage"=>25.42},
@@ -8224,7 +8391,7 @@
      {"elected"=>true, "name"=>"Grant Shapps", "percentage"=>56.96},
     "Green Party"=>
      {"elected"=>false, "name"=>"Jill Weston", "percentage"=>1.63},
-    "Independent"=>
+    "Independent - Nigel Parker"=>
      {"elected"=>false, "name"=>"Nigel Parker", "percentage"=>0.32},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Mike Hobday", "percentage"=>21.38},
@@ -8275,8 +8442,10 @@
      {"elected"=>false, "name"=>"Virginia Morris", "percentage"=>14.67},
     "Green Party"=>
      {"elected"=>false, "name"=>"Jane Lithgow", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Grace Agbogun-Toko"=>
      {"elected"=>false, "name"=>"Grace Agbogun-Toko", "percentage"=>0.38},
+    "Independent - Kamran Malik"=>
+     {"elected"=>false, "name"=>"Kamran Malik", "percentage"=>2.65},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Lyn Brown", "percentage"=>62.67},
     "Liberal Democrats"=>
@@ -8294,8 +8463,10 @@
      {"elected"=>false, "name"=>"Edward Roseman", "percentage"=>0.25},
     "Green Party"=>
      {"elected"=>false, "name"=>"Tristan Smith", "percentage"=>1.21},
-    "Independent"=>
+    "Independent - Abby Dharamsey"=>
      {"elected"=>false, "name"=>"Abby Dharamsey", "percentage"=>0.0},
+    "Independent - Ali Bahaijoub"=>
+     {"elected"=>false, "name"=>"Ali Bahaijoub", "percentage"=>0.26},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Karen Buck", "percentage"=>43.88},
     "Liberal Democrats"=>
@@ -8319,7 +8490,7 @@
      {"elected"=>true, "name"=>"John Penrose", "percentage"=>44.31},
     "English Democrats"=>
      {"elected"=>false, "name"=>"John Peverelle", "percentage"=>0.52},
-    "Independent"=>
+    "Independent - Steve Satch"=>
      {"elected"=>false, "name"=>"Steve Satch", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"David Bradley", "percentage"=>10.95},
@@ -8344,7 +8515,7 @@
      {"elected"=>true, "name"=>"James Gray", "percentage"=>51.57},
     "Green Party"=>
      {"elected"=>false, "name"=>"Phil Chamberlain", "percentage"=>1.0},
-    "Independent"=>
+    "Independent - Philip Allnatt"=>
      {"elected"=>false, "name"=>"Philip Allnatt", "percentage"=>0.43},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Jason Hughes", "percentage"=>6.65},
@@ -8356,7 +8527,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>true, "name"=>"Andrew Murrison", "percentage"=>51.66},
-    "Independent"=>
+    "Independent - Crispin Black"=>
      {"elected"=>false, "name"=>"Crispin Black", "percentage"=>0.91},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Rebecca Rennison", "percentage"=>11.45},
@@ -8398,7 +8569,7 @@
      {"elected"=>true, "name"=>"Adam Afriyie", "percentage"=>60.85},
     "Green Party"=>
      {"elected"=>false, "name"=>"Derek Wall", "percentage"=>1.27},
-    "Independent"=>
+    "Independent - Peter Hooper"=>
      {"elected"=>false, "name"=>"Peter Hooper", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Amanjit Jhund", "percentage"=>9.9},
@@ -8421,7 +8592,7 @@
    {"CSP"=>{"elected"=>false, "name"=>"David James", "percentage"=>0.82},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Esther McVey", "percentage"=>42.48},
-    "Independent"=>
+    "Independent - David Kirwan"=>
      {"elected"=>false, "name"=>"David Kirwan", "percentage"=>1.29},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Phillip Davies", "percentage"=>36.29},
@@ -8447,8 +8618,12 @@
      {"elected"=>true, "name"=>"David Cameron", "percentage"=>58.81},
     "Green Party"=>
      {"elected"=>false, "name"=>"Stuart Macdonald", "percentage"=>4.0},
-    "Independent"=>
+    "Independent - Aaron Barschak"=>
      {"elected"=>false, "name"=>"Aaron Barschak", "percentage"=>0.0},
+    "Independent - Johnnie Cook"=>
+     {"elected"=>false, "name"=>"Johnnie Cook", "percentage"=>0.26},
+    "Independent - Paul Wesson"=>
+     {"elected"=>false, "name"=>"Paul Wesson", "percentage"=>0.29},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Joe Goldberg", "percentage"=>13.0},
     "Liberal Democrats"=>
@@ -8477,7 +8652,9 @@
      {"elected"=>true, "name"=>"John Redwood", "percentage"=>53.0},
     "Green Party"=>
      {"elected"=>false, "name"=>"Marjory Bisset", "percentage"=>1.04},
-    "Independent"=>
+    "Independent - Mark Ashwell"=>
+     {"elected"=>false, "name"=>"Mark Ashwell", "percentage"=>4.29},
+    "Independent - Robin Smith"=>
      {"elected"=>false, "name"=>"Robin Smith", "percentage"=>0.0},
     "Labour Party"=>
      {"elected"=>false, "name"=>"George Davidson", "percentage"=>10.12},
@@ -8503,7 +8680,7 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>false, "name"=>"Ken Wood", "percentage"=>28.56},
-    "Independent"=>
+    "Independent - Sudhir Handa"=>
      {"elected"=>false, "name"=>"Sudhir Handa", "percentage"=>0.97},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Pat McFadden", "percentage"=>47.56},
@@ -8530,8 +8707,10 @@
      {"elected"=>true, "name"=>"Robin Walker", "percentage"=>39.53},
     "Green Party"=>
      {"elected"=>false, "name"=>"Louis Stephen", "percentage"=>1.5},
-    "Independent"=>
+    "Independent - Andrew Christian-Brookes"=>
      {"elected"=>false, "name"=>"Andrew Christian-Brookes", "percentage"=>0.0},
+    "Independent - Peter Nielsen"=>
+     {"elected"=>false, "name"=>"Peter Nielsen", "percentage"=>0.26},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Michael Foster", "percentage"=>33.0},
     "Liberal Democrats"=>
@@ -8620,7 +8799,7 @@
    {"BNP"=>{"elected"=>false, "name"=>"Susan Harwood", "percentage"=>3.27},
     "Conservative Party"=>
      {"elected"=>true, "name"=>"Mark Pritchard", "percentage"=>47.69},
-    "Lab Co-op"=>
+    "Labour Party"=>
      {"elected"=>false, "name"=>"Paul Kalinauckas", "percentage"=>27.13},
     "Liberal Democrats"=>
      {"elected"=>false, "name"=>"Ali Cameron-Daw", "percentage"=>17.44},
@@ -8642,8 +8821,10 @@
   "parties"=>
    {"Conservative Party"=>
      {"elected"=>true, "name"=>"Steven Baker", "percentage"=>48.64},
-    "Independent"=>
+    "Independent - David Fitton"=>
      {"elected"=>false, "name"=>"David Fitton", "percentage"=>0.39},
+    "Independent - Madassar Khokar"=>
+     {"elected"=>false, "name"=>"Madassar Khokar", "percentage"=>0.47},
     "Labour Party"=>
      {"elected"=>false, "name"=>"Andrew Lomas", "percentage"=>17.29},
     "Liberal Democrats"=>
@@ -8702,7 +8883,7 @@
    {"Ch P"=>{"elected"=>false, "name"=>"David Owen", "percentage"=>0.47},
     "Conservative Party"=>
      {"elected"=>false, "name"=>"Anthony Ridge-Newman", "percentage"=>22.48},
-    "Independent"=>
+    "Independent - Peter Rogers"=>
      {"elected"=>false, "name"=>"Peter Rogers", "percentage"=>6.46},
     "Labour Party"=>
      {"elected"=>true, "name"=>"Albert Owen", "percentage"=>33.0},

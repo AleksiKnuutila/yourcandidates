@@ -674,7 +674,8 @@ partynameconversion = {
   'DUP': 'Democratic Unionist Party - D.U.P.',
   'SDLP': 'SDLP (Social Democratic & Labour Party)',
   'Respect': 'The Respect Party',
-  'Lab Co-op': 'Labour Party'
+  'Lab Co-op': 'Labour Party',
+  'SSP': 'Scottish Socialist Party'
 }
 
 def switch_name(name):
@@ -706,8 +707,11 @@ for row in r:
     p = partynameconversion[party]
   else:
     p = party
+  name = switch_name(row[3])
+  if p == 'Independent':
+    p = 'Independent - '+name
   newrow['parties'][p] = { 'percentage': float(row[6]),
-    'name': switch_name(row[3]),
+    'name': name,
     'elected': row[8] is '*' }
 data.append(newrow)
     

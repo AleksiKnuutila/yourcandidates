@@ -1491,7 +1491,12 @@ class CandidatesController < ApplicationController
       party = 'Green Party'
     end
     # Add special case for Independents here too
+    byebug
+    if party == 'Independent'
+      party = 'Independent - '+candidate['name']
+    end
     if const.parties.has_key?(party)
+      # Special way independents are coded
       return const.parties[party]
     else
       return nil

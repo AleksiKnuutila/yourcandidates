@@ -22,7 +22,11 @@
     <% if c['results2010']['elected'] %>
       <%= c['name'] %> was elected from this constituency in 2010.
     <% else %>
-      <%= c['name'] %> was the <%= c['party'] %> candidate also in 2010.
+      <% if c['party'] == 'Independent' %>
+        <%= c['name'] %> was an independent candidate also in 2010.
+      <% else %>
+        <%= c['name'] %> was the <%= c['party'] %> candidate also in 2010.
+      <% end %>
     <% end %>
   
   <% else %>
