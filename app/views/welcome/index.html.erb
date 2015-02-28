@@ -56,7 +56,10 @@ function fail()
       </div>
 </div>
 <div class="visible-xs">
-       <span style="font-size: 20px;">You can also </span><a href="/constituencies" style="font-size: 20px;" id="constituency-list-link">select your area from a list</a><span id="locationlink" style="font-size: 20px; display: none;"> or <a onclick="navigator.geolocation.getCurrentPosition(redirectFun, fail);" id="location-link">use your current location</a></span>.
+  <div class="row">
+       <span style="font-size: 20px;">You can also </span><a href="/constituencies" style="font-size: 20px;" id="constituency-list-link">select your area from a list</a><span id="locationlink-mobile" style="font-size: 20px; display: none;"> or <a onclick="navigator.geolocation.getCurrentPosition(redirectFun, fail);" id="location-link">use your current location</a></span>.
+  </div>
+</div>
 
     </form>
 
@@ -64,6 +67,7 @@ function fail()
 if( navigator.geolocation )
 {
   $('#locationlink').css('display','inline')
+  $('#locationlink-mobile').css('display','inline')
 }
 </script>
 
