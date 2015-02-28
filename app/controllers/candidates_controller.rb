@@ -1397,6 +1397,17 @@ class CandidatesController < ApplicationController
     end
     return JSON.load(jsondata)
   end
+ 
+  def getConstituencyByCoords(lat,long)
+    uri = 'http://mapit.mysociety.org/point/4326/'+long+','+lat+'?type=WMC'
+    begin
+      # This will raise HTTPError if postcode is wrong
+      jsondata = open(uri)
+    rescue
+      return nil
+    end
+    return JSON.load(jsondata)
+  end
 
   def getAllPredictions()
     uri = 'http://www.edu.lahti.fi/~zur/predictions.json'
@@ -1581,16 +1592,25 @@ class CandidatesController < ApplicationController
   end
     
   def search
-    if not request['q']
+    if not request['q'] and not request['lat']
       redirect_to "/?error" and return
     end
-    @q = request['q']
-    @condata = getConstituencyByPC(@q)
-    if not @condata
-      # flash[:alert] = "Invalid post code, please try again"
-      redirect_to "/?error" and return
+    if request['lat']
+      @condata = getConstituencyByCoords(request['lat'],request['long'])
+      if not @condata.length > 0
+        # flash[:alert] = "Location not in the UK?"
+        redirect_to "/?err2" and return
+      end
+      @conId = @condata.keys[0].to_i
+    else
+      @q = request['q']
+      @condata = getConstituencyByPC(@q)
+      if not @condata
+        # flash[:alert] = "Invalid post code, please try again"
+        redirect_to "/?error" and return
+      end
+      @conId = @condata['shortcuts']['WMC']
     end
-    @conId = @condata['shortcuts']['WMC']
     redirect_to "/constituencies/"+TWITTER_LIST[@conId] and return
   end
 

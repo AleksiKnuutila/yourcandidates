@@ -23,11 +23,25 @@
   jQuery("#fittext2").fitText();
 </script>
 
+<script>
+
+function redirectFun(position)
+{
+window.location.replace("search?long="+position.coords.longitude.toString()+"&lat="+position.coords.latitude.toString());
+}
+
+function fail()
+{
+   // Could not obtain location
+}
+</script>
+
 <div class="container">
   <div class="row">
     
     <form class="form-inline" action="/search" method="get">
-      <div id="error-message">Please enter a valid postcode.</div>
+      <div id="error-message">That postcode didn't work, please try again.</div>
+      <div id="error2-message">We couldn't locate you.</div>
       <div class="frontpage-postcode">
       	Start by entering your UK postcode:
       </div>
@@ -35,10 +49,17 @@
         <input type="text" class="form-control input-lg" id="q" name="q" placeholder="SW1A 2AA">
       </div>
       <button type="submit" class="btn btn-primary btn-lg">Show candidates</button><br /><br />
-      <a href="/constituencies" id="constituency-list-link">
-        Or select your area from a list
-      </a>
+      <div style="margin-top: 20px;"
+       <span style="font-size: 16px;">You can also </span><a href="/constituencies" id="constituency-list-link">select your area from a list</a><span id="locationlink" style="font-size: 16px; display: none;"> or <a onclick="navigator.geolocation.getCurrentPosition(redirectFun, fail);" id="location-link">use your current location</a></span>.
+      </div>
     </form>
+
+<script>
+if( navigator.geolocation )
+{
+  $('#locationlink').css('display','inline')
+}
+</script>
 
   </div>
 </div>
@@ -47,6 +68,10 @@
   var error = window.location.href.slice(window.location.href.indexOf('?')+1)
   if (error == 'error') {
     $('#error-message').css('display', 'inline-block')
+  }
+  var err2 = window.location.href.slice(window.location.href.indexOf('?')+1)
+  if (err2 == 'err2') {
+    $('#error2-message').css('display', 'inline-block')
   }
 </script>
 
