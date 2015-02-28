@@ -712,6 +712,8 @@ for row in r:
     p = 'Independent - '+name
   newrow['parties'][p] = { 'percentage': float(row[6]),
     'name': name,
+    'year': '2010',
+    'byelection': false,
     'elected': row[8] is '*' }
 data.append(newrow)
     
