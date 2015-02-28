@@ -46,7 +46,7 @@ for r in data:
     'byelection': True,
     'elected': elected,
     'name': candidate_name,
-    'percentage': percentage,
+    'percentage': float(percentage),
     'year': year}
 new_data.append({'name': area_name,
   'parties': parties_in_area})

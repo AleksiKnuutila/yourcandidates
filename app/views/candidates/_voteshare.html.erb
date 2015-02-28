@@ -3,7 +3,7 @@
   <div class="row votesharegraph">
     <div class="col-sm-6" style="padding-right: 5px;">
       <div class="circle-past" id="circle-past-<%= c['id'] %>"></div>
-  % share of votes <%= c['previousVote']['year'] %>
+  % share of votes <%= year %>
     </div>
     <div class="col-sm-6" style="padding-left: 0px; padding-right: 20px">
       <div class="circle-future" id="circle-future-<%= c['id'] %>"></div>
@@ -24,21 +24,21 @@
   <% if c['name'] == c['previousVote']['name'] %>
   
     <% if c['previousVote']['elected'] %>
-      <%= c['name'] %> was elected from this constituency in <%= c['previousVote']['year'] %>.
+      <%= c['name'] %> was elected from this constituency in <%= year %>.
     <% else %>
       <% if c['party'] == 'Independent' %>
-        <%= c['name'] %> was an independent candidate also in <%= c['previousVote']['year'] %>
+        <%= c['name'] %> was an independent candidate also in <%= year %>
       <% else %>
-        <%= c['name'] %> was the <%= c['party'] %> candidate also in <%= c['previousVote']['year'] %>.
+        <%= c['name'] %> was the <%= c['party'] %> candidate also in <%= year %>.
       <% end %>
     <% end %>
   
   <% else %>
   
     <% if c['previousVote']['elected'] %>
-      The <%= c['party'] %> candidate <%= c['previousVote']['name'] %> was elected from this constituency in <%= c['previousVote']['year'] %>, and is standing down this year. <%= c['name'] %> is the 2015 candidate.
+      The <%= c['party'] %> candidate <%= c['previousVote']['name'] %> was elected from this constituency in <%= year %>, and is standing down this year. <%= c['name'] %> is the 2015 candidate.
     <% else %>
-      In <%= c['previousVote']['year'] %>, the <%= c['party'] %> candidate was <%= c['previousVote']['name'] %>.
+      In <%= year %>, the <%= c['party'] %> candidate was <%= c['previousVote']['name'] %>.
     <% end %>
   
   <% end %>

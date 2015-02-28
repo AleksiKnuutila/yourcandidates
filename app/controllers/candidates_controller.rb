@@ -1502,6 +1502,14 @@ class CandidatesController < ApplicationController
     end
   end
 
+  def getPreviousElectionYear(candidates)
+    for c in candidates
+      if c['previousVote'] and c['previousVote']['year']
+        return c['previousVote']['year']
+      end
+    end
+  end
+
   def isEmptyCandidate(c)
     if c['MPid']
       return false
@@ -1610,6 +1618,7 @@ class CandidatesController < ApplicationController
     @twitter_list = TWITTER_LIST[@conId]
     @predictions = getAllPredictions()
     @candidates = Rails.cache.fetch('candidates-'+@conId.to_s, expires_in: 24.hours) { getCandidates(@conId, @constituencyName) }
+    @previousElectionYear = getPreviousElectionYear(@candidates)
     @twitter_count = getTwitterCount(@candidates)
     @policies = getAllPolicies(@candidates)
     @PARTY_CONSTANTS = PARTY_CONSTANTS
