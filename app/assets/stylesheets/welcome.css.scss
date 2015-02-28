@@ -17,7 +17,7 @@
 }
 
 div.bgimage-text {
-  padding-left: 10%;
+  padding-left: 15%;
   font-family: 'Source Sans Pro' !important;
   font-style: normal;
   margin-bottom: 5%;
@@ -60,7 +60,8 @@ p.bgimage-header-text {
   font-size: 80px;
   color: white;
   max-width: 900px;
-  background-color: rgba(0, 0, 0, 0)
+  background-color: rgba(0, 0, 0, 0);
+  /* text-align: right; */
 }
 
 h2.bgimage-smaller-text {
@@ -143,12 +144,32 @@ i.fa-circle-red {
 	color: #DD5A55;
 }
 
+i.fa-circle-white {
+	color: white;
+}
+
+i.fa-icon-grey {
+	color: grey;
+}
+
 i.fa-icon-white {
 	color: white;
 }
 
 i.fa-icon-transparent {
 	color: rgba(0, 0, 0, 0.5);
+}
+
+.topleft {
+	position: absolute !important;
+	top: 5px;
+	left: 0px;
+}
+
+.topleft-lower {
+	position: absolute !important;
+	top: 60px;
+	left: 0px;
 }
 
 li.help-redline {
@@ -193,8 +214,6 @@ li.help-answer-sm {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-
 
 .btn-primary {
   background-color: #DD5A55 !important;
