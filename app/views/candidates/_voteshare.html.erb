@@ -36,7 +36,7 @@
   <% else %>
   
     <% if c['previousVote']['elected'] %>
-      The <%= c['party'] %> candidate <%= c['previousVote']['name'] %> was elected from this constituency in <%= year %>, and is standing down this year. <%= c['name'] %> is the 2015 candidate.
+      The <%= c['party'] %> candidate <%= c['previousVote']['name'] %> was elected from this constituency in <%= year %>, and is standing down. <!-- <%= c['name'] %> is the 2015 candidate. -->
     <% else %>
       In <%= year %>, the <%= c['party'] %> candidate was <%= c['previousVote']['name'] %>.
     <% end %>
