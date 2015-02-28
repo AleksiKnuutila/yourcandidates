@@ -18,13 +18,13 @@
 	  <ul class="dropdown-menu" role="menu">
 	    <li><a href="javascript: $('#personalTab').tab('show'); $('#topmenutext').text('Personal details')">Personal details</a></li>
   	    <li><a href="javascript: $('#voteTab').tab('show'); $('#topmenutext').text('2015 Forecast')">2015 Forecast</a></li>
+	    <li><a href="javascript: $('#twitterTab').click()">Twitter feeds</a></li>
 	    <li><a href="javascript: $('#nhsTab').tab('show'); $('#topmenutext').text('The NHS');">The NHS</a></li>
 	    <li><a href="javascript: $('#economyTab').tab('show'); $('#topmenutext').text('Economy and taxes');">Economy and taxes</a></li>
 	    <li><a href="javascript: $('#immigrationTab').tab('show'); $('#topmenutext').text('Immigration');">Immigration</a></li>
 	    <li><a href="javascript: $('#benefitsTab').tab('show'); $('#topmenutext').text('Benefits and pensions');">Benefits and pensions</a></li>
 	    <li><a href="javascript: $('#lawTab').tab('show'); $('#topmenutext').text('Rights and crime');">Rights and crime</a></li>
 	    <li><a href="javascript: $('#envTab').tab('show'); $('#topmenutext').text('Environment');">Environment</a></li>
-	    <li><a href="javascript: $('#twitterTab').click()">Twitter feeds</a></li>
 	  </ul>
 	  </li>
 	</ul>
@@ -248,11 +248,7 @@
             <div class="listbox"> 
               <%= render partial: "box_header", :locals => { :c => c } %>
   
-              <p class="candidate-content-index">
-
                 <%= render partial: "voteshare", :locals => { :c => c, :year => @previousElectionYear } %>
-
-              </p>
 
             </div>
           </div>

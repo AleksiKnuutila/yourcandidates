@@ -1616,7 +1616,7 @@ class CandidatesController < ApplicationController
       redirect_to "/?error" and return
     end
     @twitter_list = TWITTER_LIST[@conId]
-    @predictions = getAllPredictions()
+    @predictions = Rails.cache.fetch('predictions', expires_in: 24.hours) { getAllPredictions() }
     @candidates = Rails.cache.fetch('candidates-'+@conId.to_s, expires_in: 24.hours) { getCandidates(@conId, @constituencyName) }
     @previousElectionYear = getPreviousElectionYear(@candidates)
     @twitter_count = getTwitterCount(@candidates)
