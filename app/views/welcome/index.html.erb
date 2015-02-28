@@ -49,9 +49,15 @@ function fail()
         <input type="text" class="form-control input-lg" id="q" name="q" placeholder="SW1A 2AA">
       </div>
       <button type="submit" class="btn btn-primary btn-lg">Show candidates</button><br /><br />
+
+<div class="hidden-xs">
       <div style="margin-top: 20px;"
        <span style="font-size: 16px;">You can also </span><a href="/constituencies" id="constituency-list-link">select your area from a list</a><span id="locationlink" style="font-size: 16px; display: none;"> or <a onclick="navigator.geolocation.getCurrentPosition(redirectFun, fail);" id="location-link">use your current location</a></span>.
       </div>
+</div>
+<div class="visible-xs">
+       <span style="font-size: 20px;">You can also </span><a href="/constituencies" style="font-size: 20px;" id="constituency-list-link">select your area from a list</a><span id="locationlink" style="font-size: 20px; display: none;"> or <a onclick="navigator.geolocation.getCurrentPosition(redirectFun, fail);" id="location-link">use your current location</a></span>.
+
     </form>
 
 <script>
