@@ -35,6 +35,19 @@ div.bgimage-text {
   display: none;
   border-radius: 4px;
 }
+#error2-message {
+  /* font-family: 'Source Sans Pro' !important; */
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: black;
+  background-color: #DD5A55;
+  margin: 30px 0 15px 0;
+  padding: 10px 20px 10px 20px;
+  display: none;
+  border-radius: 4px;
+}
+
 
 form.form-inline {
   text-align: center;
@@ -83,6 +96,19 @@ div.frontpage-postcode-xs {
   margin-top: 20px;
   color: #DD5A55;
 }
+#location-link {
+/*  font-family: 'Source Sans Pro' !important; */
+  font-size: 20px;
+  margin-top: 20px;
+  color: #DD5A55;
+}
+a#location-link:hover {
+/*  font-family: 'Source Sans Pro' !important; */
+  cursor: pointer;
+}
+
+
+
 
 /*
 div.frontpage-form {

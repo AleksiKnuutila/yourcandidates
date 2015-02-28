@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%= content_for?(:title) ? yield(:title) : "YourCandidates.org.uk - Who can you vote for on May 7th?" %></title>
+  <title><%= content_for?(:title) ? yield(:title) : "YourCandidates.org.uk - Who are the people that will represent you and your area?" %></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -25,27 +25,29 @@
   <meta name="theme-color" content="#ffffff">
 
   <!-- for Google -->
-  <meta name="description" content="YourCandidates.org.uk is the first UK website that helps you discover and compare the candidates for parliament from your area. Find out who you can vote for, compare candidates based on policies, and engage with them through social media." />
+  <meta name="description" content="YourCandidates.org.uk is the first UK website that helps you discover and compare the candidates for parliament from your area. Fill in your postcode and connect with local candidates. See what they’re up to on social media, get the latest predictions on local results, and compare policies.">
   <meta name="keywords" content="election uk politics voting advice candidates parliament ge2015" />
   
   <meta name="author" content="" />
   <meta name="copyright" content="" />
   <meta name="application-name" content="" />
+
   <!-- Google Analytics -->
   <%= analytics_init if Rails.env.production? %>
   
   <!-- for Facebook -->          
-  <meta property="og:title" content="YourCandidates.org.uk - Who can you vote for on May 7th?" />
+  <meta property="og:title" content="<%= content_for?(:ogtitle) ? yield(:ogtitle) : "Who are the people that will represent you and your area? Find out!" %>" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="http://www.yourcandidates.org.uk<%= asset_path('og-image.jpg') %>" />
+  <meta property="og:image" content="http://www.yourcandidates.org.uk<%= asset_path('og-image-larger.jpg') %>" />
   <meta property="og:url" content="http://www.yourcandidates.org.uk" />
-  <meta property="og:description" content="YourCandidates.org.uk is the first UK website that uses the power of open data help you discover the candidates for parliament from your area. Find out who you can vote for, compare candidates based on policies, and engage with them through social media." />
+  <meta property="og:description" content="<%= content_for?(:ogdescription) ? yield(:ogdescription) : "Want your vote to make a difference in the UK election? Don’t just listen to the party bosses. Fill in your postcode and connect with local candidates. See what they’re up to on social media, get the latest predictions on local results, and compare policies." %>" />
   
   <!-- for Twitter -->          
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="YourCandidates.org.uk - Who can you vote for on May 7th?" />
-  <meta name="twitter:description" content="YourCandidates.org.uk is the first UK website that uses the power of open data help you discover the candidates for parliament from your area. Find out who you can vote for, compare candidates based on policies, and engage with them through social media." />
+  <meta name="twitter:title" content="<%= content_for?(:ogtitle) ? yield(:ogtitle) : "Who are the people that will represent you and your area? Find out!" %>" />
+  <meta name="twitter:description" content="<%= content_for?(:ogdescription) ? yield(:ogdescription) : "Want your vote to make a difference in the UK election? Don’t just listen to the party bosses. Fill in your postcode and connect with local candidates. See what they’re up to on social media, get the latest predictions on local results, and compare policies." %>" />
   <meta name="twitter:image" content="http://www.yourcandidates.org.uk<%= asset_path('og-image.jpg') %>" />
+<%= content_for?(:title) ? yield(:title) : "YourCandidates.org.uk - Who are the people that will represent you and your area?" %>
 
 </head>
 <body>

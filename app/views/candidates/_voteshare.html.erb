@@ -1,0 +1,123 @@
+<% if c['previousVote'] or c['prediction2015'] %>
+
+  <div class="row votesharegraph">
+    <div class="col-xs-6 col-sm-6" style="padding-right: 5px;">
+      <div class="circle-past" id="circle-past-<%= c['id'] %>"></div>
+  % share of votes <%= year %>
+    </div>
+    <div class="col-xs-6 col-sm-6" style="padding-left: 0px; padding-right: 20px">
+      <div class="circle-future" id="circle-future-<%= c['id'] %>"></div>
+  Predicted % share of votes 2015
+    </div>
+  </div>
+
+<% end %>
+
+<% if c['previousVote'] %>
+
+<p class="candidate-content-index" style="margin-top: 0px;">
+
+  <!--
+  <%= c['previousVote'] %>
+  -->
+  
+  <% if c['name'] == c['previousVote']['name'] %>
+  
+    <% if c['previousVote']['elected'] %>
+      <%= c['name'] %> was elected from this constituency in <%= year %>.
+    <% else %>
+      <% if c['party'] == 'Independent' %>
+        <%= c['name'] %> was an independent candidate also in <%= year %>
+      <% else %>
+        <%= c['name'] %> was the <%= c['party'] %> candidate also in <%= year %>.
+      <% end %>
+    <% end %>
+  
+  <% else %>
+  
+    <% if c['previousVote']['elected'] %>
+      The <%= c['party'] %> candidate <%= c['previousVote']['name'] %> was elected from this constituency in <%= year %>, and is standing down. <!-- <%= c['name'] %> is the 2015 candidate. -->
+    <% else %>
+      In <%= year %>, the <%= c['party'] %> candidate was <%= c['previousVote']['name'] %>.
+    <% end %>
+  
+  <% end %>
+
+<script>
+  <% if c['previousVote']['elected'] %>
+    Circles.create({id: 'circle-past-<%= c['id'] %>', value: <%= c['previousVote']['percentage'] %>, radius: 45, width: 10, colors: ['#DD5A55', '#5B2423']})
+  <% else %>
+    Circles.create({id: 'circle-past-<%= c['id'] %>', value: <%= c['previousVote']['percentage'] %>, radius: 45, width: 10, colors: ['#D2D0C8', '#333333']})
+  <% end %>
+</script>
+
+
+<% else %>
+
+  <script>
+    Circles.create({id: 'circle-past-<%= c['id'] %>', value: -1, text: 'N/A', textClass: 'circles-text-small', radius: 45, width: 10, colors: ['#D2D0C8', '#333333']})
+  </script>
+
+  
+  <% if not c['prediction2015'] %>
+  
+    <p class="candidate-content-index">
+      Unfortunately, we don't have data available for this candidate.
+    </p>
+
+  <% else %>
+
+    <p style="height: 5px;"></p>
+  
+  <% end %>
+
+<% end %>
+
+<script>
+  <% if c['prediction2015'] %>
+    <% if c['prediction2015']['maxvalue'] %>
+      Circles.create({id: 'circle-future-<%= c['id'] %>', value: <%= c['prediction2015']['value'] %>, radius: 45, width: 10, colors: ['#DD5A55', '#5B2423']})
+    <% else %>
+      Circles.create({id: 'circle-future-<%= c['id'] %>', value: <%= c['prediction2015']['value'] %>, radius: 45, width: 10, colors: ['#D2D0C8', '#333333']})
+    <% end %>
+  <% else %>
+    Circles.create({id: 'circle-future-<%= c['id'] %>', value: -1, text: 'N/A', textClass: 'circles-text-small', radius: 45, width: 10, colors: ['#D2D0C8', '#333333']})
+  <% end %>
+</script>
+
+</p>
+
+<style>
+.votesharegraph {
+  text-align: center;
+  padding-top: 16px;
+  margin-bottom: 14px;
+}
+
+.circles-text-small {
+  font-size: 18px !important;
+}
+
+.circle-past {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.circle-future {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#canvas .circle {
+        display: inline-block;
+        margin: 1em;
+}
+
+.circles-decimals {
+        font-size: .4em;
+}
+
+</style>
+
