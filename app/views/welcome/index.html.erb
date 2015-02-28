@@ -51,13 +51,18 @@ function fail()
       <button type="submit" class="btn btn-primary btn-lg">Show candidates</button><br /><br />
 
 <div class="hidden-xs">
+      <a href="/constituencies" id="constituency-list-link">
+        Or select your area from a list
+      </a>
+<!--
       <div style="margin-top: 20px;"
        <span style="font-size: 16px;">You can also </span><a href="/constituencies" id="constituency-list-link">select your area from a list</a><span id="locationlink" style="font-size: 16px; display: none;"> or <a onclick="navigator.geolocation.getCurrentPosition(redirectFun, fail);" id="location-link">use your current location</a></span>.
       </div>
+-->
 </div>
 <div class="visible-xs">
-  <div class="row">
-       <span style="font-size: 20px;">You can also </span><a href="/constituencies" style="font-size: 20px;" id="constituency-list-link">select your area from a list</a><span id="locationlink-mobile" style="font-size: 20px; display: none;"> or <a onclick="navigator.geolocation.getCurrentPosition(redirectFun, fail);" id="location-link">use your current location</a></span>.
+  <div style="margin-left: 15px; margin-right: 15px;">
+       <span style="font-size: 20px;">You can also </span><a href="/constituencies" style="font-size: 20px;" id="constituency-list-link">select your area from a list</a><span id="locationspan" style="font-size: 20px; display: none;"> or <a onclick="navigator.geolocation.getCurrentPosition(redirectFun, fail);" id="location-link">use your current location</a></span>.
   </div>
 </div>
 
@@ -66,8 +71,7 @@ function fail()
 <script>
 if( navigator.geolocation )
 {
-  $('#locationlink').css('display','inline')
-  $('#locationlink-mobile').css('display','inline')
+  $('#locationspan').css('display','inline')
 }
 </script>
 
