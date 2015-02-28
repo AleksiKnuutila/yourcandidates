@@ -1,9 +1,9 @@
-<% if c['results2010'] or c['prediction2015'] %>
+<% if c['previousVote'] or c['prediction2015'] %>
 
   <div class="row votesharegraph">
     <div class="col-sm-6" style="padding-right: 5px;">
       <div class="circle-past" id="circle-past-<%= c['id'] %>"></div>
-  % share of votes 2010
+  % share of votes <%= c['previousVote']['year'] %>
     </div>
     <div class="col-sm-6" style="padding-left: 0px; padding-right: 20px">
       <div class="circle-future" id="circle-future-<%= c['id'] %>"></div>
@@ -13,41 +13,41 @@
 
 <% end %>
 
-<% if c['results2010'] %>
+<% if c['previousVote'] %>
 
 <p class="candidate-content-index">
 
   <!--
-  <%= c['results2010'] %>
+  <%= c['previousVote'] %>
   -->
   
-  <% if c['name'] == c['results2010']['name'] %>
+  <% if c['name'] == c['previousVote']['name'] %>
   
-    <% if c['results2010']['elected'] %>
-      <%= c['name'] %> was elected from this constituency in 2010.
+    <% if c['previousVote']['elected'] %>
+      <%= c['name'] %> was elected from this constituency in <%= c['previousVote']['year'] %>.
     <% else %>
       <% if c['party'] == 'Independent' %>
-        <%= c['name'] %> was an independent candidate also in 2010.
+        <%= c['name'] %> was an independent candidate also in <%= c['previousVote']['year'] %>
       <% else %>
-        <%= c['name'] %> was the <%= c['party'] %> candidate also in 2010.
+        <%= c['name'] %> was the <%= c['party'] %> candidate also in <%= c['previousVote']['year'] %>.
       <% end %>
     <% end %>
   
   <% else %>
   
-    <% if c['results2010']['elected'] %>
-      The <%= c['party'] %> candidate <%= c['results2010']['name'] %> was elected from this constituency in 2010, and is standing down this year. <%= c['name'] %> is the 2015 candidate.
+    <% if c['previousVote']['elected'] %>
+      The <%= c['party'] %> candidate <%= c['previousVote']['name'] %> was elected from this constituency in <%= c['previousVote']['year'] %>, and is standing down this year. <%= c['name'] %> is the 2015 candidate.
     <% else %>
-      In 2010, the <%= c['party'] %> candidate was <%= c['results2010']['name'] %>.
+      In <%= c['previousVote']['year'] %>, the <%= c['party'] %> candidate was <%= c['previousVote']['name'] %>.
     <% end %>
   
   <% end %>
 
 <script>
-  <% if c['results2010']['elected'] %>
-    Circles.create({id: 'circle-past-<%= c['id'] %>', value: <%= c['results2010']['percentage'] %>, radius: 40, width: 10, colors: ['#DD5A55', '#5B2423']})
+  <% if c['previousVote']['elected'] %>
+    Circles.create({id: 'circle-past-<%= c['id'] %>', value: <%= c['previousVote']['percentage'] %>, radius: 40, width: 10, colors: ['#DD5A55', '#5B2423']})
   <% else %>
-    Circles.create({id: 'circle-past-<%= c['id'] %>', value: <%= c['results2010']['percentage'] %>, radius: 40, width: 10, colors: ['#D2D0C8', '#333333']})
+    Circles.create({id: 'circle-past-<%= c['id'] %>', value: <%= c['previousVote']['percentage'] %>, radius: 40, width: 10, colors: ['#D2D0C8', '#333333']})
   <% end %>
 </script>
 

@@ -1548,7 +1548,7 @@ class CandidatesController < ApplicationController
       if PARTY_REPLACE_STRINGS[@candidates[i]['party']]
         @candidates[i]['party'] = PARTY_REPLACE_STRINGS[@candidates[i]['party']]
       end
-      @candidates[i]['results2010'] = getPreviousResults(@candidates[i], constituencyName)
+      @candidates[i]['previousVote'] = getPreviousResults(@candidates[i], constituencyName)
       @candidates[i]['prediction2015'] = getPrediction(@candidates[i], constituencyName)
       @candidates[i]['MPid'] = getMPid(@candidates[i])
     end

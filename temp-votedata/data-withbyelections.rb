@@ -1,6 +1,4 @@
-class Constituency < ActiveHash::Base
-  self.data = [
-{"name"=>"Rochester and Strood",
+[{"name"=>"Rochester and Strood",
   "parties"=>
    {"Britian First"=>
      {"byelection"=>true,
@@ -26427,5 +26425,3 @@ class Constituency < ActiveHash::Base
       "name"=>"Chris Daniels",
       "percentage"=>4.0,
       "year"=>"2010"}}}]
-end
-
