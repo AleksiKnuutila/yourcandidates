@@ -1,11 +1,11 @@
 <% if c['previousVote'] or c['prediction2015'] %>
 
   <div class="row votesharegraph">
-    <div class="col-sm-6" style="padding-right: 5px;">
+    <div class="col-xs-6 col-sm-6" style="padding-right: 5px;">
       <div class="circle-past" id="circle-past-<%= c['id'] %>"></div>
   % share of votes <%= year %>
     </div>
-    <div class="col-sm-6" style="padding-left: 0px; padding-right: 20px">
+    <div class="col-xs-6 col-sm-6" style="padding-left: 0px; padding-right: 20px">
       <div class="circle-future" id="circle-future-<%= c['id'] %>"></div>
   Predicted % share of votes 2015
     </div>
