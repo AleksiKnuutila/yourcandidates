@@ -133,6 +133,16 @@ a.navbar-link-colors:hover {
 	color: white !important;
 }
 
+/*
+i.fa.fa-facebook.fa-stack-1x.fa-icon-grey:hover {
+	color: red;
+}
+*/
+
+i.fa.fa-facebook.fa-stack-1x.fa-icon-grey:hover, i.fa.fa-twitter.fa-stack-1x.fa-icon-grey:hover {
+	color: #DD5A55;
+}
+
 i.fa-circle-red {
 	color: #DD5A55;
 }
@@ -149,9 +159,11 @@ i.fa-icon-white {
 	color: white;
 }
 
+/*
 i.fa-icon-transparent {
 	color: rgba(0, 0, 0, 0.5);
 }
+*/
 
 .topright {
 	position: absolute !important;
