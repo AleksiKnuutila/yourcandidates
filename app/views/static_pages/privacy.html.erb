@@ -1,2 +1,92 @@
-<h1>StaticPages#privacy</h1>
-<p>Find me in app/views/static_pages/privacy.html.erb</p>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<% content_for :title do 'YourCandidates.org.uk - Help' end %>
+
+<%= render partial: "header" %>
+
+<style>
+
+.navbar-nav > li > .dropdown-menu { width: 100px; }
+
+.navbar-nav {
+    margin: 0;
+}
+.navbar-nav > li {
+    float: none;
+    display: inline-block;
+}
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Undo custom dropdowns */
+.navbar .navbar-nav .open .dropdown-menu {
+  position: absolute;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #333;
+}
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar .navbar-nav .open .dropdown-menu > .active > a,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #fff !important;
+  background-color: #428bca !important;
+}
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  color: #999 !important;
+  background-color: transparent !important;
+}
+
+
+
+</style>
+
+<div class="container">
+<div class="row" style="max-width: 900px">
+
+  <p>&nbsp;</p>
+  <h1>Privacy policy</h1>
+  <p>&nbsp;</p>
+
+  <ul class="list-inline privacy-questions">
+    <li class="privacy-q">We collect certain information about you when you use YourCandidates.org.uk</li>
+    <li class="privacy-a" style="margin-bottom:10px">This includes the following:</li>
+    <ul style="list-style-type:disc">
+	  <li class="privacy-a-sm">any questions or feedback you leave, including your email address if you send an email to us</li>
+	  <li class="privacy-a-sm">your IP address and details about your web browser</li>
+	  <li class="privacy-a-sm">information on how you use the site, using cookies and/or page tagging techniques to help us improve the website</li>
+	  <li class="privacy-a-sm">Google Analytics data, including cookies</li>
+	  <li class="privacy-a-sm" style="margin-bottom:40px">your location data, including your postcode if you choose to present it</li>
+    </ul>
+
+    <li class="privacy-q">This helps us to:</li>
+    <ul style="list-style-type:disc">
+      <li class="privacy-a-sm" style="margin-top:15px">respond to any feedback you send us</li>
+      <li class="privacy-a-sm">improve the site by monitoring how users access the site</li>
+      <li class="privacy-a-sm" style="margin-bottom:40px">provide you with location-specific information</li>
+    </ul>
+  
+  <li class="privacy-q">Where your data is stored</li>
+  <li class="privacy-a"><p>We store your data securely in the cloud, where it may be subject to regulation in different jurisdictions. Google Analytics data is stored and analysed by Google in the United States.</p><p>By submitting your personal data, you agree to this.</p></li>
+
+  <li class="privacy-q">Keeping your data secure</li>
+  <li class="privacy-a"><p>Transmitting information over the internet is inherently not completely secure. We will make every attempt to keep your data secure once it reaches us.</p><p>We will never share your information with any other organisation for commercial purposes.</p></li>
+  </ul>
+
+</div>
+</div>
+
+<%= render partial: "footer" %>

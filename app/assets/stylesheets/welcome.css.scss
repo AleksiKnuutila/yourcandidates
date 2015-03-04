@@ -121,13 +121,6 @@ div.frontpage-form {
 }
 */
 
-li.inline-list {
-  display: inline;
-  list-style-type: none;
-  margin-left: 20px;
-  padding-right: 30px;
-}
-
 a.navbar-link-colors:link {
 	color: #999999 !important;
 }
@@ -189,12 +182,12 @@ li.help-question {
 	vertical-align: middle;
 }
 
-ul.help-questions {
+ul.help-questions, ul.privacy-questions {
     list-style-type: none;
-    margin-left: 5px;
+    margin-left: 0px;
 }
 
-li.help-question {
+li.help-q, li.privacy-q {
 	font-size: 22px;
 	font-weight: bold;
     background-image: url(asset_path('redline.gif'));;
@@ -203,16 +196,23 @@ li.help-question {
     padding-left: 20px !important; 
 }
 
-li.help-answer {
+li.help-a, li.privacy-a {
   font-size: larger;
   margin-top: 20px;
   margin-bottom: 40px;
+  padding-left: 20px !important;
 }
 
-li.help-answer-sm {
+li.help-a-sm {
   font-size: larger;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+li.privacy-a-sm {
+  font-size: larger;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .btn-primary {
