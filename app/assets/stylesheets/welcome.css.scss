@@ -177,6 +177,7 @@ i.fa-icon-transparent {
 	right: 4px;
 }
 
+/*
 li.help-redline {
 	margin-left: 5px;
 	padding: 0;
@@ -185,21 +186,15 @@ li.help-redline {
 	height: 30px;
 	vertical-align: middle;
 }
+*/
 
-li.help-question {
-	font-size: 22px;
-	font-weight: bold;
-	margin: 0;
-	padding: 0;
-	vertical-align: middle;
-}
-
-ul.help-questions, ul.privacy-questions {
+ul.help-questions, ul.privacy-questions, ul.contact-questions {
     list-style-type: none;
     margin-left: 0px;
+	text-align: justify;
 }
 
-li.help-q, li.privacy-q {
+li.help-q, li.privacy-q, li.contact-q {
 	font-size: 22px;
 	font-weight: bold;
 	border-left: 10px solid #DD5A55;
@@ -209,7 +204,13 @@ li.help-q, li.privacy-q {
     padding-left: 10px !important;
 }
 
-li.help-a, li.privacy-a {
+li.contact-q-blank {
+	font-size: larger;
+	margin-bottom: 30px;
+}
+
+
+li.help-a, li.privacy-a, li.contact-a {
   font-size: larger;
   margin-top: 20px;
   margin-bottom: 40px;
