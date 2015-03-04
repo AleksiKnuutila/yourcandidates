@@ -190,10 +190,11 @@ ul.help-questions, ul.privacy-questions {
 li.help-q, li.privacy-q {
 	font-size: 22px;
 	font-weight: bold;
-    background-image: url(asset_path('redline.gif'));;
+	border-left: 10px solid #DD5A55;
+/*  background-image: url(asset_path('redline.gif'));;
     background-repeat: no-repeat;
-    background-position: 0px top; 
-    padding-left: 20px !important; 
+    background-position: 0px top; */
+    padding-left: 10px !important;
 }
 
 li.help-a, li.privacy-a {
