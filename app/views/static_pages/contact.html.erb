@@ -1,6 +1,80 @@
-<div class="header">
-  <%= render partial: "header" %>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<% content_for :title do 'YourCandidates.org.uk - Help' end %>
+
+<%= render partial: "header" %>
+
+<style>
+
+.navbar-nav > li > .dropdown-menu { width: 100px; }
+
+.navbar-nav {
+    margin: 0;
+}
+.navbar-nav > li {
+    float: none;
+    display: inline-block;
+}
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Undo custom dropdowns */
+.navbar .navbar-nav .open .dropdown-menu {
+  position: absolute;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #333;
+}
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar .navbar-nav .open .dropdown-menu > .active > a,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #fff !important;
+  background-color: #428bca !important;
+}
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  color: #999 !important;
+  background-color: transparent !important;
+}
+
+
+
+</style>
+
+<div class="container">
+<div class="row" style="max-width: 900px">
+
+  <p>&nbsp;</p>
+  <h1>Contact us</h1>
+  <p>&nbsp;</p>
+
+  <ul class="list-inline contact-questions">
+	<li class="contact-q-blank">
+	  <p>YourCandidates.org.uk is an independent, public-spirited project aimed at informing and connecting the public with their electoral candidates.</p>
+	  <p>Please read through our <a href="/about">About page</a> for more information.</p>
+	</li>
+	<li class="contact-q">I want to contact a candidate directly</li>
+	<li class="contact-a">we provide contact info pälä pälä. This data is supplied to by <a href="http://www.yournextmp.com/">YourNextMP</a> and is not collected by us.</a></li>
+	<li class="contact-q">I spy erroneous information on your website!</li>
+	<li class="contact-a">If you see any errors or omissions on this website, you can help improve the database through YourNextMP.com. (You may also contact us directly using this form.)</li>
+	<li class="contact-q">I have feedback or suggestions regarding this site</li>
+	<li class="contact-a">We are always eager to hear your thoughts on how we are doing. Let us know how we are doing, what could be improved, or what you feel is missing. Get in touch with us now via email at <a href="mailto:yourcandidates@knuutila.net">yourcandidates@knuutila.net</a>, via Twitter at <a href="http://www.twitter.com/UKCandidates">@UKCandidates</a>, on our <a href="https://www.facebook.com/YourCandidates2015">Facebook page</a>, or using the contact form below.</li>
+  </ul>
+
+</div>
 </div>
 
-<h1>StaticPages#contact</h1>
-<p>Find me in app/views/static_pages/contact.html.erb</p>
+<%= render partial: "footer" %>

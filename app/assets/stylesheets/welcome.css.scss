@@ -64,6 +64,11 @@ p.bgimage-header-text {
   /* text-align: right; */
 }
 
+p.privacy-text {
+  font-size: larger;
+  margin-bottom: 15px;
+}
+
 h2.bgimage-smaller-text {
   font-size: 32px;
   font-weight: 200;
@@ -121,13 +126,6 @@ div.frontpage-form {
 }
 */
 
-li.inline-list {
-  display: inline;
-  list-style-type: none;
-  margin-left: 20px;
-  padding-right: 30px;
-}
-
 a.navbar-link-colors:link {
 	color: #999999 !important;
 }
@@ -138,6 +136,16 @@ a.navbar-link-colors:visited {
 
 a.navbar-link-colors:hover {
 	color: white !important;
+}
+
+/*
+i.fa.fa-facebook.fa-stack-1x.fa-icon-grey:hover {
+	color: red;
+}
+*/
+
+i.fa.fa-facebook.fa-stack-1x.fa-icon-grey:hover, i.fa.fa-twitter.fa-stack-1x.fa-icon-grey:hover {
+	color: #DD5A55;
 }
 
 i.fa-circle-red {
@@ -156,9 +164,11 @@ i.fa-icon-white {
 	color: white;
 }
 
+/*
 i.fa-icon-transparent {
 	color: rgba(0, 0, 0, 0.5);
 }
+*/
 
 .topright {
 	position: absolute !important;
@@ -172,6 +182,7 @@ i.fa-icon-transparent {
 	right: 4px;
 }
 
+/*
 li.help-redline {
 	margin-left: 5px;
 	padding: 0;
@@ -180,36 +191,44 @@ li.help-redline {
 	height: 30px;
 	vertical-align: middle;
 }
+*/
 
-li.help-question {
-	font-size: 22px;
-	font-weight: bold;
-	margin: 0;
-	padding: 0;
-	vertical-align: middle;
-}
-
-ul.help-questions {
+ul.help-questions, ul.contact-questions {
     list-style-type: none;
-    margin-left: 5px;
+    margin-left: 0px;
+	text-align: justify;
 }
 
-li.help-question {
+ul.privacy-list {
+  list-style-type: disc;
+  font-size: larger;
+}
+
+li.help-q, li.contact-q {
 	font-size: 22px;
 	font-weight: bold;
-    background-image: url(asset_path('redline.gif'));;
+	border-left: 10px solid #DD5A55;
+/*  background-image: url(asset_path('redline.gif'));;
     background-repeat: no-repeat;
-    background-position: 0px top; 
-    padding-left: 20px !important; 
+    background-position: 0px top; */
+    padding-left: 10px !important;
 }
 
-li.help-answer {
+li.contact-q-blank {
+	font-size: larger;
+	margin-bottom: 30px;
+	padding-left: 0px !important;
+}
+
+
+li.help-a, li.contact-a {
   font-size: larger;
   margin-top: 20px;
   margin-bottom: 40px;
+  padding-left: 20px !important;
 }
 
-li.help-answer-sm {
+li.help-a-sm {
   font-size: larger;
   margin-top: 20px;
   margin-bottom: 20px;
