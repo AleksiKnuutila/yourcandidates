@@ -64,6 +64,11 @@ p.bgimage-header-text {
   /* text-align: right; */
 }
 
+p.privacy-text {
+  font-size: larger;
+  margin-bottom: 15px;
+}
+
 h2.bgimage-smaller-text {
   font-size: 32px;
   font-weight: 200;
@@ -188,13 +193,18 @@ li.help-redline {
 }
 */
 
-ul.help-questions, ul.privacy-questions, ul.contact-questions {
+ul.help-questions, ul.contact-questions {
     list-style-type: none;
     margin-left: 0px;
 	text-align: justify;
 }
 
-li.help-q, li.privacy-q, li.contact-q {
+ul.privacy-list {
+  list-style-type: disc;
+  font-size: larger;
+}
+
+li.help-q, li.contact-q {
 	font-size: 22px;
 	font-weight: bold;
 	border-left: 10px solid #DD5A55;
@@ -210,7 +220,7 @@ li.contact-q-blank {
 }
 
 
-li.help-a, li.privacy-a, li.contact-a {
+li.help-a, li.contact-a {
   font-size: larger;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -221,12 +231,6 @@ li.help-a-sm {
   font-size: larger;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-li.privacy-a-sm {
-  font-size: larger;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 .btn-primary {
