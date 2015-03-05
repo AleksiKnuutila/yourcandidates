@@ -5,6 +5,8 @@
 <div class="header">
   <div class="image-bg-fluid-height">
     <div class="bgimage-text">
+      <span class="fa-stack fa-2x topright"><a href="https://www.facebook.com/YourCandidates2015"><i class="fa fa-circle fa-stack-2x fa-circle-white"></i><i class="fa fa-facebook fa-stack-1x fa-icon-grey"></i></a></span>
+	  <span class="fa-stack fa-2x topright-lower"><a href="https://twitter.com/UKcandidates"><i class="fa fa-circle fa-stack-2x fa-circle-white"></i><i class="fa fa-twitter fa-stack-1x fa-icon-grey"></i></a></span>
       <p class="bgimage-header-text" id="fittext1">Who can you vote for?</p>
 <!--
       <h2 class="bgimage-smaller-text">Compare and connect with</h2><br><h2 class="bgimage-smaller-text">the general election candidates</h2><br><h2 class="bgimage-smaller-text">of your area</h2>
@@ -38,7 +40,8 @@ function fail()
 
 <div class="container">
   <div class="row">
-    
+
+    <div class="hidden-xs">
     <form class="form-inline" action="/search" method="get">
       <div id="error-message">That postcode didn't work, please try again.</div>
       <div id="error2-message">We couldn't locate you.</div>
@@ -67,6 +70,25 @@ function fail()
 </div>
 
     </form>
+    </div>
+
+  <div class="visible-xs">
+    <form class="form-inline" action="/search" method="get">
+      <div id="error-message">Please enter a valid postcode.</div>
+      <div class="frontpage-postcode-xs">
+      	Start by entering your UK postcode:
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control input-lg" id="q" name="q" placeholder="SW1A 2AA" style="width:175px;vertical-align:middle">
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg" style="width:100px;vertical-align:middle">Search</button><br /><br />
+      <a href="/constituencies" id="constituency-list-link">
+        Or select your area from a list
+      </a>
+    </form>  
+  </div>
+    
+
 
 <script>
 if( navigator.geolocation )
@@ -91,4 +113,4 @@ if( navigator.geolocation )
 
 <div style="margin-top: 30px;"></div>
 
-<%= render partial: "footer" %>
+<%= render partial: "footer_fp" %>
