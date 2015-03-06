@@ -10,6 +10,18 @@ class CandidatesController < ApplicationController
     'Scottish National Party (SNP)' => 'Scottish National Party',
   }
 
+  CONSTITUENCY_POLICY = {
+    'Birmingham, Yardley' => {
+      'The Respect Party' => {
+        'The NHS' => [ [ 'To ensure the NHS stays a national institution and is protected from privatisation. Reinstate night time GP callouts. Opposed to TTIP. Increase funding for NHS.' ] ], 
+        'Economy and taxes' => [ [ 'Close tax dodging loopholes of corporations and super-rich. Implement a flat rate of tax of 20% for all companies and wage earners. Reduce VAT back to 17.5%' ] ],
+        'Immigration' => [ [ 'Respect is in favour of an EU referendum,  and a colour-blind points-based immigration system which is weighted in favour of those coming from Commonwealth countries to which we owe a historic debt.' ] ],
+        'Benefits and pensions' => [ [ 'Respect are Anti Austerity and reject the public sector cuts of the three main political parties. We would scrap the bedroom tax and ATOS.' ] ],
+        'Law and order' => [ [ 'Opposed to making people work for benefits, and we would protect people’s privacy online. End the war on drugs. Bring justice to CSA survivors' ] ],
+        'Environment' => 
+        [ [ 'In favour of heavy penalties for fly-tipping. Ensure streets are cleaned weekly. Ensure all households have access to adequate recycling facilities.' ] ]
+}}}
+
   PARTY_CONSTANTS = { 
     'Conservative Party' => { 
       'The NHS' => [ [ 'Make GPs available seven days a week by 2020. Recruit 5,000 more doctors. ', 'https://www.conservatives.com/SecuringABetterFuture/GoodServices.aspx' ], [ 'Spend extra £2bn on frontline health services.', 'http://www.bbc.co.uk/news/uk-politics-30265833' ] ],
@@ -1459,6 +1471,9 @@ class CandidatesController < ApplicationController
 
   def getPolicy(candidate, policyArea)
     party = candidate['party']
+    if CONSTITUENCY_POLICY.key?(@constituencyName) and CONSTITUENCY_POLICY[@constituencyName].key?(party)
+      return CONSTITUENCY_POLICY[@constituencyName][party][policyArea]
+    end
     if not PARTY_CONSTANTS.key?(party)
       party = 'Default'
     end

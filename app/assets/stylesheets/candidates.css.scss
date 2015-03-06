@@ -313,3 +313,18 @@ div.index-footer {
 #db-notice-box a:hover {
   color: $color-primary;
 }
+
+#forecast-notice-box {
+  border: 1px solid red;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 5px 45px 10px 15px;
+}
+#forecast-notice-box a {
+  color: $color-black;
+  text-decoration: underline;
+}
+#forecast-notice-box a:hover {
+  color: $color-primary;
+}
