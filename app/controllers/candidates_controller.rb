@@ -1429,7 +1429,7 @@ class CandidatesController < ApplicationController
 
   def predictionRangeToValue(range)
     s = range.split('-')
-    return (( s[0].to_i + s[2].to_f ) / 2).ceil
+    return (( s[0].to_i + s[1].to_f ) / 2).ceil
   end
 
   def makeRange(range)
