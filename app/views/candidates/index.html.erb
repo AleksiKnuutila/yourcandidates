@@ -46,6 +46,15 @@
 
 <script>
   jQuery("#constituency-header").fitText(1.6, {maxFontSize: '48px'});
+  function toggleVisibilityDB() {
+    $('#db-notice-box').css('display','inline-block');
+    $('#forecast-notice-box').css('display','none');
+  }
+  function toggleVisibilityForecast() {
+    $('#db-notice-box').css('display','none');
+    $('#forecast-notice-box').css('display','inline-block');
+  }
+  
 </script>
 
   <div class="row">
@@ -53,15 +62,15 @@
   
       <div class="hidden-xs">
         <ul class="nav nav-pills nav-stacked">
-  	<li role="presentation" class="active"><a id="personalTab" href="#personalInfo" aria-controls="home" role="tab" data-toggle="tab">Personal details</a></li>
-  	<li role="presentation"><a id="voteTab" a href="#voteshare" aria-controls="home" role="tab" data-toggle="tab">2010 results and 2015 forecast</a></li>
+  	<li role="presentation" class="active"><a id="personalTab" onclick="toggleVisibilityDB();" href="#personalInfo" aria-controls="home" role="tab" data-toggle="tab">Personal details</a></li>
+  	<li role="presentation"><a onclick="toggleVisibilityForecast();" id="voteTab" a href="#voteshare" aria-controls="home" role="tab" data-toggle="tab">2010 results and 2015 forecast</a></li>
   	<li role="presentation" id="twitterTab" class="fake-link"><a><i class="fa fa-angle-double-down"></i> Candidate twitter feeds</a></li>
-  	<li role="presentation"><a id="nhsTab" href="#nhs" aria-controls="home" role="tab" data-toggle="tab">The NHS</a></li>
-  	<li role="presentation"><a id="economyTab" href="#economy" aria-controls="home" role="tab" data-toggle="tab">Economy and taxes</a></li>
-  	<li role="presentation"><a id="immigrationTab" href="#immigration" aria-controls="home" role="tab" data-toggle="tab">Immigration</a></li>
-  	<li role="presentation"><a id="benefitsTab" href="#benefits" aria-controls="home" role="tab" data-toggle="tab">Benefits and pensions</a></li>
-  	<li role="presentation"><a id="lawTab" href="#lawandorder" aria-controls="home" role="tab" data-toggle="tab">Rights and crime</a></li>
-  	<li role="presentation"><a id="envTab" a href="#environment" aria-controls="home" role="tab" data-toggle="tab">Environment</a></li>
+  	<li role="presentation"><a id="nhsTab" href="#nhs" onclick="toggleVisibilityDB();" aria-controls="home" role="tab" data-toggle="tab">The NHS</a></li>
+  	<li role="presentation"><a id="economyTab" href="#economy" onclick="toggleVisibilityDB();" aria-controls="home" role="tab" data-toggle="tab">Economy and taxes</a></li>
+  	<li role="presentation"><a id="immigrationTab" href="#immigration" onclick="toggleVisibilityDB();" aria-controls="home" role="tab" data-toggle="tab">Immigration</a></li>
+  	<li role="presentation"><a id="benefitsTab" href="#benefits" onclick="toggleVisibilityDB();" aria-controls="home" role="tab" data-toggle="tab">Benefits and pensions</a></li>
+  	<li role="presentation"><a id="lawTab" href="#lawandorder" onclick="toggleVisibilityDB();" aria-controls="home" role="tab" data-toggle="tab">Rights and crime</a></li>
+  	<li role="presentation"><a id="envTab" a href="#environment" onclick="toggleVisibilityDB();" aria-controls="home" role="tab" data-toggle="tab">Environment</a></li>
         </ul>
 
         <hr>
@@ -69,11 +78,9 @@
         <div id="db-notice-box">
           Please note that our database is incomplete and still improving. <a target="_blank" href="https://yournextmp.com/tasks/">You can help</a>.
         </div>
-<!--
-        <div id="forecast-notice-box">
-          Please note that our database is incomplete and still improving. <a target="_blank" href="https://yournextmp.com/tasks/">You can help</a>.
+        <div id="forecast-notice-box" style="display: none;">
+          The predictions are from <a href="http://electionforecast.co.uk/">electionforecast.co.uk</a>. Their website also describes the uncertainties related to the numbers.
         </div>
--->
         
       </div> <!-- hidden-xs -->
   
