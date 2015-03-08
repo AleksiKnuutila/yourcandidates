@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get '/linking', to: 'static_pages#linking'
 
   get 'contact/home'
+  post 'contact/send', to: 'static_pages#contact_send'
 
   get '/search', to: 'candidates#search'
   # this can be removed later
@@ -76,4 +77,5 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
 end
