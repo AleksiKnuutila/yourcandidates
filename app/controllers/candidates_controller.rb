@@ -1422,9 +1422,19 @@ class CandidatesController < ApplicationController
   end
 
   def getAllPredictions()
-    uri = 'http://www.edu.lahti.fi/~zur/predictions.json'
+    uri = 'http://www.edu.lahti.fi/~zur/predictions-range.json'
     jsondata = open(uri)
     return JSON.load(jsondata)
+  end
+
+  def predictionRangeToValue(range)
+    s = range.split('-')
+    return (( s[0].to_i + s[2].to_f ) / 2).ceil
+  end
+
+  def makeRange(range)
+    s = range.split('-')
+    return s[0].to_i..s[1].to_i
   end
 
   def getPrediction(candidate, constituency)
@@ -1435,19 +1445,23 @@ class CandidatesController < ApplicationController
       if party == 'Scottish Green Party'
         party = 'Green Party'
       end
-      if pred['parties'][party]
-        value = pred['parties'][party]
-      else
+      if not pred['parties'][party]
         return nil
       end
       # which party is doing best?
-      max_vals = pred['parties'].select {|k,v| v == pred['parties'].values.max }
-      if max_vals.has_key?(candidate['party'])
+      means = {}
+      pred['parties'].each { |k,v| means[k] = predictionRangeToValue(v) }
+      ranges = {}
+      pred['parties'].each { |k,v| ranges[k] = makeRange(v) }
+      # Find range with highest upper limit
+      max_range = ranges.values.max_by { |x| x.end }
+      # Change displayed colour if ranges overlap
+      if max_range.include?(ranges[party].end)
         maxval = true
       else
         maxval = false
       end
-      return {'value' => value, 'maxvalue' => maxval}
+      return {'rangestring' => pred['parties'][party], 'value' => means[party], 'maxvalue' => maxval}
     end
     return nil
   end

@@ -1,11 +1,24 @@
 [
   {
+    "name": "Aberavon", 
+    "parties": {
+      "Conservative Party": "10-18", 
+      "Green Party": "1-5", 
+      "Labour Party": "44-58", 
+      "Liberal Democrats": "4-13", 
+      "Other": "1-7", 
+      "Plaid Cymru": "2-10", 
+      "Scottish National Party": "0-0", 
+      "UK Independence Party (UKIP)": "9-21"
+    }
+  }, 
+  {
     "name": "Aberconwy", 
     "parties": {
       "Conservative Party": "27-38", 
       "Green Party": "1-6", 
-      "Labour Party": "18-30", 
-      "Liberal Democrats": "6-14", 
+      "Labour Party": "18-29", 
+      "Liberal Democrats": "5-14", 
       "Other": "1-5", 
       "Plaid Cymru": "10-22", 
       "Scottish National Party": "0-0", 
@@ -15,13 +28,13 @@
   {
     "name": "Aberdeen North", 
     "parties": {
-      "Conservative Party": "10-20", 
+      "Conservative Party": "11-20", 
       "Green Party": "1-7", 
       "Labour Party": "25-41", 
       "Liberal Democrats": "8-19", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "20-44", 
+      "Scottish National Party": "19-43", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -30,33 +43,33 @@
     "parties": {
       "Conservative Party": "16-27", 
       "Green Party": "1-7", 
-      "Labour Party": "23-36", 
+      "Labour Party": "22-36", 
       "Liberal Democrats": "10-22", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "18-39", 
+      "Scottish National Party": "17-38", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
   {
     "name": "West Aberdeenshire and Kincardine", 
     "parties": {
-      "Conservative Party": "22-32", 
+      "Conservative Party": "23-33", 
       "Green Party": "0-3", 
-      "Labour Party": "7-16", 
-      "Liberal Democrats": "20-29", 
+      "Labour Party": "7-15", 
+      "Liberal Democrats": "20-30", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "27-40", 
+      "Scottish National Party": "27-39", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
   {
     "name": "Airdrie and Shotts", 
     "parties": {
-      "Conservative Party": "5-13", 
+      "Conservative Party": "5-14", 
       "Green Party": "0-2", 
-      "Labour Party": "35-46", 
+      "Labour Party": "35-47", 
       "Liberal Democrats": "1-6", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -69,7 +82,7 @@
     "parties": {
       "Conservative Party": "39-51", 
       "Green Party": "1-7", 
-      "Labour Party": "11-20", 
+      "Labour Party": "10-20", 
       "Liberal Democrats": "14-28", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -80,7 +93,7 @@
   {
     "name": "Aldridge-Brownhills", 
     "parties": {
-      "Conservative Party": "43-55", 
+      "Conservative Party": "44-55", 
       "Green Party": "1-6", 
       "Labour Party": "16-26", 
       "Liberal Democrats": "4-12", 
@@ -95,7 +108,7 @@
     "parties": {
       "Conservative Party": "43-54", 
       "Green Party": "1-6", 
-      "Labour Party": "22-33", 
+      "Labour Party": "22-32", 
       "Liberal Democrats": "8-19", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -120,8 +133,8 @@
     "name": "Amber Valley", 
     "parties": {
       "Conservative Party": "31-40", 
-      "Green Party": "1-6", 
-      "Labour Party": "33-43", 
+      "Green Party": "2-6", 
+      "Labour Party": "33-42", 
       "Liberal Democrats": "3-9", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -132,23 +145,23 @@
   {
     "name": "Angus", 
     "parties": {
-      "Conservative Party": "20-34", 
+      "Conservative Party": "20-35", 
       "Green Party": "0-3", 
       "Labour Party": "7-18", 
       "Liberal Democrats": "3-11", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "39-61", 
+      "Scottish National Party": "38-61", 
       "UK Independence Party (UKIP)": "0-4"
     }
   }, 
   {
     "name": "Arfon", 
     "parties": {
-      "Conservative Party": "12-23", 
+      "Conservative Party": "13-23", 
       "Green Party": "2-10", 
       "Labour Party": "27-42", 
-      "Liberal Democrats": "5-15", 
+      "Liberal Democrats": "5-14", 
       "Other": "1-5", 
       "Plaid Cymru": "15-31", 
       "Scottish National Party": "0-0", 
@@ -158,11 +171,11 @@
   {
     "name": "Argyll and Bute", 
     "parties": {
-      "Conservative Party": "16-28", 
+      "Conservative Party": "17-28", 
       "Green Party": "1-6", 
       "Labour Party": "13-25", 
-      "Liberal Democrats": "9-21", 
-      "Other": "0-3", 
+      "Liberal Democrats": "10-21", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "28-48", 
       "UK Independence Party (UKIP)": "0-3"
@@ -173,25 +186,25 @@
     "parties": {
       "Conservative Party": "48-60", 
       "Green Party": "1-5", 
-      "Labour Party": "7-16", 
+      "Labour Party": "7-15", 
       "Liberal Democrats": "13-26", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-17"
+      "UK Independence Party (UKIP)": "7-18"
     }
   }, 
   {
     "name": "Ashfield", 
     "parties": {
-      "Conservative Party": "14-23", 
+      "Conservative Party": "14-24", 
       "Green Party": "1-6", 
-      "Labour Party": "38-51", 
+      "Labour Party": "38-50", 
       "Liberal Democrats": "10-22", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "10-21"
+      "UK Independence Party (UKIP)": "9-21"
     }
   }, 
   {
@@ -199,7 +212,7 @@
     "parties": {
       "Conservative Party": "42-53", 
       "Green Party": "1-6", 
-      "Labour Party": "13-23", 
+      "Labour Party": "13-22", 
       "Liberal Democrats": "9-20", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -223,10 +236,10 @@
   {
     "name": "Aylesbury", 
     "parties": {
-      "Conservative Party": "44-57", 
+      "Conservative Party": "45-57", 
       "Green Party": "1-5", 
-      "Labour Party": "11-20", 
-      "Liberal Democrats": "13-26", 
+      "Labour Party": "11-19", 
+      "Liberal Democrats": "12-26", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -242,20 +255,20 @@
       "Liberal Democrats": "2-7", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "30-42", 
+      "Scottish National Party": "29-41", 
       "UK Independence Party (UKIP)": "0-3"
     }
   }, 
   {
     "name": "Central Ayrshire", 
     "parties": {
-      "Conservative Party": "14-24", 
-      "Green Party": "0-3", 
+      "Conservative Party": "14-25", 
+      "Green Party": "0-4", 
       "Labour Party": "29-45", 
       "Liberal Democrats": "2-8", 
-      "Other": "0-3", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "25-45", 
+      "Scottish National Party": "25-44", 
       "UK Independence Party (UKIP)": "0-3"
     }
   }, 
@@ -277,46 +290,46 @@
     "parties": {
       "Conservative Party": "44-55", 
       "Green Party": "1-6", 
-      "Labour Party": "18-29", 
+      "Labour Party": "18-28", 
       "Liberal Democrats": "7-17", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "6-16"
+      "UK Independence Party (UKIP)": "7-16"
     }
   }, 
   {
     "name": "Banff and Buchan", 
     "parties": {
-      "Conservative Party": "15-31", 
+      "Conservative Party": "15-32", 
       "Green Party": "0-2", 
       "Labour Party": "4-14", 
-      "Liberal Democrats": "3-11", 
-      "Other": "0-3", 
+      "Liberal Democrats": "3-12", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "45-69", 
+      "Scottish National Party": "44-69", 
       "UK Independence Party (UKIP)": "0-3"
     }
   }, 
   {
     "name": "Barking", 
     "parties": {
-      "Conservative Party": "12-22", 
-      "Green Party": "1-4", 
+      "Conservative Party": "12-21", 
+      "Green Party": "1-5", 
       "Labour Party": "47-61", 
       "Liberal Democrats": "3-10", 
       "Other": "1-7", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "11-24"
+      "UK Independence Party (UKIP)": "11-23"
     }
   }, 
   {
     "name": "Barnsley Central", 
     "parties": {
       "Conservative Party": "11-20", 
-      "Green Party": "0-4", 
-      "Labour Party": "51-64", 
+      "Green Party": "1-4", 
+      "Labour Party": "51-63", 
       "Liberal Democrats": "3-11", 
       "Other": "1-7", 
       "Plaid Cymru": "0-0", 
@@ -329,7 +342,7 @@
     "parties": {
       "Conservative Party": "11-19", 
       "Green Party": "0-4", 
-      "Labour Party": "50-63", 
+      "Labour Party": "49-62", 
       "Liberal Democrats": "4-11", 
       "Other": "1-7", 
       "Plaid Cymru": "0-0", 
@@ -340,9 +353,9 @@
   {
     "name": "Barrow and Furness", 
     "parties": {
-      "Conservative Party": "24-34", 
+      "Conservative Party": "24-35", 
       "Green Party": "1-6", 
-      "Labour Party": "45-57", 
+      "Labour Party": "44-57", 
       "Liberal Democrats": "3-9", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -355,7 +368,7 @@
     "parties": {
       "Conservative Party": "38-50", 
       "Green Party": "1-5", 
-      "Labour Party": "18-28", 
+      "Labour Party": "17-27", 
       "Liberal Democrats": "4-12", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -381,12 +394,12 @@
     "parties": {
       "Conservative Party": "43-55", 
       "Green Party": "1-5", 
-      "Labour Party": "16-26", 
-      "Liberal Democrats": "10-21", 
+      "Labour Party": "16-25", 
+      "Liberal Democrats": "9-21", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-16"
+      "UK Independence Party (UKIP)": "6-16"
     }
   }, 
   {
@@ -394,7 +407,7 @@
     "parties": {
       "Conservative Party": "22-32", 
       "Green Party": "0-4", 
-      "Labour Party": "45-57", 
+      "Labour Party": "44-56", 
       "Liberal Democrats": "2-8", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -425,7 +438,7 @@
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-18"
+      "UK Independence Party (UKIP)": "7-18"
     }
   }, 
   {
@@ -434,7 +447,7 @@
       "Conservative Party": "43-55", 
       "Green Party": "3-11", 
       "Labour Party": "27-39", 
-      "Liberal Democrats": "4-12", 
+      "Liberal Democrats": "4-13", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -451,7 +464,7 @@
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-13"
+      "UK Independence Party (UKIP)": "4-13"
     }
   }, 
   {
@@ -472,7 +485,7 @@
     "parties": {
       "Conservative Party": "28-37", 
       "Green Party": "1-6", 
-      "Labour Party": "31-41", 
+      "Labour Party": "31-40", 
       "Liberal Democrats": "11-19", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -483,24 +496,24 @@
   {
     "name": "Mid Bedfordshire", 
     "parties": {
-      "Conservative Party": "42-54", 
+      "Conservative Party": "43-54", 
       "Green Party": "2-8", 
-      "Labour Party": "13-23", 
+      "Labour Party": "13-22", 
       "Liberal Democrats": "10-21", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-17"
+      "UK Independence Party (UKIP)": "7-16"
     }
   }, 
   {
     "name": "North East Bedfordshire", 
     "parties": {
-      "Conservative Party": "44-56", 
+      "Conservative Party": "45-56", 
       "Green Party": "1-6", 
       "Labour Party": "14-23", 
-      "Liberal Democrats": "11-22", 
-      "Other": "0-3", 
+      "Liberal Democrats": "10-22", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "7-16"
@@ -510,9 +523,9 @@
     "name": "South West Bedfordshire", 
     "parties": {
       "Conservative Party": "41-52", 
-      "Green Party": "1-7", 
-      "Labour Party": "16-26", 
-      "Liberal Democrats": "8-17", 
+      "Green Party": "2-8", 
+      "Labour Party": "16-25", 
+      "Liberal Democrats": "8-18", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -538,8 +551,8 @@
       "Conservative Party": "31-40", 
       "Green Party": "1-6", 
       "Labour Party": "13-22", 
-      "Liberal Democrats": "26-35", 
-      "Other": "0-4", 
+      "Liberal Democrats": "26-36", 
+      "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "7-15"
@@ -551,10 +564,10 @@
       "Conservative Party": "25-39", 
       "Green Party": "0-4", 
       "Labour Party": "6-15", 
-      "Liberal Democrats": "19-36", 
+      "Liberal Democrats": "19-37", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "14-36", 
+      "Scottish National Party": "13-35", 
       "UK Independence Party (UKIP)": "1-5"
     }
   }, 
@@ -563,7 +576,7 @@
     "parties": {
       "Conservative Party": "12-22", 
       "Green Party": "4-15", 
-      "Labour Party": "48-63", 
+      "Labour Party": "47-63", 
       "Liberal Democrats": "7-19", 
       "Other": "1-7", 
       "Plaid Cymru": "0-0", 
@@ -578,10 +591,10 @@
       "Green Party": "2-7", 
       "Labour Party": "22-33", 
       "Liberal Democrats": "6-15", 
-      "Other": "0-4", 
+      "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-19"
+      "UK Independence Party (UKIP)": "8-18"
     }
   }, 
   {
@@ -589,7 +602,7 @@
     "parties": {
       "Conservative Party": "40-52", 
       "Green Party": "2-8", 
-      "Labour Party": "13-23", 
+      "Labour Party": "13-22", 
       "Liberal Democrats": "8-19", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -602,7 +615,7 @@
     "parties": {
       "Conservative Party": "40-51", 
       "Green Party": "0-4", 
-      "Labour Party": "23-34", 
+      "Labour Party": "23-33", 
       "Liberal Democrats": "3-10", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -615,7 +628,7 @@
     "parties": {
       "Conservative Party": "11-20", 
       "Green Party": "1-7", 
-      "Labour Party": "61-72", 
+      "Labour Party": "60-72", 
       "Liberal Democrats": "4-11", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
@@ -626,11 +639,11 @@
   {
     "name": "Birmingham, Edgbaston", 
     "parties": {
-      "Conservative Party": "27-36", 
-      "Green Party": "4-10", 
-      "Labour Party": "42-52", 
+      "Conservative Party": "27-37", 
+      "Green Party": "3-10", 
+      "Labour Party": "42-51", 
       "Liberal Democrats": "3-9", 
-      "Other": "1-4", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "4-11"
@@ -639,7 +652,7 @@
   {
     "name": "Birmingham, Erdington", 
     "parties": {
-      "Conservative Party": "23-32", 
+      "Conservative Party": "23-33", 
       "Green Party": "1-6", 
       "Labour Party": "39-51", 
       "Liberal Democrats": "4-12", 
@@ -654,9 +667,9 @@
     "parties": {
       "Conservative Party": "11-20", 
       "Green Party": "2-9", 
-      "Labour Party": "43-58", 
+      "Labour Party": "42-58", 
       "Liberal Democrats": "12-28", 
-      "Other": "1-7", 
+      "Other": "1-8", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "3-11"
@@ -668,7 +681,7 @@
       "Conservative Party": "6-14", 
       "Green Party": "1-5", 
       "Labour Party": "53-68", 
-      "Liberal Democrats": "10-23", 
+      "Liberal Democrats": "9-23", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -678,14 +691,14 @@
   {
     "name": "Birmingham, Ladywood", 
     "parties": {
-      "Conservative Party": "8-16", 
+      "Conservative Party": "7-16", 
       "Green Party": "2-10", 
-      "Labour Party": "52-68", 
-      "Liberal Democrats": "10-24", 
+      "Labour Party": "52-67", 
+      "Liberal Democrats": "11-25", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "2-8"
+      "UK Independence Party (UKIP)": "1-8"
     }
   }, 
   {
@@ -693,7 +706,7 @@
     "parties": {
       "Conservative Party": "23-33", 
       "Green Party": "2-8", 
-      "Labour Party": "41-53", 
+      "Labour Party": "41-52", 
       "Liberal Democrats": "3-11", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -706,7 +719,7 @@
     "parties": {
       "Conservative Party": "13-22", 
       "Green Party": "1-6", 
-      "Labour Party": "48-61", 
+      "Labour Party": "47-61", 
       "Liberal Democrats": "7-18", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
@@ -719,18 +732,18 @@
     "parties": {
       "Conservative Party": "21-31", 
       "Green Party": "4-13", 
-      "Labour Party": "42-55", 
+      "Labour Party": "42-54", 
       "Liberal Democrats": "5-13", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "4-12"
+      "UK Independence Party (UKIP)": "3-12"
     }
   }, 
   {
     "name": "Birmingham, Yardley", 
     "parties": {
-      "Conservative Party": "11-20", 
+      "Conservative Party": "12-20", 
       "Green Party": "1-4", 
       "Labour Party": "29-39", 
       "Liberal Democrats": "30-40", 
@@ -745,9 +758,9 @@
     "parties": {
       "Conservative Party": "20-30", 
       "Green Party": "1-6", 
-      "Labour Party": "41-54", 
-      "Liberal Democrats": "5-13", 
-      "Other": "1-4", 
+      "Labour Party": "41-53", 
+      "Liberal Democrats": "5-14", 
+      "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "9-20"
@@ -756,7 +769,7 @@
   {
     "name": "Blackburn", 
     "parties": {
-      "Conservative Party": "16-26", 
+      "Conservative Party": "17-26", 
       "Green Party": "1-6", 
       "Labour Party": "46-59", 
       "Liberal Democrats": "5-14", 
@@ -772,11 +785,11 @@
       "Conservative Party": "12-21", 
       "Green Party": "1-7", 
       "Labour Party": "52-65", 
-      "Liberal Democrats": "3-11", 
+      "Liberal Democrats": "4-11", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "6-17"
+      "UK Independence Party (UKIP)": "7-17"
     }
   }, 
   {
@@ -789,28 +802,28 @@
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "10-19"
+      "UK Independence Party (UKIP)": "10-18"
     }
   }, 
   {
     "name": "Blackpool South", 
     "parties": {
       "Conservative Party": "23-33", 
-      "Green Party": "1-6", 
-      "Labour Party": "38-51", 
+      "Green Party": "1-7", 
+      "Labour Party": "38-50", 
       "Liberal Democrats": "3-11", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "10-21"
+      "UK Independence Party (UKIP)": "10-22"
     }
   }, 
   {
     "name": "Blaenau Gwent", 
     "parties": {
       "Conservative Party": "5-13", 
-      "Green Party": "0-4", 
-      "Labour Party": "56-70", 
+      "Green Party": "1-4", 
+      "Labour Party": "55-70", 
       "Liberal Democrats": "3-10", 
       "Other": "2-11", 
       "Plaid Cymru": "1-7", 
@@ -823,7 +836,7 @@
     "parties": {
       "Conservative Party": "12-21", 
       "Green Party": "1-6", 
-      "Labour Party": "50-64", 
+      "Labour Party": "50-63", 
       "Liberal Democrats": "8-19", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -850,7 +863,7 @@
       "Conservative Party": "39-50", 
       "Green Party": "1-6", 
       "Labour Party": "12-21", 
-      "Liberal Democrats": "7-16", 
+      "Liberal Democrats": "7-17", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -862,8 +875,8 @@
     "parties": {
       "Conservative Party": "16-25", 
       "Green Party": "1-5", 
-      "Labour Party": "46-58", 
-      "Liberal Democrats": "3-10", 
+      "Labour Party": "45-58", 
+      "Liberal Democrats": "3-9", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -888,12 +901,12 @@
     "parties": {
       "Conservative Party": "16-25", 
       "Green Party": "1-6", 
-      "Labour Party": "45-58", 
-      "Liberal Democrats": "5-12", 
+      "Labour Party": "45-57", 
+      "Liberal Democrats": "5-13", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-21"
+      "UK Independence Party (UKIP)": "10-20"
     }
   }, 
   {
@@ -901,7 +914,7 @@
     "parties": {
       "Conservative Party": "26-35", 
       "Green Party": "1-5", 
-      "Labour Party": "35-45", 
+      "Labour Party": "35-44", 
       "Liberal Democrats": "7-14", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -914,8 +927,8 @@
     "parties": {
       "Conservative Party": "6-14", 
       "Green Party": "1-5", 
-      "Labour Party": "64-76", 
-      "Liberal Democrats": "4-11", 
+      "Labour Party": "63-75", 
+      "Liberal Democrats": "3-11", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -927,7 +940,7 @@
     "parties": {
       "Conservative Party": "34-43", 
       "Green Party": "1-4", 
-      "Labour Party": "16-25", 
+      "Labour Party": "15-24", 
       "Liberal Democrats": "4-10", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -940,9 +953,9 @@
     "parties": {
       "Conservative Party": "36-47", 
       "Green Party": "1-6", 
-      "Labour Party": "16-26", 
+      "Labour Party": "16-25", 
       "Liberal Democrats": "12-25", 
-      "Other": "1-4", 
+      "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "9-20"
@@ -964,27 +977,27 @@
   {
     "name": "Bournemouth West", 
     "parties": {
-      "Conservative Party": "39-50", 
+      "Conservative Party": "39-51", 
       "Green Party": "2-9", 
       "Labour Party": "15-25", 
       "Liberal Democrats": "10-22", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-18"
+      "UK Independence Party (UKIP)": "7-17"
     }
   }, 
   {
     "name": "Bracknell", 
     "parties": {
-      "Conservative Party": "46-58", 
+      "Conservative Party": "46-57", 
       "Green Party": "1-7", 
-      "Labour Party": "14-23", 
+      "Labour Party": "13-23", 
       "Liberal Democrats": "9-19", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "6-16"
+      "UK Independence Party (UKIP)": "7-16"
     }
   }, 
   {
@@ -992,7 +1005,7 @@
     "parties": {
       "Conservative Party": "14-23", 
       "Green Party": "1-4", 
-      "Labour Party": "38-48", 
+      "Labour Party": "37-47", 
       "Liberal Democrats": "20-29", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -1003,14 +1016,14 @@
   {
     "name": "Bradford South", 
     "parties": {
-      "Conservative Party": "19-29", 
+      "Conservative Party": "20-29", 
       "Green Party": "1-6", 
-      "Labour Party": "39-52", 
+      "Labour Party": "39-51", 
       "Liberal Democrats": "5-14", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-21"
+      "UK Independence Party (UKIP)": "10-21"
     }
   }, 
   {
@@ -1018,7 +1031,7 @@
     "parties": {
       "Conservative Party": "18-28", 
       "Green Party": "1-8", 
-      "Labour Party": "45-59", 
+      "Labour Party": "45-58", 
       "Liberal Democrats": "4-13", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
@@ -1030,7 +1043,7 @@
     "name": "Braintree", 
     "parties": {
       "Conservative Party": "38-49", 
-      "Green Party": "2-7", 
+      "Green Party": "2-8", 
       "Labour Party": "17-27", 
       "Liberal Democrats": "6-15", 
       "Other": "1-5", 
@@ -1044,7 +1057,7 @@
     "parties": {
       "Conservative Party": "27-37", 
       "Green Party": "1-5", 
-      "Labour Party": "12-21", 
+      "Labour Party": "11-20", 
       "Liberal Democrats": "30-40", 
       "Other": "0-2", 
       "Plaid Cymru": "2-8", 
@@ -1056,8 +1069,8 @@
     "name": "Brent Central", 
     "parties": {
       "Conservative Party": "9-17", 
-      "Green Party": "3-8", 
-      "Labour Party": "50-60", 
+      "Green Party": "3-9", 
+      "Labour Party": "49-59", 
       "Liberal Democrats": "18-27", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -1096,7 +1109,7 @@
     "parties": {
       "Conservative Party": "46-58", 
       "Green Party": "1-7", 
-      "Labour Party": "9-18", 
+      "Labour Party": "8-17", 
       "Liberal Democrats": "8-18", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -1108,13 +1121,13 @@
     "name": "Bridgend", 
     "parties": {
       "Conservative Party": "20-30", 
-      "Green Party": "1-4", 
-      "Labour Party": "35-47", 
+      "Green Party": "1-5", 
+      "Labour Party": "34-47", 
       "Liberal Democrats": "6-16", 
       "Other": "1-6", 
       "Plaid Cymru": "2-9", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-18"
+      "UK Independence Party (UKIP)": "7-18"
     }
   }, 
   {
@@ -1122,8 +1135,8 @@
     "parties": {
       "Conservative Party": "36-47", 
       "Green Party": "2-8", 
-      "Labour Party": "16-26", 
-      "Liberal Democrats": "10-21", 
+      "Labour Party": "16-25", 
+      "Liberal Democrats": "10-22", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -1134,7 +1147,7 @@
     "name": "Brigg and Goole", 
     "parties": {
       "Conservative Party": "33-44", 
-      "Green Party": "0-3", 
+      "Green Party": "0-4", 
       "Labour Party": "28-39", 
       "Liberal Democrats": "3-11", 
       "Other": "1-5", 
@@ -1146,11 +1159,11 @@
   {
     "name": "Brighton, Kemptown", 
     "parties": {
-      "Conservative Party": "32-41", 
-      "Green Party": "7-13", 
-      "Labour Party": "31-41", 
+      "Conservative Party": "32-42", 
+      "Green Party": "7-14", 
+      "Labour Party": "31-40", 
       "Liberal Democrats": "5-12", 
-      "Other": "0-3", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "4-11"
@@ -1161,9 +1174,9 @@
     "parties": {
       "Conservative Party": "18-27", 
       "Green Party": "33-40", 
-      "Labour Party": "25-34", 
+      "Labour Party": "25-33", 
       "Liberal Democrats": "4-11", 
-      "Other": "0-3", 
+      "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "1-5"
@@ -1174,12 +1187,12 @@
     "parties": {
       "Conservative Party": "20-30", 
       "Green Party": "4-12", 
-      "Labour Party": "39-51", 
-      "Liberal Democrats": "8-18", 
+      "Labour Party": "38-51", 
+      "Liberal Democrats": "7-18", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-14"
+      "UK Independence Party (UKIP)": "5-13"
     }
   }, 
   {
@@ -1188,11 +1201,11 @@
       "Conservative Party": "29-40", 
       "Green Party": "4-13", 
       "Labour Party": "26-37", 
-      "Liberal Democrats": "9-19", 
+      "Liberal Democrats": "9-20", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "6-16"
+      "UK Independence Party (UKIP)": "6-15"
     }
   }, 
   {
@@ -1205,7 +1218,7 @@
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-15"
+      "UK Independence Party (UKIP)": "6-15"
     }
   }, 
   {
@@ -1213,7 +1226,7 @@
     "parties": {
       "Conservative Party": "11-20", 
       "Green Party": "17-31", 
-      "Labour Party": "26-38", 
+      "Labour Party": "25-38", 
       "Liberal Democrats": "18-33", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -1226,12 +1239,12 @@
     "parties": {
       "Conservative Party": "35-46", 
       "Green Party": "2-7", 
-      "Labour Party": "13-23", 
+      "Labour Party": "13-22", 
       "Liberal Democrats": "13-26", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "12-23"
+      "UK Independence Party (UKIP)": "11-23"
     }
   }, 
   {
@@ -1264,8 +1277,8 @@
     "name": "Broxbourne", 
     "parties": {
       "Conservative Party": "45-57", 
-      "Green Party": "1-4", 
-      "Labour Party": "15-25", 
+      "Green Party": "1-5", 
+      "Labour Party": "15-24", 
       "Liberal Democrats": "4-12", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -1277,8 +1290,8 @@
     "name": "Broxtowe", 
     "parties": {
       "Conservative Party": "31-40", 
-      "Green Party": "2-6", 
-      "Labour Party": "35-44", 
+      "Green Party": "2-7", 
+      "Labour Party": "34-44", 
       "Liberal Democrats": "6-13", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -1304,8 +1317,8 @@
     "parties": {
       "Conservative Party": "11-19", 
       "Green Party": "1-4", 
-      "Labour Party": "36-46", 
-      "Liberal Democrats": "20-29", 
+      "Labour Party": "35-45", 
+      "Liberal Democrats": "20-30", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -1319,7 +1332,7 @@
       "Green Party": "1-5", 
       "Labour Party": "26-37", 
       "Liberal Democrats": "4-12", 
-      "Other": "1-4", 
+      "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "10-21"
@@ -1330,7 +1343,7 @@
     "parties": {
       "Conservative Party": "32-41", 
       "Green Party": "1-4", 
-      "Labour Party": "35-45", 
+      "Labour Party": "35-44", 
       "Liberal Democrats": "5-12", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -1348,27 +1361,27 @@
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "4-12"
+      "UK Independence Party (UKIP)": "4-13"
     }
   }, 
   {
     "name": "Bury St Edmunds", 
     "parties": {
-      "Conservative Party": "36-47", 
+      "Conservative Party": "35-47", 
       "Green Party": "3-10", 
       "Labour Party": "17-27", 
       "Liberal Democrats": "11-24", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-18"
+      "UK Independence Party (UKIP)": "7-18"
     }
   }, 
   {
     "name": "Caerphilly", 
     "parties": {
-      "Conservative Party": "10-19", 
-      "Green Party": "1-6", 
+      "Conservative Party": "11-20", 
+      "Green Party": "1-5", 
       "Labour Party": "40-54", 
       "Liberal Democrats": "5-13", 
       "Other": "1-6", 
@@ -1382,25 +1395,25 @@
     "parties": {
       "Conservative Party": "7-16", 
       "Green Party": "0-4", 
-      "Labour Party": "13-25", 
-      "Liberal Democrats": "17-34", 
-      "Other": "0-4", 
+      "Labour Party": "12-25", 
+      "Liberal Democrats": "16-34", 
+      "Other": "0-5", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "29-51", 
+      "Scottish National Party": "28-51", 
       "UK Independence Party (UKIP)": "0-3"
     }
   }, 
   {
     "name": "Calder Valley", 
     "parties": {
-      "Conservative Party": "31-42", 
-      "Green Party": "2-9", 
+      "Conservative Party": "32-42", 
+      "Green Party": "3-10", 
       "Labour Party": "28-39", 
       "Liberal Democrats": "8-18", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-13"
+      "UK Independence Party (UKIP)": "5-14"
     }
   }, 
   {
@@ -1458,10 +1471,10 @@
   {
     "name": "North West Cambridgeshire", 
     "parties": {
-      "Conservative Party": "41-53", 
+      "Conservative Party": "42-53", 
       "Green Party": "1-6", 
       "Labour Party": "14-24", 
-      "Liberal Democrats": "9-19", 
+      "Liberal Democrats": "9-20", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -1473,7 +1486,7 @@
     "parties": {
       "Conservative Party": "38-50", 
       "Green Party": "3-10", 
-      "Labour Party": "12-22", 
+      "Labour Party": "12-21", 
       "Liberal Democrats": "18-33", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -1484,9 +1497,9 @@
   {
     "name": "South East Cambridgeshire", 
     "parties": {
-      "Conservative Party": "37-50", 
+      "Conservative Party": "38-50", 
       "Green Party": "2-9", 
-      "Labour Party": "8-18", 
+      "Labour Party": "9-17", 
       "Liberal Democrats": "19-36", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -1498,8 +1511,8 @@
     "name": "Cannock Chase", 
     "parties": {
       "Conservative Party": "29-38", 
-      "Green Party": "0-3", 
-      "Labour Party": "29-38", 
+      "Green Party": "1-4", 
+      "Labour Party": "28-38", 
       "Liberal Democrats": "6-13", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -1510,25 +1523,25 @@
   {
     "name": "Canterbury", 
     "parties": {
-      "Conservative Party": "37-48", 
+      "Conservative Party": "37-49", 
       "Green Party": "3-12", 
       "Labour Party": "18-28", 
       "Liberal Democrats": "9-20", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-16"
+      "UK Independence Party (UKIP)": "6-16"
     }
   }, 
   {
     "name": "Cardiff Central", 
     "parties": {
       "Conservative Party": "17-25", 
-      "Green Party": "3-9", 
-      "Labour Party": "31-42", 
+      "Green Party": "3-10", 
+      "Labour Party": "31-41", 
       "Liberal Democrats": "22-30", 
       "Other": "0-3", 
-      "Plaid Cymru": "2-8", 
+      "Plaid Cymru": "2-9", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "1-7"
     }
@@ -1540,10 +1553,10 @@
       "Green Party": "1-6", 
       "Labour Party": "35-45", 
       "Liberal Democrats": "5-12", 
-      "Other": "0-3", 
+      "Other": "1-3", 
       "Plaid Cymru": "1-7", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "4-10"
+      "UK Independence Party (UKIP)": "3-10"
     }
   }, 
   {
@@ -1553,8 +1566,8 @@
       "Green Party": "2-9", 
       "Labour Party": "34-46", 
       "Liberal Democrats": "6-16", 
-      "Other": "1-4", 
-      "Plaid Cymru": "2-8", 
+      "Other": "1-5", 
+      "Plaid Cymru": "2-9", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "6-16"
     }
@@ -1564,7 +1577,7 @@
     "parties": {
       "Conservative Party": "23-32", 
       "Green Party": "1-7", 
-      "Labour Party": "38-51", 
+      "Labour Party": "38-50", 
       "Liberal Democrats": "5-13", 
       "Other": "0-3", 
       "Plaid Cymru": "3-11", 
@@ -1577,7 +1590,7 @@
     "parties": {
       "Conservative Party": "30-40", 
       "Green Party": "2-6", 
-      "Labour Party": "35-44", 
+      "Labour Party": "34-44", 
       "Liberal Democrats": "4-11", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -1590,10 +1603,10 @@
     "parties": {
       "Conservative Party": "16-27", 
       "Green Party": "1-5", 
-      "Labour Party": "22-36", 
+      "Labour Party": "22-35", 
       "Liberal Democrats": "4-13", 
-      "Other": "1-5", 
-      "Plaid Cymru": "15-30", 
+      "Other": "1-6", 
+      "Plaid Cymru": "16-29", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "8-20"
     }
@@ -1601,9 +1614,9 @@
   {
     "name": "Carmarthen West and South Pembrokeshire", 
     "parties": {
-      "Conservative Party": "32-43", 
+      "Conservative Party": "33-43", 
       "Green Party": "1-4", 
-      "Labour Party": "26-35", 
+      "Labour Party": "25-35", 
       "Liberal Democrats": "3-10", 
       "Other": "1-5", 
       "Plaid Cymru": "7-15", 
@@ -1614,14 +1627,14 @@
   {
     "name": "Carshalton and Wallington", 
     "parties": {
-      "Conservative Party": "24-33", 
+      "Conservative Party": "24-34", 
       "Green Party": "1-5", 
       "Labour Party": "8-17", 
       "Liberal Democrats": "41-50", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "6-13"
+      "UK Independence Party (UKIP)": "5-13"
     }
   }, 
   {
@@ -1631,7 +1644,7 @@
       "Green Party": "0-3", 
       "Labour Party": "12-21", 
       "Liberal Democrats": "3-9", 
-      "Other": "4-9", 
+      "Other": "4-10", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "24-33"
@@ -1640,7 +1653,7 @@
   {
     "name": "Ceredigion", 
     "parties": {
-      "Conservative Party": "8-17", 
+      "Conservative Party": "8-18", 
       "Green Party": "3-11", 
       "Labour Party": "7-17", 
       "Liberal Democrats": "30-50", 
@@ -1653,21 +1666,21 @@
   {
     "name": "Charnwood", 
     "parties": {
-      "Conservative Party": "42-53", 
+      "Conservative Party": "43-54", 
       "Green Party": "1-6", 
-      "Labour Party": "18-29", 
+      "Labour Party": "18-28", 
       "Liberal Democrats": "7-17", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-17"
+      "UK Independence Party (UKIP)": "7-16"
     }
   }, 
   {
     "name": "Chatham and Aylesford", 
     "parties": {
       "Conservative Party": "38-49", 
-      "Green Party": "1-5", 
+      "Green Party": "1-6", 
       "Labour Party": "25-36", 
       "Liberal Democrats": "4-11", 
       "Other": "0-4", 
@@ -1686,7 +1699,7 @@
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "4-10"
+      "UK Independence Party (UKIP)": "4-11"
     }
   }, 
   {
@@ -1694,8 +1707,8 @@
     "parties": {
       "Conservative Party": "36-48", 
       "Green Party": "2-9", 
-      "Labour Party": "11-20", 
-      "Liberal Democrats": "18-32", 
+      "Labour Party": "10-20", 
+      "Liberal Democrats": "18-33", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -1707,7 +1720,7 @@
     "parties": {
       "Conservative Party": "55-66", 
       "Green Party": "2-9", 
-      "Labour Party": "16-27", 
+      "Labour Party": "16-26", 
       "Liberal Democrats": "5-13", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -1718,8 +1731,8 @@
   {
     "name": "Cheltenham", 
     "parties": {
-      "Conservative Party": "32-42", 
-      "Green Party": "2-7", 
+      "Conservative Party": "33-42", 
+      "Green Party": "2-8", 
       "Labour Party": "6-13", 
       "Liberal Democrats": "38-47", 
       "Other": "0-3", 
@@ -1731,14 +1744,14 @@
   {
     "name": "Chesham and Amersham", 
     "parties": {
-      "Conservative Party": "52-65", 
+      "Conservative Party": "53-65", 
       "Green Party": "1-7", 
       "Labour Party": "4-12", 
       "Liberal Democrats": "13-27", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-13"
+      "UK Independence Party (UKIP)": "4-14"
     }
   }, 
   {
@@ -1757,9 +1770,9 @@
   {
     "name": "Chesterfield", 
     "parties": {
-      "Conservative Party": "9-18", 
+      "Conservative Party": "10-18", 
       "Green Party": "2-10", 
-      "Labour Party": "42-55", 
+      "Labour Party": "41-55", 
       "Liberal Democrats": "12-27", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -1770,9 +1783,9 @@
   {
     "name": "Chichester", 
     "parties": {
-      "Conservative Party": "49-61", 
+      "Conservative Party": "50-62", 
       "Green Party": "1-7", 
-      "Labour Party": "10-19", 
+      "Labour Party": "10-18", 
       "Liberal Democrats": "9-20", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -1798,7 +1811,7 @@
     "parties": {
       "Conservative Party": "36-45", 
       "Green Party": "4-10", 
-      "Labour Party": "9-18", 
+      "Labour Party": "9-17", 
       "Liberal Democrats": "23-31", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -1810,7 +1823,7 @@
     "name": "Chipping Barnet", 
     "parties": {
       "Conservative Party": "41-51", 
-      "Green Party": "1-6", 
+      "Green Party": "1-7", 
       "Labour Party": "28-38", 
       "Liberal Democrats": "7-16", 
       "Other": "0-3", 
@@ -1836,13 +1849,13 @@
     "name": "Christchurch", 
     "parties": {
       "Conservative Party": "47-59", 
-      "Green Party": "1-5", 
+      "Green Party": "1-6", 
       "Labour Party": "8-17", 
       "Liberal Democrats": "9-20", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "11-23"
+      "UK Independence Party (UKIP)": "10-23"
     }
   }, 
   {
@@ -1863,12 +1876,12 @@
     "parties": {
       "Conservative Party": "28-37", 
       "Green Party": "1-5", 
-      "Labour Party": "17-26", 
+      "Labour Party": "16-25", 
       "Liberal Democrats": "3-9", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "33-42"
+      "UK Independence Party (UKIP)": "33-41"
     }
   }, 
   {
@@ -1876,20 +1889,20 @@
     "parties": {
       "Conservative Party": "31-42", 
       "Green Party": "0-4", 
-      "Labour Party": "29-41", 
+      "Labour Party": "29-40", 
       "Liberal Democrats": "5-13", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "12-23"
+      "UK Independence Party (UKIP)": "12-24"
     }
   }, 
   {
     "name": "Clwyd South", 
     "parties": {
       "Conservative Party": "21-31", 
-      "Green Party": "0-4", 
-      "Labour Party": "35-46", 
+      "Green Party": "1-4", 
+      "Labour Party": "34-46", 
       "Liberal Democrats": "5-14", 
       "Other": "1-5", 
       "Plaid Cymru": "4-12", 
@@ -1900,14 +1913,14 @@
   {
     "name": "Clwyd West", 
     "parties": {
-      "Conservative Party": "30-42", 
+      "Conservative Party": "31-42", 
       "Green Party": "1-5", 
       "Labour Party": "18-29", 
       "Liberal Democrats": "4-11", 
       "Other": "1-5", 
-      "Plaid Cymru": "9-21", 
+      "Plaid Cymru": "10-21", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-18"
+      "UK Independence Party (UKIP)": "8-19"
     }
   }, 
   {
@@ -1915,20 +1928,20 @@
     "parties": {
       "Conservative Party": "5-13", 
       "Green Party": "0-2", 
-      "Labour Party": "38-51", 
+      "Labour Party": "39-50", 
       "Liberal Democrats": "1-6", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "34-47", 
+      "Scottish National Party": "34-46", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
   {
     "name": "Colchester", 
     "parties": {
-      "Conservative Party": "22-31", 
+      "Conservative Party": "22-32", 
       "Green Party": "3-8", 
-      "Labour Party": "13-23", 
+      "Labour Party": "13-22", 
       "Liberal Democrats": "34-44", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -1952,7 +1965,7 @@
   {
     "name": "Congleton", 
     "parties": {
-      "Conservative Party": "38-50", 
+      "Conservative Party": "39-50", 
       "Green Party": "1-5", 
       "Labour Party": "19-29", 
       "Liberal Democrats": "13-25", 
@@ -1967,7 +1980,7 @@
     "parties": {
       "Conservative Party": "25-35", 
       "Green Party": "1-4", 
-      "Labour Party": "42-55", 
+      "Labour Party": "43-55", 
       "Liberal Democrats": "2-8", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -1978,7 +1991,7 @@
   {
     "name": "Corby", 
     "parties": {
-      "Conservative Party": "30-39", 
+      "Conservative Party": "31-40", 
       "Green Party": "1-4", 
       "Labour Party": "35-45", 
       "Liberal Democrats": "4-11", 
@@ -1992,8 +2005,8 @@
     "name": "North Cornwall", 
     "parties": {
       "Conservative Party": "32-41", 
-      "Green Party": "2-7", 
-      "Labour Party": "5-13", 
+      "Green Party": "2-8", 
+      "Labour Party": "5-12", 
       "Liberal Democrats": "29-37", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -2004,14 +2017,14 @@
   {
     "name": "South East Cornwall", 
     "parties": {
-      "Conservative Party": "37-48", 
+      "Conservative Party": "37-49", 
       "Green Party": "3-10", 
-      "Labour Party": "8-17", 
+      "Labour Party": "8-16", 
       "Liberal Democrats": "15-29", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "11-21"
+      "UK Independence Party (UKIP)": "10-21"
     }
   }, 
   {
@@ -2019,7 +2032,7 @@
     "parties": {
       "Conservative Party": "46-58", 
       "Green Party": "2-9", 
-      "Labour Party": "10-20", 
+      "Labour Party": "10-19", 
       "Liberal Democrats": "13-26", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -2030,7 +2043,7 @@
   {
     "name": "Coventry North East", 
     "parties": {
-      "Conservative Party": "16-25", 
+      "Conservative Party": "16-26", 
       "Green Party": "1-6", 
       "Labour Party": "48-60", 
       "Liberal Democrats": "4-12", 
@@ -2059,7 +2072,7 @@
       "Conservative Party": "23-33", 
       "Green Party": "2-9", 
       "Labour Party": "44-56", 
-      "Liberal Democrats": "4-11", 
+      "Liberal Democrats": "4-12", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -2069,14 +2082,14 @@
   {
     "name": "Crawley", 
     "parties": {
-      "Conservative Party": "37-49", 
+      "Conservative Party": "38-49", 
       "Green Party": "1-6", 
       "Labour Party": "23-34", 
       "Liberal Democrats": "4-12", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "10-22"
+      "UK Independence Party (UKIP)": "10-21"
     }
   }, 
   {
@@ -2085,8 +2098,8 @@
       "Conservative Party": "36-46", 
       "Green Party": "1-5", 
       "Labour Party": "31-42", 
-      "Liberal Democrats": "5-12", 
-      "Other": "0-4", 
+      "Liberal Democrats": "4-13", 
+      "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "6-15"
@@ -2096,13 +2109,13 @@
     "name": "Croydon Central", 
     "parties": {
       "Conservative Party": "36-45", 
-      "Green Party": "2-6", 
-      "Labour Party": "34-43", 
+      "Green Party": "1-6", 
+      "Labour Party": "33-43", 
       "Liberal Democrats": "4-10", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "6-13"
+      "UK Independence Party (UKIP)": "5-13"
     }
   }, 
   {
@@ -2110,7 +2123,7 @@
     "parties": {
       "Conservative Party": "17-28", 
       "Green Party": "1-8", 
-      "Labour Party": "51-65", 
+      "Labour Party": "51-64", 
       "Liberal Democrats": "4-13", 
       "Other": "0-5", 
       "Plaid Cymru": "0-0", 
@@ -2121,11 +2134,11 @@
   {
     "name": "Croydon South", 
     "parties": {
-      "Conservative Party": "42-53", 
+      "Conservative Party": "43-54", 
       "Green Party": "1-6", 
       "Labour Party": "21-32", 
-      "Liberal Democrats": "8-17", 
-      "Other": "0-4", 
+      "Liberal Democrats": "7-17", 
+      "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "5-13"
@@ -2136,7 +2149,7 @@
     "parties": {
       "Conservative Party": "5-13", 
       "Green Party": "0-3", 
-      "Labour Party": "30-42", 
+      "Labour Party": "31-42", 
       "Liberal Democrats": "2-8", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -2150,7 +2163,7 @@
       "Conservative Party": "7-15", 
       "Green Party": "0-4", 
       "Labour Party": "45-61", 
-      "Liberal Democrats": "4-12", 
+      "Liberal Democrats": "4-13", 
       "Other": "0-4", 
       "Plaid Cymru": "5-18", 
       "Scottish National Party": "0-0", 
@@ -2173,9 +2186,9 @@
   {
     "name": "Darlington", 
     "parties": {
-      "Conservative Party": "24-34", 
-      "Green Party": "1-6", 
-      "Labour Party": "41-53", 
+      "Conservative Party": "24-35", 
+      "Green Party": "1-7", 
+      "Labour Party": "40-53", 
       "Liberal Democrats": "5-14", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -2186,9 +2199,9 @@
   {
     "name": "Dartford", 
     "parties": {
-      "Conservative Party": "40-51", 
+      "Conservative Party": "41-52", 
       "Green Party": "1-6", 
-      "Labour Party": "20-31", 
+      "Labour Party": "20-30", 
       "Liberal Democrats": "4-12", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -2199,9 +2212,9 @@
   {
     "name": "Daventry", 
     "parties": {
-      "Conservative Party": "48-60", 
+      "Conservative Party": "49-60", 
       "Green Party": "1-6", 
-      "Labour Party": "13-23", 
+      "Labour Party": "14-23", 
       "Liberal Democrats": "6-16", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -2214,18 +2227,18 @@
     "parties": {
       "Conservative Party": "24-35", 
       "Green Party": "0-4", 
-      "Labour Party": "36-47", 
+      "Labour Party": "35-47", 
       "Liberal Democrats": "4-12", 
       "Other": "0-4", 
       "Plaid Cymru": "1-7", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-19"
+      "UK Independence Party (UKIP)": "8-19"
     }
   }, 
   {
     "name": "Denton and Reddish", 
     "parties": {
-      "Conservative Party": "17-26", 
+      "Conservative Party": "17-27", 
       "Green Party": "1-5", 
       "Labour Party": "49-61", 
       "Liberal Democrats": "5-13", 
@@ -2240,7 +2253,7 @@
     "parties": {
       "Conservative Party": "23-33", 
       "Green Party": "2-10", 
-      "Labour Party": "36-47", 
+      "Labour Party": "35-47", 
       "Liberal Democrats": "7-17", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -2253,12 +2266,12 @@
     "parties": {
       "Conservative Party": "18-28", 
       "Green Party": "1-5", 
-      "Labour Party": "41-53", 
+      "Labour Party": "40-53", 
       "Liberal Democrats": "6-15", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-21"
+      "UK Independence Party (UKIP)": "9-20"
     }
   }, 
   {
@@ -2267,17 +2280,17 @@
       "Conservative Party": "43-54", 
       "Green Party": "1-7", 
       "Labour Party": "18-28", 
-      "Liberal Democrats": "6-16", 
-      "Other": "0-3", 
+      "Liberal Democrats": "7-16", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-18"
+      "UK Independence Party (UKIP)": "7-18"
     }
   }, 
   {
     "name": "Mid Derbyshire", 
     "parties": {
-      "Conservative Party": "40-51", 
+      "Conservative Party": "41-51", 
       "Green Party": "1-6", 
       "Labour Party": "23-34", 
       "Liberal Democrats": "5-14", 
@@ -2297,17 +2310,17 @@
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "10-21"
+      "UK Independence Party (UKIP)": "9-21"
     }
   }, 
   {
     "name": "South Derbyshire", 
     "parties": {
-      "Conservative Party": "39-49", 
+      "Conservative Party": "39-50", 
       "Green Party": "1-5", 
       "Labour Party": "28-38", 
       "Liberal Democrats": "3-11", 
-      "Other": "0-4", 
+      "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "7-17"
@@ -2318,7 +2331,7 @@
     "parties": {
       "Conservative Party": "46-59", 
       "Green Party": "1-7", 
-      "Labour Party": "9-19", 
+      "Labour Party": "9-18", 
       "Liberal Democrats": "9-22", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -2329,10 +2342,10 @@
   {
     "name": "Central Devon", 
     "parties": {
-      "Conservative Party": "44-56", 
+      "Conservative Party": "44-57", 
       "Green Party": "2-9", 
-      "Labour Party": "7-16", 
-      "Liberal Democrats": "15-28", 
+      "Labour Party": "7-15", 
+      "Liberal Democrats": "14-28", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -2342,21 +2355,21 @@
   {
     "name": "East Devon", 
     "parties": {
-      "Conservative Party": "40-52", 
+      "Conservative Party": "41-52", 
       "Green Party": "3-10", 
-      "Labour Party": "11-21", 
+      "Labour Party": "11-20", 
       "Liberal Democrats": "11-23", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-20"
+      "UK Independence Party (UKIP)": "9-19"
     }
   }, 
   {
     "name": "North Devon", 
     "parties": {
-      "Conservative Party": "30-39", 
-      "Green Party": "4-9", 
+      "Conservative Party": "30-40", 
+      "Green Party": "4-10", 
       "Labour Party": "6-14", 
       "Liberal Democrats": "28-37", 
       "Other": "1-4", 
@@ -2370,7 +2383,7 @@
     "parties": {
       "Conservative Party": "46-58", 
       "Green Party": "2-8", 
-      "Labour Party": "11-21", 
+      "Labour Party": "11-20", 
       "Liberal Democrats": "9-20", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
@@ -2383,12 +2396,12 @@
     "parties": {
       "Conservative Party": "38-50", 
       "Green Party": "3-11", 
-      "Labour Party": "5-14", 
+      "Labour Party": "5-13", 
       "Liberal Democrats": "18-33", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-19"
+      "UK Independence Party (UKIP)": "8-18"
     }
   }, 
   {
@@ -2407,14 +2420,14 @@
   {
     "name": "Don Valley", 
     "parties": {
-      "Conservative Party": "18-28", 
-      "Green Party": "0-4", 
+      "Conservative Party": "19-28", 
+      "Green Party": "1-4", 
       "Labour Party": "38-51", 
       "Liberal Democrats": "3-11", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "15-27"
+      "UK Independence Party (UKIP)": "14-27"
     }
   }, 
   {
@@ -2427,7 +2440,7 @@
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "10-22"
+      "UK Independence Party (UKIP)": "11-22"
     }
   }, 
   {
@@ -2448,19 +2461,19 @@
     "parties": {
       "Conservative Party": "37-46", 
       "Green Party": "1-5", 
-      "Labour Party": "6-14", 
+      "Labour Party": "6-13", 
       "Liberal Democrats": "28-36", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-16"
+      "UK Independence Party (UKIP)": "9-17"
     }
   }, 
   {
     "name": "North Dorset", 
     "parties": {
-      "Conservative Party": "44-56", 
-      "Green Party": "2-7", 
+      "Conservative Party": "44-57", 
+      "Green Party": "2-8", 
       "Labour Party": "5-13", 
       "Liberal Democrats": "17-31", 
       "Other": "0-3", 
@@ -2475,7 +2488,7 @@
       "Conservative Party": "35-46", 
       "Green Party": "2-9", 
       "Labour Party": "25-36", 
-      "Liberal Democrats": "5-13", 
+      "Liberal Democrats": "5-14", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -2487,7 +2500,7 @@
     "parties": {
       "Conservative Party": "40-52", 
       "Green Party": "3-10", 
-      "Labour Party": "7-16", 
+      "Labour Party": "7-15", 
       "Liberal Democrats": "19-32", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
@@ -2500,7 +2513,7 @@
     "parties": {
       "Conservative Party": "33-44", 
       "Green Party": "1-5", 
-      "Labour Party": "29-40", 
+      "Labour Party": "29-39", 
       "Liberal Democrats": "3-10", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -2513,12 +2526,12 @@
     "parties": {
       "Conservative Party": "25-34", 
       "Green Party": "0-4", 
-      "Labour Party": "35-44", 
+      "Labour Party": "34-44", 
       "Liberal Democrats": "2-8", 
-      "Other": "0-3", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "18-27"
+      "UK Independence Party (UKIP)": "19-27"
     }
   }, 
   {
@@ -2526,8 +2539,8 @@
     "parties": {
       "Conservative Party": "31-42", 
       "Green Party": "1-5", 
-      "Labour Party": "29-41", 
-      "Liberal Democrats": "3-11", 
+      "Labour Party": "29-40", 
+      "Liberal Democrats": "3-10", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -2538,7 +2551,7 @@
     "name": "Dulwich and West Norwood", 
     "parties": {
       "Conservative Party": "17-27", 
-      "Green Party": "3-12", 
+      "Green Party": "3-13", 
       "Labour Party": "44-58", 
       "Liberal Democrats": "10-22", 
       "Other": "0-3", 
@@ -2550,26 +2563,26 @@
   {
     "name": "Dumfries and Galloway", 
     "parties": {
-      "Conservative Party": "26-37", 
+      "Conservative Party": "27-37", 
       "Green Party": "0-3", 
       "Labour Party": "27-38", 
       "Liberal Democrats": "2-8", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "20-33", 
+      "Scottish National Party": "19-33", 
       "UK Independence Party (UKIP)": "0-4"
     }
   }, 
   {
     "name": "Dumfriesshire, Clydesdale and Tweeddale", 
     "parties": {
-      "Conservative Party": "32-43", 
-      "Green Party": "0-3", 
+      "Conservative Party": "32-44", 
+      "Green Party": "0-4", 
       "Labour Party": "15-25", 
       "Liberal Democrats": "7-15", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "21-34", 
+      "Scottish National Party": "20-34", 
       "UK Independence Party (UKIP)": "0-4"
     }
   }, 
@@ -2582,7 +2595,7 @@
       "Liberal Democrats": "12-28", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "20-45", 
+      "Scottish National Party": "19-44", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -2595,8 +2608,8 @@
       "Liberal Democrats": "1-7", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "38-49", 
-      "UK Independence Party (UKIP)": "0-2"
+      "Scottish National Party": "37-49", 
+      "UK Independence Party (UKIP)": "0-3"
     }
   }, 
   {
@@ -2605,7 +2618,7 @@
       "Conservative Party": "8-18", 
       "Green Party": "0-4", 
       "Labour Party": "14-27", 
-      "Liberal Democrats": "2-9", 
+      "Liberal Democrats": "3-9", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "48-67", 
@@ -2621,7 +2634,7 @@
       "Liberal Democrats": "3-9", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "49-59", 
+      "Scottish National Party": "48-59", 
       "UK Independence Party (UKIP)": "0-1"
     }
   }, 
@@ -2630,11 +2643,11 @@
     "parties": {
       "Conservative Party": "5-13", 
       "Green Party": "0-4", 
-      "Labour Party": "33-50", 
-      "Liberal Democrats": "14-29", 
+      "Labour Party": "33-51", 
+      "Liberal Democrats": "13-29", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "15-35", 
+      "Scottish National Party": "14-35", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -2642,7 +2655,7 @@
     "name": "City of Durham", 
     "parties": {
       "Conservative Party": "10-19", 
-      "Green Party": "3-12", 
+      "Green Party": "3-11", 
       "Labour Party": "49-63", 
       "Liberal Democrats": "10-22", 
       "Other": "0-3", 
@@ -2656,12 +2669,12 @@
     "parties": {
       "Conservative Party": "16-25", 
       "Green Party": "1-5", 
-      "Labour Party": "49-61", 
+      "Labour Party": "48-61", 
       "Liberal Democrats": "5-13", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-18"
+      "UK Independence Party (UKIP)": "7-17"
     }
   }, 
   {
@@ -2670,8 +2683,8 @@
       "Conservative Party": "16-25", 
       "Green Party": "1-6", 
       "Labour Party": "46-59", 
-      "Liberal Democrats": "6-16", 
-      "Other": "1-5", 
+      "Liberal Democrats": "6-15", 
+      "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "6-16"
@@ -2680,23 +2693,23 @@
   {
     "name": "Dwyfor Meirionnydd", 
     "parties": {
-      "Conservative Party": "13-26", 
+      "Conservative Party": "14-26", 
       "Green Party": "1-6", 
       "Labour Party": "10-22", 
       "Liberal Democrats": "5-15", 
       "Other": "1-7", 
       "Plaid Cymru": "26-50", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "6-18"
+      "UK Independence Party (UKIP)": "5-18"
     }
   }, 
   {
     "name": "Ealing Central and Acton", 
     "parties": {
-      "Conservative Party": "33-42", 
+      "Conservative Party": "34-43", 
       "Green Party": "3-9", 
-      "Labour Party": "33-42", 
-      "Liberal Democrats": "11-18", 
+      "Labour Party": "32-42", 
+      "Liberal Democrats": "11-19", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -2708,7 +2721,7 @@
     "parties": {
       "Conservative Party": "23-33", 
       "Green Party": "1-6", 
-      "Labour Party": "47-59", 
+      "Labour Party": "46-58", 
       "Liberal Democrats": "5-13", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -2719,9 +2732,9 @@
   {
     "name": "Ealing, Southall", 
     "parties": {
-      "Conservative Party": "18-28", 
+      "Conservative Party": "19-28", 
       "Green Party": "1-8", 
-      "Labour Party": "50-63", 
+      "Labour Party": "50-62", 
       "Liberal Democrats": "7-17", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -2734,12 +2747,12 @@
     "parties": {
       "Conservative Party": "10-19", 
       "Green Party": "1-5", 
-      "Labour Party": "57-70", 
+      "Labour Party": "57-69", 
       "Liberal Democrats": "3-11", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "6-17"
+      "UK Independence Party (UKIP)": "6-16"
     }
   }, 
   {
@@ -2760,11 +2773,11 @@
     "parties": {
       "Conservative Party": "8-18", 
       "Green Party": "0-3", 
-      "Labour Party": "29-46", 
+      "Labour Party": "30-46", 
       "Liberal Democrats": "2-8", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "32-52", 
+      "Scottish National Party": "31-51", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -2775,9 +2788,9 @@
       "Green Party": "0-4", 
       "Labour Party": "29-44", 
       "Liberal Democrats": "4-12", 
-      "Other": "0-2", 
+      "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "21-43", 
+      "Scottish National Party": "21-42", 
       "UK Independence Party (UKIP)": "0-3"
     }
   }, 
@@ -2785,7 +2798,7 @@
     "name": "Eastbourne", 
     "parties": {
       "Conservative Party": "25-34", 
-      "Green Party": "1-4", 
+      "Green Party": "1-5", 
       "Labour Party": "4-11", 
       "Liberal Democrats": "43-52", 
       "Other": "1-4", 
@@ -2799,7 +2812,7 @@
     "parties": {
       "Conservative Party": "27-36", 
       "Green Party": "1-4", 
-      "Labour Party": "8-16", 
+      "Labour Party": "7-15", 
       "Liberal Democrats": "37-45", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -2810,11 +2823,11 @@
   {
     "name": "Eddisbury", 
     "parties": {
-      "Conservative Party": "42-53", 
+      "Conservative Party": "43-54", 
       "Green Party": "1-5", 
       "Labour Party": "21-31", 
-      "Liberal Democrats": "7-17", 
-      "Other": "0-2", 
+      "Liberal Democrats": "8-18", 
+      "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "6-15"
@@ -2823,13 +2836,13 @@
   {
     "name": "Edinburgh East", 
     "parties": {
-      "Conservative Party": "6-15", 
+      "Conservative Party": "7-15", 
       "Green Party": "2-10", 
       "Labour Party": "23-38", 
-      "Liberal Democrats": "4-12", 
-      "Other": "0-2", 
+      "Liberal Democrats": "4-13", 
+      "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "34-55", 
+      "Scottish National Party": "33-54", 
       "UK Independence Party (UKIP)": "0-1"
     }
   }, 
@@ -2842,20 +2855,20 @@
       "Liberal Democrats": "10-22", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "18-38", 
+      "Scottish National Party": "17-38", 
       "UK Independence Party (UKIP)": "0-1"
     }
   }, 
   {
     "name": "Edinburgh South", 
     "parties": {
-      "Conservative Party": "16-26", 
+      "Conservative Party": "16-27", 
       "Green Party": "2-10", 
       "Labour Party": "24-39", 
       "Liberal Democrats": "9-20", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "18-37", 
+      "Scottish National Party": "17-37", 
       "UK Independence Party (UKIP)": "0-1"
     }
   }, 
@@ -2864,24 +2877,24 @@
     "parties": {
       "Conservative Party": "19-29", 
       "Green Party": "3-9", 
-      "Labour Party": "24-34", 
+      "Labour Party": "23-34", 
       "Liberal Democrats": "5-12", 
-      "Other": "0-2", 
+      "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "26-38", 
+      "Scottish National Party": "25-38", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
   {
     "name": "Edinburgh West", 
     "parties": {
-      "Conservative Party": "17-29", 
+      "Conservative Party": "18-29", 
       "Green Party": "1-6", 
-      "Labour Party": "18-31", 
+      "Labour Party": "19-31", 
       "Liberal Democrats": "13-27", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "18-39", 
+      "Scottish National Party": "18-38", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -2908,15 +2921,15 @@
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "6-15"
+      "UK Independence Party (UKIP)": "5-15"
     }
   }, 
   {
     "name": "Elmet and Rothwell", 
     "parties": {
       "Conservative Party": "36-46", 
-      "Green Party": "1-4", 
-      "Labour Party": "31-41", 
+      "Green Party": "1-5", 
+      "Labour Party": "31-40", 
       "Liberal Democrats": "6-13", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -2941,19 +2954,19 @@
     "name": "Enfield North", 
     "parties": {
       "Conservative Party": "35-44", 
-      "Green Party": "1-5", 
+      "Green Party": "1-6", 
       "Labour Party": "37-46", 
       "Liberal Democrats": "3-9", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-11"
+      "UK Independence Party (UKIP)": "4-11"
     }
   }, 
   {
     "name": "Enfield, Southgate", 
     "parties": {
-      "Conservative Party": "41-52", 
+      "Conservative Party": "42-52", 
       "Green Party": "1-6", 
       "Labour Party": "30-40", 
       "Liberal Democrats": "4-11", 
@@ -2968,7 +2981,7 @@
     "parties": {
       "Conservative Party": "42-54", 
       "Green Party": "2-9", 
-      "Labour Party": "12-22", 
+      "Labour Party": "12-21", 
       "Liberal Democrats": "7-17", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -2979,9 +2992,9 @@
   {
     "name": "Epsom and Ewell", 
     "parties": {
-      "Conservative Party": "47-59", 
-      "Green Party": "1-7", 
-      "Labour Party": "11-20", 
+      "Conservative Party": "48-59", 
+      "Green Party": "1-6", 
+      "Labour Party": "10-19", 
       "Liberal Democrats": "10-21", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -2994,7 +3007,7 @@
     "parties": {
       "Conservative Party": "30-40", 
       "Green Party": "1-6", 
-      "Labour Party": "34-44", 
+      "Labour Party": "34-43", 
       "Liberal Democrats": "4-11", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -3006,13 +3019,13 @@
     "name": "Erith and Thamesmead", 
     "parties": {
       "Conservative Party": "23-33", 
-      "Green Party": "0-4", 
+      "Green Party": "1-4", 
       "Labour Party": "42-54", 
       "Liberal Democrats": "4-11", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-19"
+      "UK Independence Party (UKIP)": "9-19"
     }
   }, 
   {
@@ -3032,9 +3045,9 @@
     "name": "Exeter", 
     "parties": {
       "Conservative Party": "23-33", 
-      "Green Party": "4-14", 
-      "Labour Party": "40-53", 
-      "Liberal Democrats": "5-14", 
+      "Green Party": "5-13", 
+      "Labour Party": "40-52", 
+      "Liberal Democrats": "6-14", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -3044,23 +3057,23 @@
   {
     "name": "Falkirk", 
     "parties": {
-      "Conservative Party": "5-14", 
+      "Conservative Party": "6-14", 
       "Green Party": "0-2", 
       "Labour Party": "16-30", 
       "Liberal Democrats": "2-8", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "51-69", 
+      "Scottish National Party": "50-69", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
   {
     "name": "Fareham", 
     "parties": {
-      "Conservative Party": "43-54", 
-      "Green Party": "2-7", 
+      "Conservative Party": "43-55", 
+      "Green Party": "2-8", 
       "Labour Party": "13-22", 
-      "Liberal Democrats": "9-19", 
+      "Liberal Democrats": "9-20", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -3070,7 +3083,7 @@
   {
     "name": "Faversham and Mid Kent", 
     "parties": {
-      "Conservative Party": "43-54", 
+      "Conservative Party": "43-55", 
       "Green Party": "1-6", 
       "Labour Party": "13-22", 
       "Liberal Democrats": "6-15", 
@@ -3085,8 +3098,8 @@
     "parties": {
       "Conservative Party": "24-34", 
       "Green Party": "1-5", 
-      "Labour Party": "42-55", 
-      "Liberal Democrats": "5-14", 
+      "Labour Party": "42-54", 
+      "Liberal Democrats": "5-13", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -3096,13 +3109,13 @@
   {
     "name": "North East Fife", 
     "parties": {
-      "Conservative Party": "15-26", 
+      "Conservative Party": "15-27", 
       "Green Party": "1-6", 
       "Labour Party": "11-23", 
       "Liberal Democrats": "13-27", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "26-49", 
+      "Scottish National Party": "25-48", 
       "UK Independence Party (UKIP)": "0-3"
     }
   }, 
@@ -3110,7 +3123,7 @@
     "name": "Filton and Bradley Stoke", 
     "parties": {
       "Conservative Party": "35-46", 
-      "Green Party": "2-10", 
+      "Green Party": "2-9", 
       "Labour Party": "25-36", 
       "Liberal Democrats": "8-19", 
       "Other": "0-3", 
@@ -3123,9 +3136,9 @@
     "name": "Finchley and Golders Green", 
     "parties": {
       "Conservative Party": "36-47", 
-      "Green Party": "2-8", 
+      "Green Party": "2-9", 
       "Labour Party": "35-47", 
-      "Liberal Democrats": "6-14", 
+      "Liberal Democrats": "5-15", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -3161,10 +3174,10 @@
   {
     "name": "Fylde", 
     "parties": {
-      "Conservative Party": "43-55", 
-      "Green Party": "1-6", 
+      "Conservative Party": "44-55", 
+      "Green Party": "1-7", 
       "Labour Party": "19-29", 
-      "Liberal Democrats": "6-16", 
+      "Liberal Democrats": "7-16", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -3178,7 +3191,7 @@
       "Green Party": "1-5", 
       "Labour Party": "15-25", 
       "Liberal Democrats": "9-19", 
-      "Other": "0-4", 
+      "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "11-22"
@@ -3189,7 +3202,7 @@
     "parties": {
       "Conservative Party": "9-17", 
       "Green Party": "2-8", 
-      "Labour Party": "55-68", 
+      "Labour Party": "55-67", 
       "Liberal Democrats": "5-13", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -3220,7 +3233,7 @@
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-15"
+      "UK Independence Party (UKIP)": "6-15"
     }
   }, 
   {
@@ -3228,7 +3241,7 @@
     "parties": {
       "Conservative Party": "36-46", 
       "Green Party": "1-6", 
-      "Labour Party": "22-33", 
+      "Labour Party": "22-32", 
       "Liberal Democrats": "6-14", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -3245,7 +3258,7 @@
       "Liberal Democrats": "4-10", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "34-46", 
+      "Scottish National Party": "33-46", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -3254,11 +3267,11 @@
     "parties": {
       "Conservative Party": "3-10", 
       "Green Party": "0-3", 
-      "Labour Party": "34-46", 
+      "Labour Party": "35-46", 
       "Liberal Democrats": "1-5", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "41-52", 
+      "Scottish National Party": "40-52", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -3266,9 +3279,9 @@
     "name": "Glasgow North", 
     "parties": {
       "Conservative Party": "4-12", 
-      "Green Party": "5-12", 
+      "Green Party": "5-13", 
       "Labour Party": "29-40", 
-      "Liberal Democrats": "5-11", 
+      "Liberal Democrats": "5-12", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "33-45", 
@@ -3280,11 +3293,11 @@
     "parties": {
       "Conservative Party": "4-11", 
       "Green Party": "1-5", 
-      "Labour Party": "43-55", 
+      "Labour Party": "43-56", 
       "Liberal Democrats": "1-6", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "27-41", 
+      "Scottish National Party": "27-40", 
       "UK Independence Party (UKIP)": "0-3"
     }
   }, 
@@ -3292,25 +3305,25 @@
     "name": "Glasgow North West", 
     "parties": {
       "Conservative Party": "6-14", 
-      "Green Party": "2-6", 
+      "Green Party": "2-7", 
       "Labour Party": "34-46", 
       "Liberal Democrats": "3-9", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "33-45", 
+      "Scottish National Party": "32-44", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
   {
     "name": "Glasgow South", 
     "parties": {
-      "Conservative Party": "7-16", 
+      "Conservative Party": "8-16", 
       "Green Party": "1-5", 
-      "Labour Party": "30-42", 
+      "Labour Party": "30-41", 
       "Liberal Democrats": "2-8", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "37-49", 
+      "Scottish National Party": "36-48", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -3319,11 +3332,11 @@
     "parties": {
       "Conservative Party": "4-12", 
       "Green Party": "0-3", 
-      "Labour Party": "38-51", 
+      "Labour Party": "39-51", 
       "Liberal Democrats": "2-7", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "33-46", 
+      "Scottish National Party": "33-45", 
       "UK Independence Party (UKIP)": "0-3"
     }
   }, 
@@ -3336,7 +3349,7 @@
       "Liberal Democrats": "2-9", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "32-54", 
+      "Scottish National Party": "31-54", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -3345,7 +3358,7 @@
     "parties": {
       "Conservative Party": "32-42", 
       "Green Party": "1-6", 
-      "Labour Party": "29-39", 
+      "Labour Party": "28-38", 
       "Liberal Democrats": "10-18", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
@@ -3362,7 +3375,7 @@
       "Liberal Democrats": "25-35", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "30-42", 
+      "Scottish National Party": "29-42", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -3370,8 +3383,8 @@
     "name": "Gosport", 
     "parties": {
       "Conservative Party": "42-53", 
-      "Green Party": "1-6", 
-      "Labour Party": "15-25", 
+      "Green Party": "1-7", 
+      "Labour Party": "15-24", 
       "Liberal Democrats": "8-18", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -3382,22 +3395,22 @@
   {
     "name": "Gower", 
     "parties": {
-      "Conservative Party": "23-34", 
+      "Conservative Party": "23-33", 
       "Green Party": "1-6", 
-      "Labour Party": "34-46", 
+      "Labour Party": "33-46", 
       "Liberal Democrats": "5-14", 
       "Other": "0-4", 
       "Plaid Cymru": "3-11", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-16"
+      "UK Independence Party (UKIP)": "6-17"
     }
   }, 
   {
     "name": "Grantham and Stamford", 
     "parties": {
-      "Conservative Party": "40-52", 
+      "Conservative Party": "41-52", 
       "Green Party": "1-5", 
-      "Labour Party": "15-26", 
+      "Labour Party": "15-25", 
       "Liberal Democrats": "7-16", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -3409,8 +3422,8 @@
     "name": "Gravesham", 
     "parties": {
       "Conservative Party": "38-49", 
-      "Green Party": "1-6", 
-      "Labour Party": "21-31", 
+      "Green Party": "1-5", 
+      "Labour Party": "20-31", 
       "Liberal Democrats": "3-10", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -3421,7 +3434,7 @@
   {
     "name": "Great Grimsby", 
     "parties": {
-      "Conservative Party": "19-29", 
+      "Conservative Party": "20-29", 
       "Green Party": "1-4", 
       "Labour Party": "33-43", 
       "Liberal Democrats": "7-14", 
@@ -3435,8 +3448,8 @@
     "name": "Great Yarmouth", 
     "parties": {
       "Conservative Party": "30-39", 
-      "Green Party": "2-6", 
-      "Labour Party": "24-34", 
+      "Green Party": "2-7", 
+      "Labour Party": "24-33", 
       "Liberal Democrats": "3-9", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -3449,9 +3462,9 @@
     "parties": {
       "Conservative Party": "20-30", 
       "Green Party": "2-9", 
-      "Labour Party": "45-57", 
-      "Liberal Democrats": "7-16", 
-      "Other": "0-3", 
+      "Labour Party": "44-56", 
+      "Liberal Democrats": "7-17", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "3-10"
@@ -3460,8 +3473,8 @@
   {
     "name": "Guildford", 
     "parties": {
-      "Conservative Party": "48-60", 
-      "Green Party": "1-7", 
+      "Conservative Party": "48-61", 
+      "Green Party": "2-7", 
       "Labour Party": "5-13", 
       "Liberal Democrats": "18-32", 
       "Other": "0-3", 
@@ -3475,7 +3488,7 @@
     "parties": {
       "Conservative Party": "9-18", 
       "Green Party": "5-15", 
-      "Labour Party": "54-67", 
+      "Labour Party": "53-67", 
       "Liberal Democrats": "8-19", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -3489,7 +3502,7 @@
       "Conservative Party": "10-19", 
       "Green Party": "3-12", 
       "Labour Party": "52-66", 
-      "Liberal Democrats": "10-21", 
+      "Liberal Democrats": "9-21", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -3501,7 +3514,7 @@
     "parties": {
       "Conservative Party": "33-43", 
       "Green Party": "2-7", 
-      "Labour Party": "30-40", 
+      "Labour Party": "31-40", 
       "Liberal Democrats": "2-8", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -3519,7 +3532,7 @@
       "Other": "2-9", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-16"
+      "UK Independence Party (UKIP)": "7-17"
     }
   }, 
   {
@@ -3529,10 +3542,10 @@
       "Green Party": "1-7", 
       "Labour Party": "18-28", 
       "Liberal Democrats": "9-20", 
-      "Other": "0-4", 
+      "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "6-16"
+      "UK Independence Party (UKIP)": "7-16"
     }
   }, 
   {
@@ -3540,7 +3553,7 @@
     "parties": {
       "Conservative Party": "13-22", 
       "Green Party": "1-6", 
-      "Labour Party": "53-66", 
+      "Labour Party": "53-65", 
       "Liberal Democrats": "3-10", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -3552,8 +3565,8 @@
     "name": "Hammersmith", 
     "parties": {
       "Conservative Party": "30-40", 
-      "Green Party": "2-10", 
-      "Labour Party": "41-52", 
+      "Green Party": "3-10", 
+      "Labour Party": "40-52", 
       "Liberal Democrats": "5-13", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -3565,22 +3578,22 @@
     "name": "East Hampshire", 
     "parties": {
       "Conservative Party": "48-61", 
-      "Green Party": "1-6", 
-      "Labour Party": "7-15", 
-      "Liberal Democrats": "14-28", 
+      "Green Party": "1-7", 
+      "Labour Party": "6-15", 
+      "Liberal Democrats": "14-27", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-14"
+      "UK Independence Party (UKIP)": "6-14"
     }
   }, 
   {
     "name": "North East Hampshire", 
     "parties": {
       "Conservative Party": "51-63", 
-      "Green Party": "1-4", 
-      "Labour Party": "9-18", 
-      "Liberal Democrats": "12-24", 
+      "Green Party": "0-4", 
+      "Labour Party": "9-17", 
+      "Liberal Democrats": "11-24", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -3592,9 +3605,9 @@
     "parties": {
       "Conservative Party": "46-58", 
       "Green Party": "1-5", 
-      "Labour Party": "11-20", 
-      "Liberal Democrats": "10-21", 
-      "Other": "0-2", 
+      "Labour Party": "11-19", 
+      "Liberal Democrats": "10-22", 
+      "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "9-20"
@@ -3616,11 +3629,11 @@
   {
     "name": "Harborough", 
     "parties": {
-      "Conservative Party": "44-55", 
+      "Conservative Party": "44-56", 
       "Green Party": "1-7", 
       "Labour Party": "14-23", 
       "Liberal Democrats": "11-24", 
-      "Other": "1-4", 
+      "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "5-13"
@@ -3629,8 +3642,8 @@
   {
     "name": "Harlow", 
     "parties": {
-      "Conservative Party": "33-44", 
-      "Green Party": "1-6", 
+      "Conservative Party": "34-44", 
+      "Green Party": "1-7", 
       "Labour Party": "25-36", 
       "Liberal Democrats": "4-12", 
       "Other": "1-6", 
@@ -3644,7 +3657,7 @@
     "parties": {
       "Conservative Party": "41-51", 
       "Green Party": "3-9", 
-      "Labour Party": "8-16", 
+      "Labour Party": "7-15", 
       "Liberal Democrats": "22-31", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -3655,9 +3668,9 @@
   {
     "name": "Harrow East", 
     "parties": {
-      "Conservative Party": "37-47", 
+      "Conservative Party": "38-47", 
       "Green Party": "1-4", 
-      "Labour Party": "35-44", 
+      "Labour Party": "34-44", 
       "Liberal Democrats": "6-13", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -3668,7 +3681,7 @@
   {
     "name": "Harrow West", 
     "parties": {
-      "Conservative Party": "26-37", 
+      "Conservative Party": "27-37", 
       "Green Party": "1-6", 
       "Labour Party": "42-54", 
       "Liberal Democrats": "8-18", 
@@ -3681,9 +3694,9 @@
   {
     "name": "Hartlepool", 
     "parties": {
-      "Conservative Party": "20-29", 
+      "Conservative Party": "20-30", 
       "Green Party": "1-5", 
-      "Labour Party": "39-52", 
+      "Labour Party": "39-51", 
       "Liberal Democrats": "3-10", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -3697,7 +3710,7 @@
       "Conservative Party": "35-46", 
       "Green Party": "2-9", 
       "Labour Party": "18-28", 
-      "Liberal Democrats": "8-18", 
+      "Liberal Democrats": "8-19", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -3709,7 +3722,7 @@
     "parties": {
       "Conservative Party": "32-41", 
       "Green Party": "2-7", 
-      "Labour Party": "33-43", 
+      "Labour Party": "33-42", 
       "Liberal Democrats": "4-11", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -3720,9 +3733,9 @@
   {
     "name": "Havant", 
     "parties": {
-      "Conservative Party": "37-48", 
+      "Conservative Party": "37-49", 
       "Green Party": "1-6", 
-      "Labour Party": "17-27", 
+      "Labour Party": "17-26", 
       "Liberal Democrats": "8-17", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -3746,9 +3759,9 @@
   {
     "name": "Hazel Grove", 
     "parties": {
-      "Conservative Party": "26-36", 
-      "Green Party": "1-5", 
-      "Labour Party": "14-24", 
+      "Conservative Party": "27-36", 
+      "Green Party": "1-6", 
+      "Labour Party": "15-23", 
       "Liberal Democrats": "33-42", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
@@ -3763,7 +3776,7 @@
       "Green Party": "1-7", 
       "Labour Party": "18-28", 
       "Liberal Democrats": "8-19", 
-      "Other": "0-3", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "7-17"
@@ -3779,7 +3792,7 @@
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "10-21"
+      "UK Independence Party (UKIP)": "9-21"
     }
   }, 
   {
@@ -3789,7 +3802,7 @@
       "Green Party": "1-5", 
       "Labour Party": "42-51", 
       "Liberal Democrats": "4-11", 
-      "Other": "0-2", 
+      "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "1-7"
@@ -3798,7 +3811,7 @@
   {
     "name": "Henley", 
     "parties": {
-      "Conservative Party": "50-61", 
+      "Conservative Party": "50-62", 
       "Green Party": "2-8", 
       "Labour Party": "10-19", 
       "Liberal Democrats": "10-22", 
@@ -3826,9 +3839,9 @@
     "parties": {
       "Conservative Party": "43-57", 
       "Green Party": "2-9", 
-      "Labour Party": "7-16", 
+      "Labour Party": "7-15", 
       "Liberal Democrats": "15-30", 
-      "Other": "0-3", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "6-16"
@@ -3839,20 +3852,20 @@
     "parties": {
       "Conservative Party": "44-55", 
       "Green Party": "2-8", 
-      "Labour Party": "12-22", 
+      "Labour Party": "12-21", 
       "Liberal Democrats": "11-23", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "6-16"
+      "UK Independence Party (UKIP)": "7-16"
     }
   }, 
   {
     "name": "North East Hertfordshire", 
     "parties": {
-      "Conservative Party": "44-55", 
+      "Conservative Party": "44-56", 
       "Green Party": "2-8", 
-      "Labour Party": "15-25", 
+      "Labour Party": "15-24", 
       "Liberal Democrats": "9-20", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -3864,7 +3877,7 @@
     "name": "South West Hertfordshire", 
     "parties": {
       "Conservative Party": "45-57", 
-      "Green Party": "1-7", 
+      "Green Party": "2-7", 
       "Labour Party": "11-20", 
       "Liberal Democrats": "13-26", 
       "Other": "0-3", 
@@ -3877,10 +3890,10 @@
     "name": "Hertsmere", 
     "parties": {
       "Conservative Party": "43-55", 
-      "Green Party": "4-12", 
-      "Labour Party": "18-29", 
+      "Green Party": "4-13", 
+      "Labour Party": "18-28", 
       "Liberal Democrats": "5-13", 
-      "Other": "0-4", 
+      "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "5-15"
@@ -3891,7 +3904,7 @@
     "parties": {
       "Conservative Party": "41-54", 
       "Green Party": "2-8", 
-      "Labour Party": "19-31", 
+      "Labour Party": "19-30", 
       "Liberal Democrats": "8-19", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -3902,22 +3915,22 @@
   {
     "name": "Heywood and Middleton", 
     "parties": {
-      "Conservative Party": "18-28", 
+      "Conservative Party": "18-27", 
       "Green Party": "1-6", 
       "Labour Party": "40-52", 
       "Liberal Democrats": "6-15", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "11-21"
+      "UK Independence Party (UKIP)": "10-22"
     }
   }, 
   {
     "name": "High Peak", 
     "parties": {
-      "Conservative Party": "34-44", 
-      "Green Party": "2-7", 
-      "Labour Party": "31-41", 
+      "Conservative Party": "35-44", 
+      "Green Party": "2-8", 
+      "Labour Party": "31-40", 
       "Liberal Democrats": "6-13", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -3930,7 +3943,7 @@
     "parties": {
       "Conservative Party": "47-58", 
       "Green Party": "2-9", 
-      "Labour Party": "13-23", 
+      "Labour Party": "13-22", 
       "Liberal Democrats": "11-23", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -3941,10 +3954,10 @@
   {
     "name": "Holborn and St Pancras", 
     "parties": {
-      "Conservative Party": "13-24", 
-      "Green Party": "7-19", 
+      "Conservative Party": "14-24", 
+      "Green Party": "7-20", 
       "Labour Party": "41-57", 
-      "Liberal Democrats": "9-23", 
+      "Liberal Democrats": "9-24", 
       "Other": "0-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -3956,7 +3969,7 @@
     "parties": {
       "Conservative Party": "40-52", 
       "Green Party": "0-4", 
-      "Labour Party": "19-30", 
+      "Labour Party": "19-29", 
       "Liberal Democrats": "3-10", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -3967,9 +3980,9 @@
   {
     "name": "Hornsey and Wood Green", 
     "parties": {
-      "Conservative Party": "10-19", 
-      "Green Party": "6-12", 
-      "Labour Party": "37-46", 
+      "Conservative Party": "11-19", 
+      "Green Party": "6-13", 
+      "Labour Party": "36-46", 
       "Liberal Democrats": "28-37", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -3980,9 +3993,9 @@
   {
     "name": "Horsham", 
     "parties": {
-      "Conservative Party": "43-55", 
+      "Conservative Party": "43-56", 
       "Green Party": "1-7", 
-      "Labour Party": "7-16", 
+      "Labour Party": "7-15", 
       "Liberal Democrats": "16-30", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -3995,7 +4008,7 @@
     "parties": {
       "Conservative Party": "16-26", 
       "Green Party": "1-5", 
-      "Labour Party": "50-62", 
+      "Labour Party": "49-62", 
       "Liberal Democrats": "2-9", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -4010,7 +4023,7 @@
       "Green Party": "10-17", 
       "Labour Party": "30-40", 
       "Liberal Democrats": "6-13", 
-      "Other": "0-2", 
+      "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "2-8"
@@ -4026,16 +4039,16 @@
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "4-14"
+      "UK Independence Party (UKIP)": "4-13"
     }
   }, 
   {
     "name": "Kingston upon Hull East", 
     "parties": {
-      "Conservative Party": "9-18", 
+      "Conservative Party": "10-18", 
       "Green Party": "1-5", 
       "Labour Party": "46-60", 
-      "Liberal Democrats": "6-15", 
+      "Liberal Democrats": "6-16", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -4048,7 +4061,7 @@
       "Conservative Party": "8-16", 
       "Green Party": "2-9", 
       "Labour Party": "45-59", 
-      "Liberal Democrats": "10-22", 
+      "Liberal Democrats": "10-23", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -4060,9 +4073,9 @@
     "parties": {
       "Conservative Party": "13-22", 
       "Green Party": "1-6", 
-      "Labour Party": "42-55", 
+      "Labour Party": "41-55", 
       "Liberal Democrats": "7-16", 
-      "Other": "1-6", 
+      "Other": "1-7", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "11-23"
@@ -4071,11 +4084,11 @@
   {
     "name": "Huntingdon", 
     "parties": {
-      "Conservative Party": "40-52", 
+      "Conservative Party": "40-53", 
       "Green Party": "2-8", 
-      "Labour Party": "12-21", 
+      "Labour Party": "11-21", 
       "Liberal Democrats": "13-26", 
-      "Other": "0-3", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "8-18"
@@ -4091,7 +4104,7 @@
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-19"
+      "UK Independence Party (UKIP)": "9-20"
     }
   }, 
   {
@@ -4100,7 +4113,7 @@
       "Conservative Party": "37-47", 
       "Green Party": "1-5", 
       "Labour Party": "32-43", 
-      "Liberal Democrats": "5-13", 
+      "Liberal Democrats": "4-13", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -4113,8 +4126,8 @@
       "Conservative Party": "18-28", 
       "Green Party": "1-6", 
       "Labour Party": "48-61", 
-      "Liberal Democrats": "7-18", 
-      "Other": "0-5", 
+      "Liberal Democrats": "7-19", 
+      "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "2-9"
@@ -4123,9 +4136,9 @@
   {
     "name": "Inverclyde", 
     "parties": {
-      "Conservative Party": "6-15", 
+      "Conservative Party": "6-16", 
       "Green Party": "0-2", 
-      "Labour Party": "25-45", 
+      "Labour Party": "26-45", 
       "Liberal Democrats": "2-8", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -4136,14 +4149,14 @@
   {
     "name": "Inverness, Nairn, Badenoch and Strathspey", 
     "parties": {
-      "Conservative Party": "7-16", 
-      "Green Party": "0-3", 
-      "Labour Party": "11-21", 
-      "Liberal Democrats": "21-30", 
+      "Conservative Party": "8-16", 
+      "Green Party": "0-4", 
+      "Labour Party": "11-20", 
+      "Liberal Democrats": "21-31", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "36-47", 
-      "UK Independence Party (UKIP)": "0-2"
+      "Scottish National Party": "35-47", 
+      "UK Independence Party (UKIP)": "0-3"
     }
   }, 
   {
@@ -4156,7 +4169,7 @@
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-16"
+      "UK Independence Party (UKIP)": "9-16"
     }
   }, 
   {
@@ -4169,7 +4182,7 @@
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "14-25"
+      "UK Independence Party (UKIP)": "14-26"
     }
   }, 
   {
@@ -4177,7 +4190,7 @@
     "parties": {
       "Conservative Party": "9-18", 
       "Green Party": "5-16", 
-      "Labour Party": "52-66", 
+      "Labour Party": "51-66", 
       "Liberal Democrats": "9-22", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -4188,11 +4201,11 @@
   {
     "name": "Islington South and Finsbury", 
     "parties": {
-      "Conservative Party": "14-23", 
+      "Conservative Party": "14-24", 
       "Green Party": "7-20", 
-      "Labour Party": "38-54", 
+      "Labour Party": "38-53", 
       "Liberal Democrats": "11-25", 
-      "Other": "1-6", 
+      "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "1-5"
@@ -4206,7 +4219,7 @@
       "Labour Party": "45-59", 
       "Liberal Democrats": "3-11", 
       "Other": "1-7", 
-      "Plaid Cymru": "4-14", 
+      "Plaid Cymru": "5-14", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "7-18"
     }
@@ -4221,7 +4234,7 @@
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "10-21"
+      "UK Independence Party (UKIP)": "9-21"
     }
   }, 
   {
@@ -4229,7 +4242,7 @@
     "parties": {
       "Conservative Party": "31-40", 
       "Green Party": "1-5", 
-      "Labour Party": "34-44", 
+      "Labour Party": "34-43", 
       "Liberal Democrats": "5-12", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -4242,8 +4255,8 @@
     "parties": {
       "Conservative Party": "46-58", 
       "Green Party": "3-11", 
-      "Labour Party": "14-24", 
-      "Liberal Democrats": "9-19", 
+      "Labour Party": "14-23", 
+      "Liberal Democrats": "9-20", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -4256,7 +4269,7 @@
       "Conservative Party": "45-57", 
       "Green Party": "2-10", 
       "Labour Party": "22-33", 
-      "Liberal Democrats": "7-17", 
+      "Liberal Democrats": "7-16", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -4266,11 +4279,11 @@
   {
     "name": "Kettering", 
     "parties": {
-      "Conservative Party": "39-50", 
+      "Conservative Party": "40-50", 
       "Green Party": "1-5", 
-      "Labour Party": "27-38", 
+      "Labour Party": "27-37", 
       "Liberal Democrats": "3-10", 
-      "Other": "0-4", 
+      "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "7-17"
@@ -4279,23 +4292,23 @@
   {
     "name": "Kilmarnock and Loudoun", 
     "parties": {
-      "Conservative Party": "7-17", 
+      "Conservative Party": "8-17", 
       "Green Party": "0-2", 
       "Labour Party": "21-38", 
       "Liberal Democrats": "1-6", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "42-63", 
+      "Scottish National Party": "41-63", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
   {
     "name": "Kingston and Surbiton", 
     "parties": {
-      "Conservative Party": "29-39", 
-      "Green Party": "2-7", 
+      "Conservative Party": "30-39", 
+      "Green Party": "2-8", 
       "Labour Party": "12-21", 
-      "Liberal Democrats": "35-43", 
+      "Liberal Democrats": "35-44", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -4305,10 +4318,10 @@
   {
     "name": "Kingswood", 
     "parties": {
-      "Conservative Party": "33-43", 
+      "Conservative Party": "34-43", 
       "Green Party": "2-7", 
       "Labour Party": "29-39", 
-      "Liberal Democrats": "5-12", 
+      "Liberal Democrats": "5-13", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -4320,11 +4333,11 @@
     "parties": {
       "Conservative Party": "6-15", 
       "Green Party": "0-3", 
-      "Labour Party": "35-46", 
+      "Labour Party": "34-46", 
       "Liberal Democrats": "3-9", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "33-46", 
+      "Scottish National Party": "33-45", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -4333,8 +4346,8 @@
     "parties": {
       "Conservative Party": "5-12", 
       "Green Party": "0-4", 
-      "Labour Party": "66-78", 
-      "Liberal Democrats": "2-8", 
+      "Labour Party": "65-78", 
+      "Liberal Democrats": "2-9", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -4344,11 +4357,11 @@
   {
     "name": "Lanark and Hamilton East", 
     "parties": {
-      "Conservative Party": "11-21", 
+      "Conservative Party": "11-20", 
       "Green Party": "0-3", 
       "Labour Party": "29-46", 
       "Liberal Democrats": "2-9", 
-      "Other": "0-4", 
+      "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "26-48", 
       "UK Independence Party (UKIP)": "0-3"
@@ -4384,7 +4397,7 @@
     "name": "Leeds Central", 
     "parties": {
       "Conservative Party": "14-23", 
-      "Green Party": "3-11", 
+      "Green Party": "2-11", 
       "Labour Party": "49-62", 
       "Liberal Democrats": "6-15", 
       "Other": "1-5", 
@@ -4399,11 +4412,11 @@
       "Conservative Party": "16-25", 
       "Green Party": "1-6", 
       "Labour Party": "48-60", 
-      "Liberal Democrats": "5-13", 
-      "Other": "1-5", 
+      "Liberal Democrats": "4-13", 
+      "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-17"
+      "UK Independence Party (UKIP)": "7-18"
     }
   }, 
   {
@@ -4411,9 +4424,9 @@
     "parties": {
       "Conservative Party": "22-32", 
       "Green Party": "2-9", 
-      "Labour Party": "45-57", 
+      "Labour Party": "44-56", 
       "Liberal Democrats": "6-15", 
-      "Other": "0-4", 
+      "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "2-9"
@@ -4422,9 +4435,9 @@
   {
     "name": "Leeds North West", 
     "parties": {
-      "Conservative Party": "19-29", 
+      "Conservative Party": "18-29", 
       "Green Party": "5-16", 
-      "Labour Party": "26-40", 
+      "Labour Party": "27-39", 
       "Liberal Democrats": "19-36", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -4477,7 +4490,7 @@
       "Conservative Party": "19-29", 
       "Green Party": "2-10", 
       "Labour Party": "40-53", 
-      "Liberal Democrats": "7-16", 
+      "Liberal Democrats": "7-17", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -4487,14 +4500,14 @@
   {
     "name": "North West Leicestershire", 
     "parties": {
-      "Conservative Party": "36-47", 
+      "Conservative Party": "37-47", 
       "Green Party": "1-5", 
       "Labour Party": "25-36", 
-      "Liberal Democrats": "5-13", 
+      "Liberal Democrats": "4-13", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-19"
+      "UK Independence Party (UKIP)": "9-19"
     }
   }, 
   {
@@ -4507,7 +4520,7 @@
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-17"
+      "UK Independence Party (UKIP)": "7-17"
     }
   }, 
   {
@@ -4526,9 +4539,9 @@
   {
     "name": "Lewes", 
     "parties": {
-      "Conservative Party": "28-38", 
+      "Conservative Party": "29-38", 
       "Green Party": "3-9", 
-      "Labour Party": "6-13", 
+      "Labour Party": "5-13", 
       "Liberal Democrats": "36-45", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -4542,8 +4555,8 @@
       "Conservative Party": "10-19", 
       "Green Party": "4-14", 
       "Labour Party": "49-63", 
-      "Liberal Democrats": "10-21", 
-      "Other": "1-4", 
+      "Liberal Democrats": "10-22", 
+      "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "1-6"
@@ -4554,8 +4567,8 @@
     "parties": {
       "Conservative Party": "16-25", 
       "Green Party": "2-10", 
-      "Labour Party": "43-56", 
-      "Liberal Democrats": "10-21", 
+      "Labour Party": "42-55", 
+      "Liberal Democrats": "10-22", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -4565,7 +4578,7 @@
   {
     "name": "Lewisham West and Penge", 
     "parties": {
-      "Conservative Party": "19-28", 
+      "Conservative Party": "19-29", 
       "Green Party": "3-12", 
       "Labour Party": "43-56", 
       "Liberal Democrats": "8-18", 
@@ -4578,10 +4591,10 @@
   {
     "name": "Leyton and Wanstead", 
     "parties": {
-      "Conservative Party": "15-24", 
+      "Conservative Party": "16-25", 
       "Green Party": "2-9", 
       "Labour Party": "45-58", 
-      "Liberal Democrats": "11-23", 
+      "Liberal Democrats": "11-24", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -4598,7 +4611,7 @@
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "10-20"
+      "UK Independence Party (UKIP)": "9-20"
     }
   }, 
   {
@@ -4618,12 +4631,12 @@
     "name": "Linlithgow and East Falkirk", 
     "parties": {
       "Conservative Party": "8-17", 
-      "Green Party": "0-2", 
-      "Labour Party": "27-44", 
+      "Green Party": "0-3", 
+      "Labour Party": "26-44", 
       "Liberal Democrats": "3-10", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "33-55", 
+      "Scottish National Party": "32-55", 
       "UK Independence Party (UKIP)": "0-3"
     }
   }, 
@@ -4631,8 +4644,8 @@
     "name": "Liverpool, Riverside", 
     "parties": {
       "Conservative Party": "6-14", 
-      "Green Party": "6-17", 
-      "Labour Party": "55-69", 
+      "Green Party": "6-18", 
+      "Labour Party": "54-68", 
       "Liberal Democrats": "6-16", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -4643,9 +4656,9 @@
   {
     "name": "Liverpool, Walton", 
     "parties": {
-      "Conservative Party": "3-10", 
+      "Conservative Party": "4-11", 
       "Green Party": "1-6", 
-      "Labour Party": "67-79", 
+      "Labour Party": "66-78", 
       "Liberal Democrats": "3-11", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
@@ -4672,7 +4685,7 @@
       "Conservative Party": "5-13", 
       "Green Party": "1-6", 
       "Labour Party": "62-75", 
-      "Liberal Democrats": "3-10", 
+      "Liberal Democrats": "3-11", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -4682,13 +4695,13 @@
   {
     "name": "Livingston", 
     "parties": {
-      "Conservative Party": "8-17", 
+      "Conservative Party": "8-18", 
       "Green Party": "0-3", 
-      "Labour Party": "30-46", 
+      "Labour Party": "29-47", 
       "Liberal Democrats": "3-10", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "28-49", 
+      "Scottish National Party": "27-49", 
       "UK Independence Party (UKIP)": "0-3"
     }
   }, 
@@ -4697,10 +4710,10 @@
     "parties": {
       "Conservative Party": "10-19", 
       "Green Party": "1-5", 
-      "Labour Party": "38-53", 
+      "Labour Party": "37-52", 
       "Liberal Democrats": "3-10", 
       "Other": "1-6", 
-      "Plaid Cymru": "10-24", 
+      "Plaid Cymru": "11-24", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "7-18"
     }
@@ -4710,33 +4723,33 @@
     "parties": {
       "Conservative Party": "36-46", 
       "Green Party": "1-6", 
-      "Labour Party": "34-43", 
+      "Labour Party": "33-43", 
       "Liberal Democrats": "4-11", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "4-10"
+      "UK Independence Party (UKIP)": "3-10"
     }
   }, 
   {
     "name": "Louth and Horncastle", 
     "parties": {
-      "Conservative Party": "33-44", 
+      "Conservative Party": "33-45", 
       "Green Party": "1-5", 
       "Labour Party": "17-27", 
-      "Liberal Democrats": "6-14", 
+      "Liberal Democrats": "5-14", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "19-31"
+      "UK Independence Party (UKIP)": "18-31"
     }
   }, 
   {
     "name": "Ludlow", 
     "parties": {
-      "Conservative Party": "44-57", 
+      "Conservative Party": "45-57", 
       "Green Party": "1-7", 
-      "Labour Party": "7-16", 
+      "Labour Party": "7-15", 
       "Liberal Democrats": "12-25", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -4751,10 +4764,10 @@
       "Green Party": "1-7", 
       "Labour Party": "43-56", 
       "Liberal Democrats": "4-12", 
-      "Other": "0-4", 
+      "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-19"
+      "UK Independence Party (UKIP)": "8-18"
     }
   }, 
   {
@@ -4775,9 +4788,9 @@
     "parties": {
       "Conservative Party": "40-51", 
       "Green Party": "1-7", 
-      "Labour Party": "21-31", 
+      "Labour Party": "20-31", 
       "Liberal Democrats": "9-20", 
-      "Other": "0-4", 
+      "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "5-13"
@@ -4806,7 +4819,7 @@
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-19"
+      "UK Independence Party (UKIP)": "8-19"
     }
   }, 
   {
@@ -4819,7 +4832,7 @@
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-18"
+      "UK Independence Party (UKIP)": "8-19"
     }
   }, 
   {
@@ -4829,7 +4842,7 @@
       "Green Party": "1-4", 
       "Labour Party": "10-19", 
       "Liberal Democrats": "7-16", 
-      "Other": "1-5", 
+      "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "13-25"
@@ -4842,7 +4855,7 @@
       "Green Party": "5-16", 
       "Labour Party": "51-65", 
       "Liberal Democrats": "8-20", 
-      "Other": "1-5", 
+      "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "1-8"
@@ -4866,7 +4879,7 @@
     "parties": {
       "Conservative Party": "7-14", 
       "Green Party": "8-15", 
-      "Labour Party": "46-56", 
+      "Labour Party": "46-55", 
       "Liberal Democrats": "20-28", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -4879,7 +4892,7 @@
     "parties": {
       "Conservative Party": "18-27", 
       "Green Party": "1-6", 
-      "Labour Party": "40-53", 
+      "Labour Party": "40-52", 
       "Liberal Democrats": "4-11", 
       "Other": "1-7", 
       "Plaid Cymru": "0-0", 
@@ -4891,10 +4904,10 @@
     "name": "Meon Valley", 
     "parties": {
       "Conservative Party": "47-59", 
-      "Green Party": "1-6", 
+      "Green Party": "1-7", 
       "Labour Party": "6-14", 
       "Liberal Democrats": "16-30", 
-      "Other": "0-3", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "6-15"
@@ -4905,8 +4918,8 @@
     "parties": {
       "Conservative Party": "43-54", 
       "Green Party": "1-7", 
-      "Labour Party": "18-28", 
-      "Liberal Democrats": "5-13", 
+      "Labour Party": "18-27", 
+      "Liberal Democrats": "4-13", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -4918,12 +4931,12 @@
     "parties": {
       "Conservative Party": "5-13", 
       "Green Party": "1-5", 
-      "Labour Party": "44-59", 
-      "Liberal Democrats": "10-23", 
+      "Labour Party": "44-58", 
+      "Liberal Democrats": "10-24", 
       "Other": "1-7", 
-      "Plaid Cymru": "1-6", 
+      "Plaid Cymru": "1-7", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-21"
+      "UK Independence Party (UKIP)": "9-20"
     }
   }, 
   {
@@ -4931,7 +4944,7 @@
     "parties": {
       "Conservative Party": "14-23", 
       "Green Party": "1-8", 
-      "Labour Party": "47-61", 
+      "Labour Party": "47-60", 
       "Liberal Democrats": "5-13", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -4944,8 +4957,8 @@
     "parties": {
       "Conservative Party": "26-36", 
       "Green Party": "1-7", 
-      "Labour Party": "36-49", 
-      "Liberal Democrats": "4-11", 
+      "Labour Party": "36-48", 
+      "Liberal Democrats": "4-12", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -4956,26 +4969,26 @@
     "name": "Midlothian", 
     "parties": {
       "Conservative Party": "8-18", 
-      "Green Party": "1-6", 
-      "Labour Party": "27-44", 
-      "Liberal Democrats": "5-14", 
+      "Green Party": "1-7", 
+      "Labour Party": "27-45", 
+      "Liberal Democrats": "5-15", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "24-46", 
+      "Scottish National Party": "22-47", 
       "UK Independence Party (UKIP)": "0-3"
     }
   }, 
   {
     "name": "Milton Keynes North", 
     "parties": {
-      "Conservative Party": "37-48", 
+      "Conservative Party": "37-49", 
       "Green Party": "2-8", 
-      "Labour Party": "20-31", 
+      "Labour Party": "20-30", 
       "Liberal Democrats": "9-21", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-16"
+      "UK Independence Party (UKIP)": "6-16"
     }
   }, 
   {
@@ -4983,7 +4996,7 @@
     "parties": {
       "Conservative Party": "35-46", 
       "Green Party": "1-6", 
-      "Labour Party": "26-37", 
+      "Labour Party": "26-36", 
       "Liberal Democrats": "7-16", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -4997,7 +5010,7 @@
       "Conservative Party": "18-28", 
       "Green Party": "1-5", 
       "Labour Party": "53-65", 
-      "Liberal Democrats": "5-12", 
+      "Liberal Democrats": "4-12", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -5007,9 +5020,9 @@
   {
     "name": "Mole Valley", 
     "parties": {
-      "Conservative Party": "51-63", 
-      "Green Party": "1-7", 
-      "Labour Party": "6-15", 
+      "Conservative Party": "51-64", 
+      "Green Party": "1-6", 
+      "Labour Party": "6-14", 
       "Liberal Democrats": "13-26", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
@@ -5022,20 +5035,20 @@
     "parties": {
       "Conservative Party": "41-53", 
       "Green Party": "1-5", 
-      "Labour Party": "22-33", 
+      "Labour Party": "21-32", 
       "Liberal Democrats": "6-16", 
       "Other": "0-2", 
       "Plaid Cymru": "1-7", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-13"
+      "UK Independence Party (UKIP)": "4-13"
     }
   }, 
   {
     "name": "Montgomeryshire", 
     "parties": {
-      "Conservative Party": "30-44", 
+      "Conservative Party": "31-44", 
       "Green Party": "1-5", 
-      "Labour Party": "6-15", 
+      "Labour Party": "6-14", 
       "Liberal Democrats": "21-39", 
       "Other": "1-5", 
       "Plaid Cymru": "4-14", 
@@ -5046,10 +5059,10 @@
   {
     "name": "Moray", 
     "parties": {
-      "Conservative Party": "14-27", 
-      "Green Party": "0-2", 
+      "Conservative Party": "14-28", 
+      "Green Party": "0-3", 
       "Labour Party": "6-17", 
-      "Liberal Democrats": "3-12", 
+      "Liberal Democrats": "4-12", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "47-68", 
@@ -5063,10 +5076,10 @@
       "Green Party": "2-7", 
       "Labour Party": "33-43", 
       "Liberal Democrats": "4-11", 
-      "Other": "0-3", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-16"
+      "UK Independence Party (UKIP)": "9-17"
     }
   }, 
   {
@@ -5089,7 +5102,7 @@
       "Green Party": "0-2", 
       "Labour Party": "34-46", 
       "Liberal Democrats": "1-6", 
-      "Other": "0-3", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "38-50", 
       "UK Independence Party (UKIP)": "0-3"
@@ -5111,7 +5124,7 @@
   {
     "name": "Neath", 
     "parties": {
-      "Conservative Party": "8-17", 
+      "Conservative Party": "9-17", 
       "Green Party": "1-5", 
       "Labour Party": "38-53", 
       "Liberal Democrats": "4-13", 
@@ -5124,10 +5137,10 @@
   {
     "name": "New Forest East", 
     "parties": {
-      "Conservative Party": "44-56", 
+      "Conservative Party": "45-56", 
       "Green Party": "1-6", 
-      "Labour Party": "9-17", 
-      "Liberal Democrats": "12-24", 
+      "Labour Party": "8-17", 
+      "Liberal Democrats": "12-25", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -5138,21 +5151,21 @@
     "name": "New Forest West", 
     "parties": {
       "Conservative Party": "48-60", 
-      "Green Party": "1-8", 
-      "Labour Party": "8-17", 
+      "Green Party": "2-7", 
+      "Labour Party": "8-16", 
       "Liberal Democrats": "9-20", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "10-20"
+      "UK Independence Party (UKIP)": "9-20"
     }
   }, 
   {
     "name": "Newark", 
     "parties": {
       "Conservative Party": "44-56", 
-      "Green Party": "1-5", 
-      "Labour Party": "19-30", 
+      "Green Party": "1-6", 
+      "Labour Party": "19-29", 
       "Liberal Democrats": "5-13", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -5178,7 +5191,7 @@
     "parties": {
       "Conservative Party": "24-34", 
       "Green Party": "1-7", 
-      "Labour Party": "38-51", 
+      "Labour Party": "38-50", 
       "Liberal Democrats": "5-13", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -5189,11 +5202,11 @@
   {
     "name": "Newcastle upon Tyne Central", 
     "parties": {
-      "Conservative Party": "13-23", 
+      "Conservative Party": "14-23", 
       "Green Party": "2-10", 
       "Labour Party": "44-58", 
       "Liberal Democrats": "8-19", 
-      "Other": "0-5", 
+      "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "5-15"
@@ -5215,11 +5228,11 @@
   {
     "name": "Newcastle upon Tyne North", 
     "parties": {
-      "Conservative Party": "13-23", 
+      "Conservative Party": "14-23", 
       "Green Party": "2-10", 
-      "Labour Party": "43-57", 
-      "Liberal Democrats": "9-21", 
-      "Other": "1-4", 
+      "Labour Party": "43-56", 
+      "Liberal Democrats": "10-21", 
+      "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "5-14"
@@ -5229,7 +5242,7 @@
     "name": "Newport East", 
     "parties": {
       "Conservative Party": "17-27", 
-      "Green Party": "1-4", 
+      "Green Party": "1-5", 
       "Labour Party": "40-53", 
       "Liberal Democrats": "9-21", 
       "Other": "1-5", 
@@ -5244,8 +5257,8 @@
       "Conservative Party": "24-34", 
       "Green Party": "1-6", 
       "Labour Party": "38-50", 
-      "Liberal Democrats": "5-12", 
-      "Other": "0-3", 
+      "Liberal Democrats": "4-13", 
+      "Other": "0-4", 
       "Plaid Cymru": "1-7", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "6-16"
@@ -5257,7 +5270,7 @@
       "Conservative Party": "39-49", 
       "Green Party": "4-10", 
       "Labour Party": "8-17", 
-      "Liberal Democrats": "19-27", 
+      "Liberal Democrats": "19-28", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -5270,17 +5283,17 @@
       "Conservative Party": "38-49", 
       "Green Party": "1-7", 
       "Labour Party": "16-26", 
-      "Liberal Democrats": "8-17", 
-      "Other": "0-4", 
+      "Liberal Democrats": "7-17", 
+      "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "12-24"
+      "UK Independence Party (UKIP)": "13-24"
     }
   }, 
   {
     "name": "North Norfolk", 
     "parties": {
-      "Conservative Party": "20-32", 
+      "Conservative Party": "20-33", 
       "Green Party": "2-9", 
       "Labour Party": "6-15", 
       "Liberal Democrats": "31-51", 
@@ -5293,9 +5306,9 @@
   {
     "name": "North West Norfolk", 
     "parties": {
-      "Conservative Party": "37-49", 
+      "Conservative Party": "38-49", 
       "Green Party": "2-10", 
-      "Labour Party": "12-21", 
+      "Labour Party": "11-21", 
       "Liberal Democrats": "9-19", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -5308,7 +5321,7 @@
     "parties": {
       "Conservative Party": "40-51", 
       "Green Party": "2-9", 
-      "Labour Party": "13-23", 
+      "Labour Party": "13-22", 
       "Liberal Democrats": "13-25", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -5335,7 +5348,7 @@
       "Conservative Party": "15-24", 
       "Green Party": "0-4", 
       "Labour Party": "48-60", 
-      "Liberal Democrats": "3-10", 
+      "Liberal Democrats": "3-9", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -5347,7 +5360,7 @@
     "parties": {
       "Conservative Party": "29-39", 
       "Green Party": "1-6", 
-      "Labour Party": "31-41", 
+      "Labour Party": "31-40", 
       "Liberal Democrats": "8-16", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -5373,7 +5386,7 @@
     "parties": {
       "Conservative Party": "48-59", 
       "Green Party": "1-6", 
-      "Labour Party": "15-24", 
+      "Labour Party": "14-24", 
       "Liberal Democrats": "8-19", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -5384,14 +5397,14 @@
   {
     "name": "Norwich North", 
     "parties": {
-      "Conservative Party": "31-40", 
+      "Conservative Party": "31-41", 
       "Green Party": "5-12", 
       "Labour Party": "29-39", 
       "Liberal Democrats": "5-12", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-15"
+      "UK Independence Party (UKIP)": "7-15"
     }
   }, 
   {
@@ -5399,7 +5412,7 @@
     "parties": {
       "Conservative Party": "16-25", 
       "Green Party": "18-26", 
-      "Labour Party": "29-39", 
+      "Labour Party": "29-38", 
       "Liberal Democrats": "11-19", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -5410,7 +5423,7 @@
   {
     "name": "Nottingham East", 
     "parties": {
-      "Conservative Party": "16-25", 
+      "Conservative Party": "16-26", 
       "Green Party": "5-15", 
       "Labour Party": "45-58", 
       "Liberal Democrats": "6-15", 
@@ -5425,18 +5438,18 @@
     "parties": {
       "Conservative Party": "16-26", 
       "Green Party": "1-6", 
-      "Labour Party": "47-60", 
+      "Labour Party": "46-60", 
       "Liberal Democrats": "3-11", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-20"
+      "UK Independence Party (UKIP)": "8-19"
     }
   }, 
   {
     "name": "Nottingham South", 
     "parties": {
-      "Conservative Party": "22-32", 
+      "Conservative Party": "22-33", 
       "Green Party": "4-14", 
       "Labour Party": "40-53", 
       "Liberal Democrats": "5-13", 
@@ -5451,7 +5464,7 @@
     "parties": {
       "Conservative Party": "34-44", 
       "Green Party": "1-5", 
-      "Labour Party": "34-43", 
+      "Labour Party": "33-43", 
       "Liberal Democrats": "3-9", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -5468,7 +5481,7 @@
       "Liberal Democrats": "3-11", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "32-52", 
+      "Scottish National Party": "31-52", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -5488,7 +5501,7 @@
   {
     "name": "Old Bexley and Sidcup", 
     "parties": {
-      "Conservative Party": "42-54", 
+      "Conservative Party": "43-54", 
       "Green Party": "0-4", 
       "Labour Party": "17-27", 
       "Liberal Democrats": "3-10", 
@@ -5501,14 +5514,14 @@
   {
     "name": "Oldham East and Saddleworth", 
     "parties": {
-      "Conservative Party": "16-26", 
+      "Conservative Party": "17-26", 
       "Green Party": "1-5", 
       "Labour Party": "33-45", 
       "Liberal Democrats": "11-23", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "12-24"
+      "UK Independence Party (UKIP)": "12-23"
     }
   }, 
   {
@@ -5516,7 +5529,7 @@
     "parties": {
       "Conservative Party": "14-23", 
       "Green Party": "1-5", 
-      "Labour Party": "44-57", 
+      "Labour Party": "43-56", 
       "Liberal Democrats": "6-16", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -5527,27 +5540,27 @@
   {
     "name": "Orkney and Shetland", 
     "parties": {
-      "Conservative Party": "5-15", 
+      "Conservative Party": "6-15", 
       "Green Party": "0-3", 
       "Labour Party": "5-15", 
-      "Liberal Democrats": "28-54", 
+      "Liberal Democrats": "28-55", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "21-50", 
+      "Scottish National Party": "20-50", 
       "UK Independence Party (UKIP)": "0-3"
     }
   }, 
   {
     "name": "Orpington", 
     "parties": {
-      "Conservative Party": "50-62", 
+      "Conservative Party": "51-62", 
       "Green Party": "1-5", 
-      "Labour Party": "10-19", 
+      "Labour Party": "9-19", 
       "Liberal Democrats": "7-17", 
-      "Other": "0-3", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-19"
+      "UK Independence Party (UKIP)": "8-19"
     }
   }, 
   {
@@ -5567,7 +5580,7 @@
     "name": "Oxford West and Abingdon", 
     "parties": {
       "Conservative Party": "37-46", 
-      "Green Party": "4-9", 
+      "Green Party": "4-10", 
       "Labour Party": "13-21", 
       "Liberal Democrats": "25-33", 
       "Other": "0-2", 
@@ -5585,8 +5598,8 @@
       "Liberal Democrats": "2-8", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "28-50", 
-      "UK Independence Party (UKIP)": "0-2"
+      "Scottish National Party": "27-49", 
+      "UK Independence Party (UKIP)": "0-3"
     }
   }, 
   {
@@ -5598,7 +5611,7 @@
       "Liberal Democrats": "2-8", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "37-48", 
+      "Scottish National Party": "36-48", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -5620,7 +5633,7 @@
     "parties": {
       "Conservative Party": "20-29", 
       "Green Party": "1-5", 
-      "Labour Party": "37-49", 
+      "Labour Party": "36-49", 
       "Liberal Democrats": "6-16", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -5631,14 +5644,14 @@
   {
     "name": "Penrith and The Border", 
     "parties": {
-      "Conservative Party": "43-55", 
+      "Conservative Party": "43-54", 
       "Green Party": "1-5", 
       "Labour Party": "13-23", 
       "Liberal Democrats": "11-24", 
-      "Other": "0-4", 
+      "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-16"
+      "UK Independence Party (UKIP)": "6-16"
     }
   }, 
   {
@@ -5647,24 +5660,24 @@
       "Conservative Party": "21-35", 
       "Green Party": "0-4", 
       "Labour Party": "8-18", 
-      "Liberal Democrats": "4-11", 
+      "Liberal Democrats": "4-12", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "37-58", 
-      "UK Independence Party (UKIP)": "0-3"
+      "Scottish National Party": "36-58", 
+      "UK Independence Party (UKIP)": "0-2"
     }
   }, 
   {
     "name": "Peterborough", 
     "parties": {
-      "Conservative Party": "29-39", 
+      "Conservative Party": "29-40", 
       "Green Party": "1-7", 
-      "Labour Party": "25-36", 
+      "Labour Party": "24-36", 
       "Liberal Democrats": "7-17", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "13-24"
+      "UK Independence Party (UKIP)": "12-24"
     }
   }, 
   {
@@ -5723,10 +5736,10 @@
     "name": "Poplar and Limehouse", 
     "parties": {
       "Conservative Party": "26-38", 
-      "Green Party": "2-8", 
+      "Green Party": "1-8", 
       "Labour Party": "39-53", 
       "Liberal Democrats": "5-14", 
-      "Other": "1-9", 
+      "Other": "2-9", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "1-9"
@@ -5735,14 +5748,14 @@
   {
     "name": "Portsmouth North", 
     "parties": {
-      "Conservative Party": "33-44", 
-      "Green Party": "1-7", 
+      "Conservative Party": "33-45", 
+      "Green Party": "1-8", 
       "Labour Party": "21-32", 
       "Liberal Democrats": "6-15", 
-      "Other": "0-4", 
+      "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "12-25"
+      "UK Independence Party (UKIP)": "12-24"
     }
   }, 
   {
@@ -5763,8 +5776,8 @@
     "parties": {
       "Conservative Party": "34-45", 
       "Green Party": "1-5", 
-      "Labour Party": "25-37", 
-      "Liberal Democrats": "4-11", 
+      "Labour Party": "25-36", 
+      "Liberal Democrats": "4-12", 
       "Other": "0-4", 
       "Plaid Cymru": "4-12", 
       "Scottish National Party": "0-0", 
@@ -5776,8 +5789,8 @@
     "parties": {
       "Conservative Party": "14-23", 
       "Green Party": "2-8", 
-      "Labour Party": "49-62", 
-      "Liberal Democrats": "7-18", 
+      "Labour Party": "49-61", 
+      "Liberal Democrats": "7-17", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -5789,7 +5802,7 @@
     "parties": {
       "Conservative Party": "33-42", 
       "Green Party": "2-7", 
-      "Labour Party": "32-41", 
+      "Labour Party": "31-41", 
       "Liberal Democrats": "8-16", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -5807,7 +5820,7 @@
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "1-4"
+      "UK Independence Party (UKIP)": "0-5"
     }
   }, 
   {
@@ -5815,12 +5828,12 @@
     "parties": {
       "Conservative Party": "45-57", 
       "Green Party": "1-5", 
-      "Labour Party": "11-21", 
-      "Liberal Democrats": "5-13", 
+      "Labour Party": "11-20", 
+      "Liberal Democrats": "5-14", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "14-25"
+      "UK Independence Party (UKIP)": "13-25"
     }
   }, 
   {
@@ -5828,7 +5841,7 @@
     "parties": {
       "Conservative Party": "36-47", 
       "Green Party": "5-14", 
-      "Labour Party": "22-33", 
+      "Labour Party": "22-32", 
       "Liberal Democrats": "10-21", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -5842,7 +5855,7 @@
       "Conservative Party": "37-48", 
       "Green Party": "2-9", 
       "Labour Party": "25-36", 
-      "Liberal Democrats": "7-16", 
+      "Liberal Democrats": "6-16", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -5854,7 +5867,7 @@
     "parties": {
       "Conservative Party": "12-20", 
       "Green Party": "1-4", 
-      "Labour Party": "39-50", 
+      "Labour Party": "39-49", 
       "Liberal Democrats": "16-25", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -5868,7 +5881,7 @@
       "Conservative Party": "36-47", 
       "Green Party": "1-6", 
       "Labour Party": "25-36", 
-      "Liberal Democrats": "5-13", 
+      "Liberal Democrats": "5-14", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -5891,13 +5904,13 @@
   {
     "name": "East Renfrewshire", 
     "parties": {
-      "Conservative Party": "23-34", 
-      "Green Party": "0-3", 
+      "Conservative Party": "24-34", 
+      "Green Party": "0-4", 
       "Labour Party": "31-42", 
-      "Liberal Democrats": "2-7", 
+      "Liberal Democrats": "2-8", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "21-34", 
+      "Scottish National Party": "20-33", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -5909,19 +5922,19 @@
       "Labour Party": "49-66", 
       "Liberal Democrats": "3-11", 
       "Other": "1-8", 
-      "Plaid Cymru": "7-22", 
+      "Plaid Cymru": "8-23", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "4-13"
+      "UK Independence Party (UKIP)": "3-13"
     }
   }, 
   {
     "name": "Ribble Valley", 
     "parties": {
-      "Conservative Party": "43-53", 
+      "Conservative Party": "42-54", 
       "Green Party": "1-5", 
-      "Labour Party": "20-31", 
+      "Labour Party": "20-30", 
       "Liberal Democrats": "6-15", 
-      "Other": "0-3", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "7-17"
@@ -5931,8 +5944,8 @@
     "name": "Richmond (Yorks)", 
     "parties": {
       "Conservative Party": "47-61", 
-      "Green Party": "1-5", 
-      "Labour Party": "14-25", 
+      "Green Party": "1-6", 
+      "Labour Party": "14-24", 
       "Liberal Democrats": "6-16", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
@@ -5963,7 +5976,7 @@
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-19"
+      "UK Independence Party (UKIP)": "7-18"
     }
   }, 
   {
@@ -5971,12 +5984,12 @@
     "parties": {
       "Conservative Party": "36-45", 
       "Green Party": "2-6", 
-      "Labour Party": "21-30", 
+      "Labour Party": "20-29", 
       "Liberal Democrats": "3-9", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "19-27"
+      "UK Independence Party (UKIP)": "19-28"
     }
   }, 
   {
@@ -5998,7 +6011,7 @@
       "Conservative Party": "44-55", 
       "Green Party": "0-4", 
       "Labour Party": "16-27", 
-      "Liberal Democrats": "3-9", 
+      "Liberal Democrats": "2-9", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -6008,7 +6021,7 @@
   {
     "name": "Romsey and Southampton North", 
     "parties": {
-      "Conservative Party": "44-57", 
+      "Conservative Party": "44-58", 
       "Green Party": "1-7", 
       "Labour Party": "7-15", 
       "Liberal Democrats": "17-33", 
@@ -6024,10 +6037,10 @@
       "Conservative Party": "6-14", 
       "Green Party": "1-6", 
       "Labour Party": "7-15", 
-      "Liberal Democrats": "33-43", 
-      "Other": "0-3", 
+      "Liberal Democrats": "33-44", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "29-41", 
+      "Scottish National Party": "28-41", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -6035,13 +6048,13 @@
     "name": "Rossendale and Darwen", 
     "parties": {
       "Conservative Party": "33-43", 
-      "Green Party": "1-5", 
+      "Green Party": "1-6", 
       "Labour Party": "29-40", 
       "Liberal Democrats": "5-13", 
       "Other": "1-7", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-17"
+      "UK Independence Party (UKIP)": "7-17"
     }
   }, 
   {
@@ -6049,8 +6062,8 @@
     "parties": {
       "Conservative Party": "17-26", 
       "Green Party": "1-4", 
-      "Labour Party": "40-49", 
-      "Liberal Democrats": "4-10", 
+      "Labour Party": "39-49", 
+      "Liberal Democrats": "4-11", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -6062,7 +6075,7 @@
     "parties": {
       "Conservative Party": "10-18", 
       "Green Party": "0-4", 
-      "Labour Party": "47-58", 
+      "Labour Party": "46-58", 
       "Liberal Democrats": "4-11", 
       "Other": "2-7", 
       "Plaid Cymru": "0-0", 
@@ -6073,9 +6086,9 @@
   {
     "name": "Rugby", 
     "parties": {
-      "Conservative Party": "36-46", 
+      "Conservative Party": "36-47", 
       "Green Party": "2-8", 
-      "Labour Party": "27-37", 
+      "Labour Party": "26-37", 
       "Liberal Democrats": "6-14", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -6088,12 +6101,12 @@
     "parties": {
       "Conservative Party": "48-59", 
       "Green Party": "1-6", 
-      "Labour Party": "19-29", 
+      "Labour Party": "18-28", 
       "Liberal Democrats": "6-15", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "4-13"
+      "UK Independence Party (UKIP)": "4-12"
     }
   }, 
   {
@@ -6106,15 +6119,15 @@
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-16"
+      "UK Independence Party (UKIP)": "6-16"
     }
   }, 
   {
     "name": "Rushcliffe", 
     "parties": {
-      "Conservative Party": "45-56", 
+      "Conservative Party": "44-56", 
       "Green Party": "3-10", 
-      "Labour Party": "20-31", 
+      "Labour Party": "20-30", 
       "Liberal Democrats": "7-17", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
@@ -6127,7 +6140,7 @@
     "parties": {
       "Conservative Party": "6-15", 
       "Green Party": "0-2", 
-      "Labour Party": "33-52", 
+      "Labour Party": "32-52", 
       "Liberal Democrats": "2-9", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
@@ -6138,9 +6151,9 @@
   {
     "name": "Rutland and Melton", 
     "parties": {
-      "Conservative Party": "43-55", 
+      "Conservative Party": "44-55", 
       "Green Party": "1-6", 
-      "Labour Party": "13-23", 
+      "Labour Party": "13-22", 
       "Liberal Democrats": "10-21", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -6164,14 +6177,14 @@
   {
     "name": "St Albans", 
     "parties": {
-      "Conservative Party": "34-46", 
-      "Green Party": "3-10", 
+      "Conservative Party": "35-47", 
+      "Green Party": "3-11", 
       "Labour Party": "17-28", 
       "Liberal Democrats": "17-32", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "2-10"
+      "UK Independence Party (UKIP)": "2-9"
     }
   }, 
   {
@@ -6192,9 +6205,9 @@
     "parties": {
       "Conservative Party": "15-24", 
       "Green Party": "1-5", 
-      "Labour Party": "49-61", 
+      "Labour Party": "48-61", 
       "Liberal Democrats": "5-13", 
-      "Other": "0-3", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "8-18"
@@ -6203,9 +6216,9 @@
   {
     "name": "St Helens South and Whiston", 
     "parties": {
-      "Conservative Party": "11-20", 
+      "Conservative Party": "12-20", 
       "Green Party": "1-6", 
-      "Labour Party": "51-64", 
+      "Labour Party": "51-63", 
       "Liberal Democrats": "6-15", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -6223,7 +6236,7 @@
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-16"
+      "UK Independence Party (UKIP)": "8-16"
     }
   }, 
   {
@@ -6231,7 +6244,7 @@
     "parties": {
       "Conservative Party": "17-26", 
       "Green Party": "2-8", 
-      "Labour Party": "42-55", 
+      "Labour Party": "41-54", 
       "Liberal Democrats": "7-17", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
@@ -6242,14 +6255,14 @@
   {
     "name": "Salisbury", 
     "parties": {
-      "Conservative Party": "41-53", 
+      "Conservative Party": "41-54", 
       "Green Party": "2-9", 
       "Labour Party": "8-17", 
       "Liberal Democrats": "17-32", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-15"
+      "UK Independence Party (UKIP)": "6-15"
     }
   }, 
   {
@@ -6257,12 +6270,12 @@
     "parties": {
       "Conservative Party": "31-42", 
       "Green Party": "2-9", 
-      "Labour Party": "26-37", 
+      "Labour Party": "25-37", 
       "Liberal Democrats": "6-15", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "10-20"
+      "UK Independence Party (UKIP)": "9-20"
     }
   }, 
   {
@@ -6272,7 +6285,7 @@
       "Green Party": "1-5", 
       "Labour Party": "41-53", 
       "Liberal Democrats": "4-12", 
-      "Other": "1-5", 
+      "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "9-20"
@@ -6283,7 +6296,7 @@
     "parties": {
       "Conservative Party": "19-28", 
       "Green Party": "1-5", 
-      "Labour Party": "48-60", 
+      "Labour Party": "48-59", 
       "Liberal Democrats": "5-13", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -6307,14 +6320,14 @@
   {
     "name": "Selby and Ainsty", 
     "parties": {
-      "Conservative Party": "40-51", 
+      "Conservative Party": "41-51", 
       "Green Party": "1-5", 
-      "Labour Party": "25-36", 
+      "Labour Party": "25-35", 
       "Liberal Democrats": "6-14", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-15"
+      "UK Independence Party (UKIP)": "6-15"
     }
   }, 
   {
@@ -6322,7 +6335,7 @@
     "parties": {
       "Conservative Party": "50-61", 
       "Green Party": "1-6", 
-      "Labour Party": "11-21", 
+      "Labour Party": "11-20", 
       "Liberal Democrats": "7-17", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -6334,9 +6347,9 @@
     "name": "Sheffield, Brightside and Hillsborough", 
     "parties": {
       "Conservative Party": "7-15", 
-      "Green Party": "1-7", 
+      "Green Party": "1-8", 
       "Labour Party": "48-62", 
-      "Liberal Democrats": "7-16", 
+      "Liberal Democrats": "6-17", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -6366,15 +6379,15 @@
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "3-8"
+      "UK Independence Party (UKIP)": "2-8"
     }
   }, 
   {
     "name": "Sheffield, Heeley", 
     "parties": {
-      "Conservative Party": "11-19", 
+      "Conservative Party": "11-20", 
       "Green Party": "2-10", 
-      "Labour Party": "43-56", 
+      "Labour Party": "42-56", 
       "Liberal Democrats": "9-21", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
@@ -6388,7 +6401,7 @@
       "Conservative Party": "10-18", 
       "Green Party": "1-6", 
       "Labour Party": "47-60", 
-      "Liberal Democrats": "8-18", 
+      "Liberal Democrats": "7-18", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -6398,8 +6411,8 @@
   {
     "name": "Sherwood", 
     "parties": {
-      "Conservative Party": "30-40", 
-      "Green Party": "1-5", 
+      "Conservative Party": "31-40", 
+      "Green Party": "1-6", 
       "Labour Party": "34-43", 
       "Liberal Democrats": "3-9", 
       "Other": "1-4", 
@@ -6418,7 +6431,7 @@
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-13"
+      "UK Independence Party (UKIP)": "5-14"
     }
   }, 
   {
@@ -6431,7 +6444,7 @@
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-16"
+      "UK Independence Party (UKIP)": "7-17"
     }
   }, 
   {
@@ -6452,7 +6465,7 @@
     "parties": {
       "Conservative Party": "36-47", 
       "Green Party": "0-4", 
-      "Labour Party": "17-28", 
+      "Labour Party": "17-27", 
       "Liberal Democrats": "4-12", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -6464,13 +6477,13 @@
     "name": "Skipton and Ripon", 
     "parties": {
       "Conservative Party": "42-54", 
-      "Green Party": "1-5", 
-      "Labour Party": "10-20", 
+      "Green Party": "1-6", 
+      "Labour Party": "11-20", 
       "Liberal Democrats": "15-29", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "6-16"
+      "UK Independence Party (UKIP)": "6-15"
     }
   }, 
   {
@@ -6483,7 +6496,7 @@
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-19"
+      "UK Independence Party (UKIP)": "8-19"
     }
   }, 
   {
@@ -6496,7 +6509,7 @@
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-17"
+      "UK Independence Party (UKIP)": "6-17"
     }
   }, 
   {
@@ -6504,12 +6517,12 @@
     "parties": {
       "Conservative Party": "35-44", 
       "Green Party": "3-9", 
-      "Labour Party": "9-18", 
+      "Labour Party": "9-17", 
       "Liberal Democrats": "24-32", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-14"
+      "UK Independence Party (UKIP)": "7-15"
     }
   }, 
   {
@@ -6517,8 +6530,8 @@
     "parties": {
       "Conservative Party": "43-55", 
       "Green Party": "1-7", 
-      "Labour Party": "12-22", 
-      "Liberal Democrats": "13-27", 
+      "Labour Party": "12-21", 
+      "Liberal Democrats": "13-26", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -6530,7 +6543,7 @@
     "parties": {
       "Conservative Party": "34-45", 
       "Green Party": "2-8", 
-      "Labour Party": "30-41", 
+      "Labour Party": "29-41", 
       "Liberal Democrats": "7-16", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -6541,8 +6554,8 @@
   {
     "name": "Somerton and Frome", 
     "parties": {
-      "Conservative Party": "40-49", 
-      "Green Party": "3-8", 
+      "Conservative Party": "40-50", 
+      "Green Party": "3-9", 
       "Labour Party": "5-13", 
       "Liberal Democrats": "25-33", 
       "Other": "0-3", 
@@ -6554,7 +6567,7 @@
   {
     "name": "South Holland and The Deepings", 
     "parties": {
-      "Conservative Party": "47-59", 
+      "Conservative Party": "47-58", 
       "Green Party": "1-5", 
       "Labour Party": "11-20", 
       "Liberal Democrats": "4-11", 
@@ -6569,7 +6582,7 @@
     "parties": {
       "Conservative Party": "34-45", 
       "Green Party": "1-6", 
-      "Labour Party": "31-43", 
+      "Labour Party": "31-42", 
       "Liberal Democrats": "4-11", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -6580,9 +6593,9 @@
   {
     "name": "South Shields", 
     "parties": {
-      "Conservative Party": "16-26", 
-      "Green Party": "1-7", 
-      "Labour Party": "46-60", 
+      "Conservative Party": "16-25", 
+      "Green Party": "1-8", 
+      "Labour Party": "46-59", 
       "Liberal Democrats": "2-8", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -6593,27 +6606,27 @@
   {
     "name": "Southampton, Itchen", 
     "parties": {
-      "Conservative Party": "29-39", 
+      "Conservative Party": "30-39", 
       "Green Party": "2-7", 
       "Labour Party": "30-40", 
-      "Liberal Democrats": "8-15", 
+      "Liberal Democrats": "8-16", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-17"
+      "UK Independence Party (UKIP)": "9-18"
     }
   }, 
   {
     "name": "Southampton, Test", 
     "parties": {
-      "Conservative Party": "23-33", 
+      "Conservative Party": "24-34", 
       "Green Party": "3-10", 
       "Labour Party": "38-50", 
       "Liberal Democrats": "6-15", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-13"
+      "UK Independence Party (UKIP)": "5-14"
     }
   }, 
   {
@@ -6636,7 +6649,7 @@
       "Green Party": "1-5", 
       "Labour Party": "11-20", 
       "Liberal Democrats": "34-44", 
-      "Other": "0-4", 
+      "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "8-16"
@@ -6652,20 +6665,20 @@
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "11-21"
+      "UK Independence Party (UKIP)": "10-22"
     }
   }, 
   {
     "name": "Stafford", 
     "parties": {
-      "Conservative Party": "36-47", 
+      "Conservative Party": "37-47", 
       "Green Party": "1-7", 
       "Labour Party": "28-39", 
       "Liberal Democrats": "4-12", 
-      "Other": "0-4", 
+      "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "6-16"
+      "UK Independence Party (UKIP)": "6-15"
     }
   }, 
   {
@@ -6712,7 +6725,7 @@
     "parties": {
       "Conservative Party": "35-44", 
       "Green Party": "1-5", 
-      "Labour Party": "31-41", 
+      "Labour Party": "31-40", 
       "Liberal Democrats": "7-14", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -6729,7 +6742,7 @@
       "Liberal Democrats": "3-10", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
-      "Scottish National Party": "26-47", 
+      "Scottish National Party": "25-46", 
       "UK Independence Party (UKIP)": "0-2"
     }
   }, 
@@ -6751,9 +6764,9 @@
     "parties": {
       "Conservative Party": "21-31", 
       "Green Party": "1-5", 
-      "Labour Party": "42-55", 
+      "Labour Party": "42-54", 
       "Liberal Democrats": "4-12", 
-      "Other": "1-5", 
+      "Other": "1-6", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "7-18"
@@ -6763,10 +6776,10 @@
     "name": "Stockton South", 
     "parties": {
       "Conservative Party": "37-46", 
-      "Green Party": "1-4", 
+      "Green Party": "1-5", 
       "Labour Party": "32-41", 
-      "Liberal Democrats": "3-9", 
-      "Other": "1-3", 
+      "Liberal Democrats": "3-10", 
+      "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "8-16"
@@ -6776,8 +6789,8 @@
     "name": "Stoke-on-Trent Central", 
     "parties": {
       "Conservative Party": "14-24", 
-      "Green Party": "1-6", 
-      "Labour Party": "42-55", 
+      "Green Party": "1-7", 
+      "Labour Party": "41-54", 
       "Liberal Democrats": "5-13", 
       "Other": "2-9", 
       "Plaid Cymru": "0-0", 
@@ -6788,9 +6801,9 @@
   {
     "name": "Stoke-on-Trent North", 
     "parties": {
-      "Conservative Party": "16-25", 
+      "Conservative Party": "16-26", 
       "Green Party": "1-6", 
-      "Labour Party": "41-54", 
+      "Labour Party": "41-53", 
       "Liberal Democrats": "4-12", 
       "Other": "1-6", 
       "Plaid Cymru": "0-0", 
@@ -6801,7 +6814,7 @@
   {
     "name": "Stoke-on-Trent South", 
     "parties": {
-      "Conservative Party": "19-28", 
+      "Conservative Party": "19-29", 
       "Green Party": "1-5", 
       "Labour Party": "38-50", 
       "Liberal Democrats": "3-11", 
@@ -6816,9 +6829,9 @@
     "parties": {
       "Conservative Party": "41-53", 
       "Green Party": "2-9", 
-      "Labour Party": "18-29", 
+      "Labour Party": "18-28", 
       "Liberal Democrats": "6-15", 
-      "Other": "0-2", 
+      "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "8-19"
@@ -6840,9 +6853,9 @@
   {
     "name": "Stratford-on-Avon", 
     "parties": {
-      "Conservative Party": "47-59", 
+      "Conservative Party": "48-60", 
       "Green Party": "2-9", 
-      "Labour Party": "10-19", 
+      "Labour Party": "10-18", 
       "Liberal Democrats": "10-22", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -6855,7 +6868,7 @@
     "parties": {
       "Conservative Party": "14-23", 
       "Green Party": "3-12", 
-      "Labour Party": "46-59", 
+      "Labour Party": "45-59", 
       "Liberal Democrats": "12-26", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -6886,7 +6899,7 @@
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "3-10"
+      "UK Independence Party (UKIP)": "3-9"
     }
   }, 
   {
@@ -6895,7 +6908,7 @@
       "Conservative Party": "40-51", 
       "Green Party": "2-8", 
       "Labour Party": "15-25", 
-      "Liberal Democrats": "9-19", 
+      "Liberal Democrats": "9-20", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -6907,7 +6920,7 @@
     "parties": {
       "Conservative Party": "35-47", 
       "Green Party": "2-9", 
-      "Labour Party": "15-25", 
+      "Labour Party": "14-25", 
       "Liberal Democrats": "11-24", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -6933,7 +6946,7 @@
     "parties": {
       "Conservative Party": "40-52", 
       "Green Party": "1-5", 
-      "Labour Party": "13-23", 
+      "Labour Party": "13-22", 
       "Liberal Democrats": "9-20", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -6944,8 +6957,8 @@
   {
     "name": "Sunderland Central", 
     "parties": {
-      "Conservative Party": "22-31", 
-      "Green Party": "1-6", 
+      "Conservative Party": "22-32", 
+      "Green Party": "1-7", 
       "Labour Party": "44-56", 
       "Liberal Democrats": "3-10", 
       "Other": "0-4", 
@@ -6957,9 +6970,9 @@
   {
     "name": "East Surrey", 
     "parties": {
-      "Conservative Party": "48-61", 
+      "Conservative Party": "49-61", 
       "Green Party": "1-6", 
-      "Labour Party": "7-16", 
+      "Labour Party": "7-15", 
       "Liberal Democrats": "11-23", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -6972,8 +6985,8 @@
     "parties": {
       "Conservative Party": "51-63", 
       "Green Party": "1-4", 
-      "Labour Party": "9-17", 
-      "Liberal Democrats": "11-22", 
+      "Labour Party": "8-17", 
+      "Liberal Democrats": "11-23", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -6985,7 +6998,7 @@
     "parties": {
       "Conservative Party": "57-67", 
       "Green Party": "3-8", 
-      "Labour Party": "6-14", 
+      "Labour Party": "6-13", 
       "Liberal Democrats": "9-17", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -6998,7 +7011,7 @@
     "parties": {
       "Conservative Party": "46-58", 
       "Green Party": "2-8", 
-      "Labour Party": "6-15", 
+      "Labour Party": "6-14", 
       "Liberal Democrats": "16-30", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -7022,7 +7035,7 @@
   {
     "name": "Sutton Coldfield", 
     "parties": {
-      "Conservative Party": "45-56", 
+      "Conservative Party": "45-57", 
       "Green Party": "2-8", 
       "Labour Party": "17-27", 
       "Liberal Democrats": "5-14", 
@@ -7040,7 +7053,7 @@
       "Labour Party": "45-59", 
       "Liberal Democrats": "5-14", 
       "Other": "1-6", 
-      "Plaid Cymru": "3-12", 
+      "Plaid Cymru": "3-13", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "5-15"
     }
@@ -7048,10 +7061,10 @@
   {
     "name": "Swansea West", 
     "parties": {
-      "Conservative Party": "14-24", 
+      "Conservative Party": "15-24", 
       "Green Party": "2-10", 
-      "Labour Party": "37-50", 
-      "Liberal Democrats": "9-22", 
+      "Labour Party": "36-50", 
+      "Liberal Democrats": "10-22", 
       "Other": "1-5", 
       "Plaid Cymru": "2-11", 
       "Scottish National Party": "0-0", 
@@ -7061,9 +7074,9 @@
   {
     "name": "North Swindon", 
     "parties": {
-      "Conservative Party": "37-48", 
+      "Conservative Party": "38-48", 
       "Green Party": "2-8", 
-      "Labour Party": "25-36", 
+      "Labour Party": "25-35", 
       "Liberal Democrats": "6-15", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -7077,7 +7090,7 @@
       "Conservative Party": "35-45", 
       "Green Party": "2-6", 
       "Labour Party": "30-39", 
-      "Liberal Democrats": "7-14", 
+      "Liberal Democrats": "6-14", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -7089,9 +7102,9 @@
     "parties": {
       "Conservative Party": "37-48", 
       "Green Party": "1-4", 
-      "Labour Party": "27-38", 
+      "Labour Party": "26-37", 
       "Liberal Democrats": "4-11", 
-      "Other": "0-3", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "9-20"
@@ -7169,7 +7182,7 @@
       "Green Party": "1-5", 
       "Labour Party": "23-32", 
       "Liberal Democrats": "3-9", 
-      "Other": "1-3", 
+      "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "23-30"
@@ -7179,7 +7192,7 @@
     "name": "Thirsk and Malton", 
     "parties": {
       "Conservative Party": "43-54", 
-      "Green Party": "1-5", 
+      "Green Party": "1-6", 
       "Labour Party": "21-31", 
       "Liberal Democrats": "5-14", 
       "Other": "0-4", 
@@ -7193,8 +7206,8 @@
     "parties": {
       "Conservative Party": "24-33", 
       "Green Party": "1-5", 
-      "Labour Party": "7-15", 
-      "Liberal Democrats": "44-53", 
+      "Labour Party": "6-14", 
+      "Liberal Democrats": "44-54", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -7204,7 +7217,7 @@
   {
     "name": "Thurrock", 
     "parties": {
-      "Conservative Party": "28-38", 
+      "Conservative Party": "29-38", 
       "Green Party": "0-4", 
       "Labour Party": "25-34", 
       "Liberal Democrats": "2-8", 
@@ -7219,12 +7232,12 @@
     "parties": {
       "Conservative Party": "43-55", 
       "Green Party": "1-7", 
-      "Labour Party": "9-18", 
+      "Labour Party": "9-17", 
       "Liberal Democrats": "12-25", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-20"
+      "UK Independence Party (UKIP)": "9-19"
     }
   }, 
   {
@@ -7243,7 +7256,7 @@
   {
     "name": "Tooting", 
     "parties": {
-      "Conservative Party": "30-40", 
+      "Conservative Party": "30-41", 
       "Green Party": "3-10", 
       "Labour Party": "42-54", 
       "Liberal Democrats": "4-11", 
@@ -7271,12 +7284,12 @@
     "parties": {
       "Conservative Party": "15-24", 
       "Green Party": "1-6", 
-      "Labour Party": "40-52", 
+      "Labour Party": "39-52", 
       "Liberal Democrats": "4-12", 
-      "Other": "1-5", 
+      "Other": "1-6", 
       "Plaid Cymru": "3-11", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-20"
+      "UK Independence Party (UKIP)": "9-20"
     }
   }, 
   {
@@ -7285,7 +7298,7 @@
       "Conservative Party": "38-50", 
       "Green Party": "4-13", 
       "Labour Party": "8-17", 
-      "Liberal Democrats": "16-31", 
+      "Liberal Democrats": "17-31", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -7298,8 +7311,8 @@
       "Conservative Party": "9-17", 
       "Green Party": "2-10", 
       "Labour Party": "57-71", 
-      "Liberal Democrats": "8-19", 
-      "Other": "0-5", 
+      "Liberal Democrats": "7-19", 
+      "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "1-5"
@@ -7336,8 +7349,8 @@
     "parties": {
       "Conservative Party": "28-41", 
       "Green Party": "2-8", 
-      "Labour Party": "10-19", 
-      "Liberal Democrats": "35-51", 
+      "Labour Party": "9-19", 
+      "Liberal Democrats": "34-52", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -7362,8 +7375,8 @@
     "parties": {
       "Conservative Party": "15-24", 
       "Green Party": "1-6", 
-      "Labour Party": "50-62", 
-      "Liberal Democrats": "6-15", 
+      "Labour Party": "49-62", 
+      "Liberal Democrats": "6-16", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -7375,7 +7388,7 @@
     "parties": {
       "Conservative Party": "40-50", 
       "Green Party": "1-6", 
-      "Labour Party": "24-34", 
+      "Labour Party": "24-33", 
       "Liberal Democrats": "6-13", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -7386,14 +7399,14 @@
   {
     "name": "Vale of Clwyd", 
     "parties": {
-      "Conservative Party": "24-35", 
+      "Conservative Party": "25-34", 
       "Green Party": "1-5", 
       "Labour Party": "37-49", 
       "Liberal Democrats": "3-9", 
-      "Other": "0-5", 
-      "Plaid Cymru": "3-10", 
+      "Other": "0-4", 
+      "Plaid Cymru": "3-11", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-16"
+      "UK Independence Party (UKIP)": "6-17"
     }
   }, 
   {
@@ -7404,7 +7417,7 @@
       "Labour Party": "27-37", 
       "Liberal Democrats": "4-10", 
       "Other": "1-4", 
-      "Plaid Cymru": "5-12", 
+      "Plaid Cymru": "5-13", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "4-11"
     }
@@ -7414,8 +7427,8 @@
     "parties": {
       "Conservative Party": "17-27", 
       "Green Party": "4-14", 
-      "Labour Party": "46-59", 
-      "Liberal Democrats": "8-20", 
+      "Labour Party": "45-59", 
+      "Liberal Democrats": "9-20", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -7429,10 +7442,10 @@
       "Green Party": "1-7", 
       "Labour Party": "40-52", 
       "Liberal Democrats": "3-10", 
-      "Other": "0-3", 
+      "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "10-21"
+      "UK Independence Party (UKIP)": "9-21"
     }
   }, 
   {
@@ -7445,7 +7458,7 @@
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-13"
+      "UK Independence Party (UKIP)": "4-13"
     }
   }, 
   {
@@ -7479,8 +7492,8 @@
     "parties": {
       "Conservative Party": "9-18", 
       "Green Party": "1-8", 
-      "Labour Party": "54-67", 
-      "Liberal Democrats": "10-22", 
+      "Labour Party": "53-66", 
+      "Liberal Democrats": "10-23", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -7491,7 +7504,7 @@
     "name": "Wansbeck", 
     "parties": {
       "Conservative Party": "13-22", 
-      "Green Party": "2-8", 
+      "Green Party": "1-8", 
       "Labour Party": "51-64", 
       "Liberal Democrats": "7-18", 
       "Other": "0-3", 
@@ -7505,7 +7518,7 @@
     "parties": {
       "Conservative Party": "46-57", 
       "Green Party": "2-7", 
-      "Labour Party": "13-22", 
+      "Labour Party": "12-22", 
       "Liberal Democrats": "11-23", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
@@ -7530,7 +7543,7 @@
     "name": "Warrington North", 
     "parties": {
       "Conservative Party": "21-30", 
-      "Green Party": "1-5", 
+      "Green Party": "1-6", 
       "Labour Party": "44-56", 
       "Liberal Democrats": "5-14", 
       "Other": "0-4", 
@@ -7558,7 +7571,7 @@
       "Conservative Party": "38-48", 
       "Green Party": "3-9", 
       "Labour Party": "30-39", 
-      "Liberal Democrats": "6-13", 
+      "Liberal Democrats": "6-14", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -7568,7 +7581,7 @@
   {
     "name": "North Warwickshire", 
     "parties": {
-      "Conservative Party": "31-41", 
+      "Conservative Party": "32-41", 
       "Green Party": "1-4", 
       "Labour Party": "35-45", 
       "Liberal Democrats": "2-7", 
@@ -7583,7 +7596,7 @@
     "parties": {
       "Conservative Party": "16-26", 
       "Green Party": "1-5", 
-      "Labour Party": "47-60", 
+      "Labour Party": "47-59", 
       "Liberal Democrats": "3-10", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -7601,7 +7614,7 @@
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-11"
+      "UK Independence Party (UKIP)": "5-12"
     }
   }, 
   {
@@ -7614,14 +7627,14 @@
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "12-21"
+      "UK Independence Party (UKIP)": "12-20"
     }
   }, 
   {
     "name": "Wealden", 
     "parties": {
-      "Conservative Party": "46-58", 
-      "Green Party": "2-7", 
+      "Conservative Party": "47-58", 
+      "Green Party": "2-8", 
       "Labour Party": "9-18", 
       "Liberal Democrats": "12-24", 
       "Other": "0-2", 
@@ -7635,12 +7648,12 @@
     "parties": {
       "Conservative Party": "31-40", 
       "Green Party": "1-5", 
-      "Labour Party": "35-45", 
+      "Labour Party": "35-44", 
       "Liberal Democrats": "6-13", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-15"
+      "UK Independence Party (UKIP)": "7-15"
     }
   }, 
   {
@@ -7661,7 +7674,7 @@
     "parties": {
       "Conservative Party": "34-43", 
       "Green Party": "5-12", 
-      "Labour Party": "9-17", 
+      "Labour Party": "8-17", 
       "Liberal Democrats": "25-33", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -7676,17 +7689,17 @@
       "Green Party": "3-11", 
       "Labour Party": "17-27", 
       "Liberal Democrats": "6-15", 
-      "Other": "0-2", 
+      "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "6-15"
+      "UK Independence Party (UKIP)": "5-15"
     }
   }, 
   {
     "name": "Wentworth and Dearne", 
     "parties": {
       "Conservative Party": "11-20", 
-      "Green Party": "0-3", 
+      "Green Party": "0-4", 
       "Labour Party": "49-62", 
       "Liberal Democrats": "3-11", 
       "Other": "1-6", 
@@ -7700,7 +7713,7 @@
     "parties": {
       "Conservative Party": "18-28", 
       "Green Party": "1-5", 
-      "Labour Party": "39-52", 
+      "Labour Party": "38-51", 
       "Liberal Democrats": "3-9", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -7726,7 +7739,7 @@
     "parties": {
       "Conservative Party": "10-19", 
       "Green Party": "1-7", 
-      "Labour Party": "59-72", 
+      "Labour Party": "59-71", 
       "Liberal Democrats": "6-16", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -7737,9 +7750,9 @@
   {
     "name": "Westminster North", 
     "parties": {
-      "Conservative Party": "30-40", 
+      "Conservative Party": "30-41", 
       "Green Party": "2-10", 
-      "Labour Party": "41-54", 
+      "Labour Party": "42-54", 
       "Liberal Democrats": "4-12", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -7750,7 +7763,7 @@
   {
     "name": "Westmorland and Lonsdale", 
     "parties": {
-      "Conservative Party": "20-36", 
+      "Conservative Party": "20-35", 
       "Green Party": "1-5", 
       "Labour Party": "2-8", 
       "Liberal Democrats": "49-71", 
@@ -7764,8 +7777,8 @@
     "name": "Weston-Super-Mare", 
     "parties": {
       "Conservative Party": "35-47", 
-      "Green Party": "2-9", 
-      "Labour Party": "12-22", 
+      "Green Party": "2-10", 
+      "Labour Party": "12-21", 
       "Liberal Democrats": "15-29", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -7805,19 +7818,19 @@
       "Conservative Party": "41-53", 
       "Green Party": "1-7", 
       "Labour Party": "11-20", 
-      "Liberal Democrats": "13-25", 
+      "Liberal Democrats": "12-26", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-19"
+      "UK Independence Party (UKIP)": "9-19"
     }
   }, 
   {
     "name": "Wimbledon", 
     "parties": {
-      "Conservative Party": "42-53", 
+      "Conservative Party": "42-54", 
       "Green Party": "1-7", 
-      "Labour Party": "21-32", 
+      "Labour Party": "22-32", 
       "Liberal Democrats": "11-24", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -7829,7 +7842,7 @@
     "name": "Winchester", 
     "parties": {
       "Conservative Party": "40-54", 
-      "Green Party": "2-8", 
+      "Green Party": "2-7", 
       "Labour Party": "5-13", 
       "Liberal Democrats": "24-41", 
       "Other": "0-3", 
@@ -7841,10 +7854,10 @@
   {
     "name": "Windsor", 
     "parties": {
-      "Conservative Party": "53-65", 
+      "Conservative Party": "54-66", 
       "Green Party": "1-7", 
       "Labour Party": "7-16", 
-      "Liberal Democrats": "9-19", 
+      "Liberal Democrats": "9-20", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -7856,7 +7869,7 @@
     "parties": {
       "Conservative Party": "27-37", 
       "Green Party": "1-6", 
-      "Labour Party": "44-55", 
+      "Labour Party": "43-55", 
       "Liberal Democrats": "4-12", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
@@ -7869,7 +7882,7 @@
     "parties": {
       "Conservative Party": "35-44", 
       "Green Party": "2-6", 
-      "Labour Party": "36-45", 
+      "Labour Party": "35-45", 
       "Liberal Democrats": "6-12", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -7882,12 +7895,12 @@
     "parties": {
       "Conservative Party": "42-54", 
       "Green Party": "2-9", 
-      "Labour Party": "15-25", 
+      "Labour Party": "15-24", 
       "Liberal Democrats": "7-17", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "10-21"
+      "UK Independence Party (UKIP)": "9-20"
     }
   }, 
   {
@@ -7895,7 +7908,7 @@
     "parties": {
       "Conservative Party": "53-63", 
       "Green Party": "3-8", 
-      "Labour Party": "12-21", 
+      "Labour Party": "12-20", 
       "Liberal Democrats": "5-12", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
@@ -7906,10 +7919,10 @@
   {
     "name": "Woking", 
     "parties": {
-      "Conservative Party": "43-57", 
+      "Conservative Party": "44-57", 
       "Green Party": "1-5", 
       "Labour Party": "7-16", 
-      "Liberal Democrats": "19-34", 
+      "Liberal Democrats": "19-35", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -7932,14 +7945,14 @@
   {
     "name": "Wolverhampton North East", 
     "parties": {
-      "Conservative Party": "22-32", 
+      "Conservative Party": "23-32", 
       "Green Party": "1-5", 
-      "Labour Party": "34-47", 
+      "Labour Party": "34-46", 
       "Liberal Democrats": "3-11", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "15-28"
+      "UK Independence Party (UKIP)": "15-27"
     }
   }, 
   {
@@ -7947,7 +7960,7 @@
     "parties": {
       "Conservative Party": "18-27", 
       "Green Party": "1-5", 
-      "Labour Party": "42-55", 
+      "Labour Party": "41-54", 
       "Liberal Democrats": "4-11", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
@@ -7960,8 +7973,8 @@
     "parties": {
       "Conservative Party": "31-40", 
       "Green Party": "1-5", 
-      "Labour Party": "36-46", 
-      "Liberal Democrats": "5-11", 
+      "Labour Party": "36-45", 
+      "Liberal Democrats": "5-12", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -7984,14 +7997,14 @@
   {
     "name": "Mid Worcestershire", 
     "parties": {
-      "Conservative Party": "43-56", 
-      "Green Party": "1-6", 
-      "Labour Party": "15-25", 
-      "Liberal Democrats": "8-20", 
+      "Conservative Party": "44-56", 
+      "Green Party": "1-7", 
+      "Labour Party": "15-24", 
+      "Liberal Democrats": "9-20", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "8-18"
+      "UK Independence Party (UKIP)": "8-19"
     }
   }, 
   {
@@ -8000,11 +8013,11 @@
       "Conservative Party": "41-54", 
       "Green Party": "3-11", 
       "Labour Party": "7-15", 
-      "Liberal Democrats": "18-33", 
+      "Liberal Democrats": "17-33", 
       "Other": "0-2", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "5-15"
+      "UK Independence Party (UKIP)": "5-14"
     }
   }, 
   {
@@ -8024,13 +8037,13 @@
     "name": "Worsley and Eccles South", 
     "parties": {
       "Conservative Party": "22-32", 
-      "Green Party": "1-5", 
+      "Green Party": "1-6", 
       "Labour Party": "41-53", 
       "Liberal Democrats": "3-11", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "9-21"
+      "UK Independence Party (UKIP)": "9-20"
     }
   }, 
   {
@@ -8038,7 +8051,7 @@
     "parties": {
       "Conservative Party": "39-51", 
       "Green Party": "2-10", 
-      "Labour Party": "14-25", 
+      "Labour Party": "14-24", 
       "Liberal Democrats": "8-18", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 
@@ -8062,10 +8075,10 @@
   {
     "name": "The Wrekin", 
     "parties": {
-      "Conservative Party": "38-49", 
+      "Conservative Party": "39-49", 
       "Green Party": "1-6", 
-      "Labour Party": "23-34", 
-      "Liberal Democrats": "4-12", 
+      "Labour Party": "23-33", 
+      "Liberal Democrats": "5-13", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -8080,7 +8093,7 @@
       "Labour Party": "36-48", 
       "Liberal Democrats": "8-19", 
       "Other": "1-5", 
-      "Plaid Cymru": "2-9", 
+      "Plaid Cymru": "1-9", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "7-18"
     }
@@ -8089,7 +8102,7 @@
     "name": "Wycombe", 
     "parties": {
       "Conservative Party": "41-52", 
-      "Green Party": "1-6", 
+      "Green Party": "1-7", 
       "Labour Party": "15-25", 
       "Liberal Democrats": "13-26", 
       "Other": "0-4", 
@@ -8103,20 +8116,20 @@
     "parties": {
       "Conservative Party": "44-55", 
       "Green Party": "1-6", 
-      "Labour Party": "20-31", 
+      "Labour Party": "20-30", 
       "Liberal Democrats": "6-15", 
       "Other": "0-3", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
-      "UK Independence Party (UKIP)": "7-16"
+      "UK Independence Party (UKIP)": "6-16"
     }
   }, 
   {
     "name": "Wyre Forest", 
     "parties": {
-      "Conservative Party": "35-44", 
+      "Conservative Party": "35-45", 
       "Green Party": "1-6", 
-      "Labour Party": "14-24", 
+      "Labour Party": "15-23", 
       "Liberal Democrats": "6-13", 
       "Other": "8-15", 
       "Plaid Cymru": "0-0", 
@@ -8127,10 +8140,10 @@
   {
     "name": "Wythenshawe and Sale East", 
     "parties": {
-      "Conservative Party": "18-27", 
+      "Conservative Party": "18-28", 
       "Green Party": "1-7", 
       "Labour Party": "45-57", 
-      "Liberal Democrats": "6-16", 
+      "Liberal Democrats": "6-15", 
       "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
@@ -8142,7 +8155,7 @@
     "parties": {
       "Conservative Party": "25-38", 
       "Green Party": "1-7", 
-      "Labour Party": "6-15", 
+      "Labour Party": "6-14", 
       "Liberal Democrats": "32-50", 
       "Other": "0-4", 
       "Plaid Cymru": "0-0", 
@@ -8154,9 +8167,9 @@
     "name": "Ynys Mon", 
     "parties": {
       "Conservative Party": "15-26", 
-      "Green Party": "1-5", 
+      "Green Party": "1-6", 
       "Labour Party": "26-40", 
-      "Liberal Democrats": "3-9", 
+      "Liberal Democrats": "2-10", 
       "Other": "1-8", 
       "Plaid Cymru": "15-31", 
       "Scottish National Party": "0-0", 
@@ -8166,7 +8179,7 @@
   {
     "name": "York Central", 
     "parties": {
-      "Conservative Party": "19-28", 
+      "Conservative Party": "19-29", 
       "Green Party": "6-16", 
       "Labour Party": "38-51", 
       "Liberal Democrats": "9-20", 
@@ -8179,11 +8192,11 @@
   {
     "name": "York Outer", 
     "parties": {
-      "Conservative Party": "35-46", 
+      "Conservative Party": "35-45", 
       "Green Party": "2-8", 
-      "Labour Party": "22-32", 
+      "Labour Party": "21-32", 
       "Liberal Democrats": "13-25", 
-      "Other": "1-4", 
+      "Other": "1-5", 
       "Plaid Cymru": "0-0", 
       "Scottish National Party": "0-0", 
       "UK Independence Party (UKIP)": "4-12"
@@ -8194,7 +8207,7 @@
     "parties": {
       "Conservative Party": "36-47", 
       "Green Party": "1-7", 
-      "Labour Party": "21-32", 
+      "Labour Party": "21-31", 
       "Liberal Democrats": "6-15", 
       "Other": "1-4", 
       "Plaid Cymru": "0-0", 

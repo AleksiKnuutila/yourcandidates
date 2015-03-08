@@ -328,3 +328,38 @@ div.index-footer {
 #forecast-notice-box a:hover {
   color: $color-primary;
 }
+
+/* Vote share display */
+.votesharegraph {
+  text-align: center;
+  padding-top: 16px;
+  margin-bottom: 14px;
+}
+
+.circles-text-small {
+  font-size: 18px !important;
+}
+.circles-text-medium {
+  font-size: 21px !important;
+}
+
+.circle-past {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.circle-future {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#canvas .circle {
+        display: inline-block;
+        margin: 1em;
+}
+
+.circles-decimals {
+        font-size: .4em;
+}
