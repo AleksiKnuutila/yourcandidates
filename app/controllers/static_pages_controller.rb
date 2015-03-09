@@ -13,11 +13,12 @@ class StaticPagesController < ApplicationController
     begin
       @contact_form = ContactForm.new(:name => params[:InputName], :email => params[:InputEmail], :message => params[:InputMessage])
       @contact_form.request = request
+      byebug
       if @contact_form.deliver
         flash.now[:notice] = 'Thank you for your message!'
         render :contact
       else
-        flash[:error] = 'Sorry, our system classified this message as spam. Please try changing the text and send it again.'
+        flash[:error] = 'Sorry, our system returned an error. Please try changing the text and send it again.'
         render :contact
       end
     rescue ScriptError
