@@ -13,7 +13,6 @@ class StaticPagesController < ApplicationController
     begin
       @contact_form = ContactForm.new(:name => params[:InputName], :email => params[:InputEmail], :message => params[:InputMessage])
       @contact_form.request = request
-      byebug
       if @contact_form.deliver
         flash.now[:notice] = 'Thank you for your message!'
         render :contact
