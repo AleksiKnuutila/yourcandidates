@@ -2,5 +2,48 @@
   <%= render partial: "header" %>
 </div>
 
-<h1>StaticPages#contact</h1>
-<p>Find me in app/views/static_pages/contact.html.erb</p>
+<div class="container">
+  <div class="row" style="max-width: 900px; margin: 0;">
+
+<h1>Contact us</h1>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+     <% if flash[:error] %>
+       <div class="alert alert-danger" style="width: 555px;"><span class="glyphicon glyphicon-alert"></span><strong><%= flash[:error] %></strong></div>
+     <% end %>
+     <% if flash[:notice] %>
+       <div class="alert alert-success" style="width: 555px;"><strong><span class="glyphicon glyphicon-send"></span> <%= flash[:notice] %></strong></div>	  
+     <% end %>
+  </div>
+<!-- <form role="form" action="/contact/send" method="post" > -->
+<%= form_tag contact_path do %>
+    <div class="col-lg-6">
+      <div class="form-group">
+        <label for="InputName">Your Name</label>
+        <div class="input-group">
+          <input type="text" size="75" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="InputEmail">Your Email</label>
+        <div class="input-group">
+          <input type="email" size="75" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required>
+</div>
+      </div>
+      <div class="form-group">
+        <label for="InputMessage">Message</label>
+        <div class="input-group"
+>
+          <textarea cols="75" name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+</div>
+      </div>
+      <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-left" style="background-color: #DD5A55; color: white;">
+    </div>
+<% end %>
+
+</div>
+
+</div>
+

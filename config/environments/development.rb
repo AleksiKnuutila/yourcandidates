@@ -50,5 +50,14 @@ Rails.application.configure do
     user_name: 'testaleksi',
     password: 'alphak0ne'
   }
+#  config.action_mailer.smtp_settings = {
+#    address: "smtp.sendgrid.com",
+#    port: "587",
+#    authentication: "plain",
+#    user_name: ENV['SENDGRID_USERNAME'],
+#    password: ENV['SENDGRID_PASSWORD'],
+#    domain: 'heroku.com'
+#    openssl_verify_mode: none
+#  }
 
 end

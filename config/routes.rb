@@ -1,14 +1,17 @@
 Rails.application.routes.draw do
+  get 'contact_form/new'
+
+  get 'contact_form/create'
+
   get '/about', to: 'static_pages#about'
   get '/help', to: 'static_pages#help'
   get '/resources', to: 'static_pages#resources'
   get '/contact', to: 'static_pages#contact'
+  post 'contact', to: 'static_pages#contact_send'
   get '/copyright', to: 'static_pages#copyright'
   get '/privacy', to: 'static_pages#privacy'
   get '/linking', to: 'static_pages#linking'
 
-  get 'contact/home'
-  post 'contact/send', to: 'static_pages#contact_send'
 
   get '/search', to: 'candidates#search'
   # this can be removed later

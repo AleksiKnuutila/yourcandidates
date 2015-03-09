@@ -105,6 +105,9 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    mail_form (1.5.0)
+      actionmailer (>= 3.2, < 5)
+      activemodel (>= 3.2, < 5)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
     method_source (0.8.2)
@@ -247,6 +250,7 @@ DEPENDENCIES
   google-analytics-rails
   jbuilder (~> 2.0)
   jquery-rails
+  mail_form
   pg
   pry-rails
   rails (= 4.2.0)
