@@ -90,7 +90,7 @@ Rails.application.configure do
     user_name: ENV['SENDGRID_USERNAME'],
     password: ENV['SENDGRID_PASSWORD'],
     domain: 'heroku.com',
-    openssl_verify_mode: none
+    openssl_verify_mode: 'none'
   }
 
 end
