@@ -25,6 +25,9 @@ module Yourcand
     # config.serve_static_assets = true
     config.serve_static_files = true
 
+    # helps with heroku?
+    config.assets.version = '1.1'
+
 #    config.autoload_paths << Rails.root.join('lib')
 
   end

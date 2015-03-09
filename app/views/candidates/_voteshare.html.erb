@@ -76,9 +76,9 @@
 <script>
   <% if c['prediction2015'] %>
     <% if c['prediction2015']['maxvalue'] %>
-      Circles.create({id: 'circle-future-<%= c['id'] %>', value: <%= c['prediction2015']['value'] %>, radius: 45, width: 10, colors: ['#DD5A55', '#5B2423']})
+      Circles.create({id: 'circle-future-<%= c['id'] %>', value: <%= c['prediction2015']['value'] %>, text: "<%= c['prediction2015']['rangestring'] %>", textClass: 'circles-text-medium', radius: 45, width: 10, colors: ['#DD5A55', '#5B2423']})
     <% else %>
-      Circles.create({id: 'circle-future-<%= c['id'] %>', value: <%= c['prediction2015']['value'] %>, radius: 45, width: 10, colors: ['#D2D0C8', '#333333']})
+      Circles.create({id: 'circle-future-<%= c['id'] %>', value: <%= c['prediction2015']['value'] %>, text: "<%= c['prediction2015']['rangestring'] %>", textClass: 'circles-text-medium', radius: 45, width: 10, colors: ['#D2D0C8', '#333333']})
     <% end %>
   <% else %>
     Circles.create({id: 'circle-future-<%= c['id'] %>', value: -1, text: 'N/A', textClass: 'circles-text-small', radius: 45, width: 10, colors: ['#D2D0C8', '#333333']})
@@ -86,38 +86,3 @@
 </script>
 
 </p>
-
-<style>
-.votesharegraph {
-  text-align: center;
-  padding-top: 16px;
-  margin-bottom: 14px;
-}
-
-.circles-text-small {
-  font-size: 18px !important;
-}
-
-.circle-past {
-  float: left;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-.circle-future {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
-#canvas .circle {
-        display: inline-block;
-        margin: 1em;
-}
-
-.circles-decimals {
-        font-size: .4em;
-}
-
-</style>
-

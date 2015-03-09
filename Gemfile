@@ -67,4 +67,4 @@ gem 'active_hash'
 gem 'pry-rails', :group => :development
 gem 'better_errors', :group => :development
 
-
+gem 'mail_form'
