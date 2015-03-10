@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   get '/resources', to: 'static_pages#resources'
   get '/contact', to: 'static_pages#contact'
   post 'contact', to: 'static_pages#contact_send'
+  get '/contact_policy', to: 'static_pages#contact_policy'
+  post 'contact_policy', to: 'static_pages#contact_send_p'
   get '/copyright', to: 'static_pages#copyright'
   get '/privacy', to: 'static_pages#privacy'
   get '/linking', to: 'static_pages#linking'

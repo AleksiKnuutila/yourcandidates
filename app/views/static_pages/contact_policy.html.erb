@@ -1,0 +1,96 @@
+<div class="header">
+  <%= render partial: "header" %>
+</div>
+
+<div class="container">
+  <div class="row" style="max-width: 900px; margin: 0;">
+
+<h1>Your policies</h1>
+<p style="margin-bottom: 30px; margin-top: 30px;"><big>The value of the website depends on the having the right information about policies to present to users, so we welcome individual candidates as well as representatives of parties to send us information about their policy stances.</big></p>
+<p style="margin-bottom: 30px; margin-top: 30px;"><big>This form will send us your information on policies by email. We will write you an email back verifying the source of the information, and then add the description of your policies to our database. Please keep all descriptions under 400 characters in every single policy area.</big></p>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+     <% if flash[:error] %>
+       <div class="alert alert-danger" style="width: 555px;"><span class="glyphicon glyphicon-alert"></span><strong><%= flash[:error] %></strong></div>
+     <% end %>
+     <% if flash[:notice] %>
+       <div class="alert alert-success" style="width: 555px;"><strong><span class="glyphicon glyphicon-send"></span> <%= flash[:notice] %></strong></div>	  
+     <% end %>
+  </div>
+<!-- <form role="form" action="/contact/send" method="post" > -->
+<%= form_tag contact_policy_path do %>
+    <div class="col-lg-6">
+      <div class="form-group">
+        <label for="InputName">Your name</label>
+        <div class="input-group">
+          <input type="text" size="75" class="form-control" name="InputName" id="InputName" placeholder="Enter name" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="InputEmail">Your e-mail</label>
+        <div class="input-group">
+          <input type="email" size="75" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter email" required>
+</div>
+      </div>
+      <div class="form-group">
+        <label for="InputParty">Your party (or "Independent")</label>
+        <div class="input-group">
+          <input type="text" size="75" class="form-control" id="InputParty" name="InputParty" placeholder="Enter party" required>
+</div>
+      </div>
+      <div class="form-group">
+        <label for="policytype">Party policy or individual candidate's policy?</label>
+        <div class="input-group">
+<input type="radio" name="policytype" value="party" checked> Individual candidate's policy<br/>
+<input type="radio" name="policytype" value="individual"> Party policy
+</div>
+</div>
+<hr>
+
+      <div class="form-group">
+        <label for="InputParty">The NHS</label>
+        <div class="input-group">
+          <textarea cols="75" name="InputPol1" id="InputPol1" class="form-control" rows="3" required maxlength="400"></textarea>
+</div>
+      </div>
+      <div class="form-group">
+        <label for="InputParty">Economy and taxes</label>
+        <div class="input-group">
+          <textarea cols="75" name="InputPol2" id="InputPol2" class="form-control" rows="3" required maxlength="400"></textarea>
+</div>
+      </div>
+      <div class="form-group">
+        <label for="InputParty">Immigration</label>
+        <div class="input-group">
+          <textarea cols="75" name="InputPol3" id="InputPol3" class="form-control" rows="3" required maxlength="400"></textarea>
+</div>
+      </div>
+      <div class="form-group">
+        <label for="InputParty">Benefits and pensions</label>
+        <div class="input-group">
+          <textarea cols="75" name="InputPol4" id="InputPol4" class="form-control" rows="3" required maxlength="400"></textarea>
+</div>
+      </div>
+      <div class="form-group">
+        <label for="InputParty">Rights and crime</label>
+        <div class="input-group">
+          <textarea cols="75" name="InputPol5" id="InputPol5" class="form-control" rows="3" required maxlength="400"></textarea>
+</div>
+      </div>
+      <div class="form-group">
+        <label for="InputParty">Environment</label>
+        <div class="input-group">
+          <textarea cols="75" name="InputPol6" id="InputPol6" class="form-control" rows="3" required maxlength="400"></textarea>
+</div>
+      </div>
+      <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-left" style="background-color: #DD5A55; color: white;">
+    </div>
+<% end %>
+
+</div>
+
+</div>
+
+<%= render partial: "footer" %>
