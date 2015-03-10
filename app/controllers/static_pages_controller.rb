@@ -31,15 +31,15 @@ class StaticPagesController < ApplicationController
 
   def contact_send_p
     message = "#{params[:policytype]}, #{params[:InputParty]}"
-    pols = ['InputPol1', 'InputPol2', 'InputPol3', 'InputPol4', 'InputPol5', 'InputPol6' ] 
-    for pol i pols
+    pols = [ 'InputPol1', 'InputPol2', 'InputPol3', 'InputPol4', 'InputPol5', 'InputPol6' ] 
+    for pol in pols
       message += " #{pol}: #{params[pol]}"
     end
     begin
       @contact_form = ContactForm.new(:name => params[:InputName], :email => params[:InputEmail], :message => message)
       @contact_form.request = request
       if @contact_form.deliver
-        flash.now[:notice] = 'We have received your input, and will try to get back to you within a day.'
+        flash.now[:notice] = 'We have received your input, and will do our best to get back to you within a day.'
         render :contact_policy
       else
         flash[:error] = 'Sorry, our system returned an error. Please try changing the text and send it again.'
