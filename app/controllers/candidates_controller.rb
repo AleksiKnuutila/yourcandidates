@@ -20,7 +20,16 @@ class CandidatesController < ApplicationController
         'Law and order' => [ [ 'Opposed to making people work for benefits, and we would protect people’s privacy online. End the war on drugs. Bring justice to CSA survivors' ] ],
         'Environment' => 
         [ [ 'In favour of heavy penalties for fly-tipping. Ensure streets are cleaned weekly. Ensure all households have access to adequate recycling facilities.' ] ]
-}}}
+}},
+    'Braintree' => {
+      'Independent - Toby Pereira' => {
+        'The NHS' => 'Renationalise all parts of the NHS that have been privatised, and commit to keeping the NHS fully nationalised thereafter. Spend more on mental health to reduce longer-term economic and societal costs. Provide more public information to enable and encourage people to better look after their own health.',
+        'Economy and taxes' => 'End austerity measures by raising taxes for those who can afford it and clamping down on tax avoidance. Measure economic success in terms of wealth of individuals, particularly the poorest in society, rather than economic growth for its own sake. Reward companies for minimising the wage ratio between the highest and lowest paid employees.',
+        'Immigration' => 'Invest more in housing and infrastructure to cope with a growing population. Cooperate internationally to reduce global inequality so that we can create more reciprocal freedom-of-movement agreements with other countries without negative effects for any of the countries involved.',
+        'Benefits and pensions' => 'Introduce a Citizen’s Income – a guaranteed regular payment to all citizens regardless of circumstances. This would replace jobseekers’ allowance and would be paid for by changes to income tax brackets. Scrap contributions-based state pensions, so that those who were unable to contribute as much in their working life do not have to suffer the consequences of this in their old age.',
+        'Law and order' => 'Have a full review of laws brought in under the umbrella of anti-terrorism legislation that may infringe on our civil liberties. Reserve prison for criminals who pose a physical risk to society, and concentrate more on prevention and rehabilitation rather than punishment for its own sake. Remove the ban on prisoners voting.',
+        'Environment' => 'Renationalise energy so that we can commit to spending more on renewable energy and reducing fossil fuel use without worrying about profit. Renationalise public transport and commit to providing a better service to reduce congestion on the roads, carbon emissions and pollution in general.' }}
+}
 
   PARTY_CONSTANTS = { 
     'Conservative Party' => { 
@@ -1485,6 +1494,9 @@ class CandidatesController < ApplicationController
 
   def getPolicy(candidate, policyArea)
     party = candidate['party']
+    if party == 'Independent'
+      party = 'Independent - ' + candidate['name']
+    end
     if CONSTITUENCY_POLICY.key?(@constituencyName) and CONSTITUENCY_POLICY[@constituencyName].key?(party)
       return CONSTITUENCY_POLICY[@constituencyName][party][policyArea]
     end
