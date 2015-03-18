@@ -8,8 +8,13 @@
   <a class="candidate-link-index" target="_blank" href="https://www.twitter.com/<%= c['twitter_username'] %>"><i class="fa fa-twitter fa-candidate-list"></i>@<%= c['twitter_username'] %> on Twitter</a>   
   </li>
   <% end %>
-  <% if c['facebook_personal_url'].length > 5 %>                  <li class="list-group-item">
+  <% if c['facebook_personal_url'].length > 5 %>
+  <li class="list-group-item">
   <a class="candidate-link-index" target="_blank" href="<%= c['facebook_personal_url'] %>"><i class="fa fa-facebook-square fa-candidate-list"></i>Facebook profile</a>
+  </li>
+  <% elsif c['facebook_page_url'].length > 5 %>
+  <li class="list-group-item">
+  <a class="candidate-link-index" target="_blank" href="<%= c['facebook_page_url'] %>"><i class="fa fa-facebook-square fa-candidate-list"></i>Facebook profile</a>
   </li>
   <% end %> 
   <% if c['homepage_url'].length > 5 %>
