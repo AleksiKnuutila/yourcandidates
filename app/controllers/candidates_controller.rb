@@ -88,6 +88,13 @@ class CandidatesController < ApplicationController
       'Law and order' => [ [ 'Replace Anti-Social Behaviour Orders with restorative justice. Create a Welsh Youth Justice Board. Encourage a debate on future of drug enforcement laws.', 'http://www.plaid.cymru/g_downloads/2011-06-13-29-2-safer-communities.pdf' ] ],
       'Environment' => [ [ 'Reduce Welsh carbon emission 40% by 2020. Devolve powers over energy policy to Welsh National Assembly. Support small-scale, sustainable power, such as tidal and wind. Insulate homes with windfall tax on energy companies. At Severn, install a combination of lagoons and tidal-stream turbines.', 'http://www.partyof.wales/our-vision-for-wales-environment/' ] ]
     },
+    'Trade Unionist and Socialist Coalition' => {
+      'The NHS' => 'TUSC supports a high-quality, free National Health Service under democratic public ownership and control.',
+      'Economy and taxes' => 'Bring banks and finance institutions into genuine public ownership under democratic control, instead of giving huge handouts to the very capitalists who caused the crisis. Tax the rich. For progressive tax on rich corporations and individuals and an end to tax avoidance. Massive investment in environmental projects.',
+      'Immigration' => 'TUSC welcomes diversity and oppose racism, fascism and discrimination. We defend the right to asylum, call for the repeal the 2014 Immigration Act and all racist immigration controls.',
+      'Benefits and pensions' => 'Abolish the bedroom tax. Reverse cuts to benefits; for living benefits; end child poverty. Scrap benefit sanctions. Restore the pre-Thatcher real value of pensions. Reverse the increases imposed on the state retirement age, creating jobs for younger people.',
+      'Law and order' => 'Promote inclusive policies to enable disabled people to participate in, and have equal access to, education, employment, housing, transport and welfare provision. Ensure women have genuinely equal rights and pay. Full equality for LGBT people. Defend our liberties and make police and security democratically accountable. For the right to vote at 16.',
+      'Environment' => 'Deep cuts in greenhouse gas emissions - otherwise climate change, caused by capitalism, will destroy us. Invest in publicly-owned and controlled renewable energy. Oppose fracking. Move to sustainable, low-pollution industry and farming - stop the pollution that is destroying our environment. No to profit-driven GM technology. Produce for need, not profit, and design goods for reuse and recycling.' },
     'Default' => {
       'The NHS' => 'No information about the NHS for this party or individual yet.',
       'Economy and taxes' => 'No information about economic policy for this party or individual yet.',
