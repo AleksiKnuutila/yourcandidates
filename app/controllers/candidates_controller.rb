@@ -28,7 +28,15 @@ class CandidatesController < ApplicationController
         'Immigration' => 'Invest more in housing and infrastructure to cope with a growing population. Cooperate internationally to reduce global inequality so that we can create more reciprocal freedom-of-movement agreements with other countries without negative effects for any of the countries involved.',
         'Benefits and pensions' => 'Introduce a Citizen’s Income – a guaranteed regular payment to all citizens regardless of circumstances. This would replace jobseekers’ allowance and would be paid for by changes to income tax brackets. Scrap contributions-based state pensions, so that those who were unable to contribute as much in their working life do not have to suffer the consequences of this in their old age.',
         'Law and order' => 'Have a full review of laws brought in under the umbrella of anti-terrorism legislation that may infringe on our civil liberties. Reserve prison for criminals who pose a physical risk to society, and concentrate more on prevention and rehabilitation rather than punishment for its own sake. Remove the ban on prisoners voting.',
-        'Environment' => 'Renationalise energy so that we can commit to spending more on renewable energy and reducing fossil fuel use without worrying about profit. Renationalise public transport and commit to providing a better service to reduce congestion on the roads, carbon emissions and pollution in general.' }}
+        'Environment' => 'Renationalise energy so that we can commit to spending more on renewable energy and reducing fossil fuel use without worrying about profit. Renationalise public transport and commit to providing a better service to reduce congestion on the roads, carbon emissions and pollution in general.' }},
+    'Camberwell and Peckham' => {
+      'Trade Unionist and Socialist Coalition' => {
+      'The NHS' => 'For a publically owned and democratically run, fully funded, free NHS. Complete opposition to the privatisation of the NHS and to the Private Finance Initiative. Reverse all the privatisation so far. Take the pharmaceutical companies into public ownership. Free prescriptions, dental treatment and eye-tests and lenses.',
+      'Economy and taxes' => 'No more public bailouts to the private sector. Progressive taxation of the rich & big corporations. Abolition of VAT. Clamp down on tax avoidance & evasion. Close down tax havens & loopholes. The economy - water, gas, electricity, rail, banks, and all public services like the NHS should be run under democratic public ownership for the benefit of all, not the few.  People before profit.',
+      'Immigration' => 'Welcome immigrants and asylum seekers. Oppose nationalism and xenophobia. Support diversity. Oppose to racism, fascism and all forms of discrimination. Immigrants are not to blame for the economic crisis. They are here to seek work or refuge. That is why I oppose all immigration controls.',
+      'Law and order' => 'Everyone has the right to live a secure, decent and dignified life. Support for equal rights for women, the disabled and LGBT people. Opposition to the restrictions on our civil liberties, such as the right to protest. The police and the security services must be made democratically accountable. End police ‘stop and search’. Support for the right to vote at 16.',
+      'Benefits and pensions' => 'We must support all those who cannot work. Benefits must be at a level that affords people a decent life. Abolish the bedroom tax and benefit sanctions. Restore pensions to the level they were in real terms before Thatcher became PM in 1979. Stop the reductions in pensions and the enforced raising of the retirement age.',
+      'Environment' => 'Investment in sustainable, low-polluting industry and farming. Opposition to fracking. Investment in renewable energy. To stop climate change we must change the system. Capitalism cares only about making a profit and little for our environment. Taking the economy into democratic common ownership would ensure that people’s needs, including their environmental needs, were taken into account.'}}
 }
 
   PARTY_CONSTANTS = { 
@@ -1511,7 +1519,11 @@ class CandidatesController < ApplicationController
     if not PARTY_CONSTANTS.key?(party)
       party = 'Default'
     end
-    return PARTY_CONSTANTS[party][policyArea]
+    if PARTY_CONSTANTS[party][policyArea].kind_of?(Array)
+      return [['Party policy: ','']].concat(PARTY_CONSTANTS[party][policyArea])
+    else
+      return PARTY_CONSTANTS[party][policyArea]
+    end
   end
 
   def getAllPolicies(candidates)
