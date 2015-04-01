@@ -64,11 +64,6 @@ p.bgimage-header-text {
   /* text-align: right; */
 }
 
-p.privacy-text {
-  font-size: larger;
-  margin-bottom: 15px;
-}
-
 h2.bgimage-smaller-text {
   font-size: 32px;
   font-weight: 200;
@@ -195,11 +190,31 @@ ul.help-questions, ul.contact-questions {
     list-style-type: none;
     margin-left: 0px;
 	text-align: justify;
+	padding: 0 20px 0 20px;
+}
+
+
+ul.privacy {
+  list-style-type: none;
+  font-size: larger;
+  padding: 0 20px 0 20px;
+}
+
+li.privacy-blank {
 }
 
 ul.privacy-list {
   list-style-type: disc;
   font-size: larger;
+}
+
+li.privacy-text {
+  margin-bottom: 15px;
+  padding: 0 15px 0 20px;
+}
+
+li.privacy-point {
+  margin-bottom: 5px;
 }
 
 li.help-q, li.contact-q {
@@ -210,6 +225,7 @@ li.help-q, li.contact-q {
     background-repeat: no-repeat;
     background-position: 0px top; */
     padding-left: 10px !important;
+	text-align: initial;
 }
 
 li.contact-q-blank {
@@ -217,7 +233,6 @@ li.contact-q-blank {
 	margin-bottom: 30px;
 	padding-left: 0px !important;
 }
-
 
 li.help-a, li.contact-a {
   font-size: larger;
