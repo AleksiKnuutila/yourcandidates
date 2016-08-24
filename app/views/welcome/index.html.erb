@@ -50,9 +50,10 @@ function fail()
 
     <div class="hidden-xs">
     <form class="form-inline" action="/search" method="get">
-      <div class="alert alert-success" role="alert" style="max-width: 500px; margin-left: auto; margin-right: auto;">This site was for the UK general election 2015, which has passed. The information about candidates is still available to browse.</div>
+      <div class="alert alert-success" role="alert" style="max-width: 500px; margin-left: auto; margin-right: auto;">This site was for the UK general election 2015, which has passed. Unfortunately the data sources used by the site are no longer available, so the information is not available to browse.</div>
       <div id="error-message">That postcode didn't work, please try again.</div>
       <div id="error2-message">We couldn't locate you.</div>
+      <!--
       <div class="frontpage-postcode">
       	Start by entering your UK postcode:
       </div>
@@ -65,6 +66,7 @@ function fail()
       <a href="/constituencies" id="constituency-list-link">
         Or select your area from a list
       </a>
+      -->
 <!--
       <div style="margin-top: 20px;"
        <span style="font-size: 16px;">You can also </span><a href="/constituencies" id="constituency-list-link">select your area from a list</a><span id="locationlink" style="font-size: 16px; display: none;"> or <a onclick="navigator.geolocation.getCurrentPosition(redirectFun, fail);" id="location-link">use your current location</a></span>.
