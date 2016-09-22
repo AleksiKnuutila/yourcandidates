@@ -19,3 +19,24 @@
 # please be gone
 .DS_Store
 temp-votedata/
+
+*.rbc
+capybara-*.html
+.rspec
+/log
+/tmp
+/public/system
+/coverage/
+/spec/tmp
+**.orig
+rerun.txt
+pickle-email-*.html
+
+config/initializers/secret_token.rb
+config/secrets.yml
+
+.env
+
+.rvmrc
+.byebug_history
+
