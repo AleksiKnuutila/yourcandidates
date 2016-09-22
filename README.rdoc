@@ -1,28 +1,12 @@
-== README
+== YourCandidates.org.uk
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+YourCandidates.org.uk was a voter advice app that pulled together various sources of information about candidates in the UK general election 2015. It showed
 
-Things you may want to cover:
+* Web presence and contact information
+* Party policy
+* 2010 results and current predictions based on polls
+* Twitter feeds
 
-* Ruby version
+Data sources included yournextmp.com and electionforecast.co.uk.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+See [screenshots](https://github.com/AleksiKnuutila/yourcandidates/tree/master/screenshots) for appearance.
