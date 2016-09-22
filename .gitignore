@@ -40,3 +40,4 @@ config/secrets.yml
 .rvmrc
 .byebug_history
 
+.*.swp
