@@ -41,3 +41,4 @@ config/secrets.yml
 .byebug_history
 
 .*.swp
+Gemfile.lock
