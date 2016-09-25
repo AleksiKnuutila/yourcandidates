@@ -1,4 +1,5 @@
-== YourCandidates.org.uk
+# YourCandidates.org.uk 
+A voter advice app for UK general election 2015.
 
 YourCandidates.org.uk was a voter advice app that pulled together various sources of information about candidates in the UK general election 2015. It showed
 
