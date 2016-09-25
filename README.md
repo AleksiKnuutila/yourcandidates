@@ -8,6 +8,8 @@ YourCandidates.org.uk was a voter advice app that pulled together various source
 * 2010 results and current predictions based on polls
 * Twitter feeds
 
-Data sources included yournextmp.com and electionforecast.co.uk.
+Data sources included [YourNextMP.com](http://yournextmp.com) and [ElectionForecast.co.uk](http://electionforecast.co.uk).
+
+# 
 
 See [screenshots](https://github.com/AleksiKnuutila/yourcandidates/tree/master/screenshots) for appearance.
