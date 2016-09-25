@@ -25,4 +25,8 @@ rails s
 
 # Screenshots
 
+[screenshot1]: https://raw.githubusercontent.com/AleksiKnuutila/yourcandidates/master/screenshots/frontpage.png "Screenshot 1"
+
+[screenshot2]: https://raw.githubusercontent.com/AleksiKnuutila/yourcandidates/master/screenshots/candidates.png "Screenshot 2"
+
 See [screenshots](https://github.com/AleksiKnuutila/yourcandidates/tree/master/screenshots) for appearance.
